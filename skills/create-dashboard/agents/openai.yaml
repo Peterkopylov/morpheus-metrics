@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create Dashboard"
+  short_description: "Create dashboards with reuse and registry checks"
+  default_prompt: "Use $create-dashboard to plan or build this dashboard, decide access and calculated-vs-view placement, search for reusable views, and update the registry."

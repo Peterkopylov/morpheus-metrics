@@ -1,0 +1,55 @@
+db_metric_group,legacy_action
+билеты,covered
+билеты сд,covered
+Всего билетов (выкуплено через сайт и все агрегаторы),covered
+Даня Рагин,do_not_use
+Дата для klipfolio,do_not_use
+Другое юкасса,map_to_metric:Revenue - Other
+Зрители дошедшие (без зрителей СД),covered
+Зрители дошедшие СД,covered
+Зрители по сертификатам,create_new_metric
+Из них,aggregate_only
+Из них агрегаторы (вычет комиссии),aggregate_only
+Из них агрегаторы (вычет комиссии)МДТЗК,aggregate_only
+Количество погибших всего на ОГ,create_new_metric
+корпоратив,do_not_use
+КОРПОРАТИВЫ,block_title_only
+Маркетинг Каналы,block_title_only
+Ник,do_not_use
+ОКК,block_title_only
+ОТЗЫВЫ,block_title_only
+ОТЗЫВЫ НА ЯНДЕКСЕ,block_title_only
+Откуда пришли,covered
+Отменено СД,covered
+Отменено шоу (не СД),covered
+ОЦЕНКИ НА ПЛАНШЕТЕ,block_title_only
+Поступления на счет,aggregate_only
+Поступления на счет - B2C,covered
+Приход с депозита,map_to_metric:Revenue - Financial operations
+Проведено СД,covered
+Проведено шоу (БЕЗ СД),covered
+ПРОТОКОЛ-БОТ,block_title_only
+ПРОТОКОЛ-БОТ NEW,block_title_only
+"Процент ОГ, где зрители вышли за фельдшером/ выжили",create_new_metric
+"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",create_new_metric
+Процент ОГ с 1 убийством,create_new_metric
+Процент ОГ со смертями на фельдшера (по таблице ОКК),create_new_metric
+Процент ОГ с убийствами,create_new_metric
+Процент ОГ с убийствами больше 1,create_new_metric
+"Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог",create_new_metric
+Сайт,partial
+САЙТ,block_title_only
+Сертификаты и билеты (бесплатные),create_new_metric
+Сертификаты (продажи),extend_existing_metric:Revenue/Number of certificates with show=сертификаты
+Сложность составления расписания (1 min-5max),create_new_metric
+Спецпоказы (продажи) юкасса\по счету,map_to_metric:Revenue - Other
+Средняя загрузка СД (выкупленные билеты),calculated_metric
+Средняя загрузка СД (по факту дошедшие зрители),calculated_metric
+Средняя загрузка шоу (выкупленные билеты),calculated_metric
+Средняя загрузка шоу (по факту дошедшие зрители),calculated_metric
+Средств на счете,covered
+Сумма возвратов,create_new_metric
+Теракт-Возвраты,do_not_use
+Теракт - Оформлено сертификатами,do_not_use
+Франшиза,map_to_metric:Revenue (business_unit=franchise)
+ФРАНШИЗА,block_title_only

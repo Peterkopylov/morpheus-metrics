@@ -1,0 +1,38 @@
+db_metric_group,legacy_action,next_layer,reason
+% возвратов от выручки,calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; percentage-of-revenue metric should live in calculated layer.
+% общ. к выручке,calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; share-of-revenue metric should live in calculated layer.
+доля каналов в посещаемости страниц,calculated_metric,calculated,Added on 2026-05-11 as a channel-level calculated share of total website visits.
+доля переменных зп в выручке,calculated_metric,calculated,Added on 2026-05-11 as a show-level calculated share of variable salary costs in revenue.
+доля сертификатов в выручке,calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; revenue-share metric should live in calculated layer.
+"конверсия в билет из сеанса, %",calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; conversion metric should live in calculated layer.
+"конверсия в билет, %",calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; conversion metric should live in calculated layer.
+"конверсия в заказ,%",calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; conversion metric should live in calculated layer.
+"конверсия в заказ, %",calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; conversion metric should live in calculated layer.
+Средняя загрузка СД,calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; average load metric should live in calculated layer.
+Средняя загрузка СД (выкупленные билеты),calculated_metric,calculated,Explicitly deferred from source catalog to the calculated metrics layer.
+Средняя загрузка СД (по факту дошедшие зрители),calculated_metric,calculated,Explicitly deferred from source catalog to the calculated metrics layer.
+Средняя загрузка шоу,calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; average load metric should live in calculated layer.
+Средняя загрузка шоу (выкупленные билеты),calculated_metric,calculated,Explicitly deferred from source catalog to the calculated metrics layer.
+Средняя загрузка шоу (по факту дошедшие зрители),calculated_metric,calculated,Explicitly deferred from source catalog to the calculated metrics layer.
+Средняя оценка,calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; average-score metric should live in calculated layer.
+Средняя оценка за неделю без негативных, если ликвидировали (общая),calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; average-score metric should live in calculated layer.
+Средняя оценка по отзывам за неделю (общая),calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; average-score metric should live in calculated layer.
+Средняя оценка по отзывам за неделю (по настоящим),calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; average-score metric should live in calculated layer.
+Средняя общая,calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; average-score metric should live in calculated layer.
+Процент без нарушений от отсмотренных,calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; ratio metric should live in calculated layer.
+Процент заполнивших от всех зрителей,calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; ratio metric should live in calculated layer.
+Процент заполненных протоколов ДО спектакля,calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; protocol-completion share should live in calculated layer.
+Процент заполненных протоколов ПОСЛЕ спектакля,calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; protocol-completion share should live in calculated layer.
+Процент негативных (от посетивших),calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; negative-review share should live in calculated layer.
+Процент от общего количества ОГ,calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; share metric should live in calculated layer.
+Процент ОГ с 1 убийством,calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; share metric should live in calculated layer.
+Процент ОГ с убийствами,calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; share metric should live in calculated layer.
+Процент ОГ с убийствами больше 1,calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; share metric should live in calculated layer.
+Процент ОГ со смертями на фельдшера (по таблице ОКК),calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; share metric should live in calculated layer.
+Процент ОГ, где зрители вышли за фельдшером,calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; share metric should live in calculated layer.
+Процент ОГ, где зрители вышли за фельдшером/ выжили,calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; share metric should live in calculated layer.
+Процент ОГ, где зрители не вышли за фельдшером/ не выжили,calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; share metric should live in calculated layer.
+Процент отсмотренных от общего кол-ва ОГ,calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; share metric should live in calculated layer.
+Процент с убийствами,calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; share metric should live in calculated layer.
+Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог,calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; share metric should live in calculated layer.
+процент от общего кол-ва зрителей (из отсмотренных спектаклей),calculated_metric,calculated,Found in live manual tables via Google service account review on 2026-05-10; share metric should live in calculated layer.

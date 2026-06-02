@@ -1,0 +1,721 @@
+status,business_unit,period_start,canonical_metric,value_numeric,reason,source_metrics
+skipped,b2b,2020-01-01,Variable costs,,no_descendant_values,
+skipped,b2b,2020-02-01,Variable costs,,no_descendant_values,
+skipped,b2b,2020-03-01,Variable costs,,no_descendant_values,
+skipped,b2b,2020-04-01,Variable costs,,no_descendant_values,
+skipped,b2b,2020-05-01,Variable costs,,no_descendant_values,
+skipped,b2b,2020-06-01,Variable costs,,no_descendant_values,
+skipped,b2b,2020-07-01,Variable costs,,no_descendant_values,
+skipped,b2b,2020-08-01,Variable costs,,no_descendant_values,
+skipped,b2b,2020-09-01,Variable costs,,no_descendant_values,
+skipped,b2b,2020-10-01,Variable costs,,no_descendant_values,
+skipped,b2b,2020-11-01,Variable costs,,no_descendant_values,
+skipped,b2b,2020-12-01,Variable costs,,no_descendant_values,
+skipped,b2b,2021-01-01,Variable costs,,no_descendant_values,
+skipped,b2b,2021-02-01,Variable costs,,no_descendant_values,
+skipped,b2b,2021-03-01,Variable costs,,no_descendant_values,
+skipped,b2b,2021-04-01,Variable costs,,no_descendant_values,
+skipped,b2b,2021-05-01,Variable costs,,no_descendant_values,
+skipped,b2b,2021-06-01,Variable costs,,no_descendant_values,
+skipped,b2b,2021-07-01,Variable costs,,no_descendant_values,
+skipped,b2b,2021-08-01,Variable costs,,no_descendant_values,
+skipped,b2b,2021-09-01,Variable costs,,no_descendant_values,
+skipped,b2b,2021-10-01,Variable costs,,no_descendant_values,
+skipped,b2b,2021-11-01,Variable costs,,no_descendant_values,
+skipped,b2b,2021-12-01,Variable costs,,no_descendant_values,
+skipped,b2b,2022-01-01,Variable costs,,no_descendant_values,
+skipped,b2b,2022-02-01,Variable costs,,no_descendant_values,
+skipped,b2b,2022-03-01,Variable costs,,no_descendant_values,
+skipped,b2b,2022-04-01,Variable costs,,no_descendant_values,
+skipped,b2b,2022-05-01,Variable costs,,no_descendant_values,
+skipped,b2b,2022-06-01,Variable costs,,no_descendant_values,
+skipped,b2b,2022-07-01,Variable costs,,no_descendant_values,
+skipped,b2b,2022-08-01,Variable costs,,no_descendant_values,
+skipped,b2b,2022-09-01,Variable costs,,no_descendant_values,
+skipped,b2b,2022-10-01,Variable costs,,no_descendant_values,
+skipped,b2b,2022-11-01,Variable costs,,no_descendant_values,
+skipped,b2b,2022-12-01,Variable costs,,no_descendant_values,
+skipped,b2b,2023-01-01,Variable costs,,no_descendant_values,
+inserted,b2b,2023-02-01,Variable costs,14550,backfilled_from_descendants,Costs - Salary variable
+inserted,b2b,2023-03-01,Variable costs,73100,backfilled_from_descendants,Costs - Salary variable
+inserted,b2b,2023-04-01,Variable costs,510039,backfilled_from_descendants,Costs - Salary variable; Show production costs
+inserted,b2b,2023-05-01,Variable costs,0,backfilled_from_descendants,Costs - Salary variable
+inserted,b2b,2023-06-01,Variable costs,17900,backfilled_from_descendants,Costs - Salary variable
+inserted,b2b,2023-07-01,Variable costs,10700,backfilled_from_descendants,Costs - Salary variable
+inserted,b2b,2023-08-01,Variable costs,15900,backfilled_from_descendants,Costs - Salary variable
+inserted,b2b,2023-09-01,Variable costs,201000,backfilled_from_descendants,Costs - Salary variable
+inserted,b2b,2023-10-01,Variable costs,837300,backfilled_from_descendants,Costs - Salary variable; Show production costs
+inserted,b2b,2023-11-01,Variable costs,440000,backfilled_from_descendants,Costs - Salary variable; Show production costs
+inserted,b2b,2023-12-01,Variable costs,553000,backfilled_from_descendants,Costs - Salary variable; Show production costs
+skipped,b2b,2024-01-01,Variable costs,,no_descendant_values,
+skipped,b2b,2024-02-01,Variable costs,,no_descendant_values,
+inserted,b2b,2024-03-01,Variable costs,140000,backfilled_from_descendants,Costs - Salary variable
+inserted,b2b,2024-04-01,Variable costs,30920,backfilled_from_descendants,Costs - Salary variable
+inserted,b2b,2024-05-01,Variable costs,355000,backfilled_from_descendants,Costs - Salary variable; Show production costs
+skipped,b2b,2024-06-01,Variable costs,,no_descendant_values,
+skipped,b2b,2024-07-01,Variable costs,,no_descendant_values,
+skipped,b2b,2024-08-01,Variable costs,,no_descendant_values,
+inserted,b2b,2024-09-01,Variable costs,176649,backfilled_from_descendants,Costs - Salary variable
+skipped,b2b,2024-10-01,Variable costs,,no_descendant_values,
+inserted,b2b,2024-11-01,Variable costs,1028600,backfilled_from_descendants,Costs - Salary variable; Show production costs
+inserted,b2b,2024-12-01,Variable costs,5850000,backfilled_from_descendants,Costs - Salary variable; Show production costs
+inserted,b2b,2025-01-01,Variable costs,360000,backfilled_from_descendants,Costs - Salary variable; Show production costs
+skipped,b2b,2025-02-01,Variable costs,,no_descendant_values,
+inserted,b2b,2025-03-01,Variable costs,1248000,backfilled_from_descendants,Costs - Salary variable; Show production costs
+inserted,b2b,2025-04-01,Variable costs,974410,backfilled_from_descendants,Costs - Salary variable; Show production costs
+inserted,b2b,2025-05-01,Variable costs,2043398,backfilled_from_descendants,Show production costs
+inserted,b2b,2025-06-01,Variable costs,1015770,backfilled_from_descendants,Show production costs
+skipped,b2b,2025-07-01,Variable costs,,no_descendant_values,
+skipped,b2b,2025-08-01,Variable costs,,no_descendant_values,
+skipped,b2b,2025-09-01,Variable costs,,no_descendant_values,
+skipped,b2b,2025-10-01,Variable costs,,no_descendant_values,
+skipped,b2b,2025-11-01,Variable costs,,no_descendant_values,
+skipped,b2b,2025-12-01,Variable costs,,no_descendant_values,
+inserted,b2c_moscow,2020-01-01,Variable costs,413592,backfilled_from_descendants,Cost article - Комиссия; Costs - Salary variable
+inserted,b2c_moscow,2020-02-01,Variable costs,363139,backfilled_from_descendants,Cost article - Комиссия; Costs - Salary variable
+inserted,b2c_moscow,2020-03-01,Variable costs,256524,backfilled_from_descendants,Cost article - Комиссия; Costs - Salary variable
+inserted,b2c_moscow,2020-04-01,Variable costs,140708,backfilled_from_descendants,Cost article - Комиссия; Costs - Salary variable
+inserted,b2c_moscow,2020-05-01,Variable costs,131691,backfilled_from_descendants,Cost article - Комиссия; Costs - Salary variable
+inserted,b2c_moscow,2020-06-01,Variable costs,77603,backfilled_from_descendants,Cost article - Комиссия; Costs - Salary variable
+inserted,b2c_moscow,2020-07-01,Variable costs,142071,backfilled_from_descendants,Cost article - Комиссия; Costs - Salary variable
+inserted,b2c_moscow,2020-08-01,Variable costs,158436,backfilled_from_descendants,Cost article - Комиссия; Costs - Salary variable
+inserted,b2c_moscow,2020-09-01,Variable costs,190117,backfilled_from_descendants,Cost article - Комиссия; Costs - Salary variable
+inserted,b2c_moscow,2020-10-01,Variable costs,301311,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable
+inserted,b2c_moscow,2020-11-01,Variable costs,221224,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable
+inserted,b2c_moscow,2020-12-01,Variable costs,297312,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable
+inserted,b2c_moscow,2021-01-01,Variable costs,290880,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable
+inserted,b2c_moscow,2021-02-01,Variable costs,363032,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable
+inserted,b2c_moscow,2021-03-01,Variable costs,524228,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable
+inserted,b2c_moscow,2021-04-01,Variable costs,361598,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable
+inserted,b2c_moscow,2021-05-01,Variable costs,370655,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable
+inserted,b2c_moscow,2021-06-01,Variable costs,291661,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable
+inserted,b2c_moscow,2021-07-01,Variable costs,280598,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable
+inserted,b2c_moscow,2021-08-01,Variable costs,505309,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable
+inserted,b2c_moscow,2021-09-01,Variable costs,479941,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable
+inserted,b2c_moscow,2021-10-01,Variable costs,554436,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable
+inserted,b2c_moscow,2021-11-01,Variable costs,488648,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable
+inserted,b2c_moscow,2021-12-01,Variable costs,706477,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Страховые взносы; Costs - Salary variable
+inserted,b2c_moscow,2022-01-01,Variable costs,744786,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable
+inserted,b2c_moscow,2022-02-01,Variable costs,762178,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable
+inserted,b2c_moscow,2022-03-01,Variable costs,645530,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable; Returns amount
+inserted,b2c_moscow,2022-04-01,Variable costs,733917,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Страховые взносы; Costs - Salary variable
+inserted,b2c_moscow,2022-05-01,Variable costs,624558,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable
+inserted,b2c_moscow,2022-06-01,Variable costs,645244,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable; Returns amount
+inserted,b2c_moscow,2022-07-01,Variable costs,686107,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable; Returns amount
+inserted,b2c_moscow,2022-08-01,Variable costs,628506,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable
+inserted,b2c_moscow,2022-09-01,Variable costs,775511,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Costs - Salary variable; Returns amount
+inserted,b2c_moscow,2022-10-01,Variable costs,645343,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Costs - Salary variable; Returns amount
+inserted,b2c_moscow,2022-11-01,Variable costs,731323,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Costs - Salary variable; Returns amount
+inserted,b2c_moscow,2022-12-01,Variable costs,891478,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Cost article - Страховые взносы; Costs - Salary variable; Returns amount
+inserted,b2c_moscow,2023-01-01,Variable costs,923369,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Costs - Salary variable; Returns amount
+inserted,b2c_moscow,2023-02-01,Variable costs,850897,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Costs - Salary variable; Returns amount
+inserted,b2c_moscow,2023-03-01,Variable costs,1236210,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Страховые взносы; Costs - Salary variable; Returns amount; Show production costs
+inserted,b2c_moscow,2023-04-01,Variable costs,801529,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable; Returns amount; Show production costs; Team expenses
+inserted,b2c_moscow,2023-05-01,Variable costs,851486,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable; Returns amount; Show production costs; Team expenses
+inserted,b2c_moscow,2023-06-01,Variable costs,696346,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Costs - Salary variable; Team expenses
+inserted,b2c_moscow,2023-07-01,Variable costs,790989,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable; Returns amount; Show production costs; Team expenses
+inserted,b2c_moscow,2023-08-01,Variable costs,769547,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Costs - Salary variable; Returns amount; Team expenses
+inserted,b2c_moscow,2023-09-01,Variable costs,1103236,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Costs - Salary variable; Returns amount; Team expenses
+inserted,b2c_moscow,2023-10-01,Variable costs,1300048,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Costs - Salary variable; Returns amount; Team expenses
+inserted,b2c_moscow,2023-11-01,Variable costs,1296768,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Costs - Salary variable; Returns amount; Team expenses
+inserted,b2c_moscow,2023-12-01,Variable costs,1549359,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Cost article - Страховые взносы; Costs - Salary variable; Returns amount; Team expenses
+inserted,b2c_moscow,2024-01-01,Variable costs,1656582,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Cost article - Страховые взносы; Costs - Salary variable; Returns amount; Team expenses
+inserted,b2c_moscow,2024-02-01,Variable costs,1671504,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Costs - Salary variable; Returns amount; Team expenses
+inserted,b2c_moscow,2024-03-01,Variable costs,1652340,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Costs - Salary variable; Returns amount; Team expenses
+inserted,b2c_moscow,2024-04-01,Variable costs,1069024,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Costs - Salary variable; Returns amount; Team expenses
+inserted,b2c_moscow,2024-05-01,Variable costs,1225290,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Costs - Salary variable; Returns amount; Team expenses
+inserted,b2c_moscow,2024-06-01,Variable costs,1430393,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Cost article - Страховые взносы; Costs - Salary variable; Returns amount; Team expenses
+inserted,b2c_moscow,2024-07-01,Variable costs,1698598,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Cost article - Страховые взносы; Costs - Salary variable; Returns amount; Team expenses
+inserted,b2c_moscow,2024-08-01,Variable costs,1986592,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Cost article - Страховые взносы; Costs - Salary variable; Returns amount; Team expenses
+inserted,b2c_moscow,2024-09-01,Variable costs,1607162,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Costs - Salary variable; Returns amount; Team expenses
+inserted,b2c_moscow,2024-10-01,Variable costs,1671112,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Cost article - Страховые взносы; Costs - Salary variable; Returns amount; Team expenses
+inserted,b2c_moscow,2024-11-01,Variable costs,2032753,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Cost article - Страховые взносы; Costs - Salary variable; Returns amount; Team expenses
+inserted,b2c_moscow,2024-12-01,Variable costs,2481989,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Страховые взносы; Costs - Salary variable; Returns amount; Show production costs; Team expenses
+inserted,b2c_moscow,2025-01-01,Variable costs,2068715,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Страховые взносы; Costs - Salary variable; Returns amount; Show production costs; Team expenses
+inserted,b2c_moscow,2025-02-01,Variable costs,1466130,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Cost article - Страховые взносы; Costs - Salary variable; Returns amount; Team expenses
+inserted,b2c_moscow,2025-03-01,Variable costs,1926661,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable; Returns amount; Show production costs; Team expenses
+inserted,b2c_moscow,2025-04-01,Variable costs,1240817.1,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable; Returns amount; Team expenses; Variable logistics costs
+inserted,b2c_moscow,2025-05-01,Variable costs,1706253.5,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable; Returns amount; Team expenses; Variable logistics costs
+inserted,b2c_moscow,2025-06-01,Variable costs,2322701.45,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Страховые взносы; Costs - Salary variable; Returns amount; Team expenses; Variable logistics costs
+skipped,b2c_moscow,2025-07-01,Variable costs,,no_descendant_values,
+skipped,b2c_moscow,2025-08-01,Variable costs,,no_descendant_values,
+skipped,b2c_moscow,2025-09-01,Variable costs,,no_descendant_values,
+skipped,b2c_moscow,2025-10-01,Variable costs,,no_descendant_values,
+skipped,b2c_moscow,2025-11-01,Variable costs,,no_descendant_values,
+skipped,b2c_moscow,2025-12-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2020-01-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2020-02-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2020-03-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2020-04-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2020-05-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2020-06-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2020-07-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2020-08-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2020-09-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2020-10-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2020-11-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2020-12-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2021-01-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2021-02-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2021-03-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2021-04-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2021-05-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2021-06-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2021-07-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2021-08-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2021-09-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2021-10-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2021-11-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2021-12-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2022-01-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2022-02-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2022-03-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2022-04-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2022-05-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2022-06-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2022-07-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2022-08-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2022-09-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2022-10-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2022-11-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2022-12-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2023-01-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2023-02-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2023-03-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2023-04-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2023-05-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2023-06-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2023-07-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2023-08-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2023-09-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2023-10-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2023-11-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2023-12-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2024-01-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2024-02-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2024-03-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2024-04-01,Variable costs,,no_descendant_values,
+inserted,b2c_spb,2024-05-01,Variable costs,134236,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable; Team expenses
+inserted,b2c_spb,2024-06-01,Variable costs,527815,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable; Team expenses
+inserted,b2c_spb,2024-07-01,Variable costs,744175,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable; Show production costs; Team expenses
+inserted,b2c_spb,2024-08-01,Variable costs,1025161,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable; Show production costs; Team expenses
+inserted,b2c_spb,2024-09-01,Variable costs,829411,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable; Show production costs; Team expenses
+inserted,b2c_spb,2024-10-01,Variable costs,853279,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable; Returns amount; Show production costs; Team expenses
+inserted,b2c_spb,2024-11-01,Variable costs,953085,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable; Returns amount; Show production costs; Team expenses
+inserted,b2c_spb,2024-12-01,Variable costs,832621,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable; Returns amount; Show production costs; Team expenses
+inserted,b2c_spb,2025-01-01,Variable costs,1330217,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable; Returns amount; Show production costs; Team expenses
+inserted,b2c_spb,2025-02-01,Variable costs,1025037,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Cost article - Реквизит/костюмы; Costs - Salary variable; Returns amount; Team expenses
+inserted,b2c_spb,2025-03-01,Variable costs,1290146,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable; Returns amount; Show production costs
+inserted,b2c_spb,2025-04-01,Variable costs,925728.78,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable; Returns amount; Show production costs; Team expenses
+inserted,b2c_spb,2025-05-01,Variable costs,928341.47,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable; Returns amount; Show production costs
+inserted,b2c_spb,2025-06-01,Variable costs,1234693.88,backfilled_from_descendants,Cost article - Комиссия; Cost article - Налог на прибыль (доходы); Costs - Salary variable; Returns amount; Show production costs; Team expenses
+skipped,b2c_spb,2025-07-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2025-08-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2025-09-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2025-10-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2025-11-01,Variable costs,,no_descendant_values,
+skipped,b2c_spb,2025-12-01,Variable costs,,no_descendant_values,
+skipped,franchise,2020-01-01,Variable costs,,no_descendant_values,
+skipped,franchise,2020-02-01,Variable costs,,no_descendant_values,
+skipped,franchise,2020-03-01,Variable costs,,no_descendant_values,
+skipped,franchise,2020-04-01,Variable costs,,no_descendant_values,
+skipped,franchise,2020-05-01,Variable costs,,no_descendant_values,
+skipped,franchise,2020-06-01,Variable costs,,no_descendant_values,
+skipped,franchise,2020-07-01,Variable costs,,no_descendant_values,
+skipped,franchise,2020-08-01,Variable costs,,no_descendant_values,
+skipped,franchise,2020-09-01,Variable costs,,no_descendant_values,
+skipped,franchise,2020-10-01,Variable costs,,no_descendant_values,
+skipped,franchise,2020-11-01,Variable costs,,no_descendant_values,
+skipped,franchise,2020-12-01,Variable costs,,no_descendant_values,
+skipped,franchise,2021-01-01,Variable costs,,no_descendant_values,
+skipped,franchise,2021-02-01,Variable costs,,no_descendant_values,
+skipped,franchise,2021-03-01,Variable costs,,no_descendant_values,
+skipped,franchise,2021-04-01,Variable costs,,no_descendant_values,
+skipped,franchise,2021-05-01,Variable costs,,no_descendant_values,
+skipped,franchise,2021-06-01,Variable costs,,no_descendant_values,
+skipped,franchise,2021-07-01,Variable costs,,no_descendant_values,
+skipped,franchise,2021-08-01,Variable costs,,no_descendant_values,
+skipped,franchise,2021-09-01,Variable costs,,no_descendant_values,
+skipped,franchise,2021-10-01,Variable costs,,no_descendant_values,
+skipped,franchise,2021-11-01,Variable costs,,no_descendant_values,
+skipped,franchise,2021-12-01,Variable costs,,no_descendant_values,
+skipped,franchise,2022-01-01,Variable costs,,no_descendant_values,
+skipped,franchise,2022-02-01,Variable costs,,no_descendant_values,
+skipped,franchise,2022-03-01,Variable costs,,no_descendant_values,
+skipped,franchise,2022-04-01,Variable costs,,no_descendant_values,
+skipped,franchise,2022-05-01,Variable costs,,no_descendant_values,
+skipped,franchise,2022-06-01,Variable costs,,no_descendant_values,
+skipped,franchise,2022-07-01,Variable costs,,no_descendant_values,
+skipped,franchise,2022-08-01,Variable costs,,no_descendant_values,
+skipped,franchise,2022-09-01,Variable costs,,no_descendant_values,
+skipped,franchise,2022-10-01,Variable costs,,no_descendant_values,
+skipped,franchise,2022-11-01,Variable costs,,no_descendant_values,
+skipped,franchise,2022-12-01,Variable costs,,no_descendant_values,
+skipped,franchise,2023-01-01,Variable costs,,no_descendant_values,
+skipped,franchise,2023-02-01,Variable costs,,no_descendant_values,
+inserted,franchise,2023-03-01,Variable costs,7780,backfilled_from_descendants,Show production costs
+skipped,franchise,2023-04-01,Variable costs,,no_descendant_values,
+skipped,franchise,2023-05-01,Variable costs,,no_descendant_values,
+skipped,franchise,2023-06-01,Variable costs,,no_descendant_values,
+skipped,franchise,2023-07-01,Variable costs,,no_descendant_values,
+skipped,franchise,2023-08-01,Variable costs,,no_descendant_values,
+skipped,franchise,2023-09-01,Variable costs,,no_descendant_values,
+inserted,franchise,2023-10-01,Variable costs,8205,backfilled_from_descendants,Show production costs
+inserted,franchise,2023-11-01,Variable costs,53851,backfilled_from_descendants,Show production costs
+inserted,franchise,2023-12-01,Variable costs,11570,backfilled_from_descendants,Show production costs
+skipped,franchise,2024-01-01,Variable costs,,no_descendant_values,
+skipped,franchise,2024-02-01,Variable costs,,no_descendant_values,
+skipped,franchise,2024-03-01,Variable costs,,no_descendant_values,
+skipped,franchise,2024-04-01,Variable costs,,no_descendant_values,
+skipped,franchise,2024-05-01,Variable costs,,no_descendant_values,
+skipped,franchise,2024-06-01,Variable costs,,no_descendant_values,
+skipped,franchise,2024-07-01,Variable costs,,no_descendant_values,
+skipped,franchise,2024-08-01,Variable costs,,no_descendant_values,
+inserted,franchise,2024-09-01,Variable costs,8200,backfilled_from_descendants,Show production costs
+skipped,franchise,2024-10-01,Variable costs,,no_descendant_values,
+inserted,franchise,2024-11-01,Variable costs,14426,backfilled_from_descendants,Show production costs
+inserted,franchise,2024-12-01,Variable costs,14350,backfilled_from_descendants,Show production costs
+skipped,franchise,2025-01-01,Variable costs,,no_descendant_values,
+skipped,franchise,2025-02-01,Variable costs,,no_descendant_values,
+skipped,franchise,2025-03-01,Variable costs,,no_descendant_values,
+skipped,franchise,2025-04-01,Variable costs,,no_descendant_values,
+skipped,franchise,2025-05-01,Variable costs,,no_descendant_values,
+skipped,franchise,2025-06-01,Variable costs,,no_descendant_values,
+skipped,franchise,2025-07-01,Variable costs,,no_descendant_values,
+skipped,franchise,2025-08-01,Variable costs,,no_descendant_values,
+skipped,franchise,2025-09-01,Variable costs,,no_descendant_values,
+skipped,franchise,2025-10-01,Variable costs,,no_descendant_values,
+skipped,franchise,2025-11-01,Variable costs,,no_descendant_values,
+skipped,franchise,2025-12-01,Variable costs,,no_descendant_values,
+skipped,general,2020-01-01,Variable costs,,no_descendant_values,
+skipped,general,2020-02-01,Variable costs,,no_descendant_values,
+skipped,general,2020-03-01,Variable costs,,no_descendant_values,
+skipped,general,2020-04-01,Variable costs,,no_descendant_values,
+skipped,general,2020-05-01,Variable costs,,no_descendant_values,
+skipped,general,2020-06-01,Variable costs,,no_descendant_values,
+skipped,general,2020-07-01,Variable costs,,no_descendant_values,
+skipped,general,2020-08-01,Variable costs,,no_descendant_values,
+skipped,general,2020-09-01,Variable costs,,no_descendant_values,
+skipped,general,2020-10-01,Variable costs,,no_descendant_values,
+skipped,general,2020-11-01,Variable costs,,no_descendant_values,
+skipped,general,2020-12-01,Variable costs,,no_descendant_values,
+skipped,general,2021-01-01,Variable costs,,no_descendant_values,
+skipped,general,2021-02-01,Variable costs,,no_descendant_values,
+skipped,general,2021-03-01,Variable costs,,no_descendant_values,
+skipped,general,2021-04-01,Variable costs,,no_descendant_values,
+skipped,general,2021-05-01,Variable costs,,no_descendant_values,
+skipped,general,2021-06-01,Variable costs,,no_descendant_values,
+skipped,general,2021-07-01,Variable costs,,no_descendant_values,
+skipped,general,2021-08-01,Variable costs,,no_descendant_values,
+skipped,general,2021-09-01,Variable costs,,no_descendant_values,
+skipped,general,2021-10-01,Variable costs,,no_descendant_values,
+skipped,general,2021-11-01,Variable costs,,no_descendant_values,
+skipped,general,2021-12-01,Variable costs,,no_descendant_values,
+skipped,general,2022-01-01,Variable costs,,no_descendant_values,
+skipped,general,2022-02-01,Variable costs,,no_descendant_values,
+skipped,general,2022-03-01,Variable costs,,no_descendant_values,
+skipped,general,2022-04-01,Variable costs,,no_descendant_values,
+skipped,general,2022-05-01,Variable costs,,no_descendant_values,
+skipped,general,2022-06-01,Variable costs,,no_descendant_values,
+skipped,general,2022-07-01,Variable costs,,no_descendant_values,
+skipped,general,2022-08-01,Variable costs,,no_descendant_values,
+skipped,general,2022-09-01,Variable costs,,no_descendant_values,
+skipped,general,2022-10-01,Variable costs,,no_descendant_values,
+skipped,general,2022-11-01,Variable costs,,no_descendant_values,
+skipped,general,2022-12-01,Variable costs,,no_descendant_values,
+skipped,general,2023-01-01,Variable costs,,no_descendant_values,
+skipped,general,2023-02-01,Variable costs,,no_descendant_values,
+skipped,general,2023-03-01,Variable costs,,no_descendant_values,
+skipped,general,2023-04-01,Variable costs,,no_descendant_values,
+skipped,general,2023-05-01,Variable costs,,no_descendant_values,
+skipped,general,2023-06-01,Variable costs,,no_descendant_values,
+skipped,general,2023-07-01,Variable costs,,no_descendant_values,
+skipped,general,2023-08-01,Variable costs,,no_descendant_values,
+skipped,general,2023-09-01,Variable costs,,no_descendant_values,
+skipped,general,2023-10-01,Variable costs,,no_descendant_values,
+skipped,general,2023-11-01,Variable costs,,no_descendant_values,
+skipped,general,2023-12-01,Variable costs,,no_descendant_values,
+skipped,general,2024-01-01,Variable costs,,no_descendant_values,
+skipped,general,2024-02-01,Variable costs,,no_descendant_values,
+skipped,general,2024-03-01,Variable costs,,no_descendant_values,
+skipped,general,2024-04-01,Variable costs,,no_descendant_values,
+skipped,general,2024-05-01,Variable costs,,no_descendant_values,
+skipped,general,2024-06-01,Variable costs,,no_descendant_values,
+skipped,general,2024-07-01,Variable costs,,no_descendant_values,
+skipped,general,2024-08-01,Variable costs,,no_descendant_values,
+skipped,general,2024-09-01,Variable costs,,no_descendant_values,
+skipped,general,2024-10-01,Variable costs,,no_descendant_values,
+skipped,general,2024-11-01,Variable costs,,no_descendant_values,
+skipped,general,2024-12-01,Variable costs,,no_descendant_values,
+skipped,general,2025-01-01,Variable costs,,no_descendant_values,
+skipped,general,2025-02-01,Variable costs,,no_descendant_values,
+skipped,general,2025-03-01,Variable costs,,no_descendant_values,
+skipped,general,2025-04-01,Variable costs,,no_descendant_values,
+skipped,general,2025-05-01,Variable costs,,no_descendant_values,
+skipped,general,2025-06-01,Variable costs,,no_descendant_values,
+skipped,general,2025-07-01,Variable costs,,no_descendant_values,
+skipped,general,2025-08-01,Variable costs,,no_descendant_values,
+skipped,general,2025-09-01,Variable costs,,no_descendant_values,
+skipped,general,2025-10-01,Variable costs,,no_descendant_values,
+skipped,general,2025-11-01,Variable costs,,no_descendant_values,
+skipped,general,2025-12-01,Variable costs,,no_descendant_values,
+skipped,b2b,2020-01-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2020-02-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2020-03-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2020-04-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2020-05-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2020-06-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2020-07-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2020-08-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2020-09-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2020-10-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2020-11-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2020-12-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2021-01-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2021-02-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2021-03-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2021-04-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2021-05-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2021-06-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2021-07-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2021-08-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2021-09-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2021-10-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2021-11-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2021-12-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2022-01-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2022-02-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2022-03-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2022-04-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2022-05-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2022-06-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2022-07-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2022-08-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2022-09-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2022-10-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2022-11-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2022-12-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2023-01-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2023-02-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2023-03-01,Fixed costs,,no_descendant_values,
+inserted,b2b,2023-04-01,Fixed costs,495075,backfilled_from_descendants,Other expenses
+skipped,b2b,2023-05-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2023-06-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2023-07-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2023-08-01,Fixed costs,,no_descendant_values,
+inserted,b2b,2023-09-01,Fixed costs,58500,backfilled_from_descendants,Other expenses
+inserted,b2b,2023-10-01,Fixed costs,122000,backfilled_from_descendants,Other expenses
+skipped,b2b,2023-11-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2023-12-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2024-01-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2024-02-01,Fixed costs,,no_descendant_values,
+inserted,b2b,2024-03-01,Fixed costs,89500,backfilled_from_descendants,Other expenses
+skipped,b2b,2024-04-01,Fixed costs,,no_descendant_values,
+inserted,b2b,2024-05-01,Fixed costs,48000,backfilled_from_descendants,Other expenses
+skipped,b2b,2024-06-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2024-07-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2024-08-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2024-09-01,Fixed costs,,no_descendant_values,
+skipped,b2b,2024-10-01,Fixed costs,,no_descendant_values,
+inserted,b2b,2024-11-01,Fixed costs,413000,backfilled_from_descendants,Other expenses
+inserted,b2b,2024-12-01,Fixed costs,980000,backfilled_from_descendants,Other expenses
+inserted,b2b,2025-01-01,Fixed costs,63000,backfilled_from_descendants,Other expenses
+skipped,b2b,2025-02-01,Fixed costs,,no_descendant_values,
+inserted,b2b,2025-03-01,Fixed costs,1328000,backfilled_from_descendants,Other expenses
+inserted,b2b,2025-04-01,Fixed costs,229000,backfilled_from_descendants,Costs - Salary fixed; Other expenses
+inserted,b2b,2025-05-01,Fixed costs,183000,backfilled_from_descendants,Costs - Salary fixed
+inserted,b2b,2025-06-01,Fixed costs,262505,backfilled_from_descendants,Costs - Salary fixed
+inserted,b2b,2025-07-01,Fixed costs,50000,backfilled_from_descendants,Costs - Salary fixed
+inserted,b2b,2025-08-01,Fixed costs,50000,backfilled_from_descendants,Costs - Salary fixed
+inserted,b2b,2025-09-01,Fixed costs,50000,backfilled_from_descendants,Costs - Salary fixed
+inserted,b2b,2025-10-01,Fixed costs,50000,backfilled_from_descendants,Costs - Salary fixed
+inserted,b2b,2025-11-01,Fixed costs,50000,backfilled_from_descendants,Costs - Salary fixed
+inserted,b2b,2025-12-01,Fixed costs,50000,backfilled_from_descendants,Costs - Salary fixed
+inserted,b2c_moscow,2020-01-01,Fixed costs,130500,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2020-02-01,Fixed costs,130500,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2020-03-01,Fixed costs,160500,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2020-04-01,Fixed costs,207328,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2020-05-01,Fixed costs,202419,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2020-06-01,Fixed costs,246910,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2020-07-01,Fixed costs,195781,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2020-08-01,Fixed costs,196499,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2020-09-01,Fixed costs,161906,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2020-10-01,Fixed costs,221981,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2020-11-01,Fixed costs,230500,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2020-12-01,Fixed costs,228832,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2021-01-01,Fixed costs,227876,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2021-02-01,Fixed costs,292307,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2021-03-01,Fixed costs,319703,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2021-04-01,Fixed costs,269081,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2021-05-01,Fixed costs,284092,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2021-06-01,Fixed costs,295034,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2021-07-01,Fixed costs,278192,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2021-08-01,Fixed costs,293759,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2021-09-01,Fixed costs,322577,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2021-10-01,Fixed costs,304154,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2021-11-01,Fixed costs,301499,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2021-12-01,Fixed costs,394852,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2022-01-01,Fixed costs,313180,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2022-02-01,Fixed costs,336016,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2022-03-01,Fixed costs,344883,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2022-04-01,Fixed costs,333018,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2022-05-01,Fixed costs,331327,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2022-06-01,Fixed costs,353199,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2022-07-01,Fixed costs,326454,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2022-08-01,Fixed costs,328817,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2022-09-01,Fixed costs,321300,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2022-10-01,Fixed costs,499478,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2022-11-01,Fixed costs,373813,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2022-12-01,Fixed costs,446303,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2023-01-01,Fixed costs,469990,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2023-02-01,Fixed costs,406834,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2023-03-01,Fixed costs,401492,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2023-04-01,Fixed costs,430649,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2023-05-01,Fixed costs,419463,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2023-06-01,Fixed costs,457058,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2023-07-01,Fixed costs,412352,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2023-08-01,Fixed costs,496072,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2023-09-01,Fixed costs,459317,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2023-10-01,Fixed costs,497796,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2023-11-01,Fixed costs,522508,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2023-12-01,Fixed costs,567270,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2024-01-01,Fixed costs,569105,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2024-02-01,Fixed costs,584965,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2024-03-01,Fixed costs,602986,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2024-04-01,Fixed costs,598910,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2024-05-01,Fixed costs,708662,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2024-06-01,Fixed costs,687936,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2024-07-01,Fixed costs,700113,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2024-08-01,Fixed costs,934325,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2024-09-01,Fixed costs,752773,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2024-10-01,Fixed costs,796785,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2024-11-01,Fixed costs,899893,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2024-12-01,Fixed costs,917895,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2025-01-01,Fixed costs,879958,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2025-02-01,Fixed costs,954818,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2025-03-01,Fixed costs,1094991,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_moscow,2025-04-01,Fixed costs,854387,backfilled_from_descendants,Cost article - КОМИССИИ БАНКОВ; Costs - Salary fixed; Other expenses; Venue and office costs
+inserted,b2c_moscow,2025-05-01,Fixed costs,931980.13,backfilled_from_descendants,Cost article - КОМИССИИ БАНКОВ; Costs - Salary fixed; Other expenses; Venue and office costs
+inserted,b2c_moscow,2025-06-01,Fixed costs,1151005,backfilled_from_descendants,Cost article - КОМИССИИ БАНКОВ; Costs - Salary fixed; Other expenses; Venue and office costs
+inserted,b2c_moscow,2025-07-01,Fixed costs,125000,backfilled_from_descendants,Costs - Salary fixed
+inserted,b2c_moscow,2025-08-01,Fixed costs,125000,backfilled_from_descendants,Costs - Salary fixed
+inserted,b2c_moscow,2025-09-01,Fixed costs,125000,backfilled_from_descendants,Costs - Salary fixed
+inserted,b2c_moscow,2025-10-01,Fixed costs,125000,backfilled_from_descendants,Costs - Salary fixed
+inserted,b2c_moscow,2025-11-01,Fixed costs,125000,backfilled_from_descendants,Costs - Salary fixed
+inserted,b2c_moscow,2025-12-01,Fixed costs,125000,backfilled_from_descendants,Costs - Salary fixed
+skipped,b2c_spb,2020-01-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2020-02-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2020-03-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2020-04-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2020-05-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2020-06-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2020-07-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2020-08-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2020-09-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2020-10-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2020-11-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2020-12-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2021-01-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2021-02-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2021-03-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2021-04-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2021-05-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2021-06-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2021-07-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2021-08-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2021-09-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2021-10-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2021-11-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2021-12-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2022-01-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2022-02-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2022-03-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2022-04-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2022-05-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2022-06-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2022-07-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2022-08-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2022-09-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2022-10-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2022-11-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2022-12-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2023-01-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2023-02-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2023-03-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2023-04-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2023-05-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2023-06-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2023-07-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2023-08-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2023-09-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2023-10-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2023-11-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2023-12-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2024-01-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2024-02-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2024-03-01,Fixed costs,,no_descendant_values,
+skipped,b2c_spb,2024-04-01,Fixed costs,,no_descendant_values,
+inserted,b2c_spb,2024-05-01,Fixed costs,267904,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_spb,2024-06-01,Fixed costs,294367,backfilled_from_descendants,Business travel costs; Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_spb,2024-07-01,Fixed costs,304843,backfilled_from_descendants,Business travel costs; Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_spb,2024-08-01,Fixed costs,331928,backfilled_from_descendants,Business travel costs; Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_spb,2024-09-01,Fixed costs,327448,backfilled_from_descendants,Business travel costs; Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_spb,2024-10-01,Fixed costs,332218,backfilled_from_descendants,Business travel costs; Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_spb,2024-11-01,Fixed costs,349443,backfilled_from_descendants,Business travel costs; Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_spb,2024-12-01,Fixed costs,352367,backfilled_from_descendants,Business travel costs; Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_spb,2025-01-01,Fixed costs,412511,backfilled_from_descendants,Business travel costs; Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_spb,2025-02-01,Fixed costs,401518,backfilled_from_descendants,Business travel costs; Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_spb,2025-03-01,Fixed costs,439965,backfilled_from_descendants,Business travel costs; Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_spb,2025-04-01,Fixed costs,613415.12,backfilled_from_descendants,Business travel costs; Costs - Salary fixed; Other expenses; Services and setup costs; Venue and office costs
+inserted,b2c_spb,2025-05-01,Fixed costs,813844,backfilled_from_descendants,Business travel costs; Costs - Salary fixed; Other expenses; Services and setup costs; Venue and office costs
+inserted,b2c_spb,2025-06-01,Fixed costs,655196.24,backfilled_from_descendants,Costs - Salary fixed; Services and setup costs; Venue and office costs
+inserted,b2c_spb,2025-07-01,Fixed costs,75000,backfilled_from_descendants,Costs - Salary fixed
+inserted,b2c_spb,2025-08-01,Fixed costs,75000,backfilled_from_descendants,Costs - Salary fixed
+inserted,b2c_spb,2025-09-01,Fixed costs,75000,backfilled_from_descendants,Costs - Salary fixed
+inserted,b2c_spb,2025-10-01,Fixed costs,75000,backfilled_from_descendants,Costs - Salary fixed
+inserted,b2c_spb,2025-11-01,Fixed costs,75000,backfilled_from_descendants,Costs - Salary fixed
+inserted,b2c_spb,2025-12-01,Fixed costs,75000,backfilled_from_descendants,Costs - Salary fixed
+skipped,franchise,2020-01-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2020-02-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2020-03-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2020-04-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2020-05-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2020-06-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2020-07-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2020-08-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2020-09-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2020-10-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2020-11-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2020-12-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2021-01-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2021-02-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2021-03-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2021-04-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2021-05-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2021-06-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2021-07-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2021-08-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2021-09-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2021-10-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2021-11-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2021-12-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2022-01-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2022-02-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2022-03-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2022-04-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2022-05-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2022-06-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2022-07-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2022-08-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2022-09-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2022-10-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2022-11-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2022-12-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2023-01-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2023-02-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2023-03-01,Fixed costs,,no_descendant_values,
+inserted,franchise,2023-04-01,Fixed costs,12000,backfilled_from_descendants,Costs - Salary fixed
+skipped,franchise,2023-05-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2023-06-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2023-07-01,Fixed costs,,no_descendant_values,
+inserted,franchise,2023-08-01,Fixed costs,6000,backfilled_from_descendants,Costs - Salary fixed
+skipped,franchise,2023-09-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2023-10-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2023-11-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2023-12-01,Fixed costs,,no_descendant_values,
+inserted,franchise,2024-01-01,Fixed costs,15000,backfilled_from_descendants,Costs - Salary fixed
+skipped,franchise,2024-02-01,Fixed costs,,no_descendant_values,
+inserted,franchise,2024-03-01,Fixed costs,20000,backfilled_from_descendants,Costs - Salary fixed
+skipped,franchise,2024-04-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2024-05-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2024-06-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2024-07-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2024-08-01,Fixed costs,,no_descendant_values,
+inserted,franchise,2024-09-01,Fixed costs,24000,backfilled_from_descendants,Costs - Salary fixed
+skipped,franchise,2024-10-01,Fixed costs,,no_descendant_values,
+inserted,franchise,2024-11-01,Fixed costs,12000,backfilled_from_descendants,Costs - Salary fixed
+inserted,franchise,2024-12-01,Fixed costs,176750,backfilled_from_descendants,Costs - Salary fixed; Other expenses
+skipped,franchise,2025-01-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2025-02-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2025-03-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2025-04-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2025-05-01,Fixed costs,,no_descendant_values,
+inserted,franchise,2025-06-01,Fixed costs,6000,backfilled_from_descendants,Costs - Salary fixed
+skipped,franchise,2025-07-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2025-08-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2025-09-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2025-10-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2025-11-01,Fixed costs,,no_descendant_values,
+skipped,franchise,2025-12-01,Fixed costs,,no_descendant_values,
+skipped,general,2020-01-01,Fixed costs,,no_descendant_values,
+skipped,general,2020-02-01,Fixed costs,,no_descendant_values,
+skipped,general,2020-03-01,Fixed costs,,no_descendant_values,
+skipped,general,2020-04-01,Fixed costs,,no_descendant_values,
+skipped,general,2020-05-01,Fixed costs,,no_descendant_values,
+skipped,general,2020-06-01,Fixed costs,,no_descendant_values,
+skipped,general,2020-07-01,Fixed costs,,no_descendant_values,
+skipped,general,2020-08-01,Fixed costs,,no_descendant_values,
+skipped,general,2020-09-01,Fixed costs,,no_descendant_values,
+skipped,general,2020-10-01,Fixed costs,,no_descendant_values,
+skipped,general,2020-11-01,Fixed costs,,no_descendant_values,
+skipped,general,2020-12-01,Fixed costs,,no_descendant_values,
+skipped,general,2021-01-01,Fixed costs,,no_descendant_values,
+skipped,general,2021-02-01,Fixed costs,,no_descendant_values,
+skipped,general,2021-03-01,Fixed costs,,no_descendant_values,
+skipped,general,2021-04-01,Fixed costs,,no_descendant_values,
+skipped,general,2021-05-01,Fixed costs,,no_descendant_values,
+skipped,general,2021-06-01,Fixed costs,,no_descendant_values,
+skipped,general,2021-07-01,Fixed costs,,no_descendant_values,
+skipped,general,2021-08-01,Fixed costs,,no_descendant_values,
+skipped,general,2021-09-01,Fixed costs,,no_descendant_values,
+skipped,general,2021-10-01,Fixed costs,,no_descendant_values,
+skipped,general,2021-11-01,Fixed costs,,no_descendant_values,
+skipped,general,2021-12-01,Fixed costs,,no_descendant_values,
+skipped,general,2022-01-01,Fixed costs,,no_descendant_values,
+skipped,general,2022-02-01,Fixed costs,,no_descendant_values,
+skipped,general,2022-03-01,Fixed costs,,no_descendant_values,
+skipped,general,2022-04-01,Fixed costs,,no_descendant_values,
+skipped,general,2022-05-01,Fixed costs,,no_descendant_values,
+skipped,general,2022-06-01,Fixed costs,,no_descendant_values,
+skipped,general,2022-07-01,Fixed costs,,no_descendant_values,
+skipped,general,2022-08-01,Fixed costs,,no_descendant_values,
+skipped,general,2022-09-01,Fixed costs,,no_descendant_values,
+skipped,general,2022-10-01,Fixed costs,,no_descendant_values,
+skipped,general,2022-11-01,Fixed costs,,no_descendant_values,
+skipped,general,2022-12-01,Fixed costs,,no_descendant_values,
+skipped,general,2023-01-01,Fixed costs,,no_descendant_values,
+skipped,general,2023-02-01,Fixed costs,,no_descendant_values,
+skipped,general,2023-03-01,Fixed costs,,no_descendant_values,
+skipped,general,2023-04-01,Fixed costs,,no_descendant_values,
+skipped,general,2023-05-01,Fixed costs,,no_descendant_values,
+skipped,general,2023-06-01,Fixed costs,,no_descendant_values,
+skipped,general,2023-07-01,Fixed costs,,no_descendant_values,
+skipped,general,2023-08-01,Fixed costs,,no_descendant_values,
+skipped,general,2023-09-01,Fixed costs,,no_descendant_values,
+skipped,general,2023-10-01,Fixed costs,,no_descendant_values,
+skipped,general,2023-11-01,Fixed costs,,no_descendant_values,
+skipped,general,2023-12-01,Fixed costs,,no_descendant_values,
+skipped,general,2024-01-01,Fixed costs,,no_descendant_values,
+skipped,general,2024-02-01,Fixed costs,,no_descendant_values,
+skipped,general,2024-03-01,Fixed costs,,no_descendant_values,
+skipped,general,2024-04-01,Fixed costs,,no_descendant_values,
+skipped,general,2024-05-01,Fixed costs,,no_descendant_values,
+skipped,general,2024-06-01,Fixed costs,,no_descendant_values,
+skipped,general,2024-07-01,Fixed costs,,no_descendant_values,
+skipped,general,2024-08-01,Fixed costs,,no_descendant_values,
+skipped,general,2024-09-01,Fixed costs,,no_descendant_values,
+skipped,general,2024-10-01,Fixed costs,,no_descendant_values,
+skipped,general,2024-11-01,Fixed costs,,no_descendant_values,
+skipped,general,2024-12-01,Fixed costs,,no_descendant_values,
+skipped,general,2025-01-01,Fixed costs,,no_descendant_values,
+skipped,general,2025-02-01,Fixed costs,,no_descendant_values,
+skipped,general,2025-03-01,Fixed costs,,no_descendant_values,
+skipped,general,2025-04-01,Fixed costs,,no_descendant_values,
+skipped,general,2025-05-01,Fixed costs,,no_descendant_values,
+skipped,general,2025-06-01,Fixed costs,,no_descendant_values,
+inserted,general,2025-07-01,Fixed costs,810000,backfilled_from_descendants,Other expenses
+skipped,general,2025-08-01,Fixed costs,,no_descendant_values,
+skipped,general,2025-09-01,Fixed costs,,no_descendant_values,
+skipped,general,2025-10-01,Fixed costs,,no_descendant_values,
+skipped,general,2025-11-01,Fixed costs,,no_descendant_values,
+skipped,general,2025-12-01,Fixed costs,,no_descendant_values,

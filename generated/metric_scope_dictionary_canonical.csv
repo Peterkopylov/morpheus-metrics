@@ -1,0 +1,38 @@
+dictionary_group,dictionary_key,value_key,value_label,note
+business_unit_scope,b2c_moscow,b2c_moscow,b2c_moscow,B2C Moscow
+business_unit_scope,b2c_spb,b2c_spb,b2c_spb,B2C SPB
+business_unit_scope,b2b,b2b,b2b,B2B
+business_unit_scope,franchise,franchise,franchise,Franchise
+business_unit_scope,immersivny,immersivny,immersivny,Immersivny
+business_unit_scope,general,general,general,General aggregate
+business_unit_scope,total,total,total,Total across all business units
+show_scope,b2c_show_names,b2c_show_names,b2c_show_names,Expand into all B2C show names
+show_scope,b2b_show_names,b2b_show_names,b2b_show_names,Expand into all B2B show names
+show_scope,general,general,general,General aggregate
+partner_scope,b2c_partner_names,b2c_partner_names,b2c_partner_names,Expand into all B2C partners/distributors
+partner_scope,b2b_partner_names,b2b_partner_names,b2b_partner_names,Expand into all B2B partner/agent names
+channel_scope,marketing_channel_names,marketing_channel_names,marketing_channel_names,Expand into all marketing channel names
+scope_values,b2c_show_names,Ответ Гиппократа,Ответ Гиппократа,
+scope_values,b2c_show_names,До свадьбы доживёт,До свадьбы доживёт,
+scope_values,b2c_show_names,22'07,22'07,
+scope_values,b2c_show_names,ВДОХ,ВДОХ,
+scope_values,b2c_show_names,Иное место,Иное место,
+scope_values,b2c_show_names,Поезд, Чехов, два орла,Поезд, Чехов, два орла,
+scope_values,b2c_show_names,Загадка Амулета,Загадка Амулета,
+scope_values,b2c_show_names,Судный день,Судный день,
+scope_values,b2c_partner_names,кассир,кассир,
+scope_values,b2c_partner_names,яндекс.афиша,яндекс.афиша,
+scope_values,b2c_partner_names,афиша.ру,афиша.ру,
+scope_values,b2c_partner_names,тикетлэнд,тикетлэнд,
+scope_values,b2c_partner_names,others,others,
+scope_values,marketing_channel_names,perfomance,perfomance,
+scope_values,marketing_channel_names,organic,organic,
+scope_values,marketing_channel_names,social,social,
+scope_values,marketing_channel_names,partners,partners,
+scope_values,marketing_channel_names,pr,pr,
+scope_values,marketing_channel_names,friends,friends,
+scope_values,marketing_channel_names,referral,referral,
+scope_values,marketing_channel_names,email,email,
+scope_values,marketing_channel_names,other,other,
+scope_values,b2b_show_names,<fill_b2b_show_names>,<fill_b2b_show_names>,Placeholder: fill with actual values
+scope_values,b2b_partner_names,<fill_b2b_partner_names>,<fill_b2b_partner_names>,Placeholder: fill with actual values

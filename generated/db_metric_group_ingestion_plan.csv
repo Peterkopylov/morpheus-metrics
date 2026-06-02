@@ -1,0 +1,55 @@
+db_metric_group,ingestion_action,target_metric_or_metrics,import_as_source,layer,note
+билеты,map_to_metric,Number of tickets,yes,source,Импортируем как факты по ticket-related срезам.
+билеты сд,map_to_metric,Number of tickets,yes,source,Импортируем как факты по ticket-related срезам.
+Всего билетов (выкуплено через сайт и все агрегаторы),map_to_metric,Number of tickets,yes,source,Общий weekly total билетов.
+Даня Рагин,exclude,,no,exclude,"Legacy персональный блок, не тащим в новый факт-слой."
+Дата для klipfolio,exclude,,no,exclude,"Техническая дата, не метрика."
+Другое юкасса,map_to_metric,Revenue - Other,yes,source,Прямая денежная метрика.
+Зрители дошедшие (без зрителей СД),map_to_metric,Number of show visitors,yes,source,Наблюдаемая weekly метрика зрителей.
+Зрители дошедшие СД,map_to_metric,Number of show visitors,yes,source,Наблюдаемая weekly метрика зрителей.
+Зрители по сертификатам,map_to_metric,Number of certificate visitors,yes,source,Отдельная наблюдаемая метрика.
+Из них,decompose_block,Number of deaths on OG; Share of OG where viewers went for paramedic and survived; Share of OG where viewers did not go for paramedic and did not survive; Share of OG with one murder; Share of OG with deaths on paramedic; Share of OG with murders; Share of OG with more than one murder; Share killed of total viewers passed through master on OG,no,exclude,Это контейнерный блок; импортировать его как одну метрику не надо.
+Из них агрегаторы (вычет комиссии),exclude,,no,exclude,"Legacy агрегат, в новый факт-слой как отдельную метрику не тащим."
+Из них агрегаторы (вычет комиссии)МДТЗК,exclude,,no,exclude,"Legacy агрегат, в новый факт-слой как отдельную метрику не тащим."
+Количество погибших всего на ОГ,map_to_metric,Number of deaths on OG,yes,source,Отдельная наблюдаемая weekly метрика.
+корпоратив,exclude,,no,exclude,"Legacy standalone строка, без полезной канонической интерпретации."
+КОРПОРАТИВЫ,decompose_block,Number of leads; Number of creative meetings,no,exclude,"Это блок воронки; тянуть нужно вложенные метрики, не сам block row."
+Маркетинг Каналы,decompose_block,Marketing costs,no,exclude,Это блок ручной маркетинговой детализации по каналам.
+Ник,exclude,,no,exclude,"Legacy персональный блок, не тащим."
+ОКК,decompose_block,Quality - Internal; Number of deaths on OG; Share of OG where viewers went for paramedic and survived; Share of OG where viewers did not go for paramedic and did not survive; Share of OG with one murder; Share of OG with deaths on paramedic; Share of OG with murders; Share of OG with more than one murder; Share killed of total viewers passed through master on OG,no,exclude,Block internal quality / incident metrics.
+ОТЗЫВЫ,decompose_block,Quality - External,no,exclude,"Block внешнего качества, нужно тянуть вложенные метрики."
+ОТЗЫВЫ НА ЯНДЕКСЕ,decompose_block,Quality - External,no,exclude,"Block внешнего качества, нужно тянуть вложенные метрики."
+Откуда пришли,map_to_metric,Number of source-attribution responses,yes,source,Наблюдаемая weekly метрика по источникам.
+Отменено СД,map_to_metric,Number of shows cancelled,yes,source,Наблюдаемая weekly метрика.
+Отменено шоу (не СД),map_to_metric,Number of shows cancelled,yes,source,Наблюдаемая weekly метрика.
+ОЦЕНКИ НА ПЛАНШЕТЕ,decompose_block,Quality - Internal,no,exclude,"Block оценок по шоу, не одна метрика."
+Поступления на счет,decompose_block,Revenue; Number of certificates; Number of source-attribution responses,no,exclude,"Смешанный агрегатный блок, не одна каноническая метрика."
+Поступления на счет - B2C,map_to_metric,Revenue,yes,source,Базовая observed revenue metric.
+Приход с депозита,map_to_metric,Revenue - Financial operations,yes,source,Наблюдаемая финансовая операция.
+Проведено СД,map_to_metric,Number of shows,yes,source,Наблюдаемая weekly метрика.
+Проведено шоу (БЕЗ СД),map_to_metric,Number of shows,yes,source,Наблюдаемая weekly метрика.
+ПРОТОКОЛ-БОТ,decompose_block,Quality - Internal,no,exclude,Block internal operations quality metrics.
+ПРОТОКОЛ-БОТ NEW,decompose_block,Quality - Internal,no,exclude,Block internal operations quality metrics.
+"Процент ОГ, где зрители вышли за фельдшером/ выжили",map_to_metric,Share of OG where viewers went for paramedic and survived,yes,source,Отдельная observed ratio metric.
+"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",map_to_metric,Share of OG where viewers did not go for paramedic and did not survive,yes,source,Отдельная observed ratio metric.
+Процент ОГ с 1 убийством,map_to_metric,Share of OG with one murder,yes,source,Отдельная observed ratio metric.
+Процент ОГ со смертями на фельдшера (по таблице ОКК),map_to_metric,Share of OG with deaths on paramedic,yes,source,Отдельная observed ratio metric.
+Процент ОГ с убийствами,map_to_metric,Share of OG with murders,yes,source,Отдельная observed ratio metric.
+Процент ОГ с убийствами больше 1,map_to_metric,Share of OG with more than one murder,yes,source,Отдельная observed ratio metric.
+"Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог",map_to_metric,Share killed of total viewers passed through master on OG,yes,source,Отдельная observed ratio metric.
+Сайт,decompose_block,Website visits; Number of orders; Number of tickets; Number of shows; Number of shows cancelled; Number of show visitors,no,exclude,Block mixed website/show operations metrics.
+САЙТ,decompose_block,Website visits; Number of orders; Revenue,no,exclude,Block mixed website/commercial metrics.
+Сертификаты и билеты (бесплатные),map_to_metric,Number of free certificates and tickets,yes,source,Наблюдаемая weekly метрика.
+Сертификаты (продажи),map_to_metric,Revenue; Number of certificates,yes,source,"Импортируем как две связанные observed метрики, show=сертификаты где уместно."
+Сложность составления расписания (1 min-5max),map_to_metric,Scheduling complexity,yes,source,Наблюдаемая операционная метрика.
+Спецпоказы (продажи) юкасса\по счету,map_to_metric,Revenue - Other,yes,source,Наблюдаемая revenue metric.
+Средняя загрузка СД (выкупленные билеты),defer_to_calculated,,no,calculated,"В calculated layer, не source fact."
+Средняя загрузка СД (по факту дошедшие зрители),defer_to_calculated,,no,calculated,"В calculated layer, не source fact."
+Средняя загрузка шоу (выкупленные билеты),defer_to_calculated,,no,calculated,"В calculated layer, не source fact."
+Средняя загрузка шоу (по факту дошедшие зрители),defer_to_calculated,,no,calculated,"В calculated layer, не source fact."
+Средств на счете,map_to_metric,Account balance,yes,source,Observed financial balance metric.
+Сумма возвратов,map_to_metric,Returns amount,yes,source,Observed finance metric; проценты из этого блока отдельно не source.
+Теракт-Возвраты,exclude,,no,exclude,"Разовый crisis-specific legacy row, вне нового base catalog."
+Теракт - Оформлено сертификатами,exclude,,no,exclude,"Разовый crisis-specific legacy row, вне нового base catalog."
+Франшиза,map_to_metric,Revenue,yes,source,Observed revenue for business_unit=franchise.
+ФРАНШИЗА,decompose_block,Number of leads; Quality - External; Revenue,no,exclude,"Block franchise metrics, не одна метрика."

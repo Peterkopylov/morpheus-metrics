@@ -1,0 +1,379 @@
+sheet_unit,period_start,period_end,row_number,col_a,col_b,ingestion_action,target_metric_or_metrics,source_system_override,status,reason,business_unit,show_name,partner_name,channel_name,source_cell_a1,source_cell_url,value_numeric
+b2c_moscow,2026-05-18,2026-05-24,1,Дата,Дата,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,2,Диапазон,Диапазон,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,3,Дата для klipfolio,Дата для klipfolio,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,4,Поступления на счет,Поступления на счет,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,5,Поступления на счет - B2C,Поступления на счет - B2C,map_to_metric,Revenue,,inserted,,b2c_moscow,,,,LD5,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD5,832879
+b2c_moscow,2026-05-18,2026-05-24,6,Из них агрегаторы (вычет комиссии),Из них агрегаторы (вычет комиссии),exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,7,Из них агрегаторы (вычет комиссии)МДТЗК,Из них агрегаторы (вычет комиссии)МДТЗК,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,8,билеты,билеты,map_to_metric,Number of tickets,,inserted,,b2c_moscow,,,,LD8,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD8,555905
+b2c_moscow,2026-05-18,2026-05-24,9,билеты,билеты виджет (сайт),map_to_metric,Number of tickets,,inserted,,b2c_moscow,,,,LD9,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD9,388349
+b2c_moscow,2026-05-18,2026-05-24,10,билеты,билеты яндекс афиша,map_to_metric,Number of tickets,,inserted,,b2c_moscow,,яндекс.афиша,,LD10,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD10,44460
+b2c_moscow,2026-05-18,2026-05-24,11,билеты,билеты от остальных агрегаторов,map_to_metric,Number of tickets,,inserted,,b2c_moscow,,others,,LD11,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD11,123096
+b2c_moscow,2026-05-18,2026-05-24,12,билеты,афиша.ру,map_to_metric,Number of tickets,,inserted,,b2c_moscow,,афиша.ру,,LD12,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD12,94116
+b2c_moscow,2026-05-18,2026-05-24,13,билеты,кассир,map_to_metric,Number of tickets,,inserted,,b2c_moscow,,кассир,,LD13,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD13,28980
+b2c_moscow,2026-05-18,2026-05-24,14,билеты,тикетленд,map_to_metric,Number of tickets,,inserted,,b2c_moscow,,тикетлэнд,,LD14,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD14,0
+b2c_moscow,2026-05-18,2026-05-24,15,билеты сд,билеты сд,map_to_metric,Number of tickets,,inserted,,b2c_moscow,,,,LD15,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD15,152193
+b2c_moscow,2026-05-18,2026-05-24,16,билеты сд,билет сд виджет (сайт),map_to_metric,Number of tickets,,inserted,,b2c_moscow,,,,LD16,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD16,97248
+b2c_moscow,2026-05-18,2026-05-24,17,билеты сд,билеты сд яндекс афиша,map_to_metric,Number of tickets,,inserted,,b2c_moscow,,,,LD17,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD17,9900
+b2c_moscow,2026-05-18,2026-05-24,18,билеты сд,билеты сд от остальных агрегаторов,map_to_metric,Number of tickets,,inserted,,b2c_moscow,,others,,LD18,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD18,45045
+b2c_moscow,2026-05-18,2026-05-24,19,билеты сд,афиша.ру,map_to_metric,Number of tickets,,inserted,,b2c_moscow,,афиша.ру,,LD19,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD19,15345
+b2c_moscow,2026-05-18,2026-05-24,20,билеты сд,кассир,map_to_metric,Number of tickets,,inserted,,b2c_moscow,,кассир,,LD20,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD20,29700
+b2c_moscow,2026-05-18,2026-05-24,21,билеты сд,тикетленд,map_to_metric,Number of tickets,,inserted,,b2c_moscow,,тикетлэнд,,LD21,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD21,0
+b2c_moscow,2026-05-18,2026-05-24,22,Сертификаты (продажи),Сертификаты (продажи),map_to_metric,Revenue,,inserted,,b2c_moscow,сертификаты,,,LD22,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD22,101235
+b2c_moscow,2026-05-18,2026-05-24,23,Сертификаты (продажи),сертификаты электронные,map_to_metric,Revenue,,inserted,,b2c_moscow,сертификаты,,,LD23,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD23,72864
+b2c_moscow,2026-05-18,2026-05-24,24,Сертификаты (продажи),сертификаты бумажные,map_to_metric,Revenue,,inserted,,b2c_moscow,сертификаты,,,LD24,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD24,28371
+b2c_moscow,2026-05-18,2026-05-24,25,Сертификаты (продажи),сертификаты через партнеров,map_to_metric,Revenue,,inserted,,b2c_moscow,сертификаты,others,,LD25,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD25,0
+b2c_moscow,2026-05-18,2026-05-24,26,Сертификаты (продажи),доля сертификатов в выручке,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,27,Спецпоказы (продажи) юкасса\по счету,Спецпоказы (продажи) юкасса\по счету,map_to_metric,Revenue - Other,,inserted,,b2c_moscow,,,,LD27,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD27,0
+b2c_moscow,2026-05-18,2026-05-24,28,Другое юкасса,Другое юкасса,map_to_metric,Revenue - Other,,inserted,,b2c_moscow,,,,LD28,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD28,23546
+b2c_moscow,2026-05-18,2026-05-24,29,корпоратив,корпоратив,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,30,Сертификаты и билеты (бесплатные),Сертификаты и билеты (бесплатные),map_to_metric,Number of free certificates and tickets,,inserted,,b2c_moscow,,,,LD30,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD30,63400
+b2c_moscow,2026-05-18,2026-05-24,31,Франшиза,Франшиза,map_to_metric,Revenue,,inserted,,b2c_moscow,,,,LD31,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD31,10000
+b2c_moscow,2026-05-18,2026-05-24,32,Средств на счете,Средств на счете,map_to_metric,Account balance,,inserted,,b2c_moscow,,,,LD32,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD32,3928333.96
+b2c_moscow,2026-05-18,2026-05-24,33,Приход с депозита,Приход с депозита,map_to_metric,Revenue - Financial operations,,inserted,,b2c_moscow,,,,LD33,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD33,4035.62
+b2c_moscow,2026-05-18,2026-05-24,34,Сумма возвратов,Сумма возвратов,map_to_metric,Returns amount,,inserted,,b2c_moscow,,,,LD34,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD34,0
+b2c_moscow,2026-05-18,2026-05-24,35,Сумма возвратов,По вине театра,map_to_metric,Returns amount - theater fault,,inserted,,b2c_moscow,,,,LD35,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD35,0
+b2c_moscow,2026-05-18,2026-05-24,36,Сумма возвратов,НЕ по вине театра,map_to_metric,Returns amount - non-theater fault,,inserted,,b2c_moscow,,,,LD36,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD36,0
+b2c_moscow,2026-05-18,2026-05-24,37,Сумма возвратов,% возвратов от выручки,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,38,Всего билетов (выкуплено через сайт и все агрегаторы),Всего билетов (выкуплено через сайт и все агрегаторы),map_to_metric,Number of tickets,,inserted,,b2c_moscow,,,,LD38,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD38,0.00
+b2c_moscow,2026-05-18,2026-05-24,39,Теракт-Возвраты,Теракт-Возвраты,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,40,Теракт - Оформлено сертификатами,Теракт - Оформлено сертификатами,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,41,Проведено шоу (БЕЗ СД),Проведено шоу (БЕЗ СД),map_to_metric,Number of shows,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,42,Отменено шоу (не СД),Отменено шоу (не СД),map_to_metric,Number of shows cancelled,,inserted,,b2c_moscow,,,,LD42,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD42,37
+b2c_moscow,2026-05-18,2026-05-24,43,Отменено шоу (не СД),"Кол-во, где не выкуплены билеты",map_to_metric,Number of cancelled non-SD shows - no tickets sold,,inserted,,b2c_moscow,,,,LD43,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD43,13
+b2c_moscow,2026-05-18,2026-05-24,44,Отменено шоу (не СД),Кол-во из-за спецпоказов,map_to_metric,Number of cancelled non-SD shows - special shows,,inserted,,b2c_moscow,,,,LD44,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD44,13
+b2c_moscow,2026-05-18,2026-05-24,45,Отменено шоу (не СД),Кол-во из-за дефицита актёров/ мастеров,map_to_metric,Number of cancelled non-SD shows - actor/master shortage,,inserted,,b2c_moscow,,,,LD45,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD45,0
+b2c_moscow,2026-05-18,2026-05-24,46,Проведено СД,Проведено СД,map_to_metric,Number of shows,,inserted,,b2c_moscow,,,,LD46,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD46,0
+b2c_moscow,2026-05-18,2026-05-24,47,Отменено СД,Отменено СД,map_to_metric,Number of shows cancelled,,inserted,,b2c_moscow,,,,LD47,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD47,4
+b2c_moscow,2026-05-18,2026-05-24,48,Отменено СД,"Кол-во, где не выкуплены билеты",map_to_metric,Number of cancelled SD shows - no tickets sold,,inserted,,b2c_moscow,,,,LD48,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD48,1
+b2c_moscow,2026-05-18,2026-05-24,49,Отменено СД,Кол-во из-за спецпоказов,map_to_metric,Number of cancelled SD shows - special shows,,inserted,,b2c_moscow,,,,LD49,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD49,0
+b2c_moscow,2026-05-18,2026-05-24,50,Отменено СД,Кол-во из-за дефицита актёров/ мастеров,map_to_metric,Number of cancelled SD shows - actor/master shortage,,inserted,,b2c_moscow,,,,LD50,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD50,0
+b2c_moscow,2026-05-18,2026-05-24,51,Зрители дошедшие (без зрителей СД),Зрители дошедшие (без зрителей СД),map_to_metric,Number of show visitors,,inserted,,b2c_moscow,,,,LD51,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD51,0
+b2c_moscow,2026-05-18,2026-05-24,52,Зрители дошедшие СД,Зрители дошедшие СД,map_to_metric,Number of show visitors,,inserted,,b2c_moscow,,,,LD52,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD52,138
+b2c_moscow,2026-05-18,2026-05-24,53,Зрители по сертификатам,Зрители по сертификатам,map_to_metric,Number of certificate visitors,,inserted,,b2c_moscow,,,,LD53,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD53,41
+b2c_moscow,2026-05-18,2026-05-24,54,Сложность составления расписания (1 min-5max),Сложность составления расписания (1 min-5max),map_to_metric,Scheduling complexity,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,55,Средняя загрузка шоу (по факту дошедшие зрители),Средняя загрузка шоу (по факту дошедшие зрители),defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,56,Средняя загрузка шоу (выкупленные билеты),Средняя загрузка шоу (выкупленные билеты),defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,57,Средняя загрузка СД (по факту дошедшие зрители),Средняя загрузка СД (по факту дошедшие зрители),defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,58,Средняя загрузка СД (выкупленные билеты),Средняя загрузка СД (выкупленные билеты),defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,59,Маркетинг,Маркетинг,decompose_block,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,60,Маркетинг Каналы,Таргет c НДС_VK,map_to_metric,Marketing costs,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,61,Маркетинг Каналы,Таргет с НДС_MT,map_to_metric,Marketing costs,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,62,Маркетинг Каналы,Таргет с НДС_FB,map_to_metric,Marketing costs,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,63,Маркетинг Каналы,Ведение_таргет,map_to_metric,Marketing costs,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,64,Маркетинг Каналы,Youtube ведение,map_to_metric,Marketing costs,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,65,Маркетинг Каналы,Youtube бюджет,map_to_metric,Marketing costs,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,66,Маркетинг Каналы,Таргет_бюджет с НДС,map_to_metric,Marketing costs,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,67,Маркетинг Каналы,Контекст_бюджет с НДС_Яндекс,map_to_metric,Marketing costs,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,68,Маркетинг Каналы,Контекст_ведение_Яндекс,map_to_metric,Marketing costs,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,69,Маркетинг Каналы,Контекст_бюджет с НДС_Гугл,map_to_metric,Marketing costs,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,70,Маркетинг Каналы,Контекст_ведение_Гугл,map_to_metric,Marketing costs,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,71,Маркетинг Каналы,Пиар,map_to_metric,Marketing costs,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,72,Маркетинг Каналы,Прочие затраты,map_to_metric,Marketing costs,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,73,Маркетинг Каналы,Общие затраты,map_to_metric,Marketing costs,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,74,Маркетинг Каналы,% общ. к выручке,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,75,,,,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,76,САЙТ,САЙТ,decompose_block,Website visits; Number of orders; Number of tickets; Revenue,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,77,САЙТ,cеансы (морфеус) ВИЗИТЫ БЕЗ corporative,map_to_metric,Website visits,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,78,САЙТ,заказов всего (Я.билеты),map_to_metric,Number of orders,,inserted,,b2c_moscow,,,,LD78,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD78,4171
+b2c_moscow,2026-05-18,2026-05-24,79,САЙТ,билетов всего (Я.билеты),map_to_metric,Number of tickets,,inserted,,b2c_moscow,,,,LD79,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD79,57
+b2c_moscow,2026-05-18,2026-05-24,80,САЙТ,"конверсия в заказ,%",defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,81,САЙТ,"конверсия в билет из сеанса, %",defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,82,САЙТ,сеансы corporative ВИЗИТЫ,map_to_metric,Website visits,,skipped,b2b_website_visits_use_yandex_metrica,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,83,САЙТ,визиты(immersivny),map_to_metric,Website visits,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,84,САЙТ,кол-во покупок immersviny (промокоды),map_to_metric,Number of orders,,inserted,,b2c_moscow,,,,LD84,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD84,427
+b2c_moscow,2026-05-18,2026-05-24,85,САЙТ,покупок в деньгах immersivny,map_to_metric,Revenue,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,86,САЙТ,покупок сервисы корп. привилегий,map_to_metric,Number of orders,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,87,САЙТ,покупок в деньгах сервисы корп.привилегий,map_to_metric,Revenue,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,88,,,,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,89,ФРАНШИЗА,ФРАНШИЗА,decompose_block,Revenue; Number of leads; Quality - External,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,90,ФРАНШИЗА,Кол-во заявок всего,map_to_metric,Number of leads,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,91,ФРАНШИЗА,"Кол-во завок_ ""качественные""",exclude,Number of leads,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,92,ФРАНШИЗА,"Кол-во заявок_""левые""",exclude,Number of leads,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,93,,,,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,94,КОРПОРАТИВЫ,КОРПОРАТИВЫ,decompose_block,Number of leads; Number of creative meetings,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,95,КОРПОРАТИВЫ,Кол-во новых заявок,map_to_metric,Number of leads,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,96,КОРПОРАТИВЫ,В работе сейчас,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,97,,,,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,98,ОТЗЫВЫ,ОТЗЫВЫ,decompose_block,Quality - External,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,99,ОТЗЫВЫ,Кол-во новых на Яндекс-картах (всего),map_to_metric,Number of new Yandex Maps reviews,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,100,ОТЗЫВЫ,Из них настоящих,map_to_metric,Number of genuine reviews,,inserted,,b2c_moscow,,,,LD100,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD100,1
+b2c_moscow,2026-05-18,2026-05-24,101,ОТЗЫВЫ,Из них ненастоящих,map_to_metric,Number of non-genuine reviews,,inserted,,b2c_moscow,,,,LD101,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD101,1
+b2c_moscow,2026-05-18,2026-05-24,102,ОТЗЫВЫ,Средняя оценка по отзывам за неделю (общая),defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,103,ОТЗЫВЫ,Средняя оценка по отзывам за неделю (по настоящим),defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,104,ОТЗЫВЫ,Процент негативных (от посетивших),defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,105,ОТЗЫВЫ,Ликвидировано негативных,map_to_metric,Number of resolved negative reviews,,inserted,,b2c_moscow,,,,LD105,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD105,0.00
+b2c_moscow,2026-05-18,2026-05-24,106,ОТЗЫВЫ,"Средняя оценка за неделю без негативных, если ликвидировали (общая)",defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,107,ОТЗЫВЫ,Средняя общая,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,108,ОЦЕНКИ НА ПЛАНШЕТЕ,ОЦЕНКИ НА ПЛАНШЕТЕ,decompose_block,Quality - Internal,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,109,ОЦЕНКИ НА ПЛАНШЕТЕ,Процент заполнивших от всех зрителей,defer_to_calculated,Quality - Internal,erp,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,110,ОЦЕНКИ НА ПЛАНШЕТЕ,Средняя оценка,defer_to_calculated,Quality - Internal,erp,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,111,ОЦЕНКИ НА ПЛАНШЕТЕ,Ответ Гиппократа,defer_to_calculated,Quality - Internal,erp,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,112,ОЦЕНКИ НА ПЛАНШЕТЕ,22’07,defer_to_calculated,Quality - Internal,erp,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,113,ОЦЕНКИ НА ПЛАНШЕТЕ,До свадьбы доживет,defer_to_calculated,Quality - Internal,erp,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,114,ОЦЕНКИ НА ПЛАНШЕТЕ,Загадка амулета,defer_to_calculated,Quality - Internal,erp,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,115,ОЦЕНКИ НА ПЛАНШЕТЕ,ВДОХ,defer_to_calculated,Quality - Internal,erp,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,116,ОЦЕНКИ НА ПЛАНШЕТЕ,Иное Место,defer_to_calculated,Quality - Internal,erp,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,117,ОЦЕНКИ НА ПЛАНШЕТЕ,Судный день,defer_to_calculated,Quality - Internal,erp,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,118,Откуда пришли,Откуда пришли,map_to_metric,Number of source-attribution responses,erp,inserted,,b2c_moscow,,,,LD118,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD118,4.85
+b2c_moscow,2026-05-18,2026-05-24,119,Откуда пришли,От друзей,defer_to_calculated,Number of source-attribution responses,erp,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,120,Откуда пришли,Наш сайт,defer_to_calculated,Number of source-attribution responses,erp,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,121,Откуда пришли,Яндекс Афиша,defer_to_calculated,Number of source-attribution responses,erp,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,122,Откуда пришли,"Карты Яндекс, Google, 2ГИС",map_to_metric,Number of source-attribution responses,erp,inserted,,b2c_moscow,,,,LD122,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD122,7.10
+b2c_moscow,2026-05-18,2026-05-24,123,Откуда пришли,Уже был,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,124,Откуда пришли,Подарили сертификат,defer_to_calculated,Number of source-attribution responses,erp,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,125,Откуда пришли,Другое,defer_to_calculated,Number of source-attribution responses,erp,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,126,Откуда пришли,Афиша.ру (Т-банк),defer_to_calculated,Number of source-attribution responses,erp,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,127,Откуда пришли,Google поиск,defer_to_calculated,Number of source-attribution responses,erp,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,128,Откуда пришли,Яндекс поиск,map_to_metric,Number of source-attribution responses,erp,inserted,,b2c_moscow,,,,LD128,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD128,11.9
+b2c_moscow,2026-05-18,2026-05-24,129,Откуда пришли,Яндекс реклама (РЕКЛАМА В ИНЕТЕ),defer_to_calculated,Number of source-attribution responses,erp,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,130,Откуда пришли,Instagram (СОЦ СЕТИ),defer_to_calculated,Number of source-attribution responses,erp,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,131,Откуда пришли,Kuda Moscow,map_to_metric,Number of source-attribution responses,erp,inserted,,b2c_moscow,,,,LD131,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD131,7.1
+b2c_moscow,2026-05-18,2026-05-24,132,Откуда пришли,Kuda go,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,133,Откуда пришли,Иммерсивный.ру,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,134,Откуда пришли,ВК,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,135,Откуда пришли,Сервис Best Benefits,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,136,Откуда пришли,Тикетленд,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,137,Откуда пришли,Primezone,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,138,ОКК,ОКК,decompose_block,Quality - Internal,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,139,ОКК,Кол-во отсмотренных спектаклей,map_to_metric,Number of reviewed shows,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,140,ОКК,Процент без нарушений от отсмотренных,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,141,ОКК,Количество предупреждений,map_to_metric,Number of warnings,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,142,ОКК,Количество штрафов,map_to_metric,Number of fines,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,143,ОКК,Количество отстранений от спектакля,map_to_metric,Number of show removals,,skipped,missing_staging_row,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,144,ПРОТОКОЛ-БОТ,ПРОТОКОЛ-БОТ,decompose_block,Quality - Internal,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,145,ПРОТОКОЛ-БОТ,Процент заполненных протоколов ДО спектакля,defer_to_calculated,Quality - Internal,erp,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,146,ПРОТОКОЛ-БОТ,Процент заполненных протоколов ПОСЛЕ спектакля,defer_to_calculated,Quality - Internal,erp,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,147,ПРОТОКОЛ-БОТ,,decompose_block,Quality - Internal,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,148,ПРОТОКОЛ-БОТ,Всего заполненных ОГ,defer_to_calculated,Quality - Internal,erp,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,149,ПРОТОКОЛ-БОТ,Процент от общего количества ОГ,defer_to_calculated,Quality - Internal,erp,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,150,ПРОТОКОЛ-БОТ,Из них,exclude,Quality - Internal,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,151,ПРОТОКОЛ-БОТ,ГАМАЗ,exclude,Quality - Internal,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,152,ПРОТОКОЛ-БОТ,НИКОЛА,exclude,Quality - Internal,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,153,ПРОТОКОЛ-БОТ,МАКС,exclude,Quality - Internal,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,154,ПРОТОКОЛ-БОТ,ГЛЕБ,exclude,Quality - Internal,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,155,ПРОТОКОЛ-БОТ,КСЕНИЯ,exclude,Quality - Internal,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,156,ПРОТОКОЛ-БОТ,АНДРЕЙ,exclude,Quality - Internal,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,157,ПРОТОКОЛ-БОТ,АЛЕКС,exclude,Quality - Internal,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,158,ПРОТОКОЛ-БОТ,ТЁМА,exclude,Quality - Internal,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,159,ПРОТОКОЛ-БОТ,ВАСИЛИЙ,exclude,Quality - Internal,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,160,ПРОТОКОЛ-БОТ,ИВАН,exclude,Quality - Internal,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,161,ПРОТОКОЛ-БОТ,СЕРЖ,exclude,Quality - Internal,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,162,Процент ОГ с убийствами,Процент ОГ с убийствами,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,163,Процент ОГ с убийствами,ГАМАЗ,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,164,Процент ОГ с убийствами,НИКОЛА,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,165,Процент ОГ с убийствами,МАКС,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,166,Процент ОГ с убийствами,ГЛЕБ,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,167,Процент ОГ с убийствами,КСЕНИЯ,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,168,Процент ОГ с убийствами,АНДРЕЙ,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,169,Процент ОГ с убийствами,АЛЕКС,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,170,Процент ОГ с убийствами,ТЁМА,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,171,Процент ОГ с убийствами,ВАСИЛИЙ,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,172,Процент ОГ с убийствами,ИВАН,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,173,Процент ОГ с убийствами,СЕРЖ,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,174,Процент ОГ с убийствами больше 1,Процент ОГ с убийствами больше 1,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,175,Процент ОГ с 1 убийством,Процент ОГ с 1 убийством,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,176,Количество погибших всего на ОГ,Количество погибших всего на ОГ,map_to_metric,Number of deaths on OG,,inserted,,b2c_moscow,,,,LD176,https://docs.google.com/spreadsheets/d/1gHuxPxZntVLAxhxY9yFuBRhvozm45r2LcnvId83CY-s/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_moscow!LD176,0
+b2c_moscow,2026-05-18,2026-05-24,177,Количество погибших всего на ОГ,ГАМАЗ,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,178,Количество погибших всего на ОГ,НИКОЛА,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,179,Количество погибших всего на ОГ,МАКС,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,180,Количество погибших всего на ОГ,ГЛЕБ,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,181,Количество погибших всего на ОГ,КСЕНИЯ,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,182,Количество погибших всего на ОГ,АНДРЕЙ,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,183,Количество погибших всего на ОГ,АЛЕКС,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,184,Количество погибших всего на ОГ,ТЁМА,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,185,Количество погибших всего на ОГ,ВАСИЛИЙ,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,186,Количество погибших всего на ОГ,ИВАН,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,187,Количество погибших всего на ОГ,СЕРЖ,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,188,"Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог","Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог",defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,189,"Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог",Глеб,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,190,"Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог",Гамаз,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,191,"Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог",Тёма,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,192,"Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог",Макс,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,193,"Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог",Андрей,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,194,"Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог",Василий,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,195,"Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог",Ксения,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,196,"Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог",Иван,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,197,"Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог",Никола,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,198,"Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог",Сергей,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,199,"Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог",Алекс,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,200,"Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог",Антон,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,201,"Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог",Александра,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,202,"Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог",Вильдан,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,203,"Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог",Вася Б,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,204,Процент ОГ со смертями на фельдшера (по таблице ОКК),Процент ОГ со смертями на фельдшера (по таблице ОКК),defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,205,Процент ОГ со смертями на фельдшера (по таблице ОКК),Серж,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,206,Процент ОГ со смертями на фельдшера (по таблице ОКК),Ксюша,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,207,Процент ОГ со смертями на фельдшера (по таблице ОКК),Никола,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,208,Процент ОГ со смертями на фельдшера (по таблице ОКК),Алекс,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,209,Процент ОГ со смертями на фельдшера (по таблице ОКК),Вася Б,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,210,Процент ОГ со смертями на фельдшера (по таблице ОКК),Ваня,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,211,Процент ОГ со смертями на фельдшера (по таблице ОКК),Дима Лещук,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,212,Процент ОГ со смертями на фельдшера (по таблице ОКК),Сёма,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,213,Процент ОГ со смертями на фельдшера (по таблице ОКК),Женя,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,214,Процент ОГ со смертями на фельдшера (по таблице ОКК),Антон,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,215,Процент ОГ со смертями на фельдшера (по таблице ОКК),Илья,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,216,Процент ОГ со смертями на фельдшера (по таблице ОКК),Андрей М,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,217,Процент ОГ со смертями на фельдшера (по таблице ОКК),Алина,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,218,Процент ОГ со смертями на фельдшера (по таблице ОКК),Альбина,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,219,Процент ОГ со смертями на фельдшера (по таблице ОКК),Андрей,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,220,Процент ОГ со смертями на фельдшера (по таблице ОКК),Артём,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,221,Процент ОГ со смертями на фельдшера (по таблице ОКК),Вася,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,222,Процент ОГ со смертями на фельдшера (по таблице ОКК),Вильдан,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,223,Процент ОГ со смертями на фельдшера (по таблице ОКК),Гамаз,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,224,Процент ОГ со смертями на фельдшера (по таблице ОКК),Жора,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,225,Процент ОГ со смертями на фельдшера (по таблице ОКК),Глеб,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,226,Процент ОГ со смертями на фельдшера (по таблице ОКК),Олег,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,227,Процент ОГ со смертями на фельдшера (по таблице ОКК),Полина,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,228,Процент ОГ со смертями на фельдшера (по таблице ОКК),Тёма,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,229,"Процент ОГ, где зрители вышли за фельдшером/ выжили","Процент ОГ, где зрители вышли за фельдшером/ выжили",defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,230,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили","Процент ОГ, где зрители не вышли за фельдшером/ не выжили",defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,231,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Серж,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,232,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Ксюша,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,233,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Никола,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,234,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Алекс,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,235,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Вася Б,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,236,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Ваня,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,237,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Дима Лещук,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,238,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Сёма,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,239,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Женя,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,240,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Антон,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,241,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Илья,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,242,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Андрей М,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,243,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Алина,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,244,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Альбина,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,245,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Андрей,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,246,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Артём,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,247,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Вася,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,248,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Вильдан,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,249,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Гамаз,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,250,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Жора,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,251,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Глеб,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,252,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Олег,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,253,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Полина,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_moscow,2026-05-18,2026-05-24,254,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",Тёма,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,1,Дата,01.06.2020,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,2,Диапазон,1-7/6,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,3,,,,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,4,Поступления на счет,40 360,map_to_metric,Revenue,,inserted,,b2c_spb,,,,IU4,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU4,533325
+b2c_spb,2026-05-18,2026-05-24,5,Из них агрегаторы (вычет комиссии),,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,6,Из них агрегаторы (вычет комиссии)ДТЗК,,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,7,билеты,,map_to_metric,Number of tickets,,inserted,,b2c_spb,,,,IU7,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU7,392360
+b2c_spb,2026-05-18,2026-05-24,8,билеты виджет (сайт),,map_to_metric,Number of tickets,,inserted,,b2c_spb,,,,IU8,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU8,263040
+b2c_spb,2026-05-18,2026-05-24,9,билеты яндекс афиша,,map_to_metric,Number of tickets,,inserted,fallback_live_sheet,b2c_spb,,яндекс.афиша,,IU9,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=Статистика_понедельно!IU9,19800
+b2c_spb,2026-05-18,2026-05-24,10,билеты от остальных агрегаторов,,map_to_metric,Number of tickets,,inserted,,b2c_spb,,others,,IU10,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU10,109520
+b2c_spb,2026-05-18,2026-05-24,11,афиша.ру,,map_to_metric,Number of tickets,,inserted,fallback_live_sheet,b2c_spb,,афиша.ру,,IU11,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=Статистика_понедельно!IU11,80445
+b2c_spb,2026-05-18,2026-05-24,12,кассир,,map_to_metric,Number of tickets,,inserted,fallback_live_sheet,b2c_spb,,кассир,,IU12,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=Статистика_понедельно!IU12,26100
+b2c_spb,2026-05-18,2026-05-24,13,тикетленд,,map_to_metric,Number of tickets,,inserted,fallback_live_sheet,b2c_spb,,тикетлэнд,,IU13,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=Статистика_понедельно!IU13,0
+b2c_spb,2026-05-18,2026-05-24,14,билеты СД,,map_to_metric,Number of tickets,,inserted,fallback_live_sheet,b2c_spb,,,,IU14,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=Статистика_понедельно!IU14,2975
+b2c_spb,2026-05-18,2026-05-24,15,билет сд виджет (сайт),,map_to_metric,Number of tickets,,inserted,,b2c_spb,,,,IU15,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU15,75600
+b2c_spb,2026-05-18,2026-05-24,16,билеты сд яндекс афиша,,map_to_metric,Number of tickets,,inserted,fallback_live_sheet,b2c_spb,,,,IU16,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=Статистика_понедельно!IU16,34560
+b2c_spb,2026-05-18,2026-05-24,17,билеты сд от остальных агрегаторов,,map_to_metric,Number of tickets,,inserted,,b2c_spb,,others,,IU17,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU17,4050
+b2c_spb,2026-05-18,2026-05-24,18,афиша.ру,,map_to_metric,Number of tickets,,inserted,fallback_live_sheet,b2c_spb,,афиша.ру,,IU18,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=Статистика_понедельно!IU18,36990
+b2c_spb,2026-05-18,2026-05-24,19,кассир,,map_to_metric,Number of tickets,,inserted,fallback_live_sheet,b2c_spb,,кассир,,IU19,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=Статистика_понедельно!IU19,16740
+b2c_spb,2026-05-18,2026-05-24,20,тикетленд,,map_to_metric,Number of tickets,,inserted,fallback_live_sheet,b2c_spb,,тикетлэнд,,IU20,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=Статистика_понедельно!IU20,20250
+b2c_spb,2026-05-18,2026-05-24,21,Сертификаты,,map_to_metric,Revenue,,inserted,,b2c_spb,,,,IU21,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU21,0
+b2c_spb,2026-05-18,2026-05-24,22,сертификаты электронные,,map_to_metric,Revenue,,inserted,,b2c_spb,,,,IU22,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU22,0
+b2c_spb,2026-05-18,2026-05-24,23,сертификаты бумажные,,map_to_metric,Revenue,,inserted,,b2c_spb,,,,IU23,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU23,17404
+b2c_spb,2026-05-18,2026-05-24,24,доля сертификатов в выручке,,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,25,Спецпоказы (продажи),,map_to_metric,Revenue - Other,,inserted,,b2c_spb,,,,IU25,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU25,5404
+b2c_spb,2026-05-18,2026-05-24,26,Другое юкасса\счет,,map_to_metric,Revenue - Other,,inserted,,b2c_spb,,,,IU26,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU26,3.26
+b2c_spb,2026-05-18,2026-05-24,27,Сертификаты и билеты (бесплатные),,map_to_metric,Number of free certificates and tickets,,inserted,,b2c_spb,,,,IU27,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU27,46899
+b2c_spb,2026-05-18,2026-05-24,28,Сумма возвратов,,map_to_metric,Returns amount,,inserted,,b2c_spb,,,,IU28,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU28,1062
+b2c_spb,2026-05-18,2026-05-24,29,по вине театра,,map_to_metric,Returns amount - theater fault,,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,30,не по вине театра,,map_to_metric,Returns amount - non-theater fault,,inserted,,b2c_spb,,,,IU30,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU30,19500
+b2c_spb,2026-05-18,2026-05-24,31,% возвратов от выручки,,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,32,Сайт,,decompose_block,Website visits; Number of orders; Number of tickets; Revenue,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,33,Количество заходов на сайт,,map_to_metric,Website visits,,inserted,,b2c_spb,,,,IU33,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU33,3.66
+b2c_spb,2026-05-18,2026-05-24,34,Количество билетов,,map_to_metric,Number of tickets,,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,35,Количество заказов,,map_to_metric,Number of orders,,inserted,,b2c_spb,,,,IU35,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU35,2409
+b2c_spb,2026-05-18,2026-05-24,36,"конверсия в заказ, %",,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,37,"конверсия в билет, %",,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,38,"Всего билетов (выкуплено через сайт, все агрегаторы, по ссылке)",,map_to_metric,Number of tickets,,inserted,,b2c_spb,,,,IU38,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU38,2.03
+b2c_spb,2026-05-18,2026-05-24,39,Проведено шоу всего (без СД),11,map_to_metric,Number of shows,,inserted,,b2c_spb,,,,IU39,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU39,4.28
+b2c_spb,2026-05-18,2026-05-24,40,Отменено шоу (не СД),,map_to_metric,Number of shows cancelled,,inserted,,b2c_spb,,,,IU40,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU40,170
+b2c_spb,2026-05-18,2026-05-24,41,"Кол-во, где не выкуплены билеты",,map_to_metric,Number of cancelled non-SD shows - no tickets sold,,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,42,Кол-во из-за дефицита актёров/ мастеров,,map_to_metric,Number of cancelled non-SD shows - actor/master shortage,,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,43,Кол-во из-за спецпоказов,,map_to_metric,Number of cancelled non-SD shows - special shows,,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,44,Проведено шоу СД,,map_to_metric,Number of shows,,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,45,Отменено СД,,map_to_metric,Number of shows cancelled,,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,46,"Кол-во, где не выкуплены билеты",,map_to_metric,Number of cancelled SD shows - no tickets sold,,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,47,Кол-во из-за спецпоказов,,map_to_metric,Number of cancelled SD shows - special shows,,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,48,Кол-во из-за дефицита актёров/ мастеров,,map_to_metric,Number of cancelled SD shows - actor/master shortage,,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,49,Зрители (без СД),36,map_to_metric,Number of show visitors,,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,50,Зрители СД,,map_to_metric,Number of show visitors,,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,51,Зрители по сертификатам,,map_to_metric,Number of certificate visitors,,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,52,Средняя загрузка шоу,"3,27",defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,53,Средняя загрузка СД,,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,54,,,,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,55,ОТЗЫВЫ НА ЯНДЕКСЕ,,decompose_block,Quality - External,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,56,Кол-во новых на Яндекс-картах,,map_to_metric,Number of new Yandex Maps reviews,,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,57,Из них настоящих,,map_to_metric,Number of genuine reviews,,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,58,Из них ненастоящих,,map_to_metric,Number of non-genuine reviews,,inserted,,b2c_spb,,,,IU58,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU58,0
+b2c_spb,2026-05-18,2026-05-24,59,Средняя оценка по отзывам за неделю (общая),,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,60,Средняя оценка по отзывам за неделю (по настоящим),,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,61,Процент негативных (от посетивших),,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,62,Ликвидировано негативных,,map_to_metric,Number of resolved negative reviews,,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,63,"Средняя оценка за неделю без негативных, если ликвидировали (общая)",,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,64,Средняя общая,,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,65,ОЦЕНКИ НА ПЛАНШЕТЕ,,decompose_block,Quality - Internal,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,66,Процент заполнивших от всех зрителей,,defer_to_calculated,Quality - Internal,erp,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,67,Средняя оценка,,defer_to_calculated,Quality - Internal,erp,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,68,Ответ Гиппократа,,map_to_metric,Quality - Internal,erp,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,69,22’07,,map_to_metric,Quality - Internal,erp,inserted,,b2c_spb,22'07,,,IU69,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU69,4.93
+b2c_spb,2026-05-18,2026-05-24,70,До свадьбы доживет,,map_to_metric,Quality - Internal,erp,inserted,,b2c_spb,До свадьбы доживёт,,,IU70,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU70,4.96
+b2c_spb,2026-05-18,2026-05-24,71,Загадка амулета,,map_to_metric,Quality - Internal,erp,inserted,,b2c_spb,Загадка Амулета,,,IU71,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU71,5.00
+b2c_spb,2026-05-18,2026-05-24,72,ВДОХ,,map_to_metric,Quality - Internal,erp,inserted,,b2c_spb,ВДОХ,,,IU72,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU72,4.85
+b2c_spb,2026-05-18,2026-05-24,73,Судный день,,map_to_metric,Quality - Internal,erp,inserted,,b2c_spb,Судный день,,,IU73,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU73,5.00
+b2c_spb,2026-05-18,2026-05-24,74,Откуда пришли,,map_to_metric,Number of source-attribution responses,erp,inserted,,b2c_spb,,,,IU74,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU74,5.00
+b2c_spb,2026-05-18,2026-05-24,75,От друзей,,map_to_metric,Number of source-attribution responses,erp,inserted,,b2c_spb,,,,IU75,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU75,5.00
+b2c_spb,2026-05-18,2026-05-24,76,Наш сайт,,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,77,Яндекс Афиша,,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,78,"Карты Яндекс, Google, 2ГИС",,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,79,Уже был,,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,80,Подарили сертификат,,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,81,Другое,,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,82,Афиша.ру (+Т-банк),,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,83,Google поиск,,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,84,Яндекс поиск,,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,85,Яндекс реклама (РЕКЛАМА В ИНЕТЕ),,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,86,Instagram (СОЦ СЕТИ),,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,87,Kuda Spb,,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,88,Kuda go,,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,89,Иммерсивный.ру,,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,90,ВК,,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,91,Сервис Best Benefits,,map_to_metric,Number of source-attribution responses,erp,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,92,Тикетленд,,map_to_metric,Number of tickets,erp,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,93,ОКК,,decompose_block,Quality - Internal,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,94,Кол-во отсмотренных спектаклей,,map_to_metric,Number of reviewed shows,,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,95,Процент без нарушений от отсмотренных,,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,96,Кол-во отсмотренных ОГ,,map_to_metric,Number of reviewed OGs,,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,97,Процент отсмотренных от общего кол-ва ОГ,,defer_to_calculated,Quality - Internal,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,98,"Процент ОГ, где зрители вышли за фельдшером",,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,99,Процент с убийствами,,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,100,С убийствами больше 1,,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,101,С 1 убийством,,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,102,Кол-во убийств,,map_to_metric,Number of deaths on OG,,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,103,Ник,,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,104,Алина,,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,105,Даня Рагин,,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,106,Даня Богомолов,,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,107,Женя Аршинов,,exclude,Share killed of total viewers passed through master on OG,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,108,Влад,,exclude,Share of OG with deaths on paramedic,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,109,Влад Подольский,,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,110,Саша Шеина,,exclude,Share of OG where viewers did not go for paramedic and did not survive,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,111,Олег,,exclude,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,112,процент от общего кол-ва зрителей (из отсмотренных спектаклей),,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,113,ПРОТОКОЛ-БОТ NEW,,decompose_block,Quality - Internal,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,114,Процент заполненных протоколов ПОСЛЕ спектакля,,defer_to_calculated,Quality - Internal,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,115,Всего заполненных ОГ,,map_to_metric,Number of completed OG protocols,,skipped,missing_staging_row,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,116,Процент от общего количества ОГ,,defer_to_calculated,Quality - Internal,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,117,Из них,,map_to_metric,Quality - Internal,,inserted,,b2c_spb,,,,IU117,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU117,10
+b2c_spb,2026-05-18,2026-05-24,118,Процент ОГ с убийствами,,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,119,Процент ОГ с убийствами больше 1,,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,120,Процент ОГ с 1 убийством,,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,121,Количество погибших всего на ОГ,,map_to_metric,Number of deaths on OG,,inserted,,b2c_spb,,,,IU121,https://docs.google.com/spreadsheets/d/1q71g1XD5fwTMo7xbEe1fGvXVTRyPfEswCPxyjVTEZi0/edit?gid=1411303700#gid=1411303700&range=weekly_b2c_spb!IU121,10
+b2c_spb,2026-05-18,2026-05-24,122,"Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог",,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,123,"Процент ОГ, где зрители вышли за фельдшером/ выжили",,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,
+b2c_spb,2026-05-18,2026-05-24,124,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",,defer_to_calculated,,,skipped,not_map_to_metric,,,,,,,

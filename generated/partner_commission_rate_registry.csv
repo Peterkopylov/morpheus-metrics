@@ -1,0 +1,8 @@
+partner_name,canonical_partner_name,commission_rate,net_multiplier,status,note
+кассир,кассир,0.10,0.90,active,Kassir partner commission rule.
+яндекс.афиша,яндекс.афиша,0.10,0.90,active,Yandex Afisha canonical fact-layer partner name.
+яндекс афиша,яндекс.афиша,0.10,0.90,active,Yandex Afisha alias without punctuation.
+афиша.ру,афиша.ру,0.07,0.93,active,Afisha.ru canonical fact-layer partner name.
+афиша ру,афиша.ру,0.07,0.93,active,Afisha.ru alias without punctuation.
+тикетлэнд,тикетлэнд,0.15,0.85,active,Ticketland canonical historical spelling in scope dictionary.
+тикетленд,тикетлэнд,0.15,0.85,active,Ticketland alias without hard-sign spelling.

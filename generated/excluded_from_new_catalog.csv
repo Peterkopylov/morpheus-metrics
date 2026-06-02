@@ -1,0 +1,21 @@
+db_metric_group,legacy_action,exclusion_reason
+Даня Рагин,do_not_use,Explicitly marked as not needed in the new source catalog.
+Дата для klipfolio,do_not_use,Explicitly marked as not needed in the new source catalog.
+Из них,aggregate_only,"Aggregate/helper line only, not a standalone source metric."
+Из них агрегаторы (вычет комиссии),aggregate_only,"Aggregate/helper line only, not a standalone source metric."
+Из них агрегаторы (вычет комиссии)МДТЗК,aggregate_only,"Aggregate/helper line only, not a standalone source metric."
+корпоратив,do_not_use,Explicitly marked as not needed in the new source catalog.
+КОРПОРАТИВЫ,block_title_only,"Legacy block title only, not a metric."
+Маркетинг Каналы,block_title_only,"Legacy block title only, not a metric."
+Ник,do_not_use,Explicitly marked as not needed in the new source catalog.
+ОКК,block_title_only,"Legacy block title only, not a metric."
+ОТЗЫВЫ,block_title_only,"Legacy block title only, not a metric."
+ОТЗЫВЫ НА ЯНДЕКСЕ,block_title_only,"Legacy block title only, not a metric."
+ОЦЕНКИ НА ПЛАНШЕТЕ,block_title_only,"Legacy block title only, not a metric."
+Поступления на счет,aggregate_only,"Aggregate/helper line only, not a standalone source metric."
+ПРОТОКОЛ-БОТ,block_title_only,"Legacy block title only, not a metric."
+ПРОТОКОЛ-БОТ NEW,block_title_only,"Legacy block title only, not a metric."
+САЙТ,block_title_only,"Legacy block title only, not a metric."
+Теракт-Возвраты,do_not_use,Explicitly marked as not needed in the new source catalog.
+Теракт - Оформлено сертификатами,do_not_use,Explicitly marked as not needed in the new source catalog.
+ФРАНШИЗА,block_title_only,"Legacy block title only, not a metric."

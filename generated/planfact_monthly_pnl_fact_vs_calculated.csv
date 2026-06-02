@@ -1,0 +1,299 @@
+workbook,business_unit,source_row_number,source_label,classification,target_metric_name,months_present,note
+Отчет о прибылях и убытках по периоду (5).xlsx,total,6,Выручка,fact,Revenue,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,7,Корректировка неучтенного,excluded,,8,Revenue child row is skipped; import only the top subtotal row `Выручка`.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,8,Другие продажи,excluded,,8,Revenue child row is skipped; import only the top subtotal row `Выручка`.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,9,Франшиза,excluded,,8,Revenue child row is skipped; import only the top subtotal row `Выручка`.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,10,Паушалка,excluded,,8,Revenue child row is skipped; import only the top subtotal row `Выручка`.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,11,Роялти,excluded,,8,Revenue child row is skipped; import only the top subtotal row `Выручка`.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,12,Продажа билетов B2C,excluded,,8,Revenue child row is skipped; import only the top subtotal row `Выручка`.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,13,Организация мероприятий (B2B),excluded,,8,Revenue child row is skipped; import only the top subtotal row `Выручка`.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,14,Нераспределенный доход,excluded,,8,Revenue child row is skipped; import only the top subtotal row `Выручка`.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,15,Переменные расходы,fact,Variable costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,16,Инвестиции,fact,Investment costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,17,ПЕРЕЕЗД,fact,Relocation costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,18,Техника,fact,Cost article - Техника,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,19,Свет/Мебель/Предметы интерьера,fact,Cost article - Свет/Мебель/Предметы интерьера,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,20,Ремонт/Стройка/Стройматериалы,fact,Cost article - Ремонт/Стройка/Стройматериалы,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,21,ФОТ - Переменные,fact,Costs - Salary variable,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,22,Другое ФОТ,fact,Cost article - Другое ФОТ,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,23,IT ФОТ,fact,Cost article - IT ФОТ,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,24,Актёры ФОТ,fact,Costs - Salary variable,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,25,ПРЕМИИ 2025,fact,Annual bonuses,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,26,Премии управленч персонал,fact,Cost article - Премии управленч персонал,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,27,Премии административный персонал,fact,Cost article - Премии административный персонал,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,28,Премии актёры,fact,Cost article - Премии актёры,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,29,Корпоративы ЗП проектные,fact,Costs - Salary variable,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,30,Другое,fact,Cost article - Другое,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,31,Расходы на B2B (продакшн),fact,Show production costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,32,Возвраты,fact,Returns amount,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,33,Для спектаклей,fact,Show production costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,34,Тех оснащение,fact,Cost article - Тех оснащение,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,35,Реквизит/костюмы,fact,Cost article - Реквизит/костюмы,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,36,Маркетинг и реклама,fact,Marketing costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,37,Маркетинг и реклама - Услуги типографии,fact,Marketing costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,38,Маркетинг и реклама - Агентские,fact,Marketing costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,39,Логистика,fact,Variable logistics costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,40,Такси,fact,Cost article - Такси,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,41,Доставка,fact,Cost article - Доставка,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,42,Разные налоги и взносы,fact,Cost article - Разные налоги и взносы,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,43,Постоянные расходы,fact,Fixed costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,44,ФОТ - Постоянные,fact,Costs - Salary fixed,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,45,Управленческий персонал ФОТ,fact,Cost article - Управленческий персонал ФОТ,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,46,Административный персонал ФОТ,fact,Cost article - Административный персонал ФОТ,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,47,Корпоративы фикс,fact,Cost article - Корпоративы фикс,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,48,Помещение и офис,fact,Venue and office costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,49,Уборка,fact,Cost article - Уборка,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,50,Мебель и предметы интерьера,fact,Cost article - Мебель и предметы интерьера,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,51,Ремонт и обслуживание,fact,Cost article - Ремонт и обслуживание,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,52,Расходники (офисные),fact,Cost article - Расходники (офисные),8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,53,Ежемесячные счета,fact,Cost article - Ежемесячные счета,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,54,Аренда и коммуналка,fact,Cost article - Аренда и коммуналка,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,55,Сервисы и их настройка,fact,Services and setup costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,56,КОМИССИИ БАНКОВ,fact,Cost article - КОМИССИИ БАНКОВ,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,57,Отсмотр видео,fact,Cost article - Отсмотр видео,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,58,Командировочные,fact,Business travel costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,59,Операционная прибыль,fact,Operating profit,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,60,Операционная рентабельность,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,61,Прочие доходы,fact,Other income,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,62,Возвраты покупок,fact,Other income - Purchase returns,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,63,Проценты по вкладам,fact,Other income - Deposit interest,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,64,Прочие расходы,fact,Other expenses,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,65,EBITDA,fact,EBITDA,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,66,Рентабельность по EBITDA,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,67,Амортизация,fact,Cost article - Амортизация,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,68,Прибыль до процентов и налогов (EBIT),fact,EBIT,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,69,Рентабельность по EBIT,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,70,Проценты по кредитам и займам,fact,Cost article - Проценты по кредитам и займам,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,71,Прибыль до налогов (EBT),fact,EBT,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,72,Рентабельность по EBT,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,73,Налог на прибыль (доходы),fact,Cost article - Налог на прибыль (доходы),8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,74,Чистая прибыль (убыток),fact,Net profit,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,75,Рентабельность чистой прибыли,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,76,Дивиденды,fact,Dividends,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (5).xlsx,total,77,Нераспределенная прибыль,fact,Retained earnings,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,7,Выручка,fact,Revenue,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,8,Переменные расходы,fact,Variable costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,9,ФОТ - Переменные,fact,Costs - Salary variable,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,10,Другое ФОТ,fact,Cost article - Другое ФОТ,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,11,IT ФОТ,fact,Cost article - IT ФОТ,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,12,Другое,fact,Cost article - Другое,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,13,Маркетинг и реклама,fact,Marketing costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,14,Логистика,fact,Variable logistics costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,15,Такси,fact,Cost article - Такси,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,16,Разные налоги и взносы,fact,Cost article - Разные налоги и взносы,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,17,Постоянные расходы,fact,Fixed costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,18,ФОТ - Постоянные,fact,Costs - Salary fixed,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,19,Управленческий персонал ФОТ,fact,Cost article - Управленческий персонал ФОТ,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,20,Сервисы и их настройка,fact,Services and setup costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,21,КОМИССИИ БАНКОВ,fact,Cost article - КОМИССИИ БАНКОВ,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,22,Отсмотр видео,fact,Cost article - Отсмотр видео,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,23,Командировочные,fact,Business travel costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,24,Операционная прибыль,fact,Operating profit,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,25,Операционная рентабельность,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,26,Прочие доходы,fact,Other income,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,27,Проценты по вкладам,fact,Other income - Deposit interest,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,28,Прочие расходы,fact,Other expenses,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,29,EBITDA,fact,EBITDA,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,30,Рентабельность по EBITDA,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,31,Амортизация,fact,Cost article - Амортизация,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,32,Прибыль до процентов и налогов (EBIT),fact,EBIT,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,33,Рентабельность по EBIT,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,34,Проценты по кредитам и займам,fact,Cost article - Проценты по кредитам и займам,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,35,Прибыль до налогов (EBT),fact,EBT,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,36,Рентабельность по EBT,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,37,Налог на прибыль (доходы),fact,Cost article - Налог на прибыль (доходы),8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,38,Чистая прибыль (убыток),fact,Net profit,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,39,Рентабельность чистой прибыли,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,40,Дивиденды,fact,Dividends,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (7).xlsx,general,41,Нераспределенная прибыль,fact,Retained earnings,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,7,Выручка,fact,Revenue,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,8,Другие продажи,excluded,,8,Revenue child row is skipped; import only the top subtotal row `Выручка`.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,9,Продажа билетов B2C,excluded,,8,Revenue child row is skipped; import only the top subtotal row `Выручка`.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,10,Переменные расходы,fact,Variable costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,11,Инвестиции,fact,Investment costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,12,ПЕРЕЕЗД,fact,Relocation costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,13,Техника,fact,Cost article - Техника,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,14,Свет/Мебель/Предметы интерьера,fact,Cost article - Свет/Мебель/Предметы интерьера,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,15,Ремонт/Стройка/Стройматериалы,fact,Cost article - Ремонт/Стройка/Стройматериалы,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,16,ФОТ - Переменные,fact,Costs - Salary variable,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,17,Другое ФОТ,fact,Cost article - Другое ФОТ,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,18,IT ФОТ,fact,Cost article - IT ФОТ,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,19,Актёры ФОТ,fact,Costs - Salary variable,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,20,ПРЕМИИ 2025,fact,Annual bonuses,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,21,Премии управленч персонал,fact,Cost article - Премии управленч персонал,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,22,Премии административный персонал,fact,Cost article - Премии административный персонал,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,23,Премии актёры,fact,Cost article - Премии актёры,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,24,Другое,fact,Cost article - Другое,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,25,Возвраты,fact,Returns amount,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,26,Для спектаклей,fact,Show production costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,27,Тех оснащение,fact,Cost article - Тех оснащение,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,28,Реквизит/костюмы,fact,Cost article - Реквизит/костюмы,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,29,Маркетинг и реклама,fact,Marketing costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,30,Маркетинг и реклама - Услуги типографии,fact,Marketing costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,31,Маркетинг и реклама - Агентские,fact,Marketing costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,32,Логистика,fact,Variable logistics costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,33,Такси,fact,Cost article - Такси,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,34,Доставка,fact,Cost article - Доставка,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,35,Разные налоги и взносы,fact,Cost article - Разные налоги и взносы,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,36,Постоянные расходы,fact,Fixed costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,37,ФОТ - Постоянные,fact,Costs - Salary fixed,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,38,Управленческий персонал ФОТ,fact,Cost article - Управленческий персонал ФОТ,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,39,Административный персонал ФОТ,fact,Cost article - Административный персонал ФОТ,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,40,Помещение и офис,fact,Venue and office costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,41,Уборка,fact,Cost article - Уборка,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,42,Мебель и предметы интерьера,fact,Cost article - Мебель и предметы интерьера,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,43,Ремонт и обслуживание,fact,Cost article - Ремонт и обслуживание,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,44,Расходники (офисные),fact,Cost article - Расходники (офисные),8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,45,Ежемесячные счета,fact,Cost article - Ежемесячные счета,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,46,Аренда и коммуналка,fact,Cost article - Аренда и коммуналка,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,47,Сервисы и их настройка,fact,Services and setup costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,48,КОМИССИИ БАНКОВ,fact,Cost article - КОМИССИИ БАНКОВ,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,49,Отсмотр видео,fact,Cost article - Отсмотр видео,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,50,Операционная прибыль,fact,Operating profit,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,51,Операционная рентабельность,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,52,Прочие доходы,fact,Other income,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,53,Возвраты покупок,fact,Other income - Purchase returns,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,54,Проценты по вкладам,fact,Other income - Deposit interest,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,55,Прочие расходы,fact,Other expenses,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,56,EBITDA,fact,EBITDA,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,57,Рентабельность по EBITDA,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,58,Амортизация,fact,Cost article - Амортизация,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,59,Прибыль до процентов и налогов (EBIT),fact,EBIT,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,60,Рентабельность по EBIT,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,61,Проценты по кредитам и займам,fact,Cost article - Проценты по кредитам и займам,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,62,Прибыль до налогов (EBT),fact,EBT,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,63,Рентабельность по EBT,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,64,Налог на прибыль (доходы),fact,Cost article - Налог на прибыль (доходы),8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,65,Чистая прибыль (убыток),fact,Net profit,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,66,Рентабельность чистой прибыли,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,67,Дивиденды,fact,Dividends,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (6).xlsx,b2c_moscow,68,Нераспределенная прибыль,fact,Retained earnings,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,7,Выручка,fact,Revenue,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,8,Продажа билетов B2C,excluded,,8,Revenue child row is skipped; import only the top subtotal row `Выручка`.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,9,Переменные расходы,fact,Variable costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,10,ФОТ - Переменные,fact,Costs - Salary variable,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,11,Другое ФОТ,fact,Cost article - Другое ФОТ,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,12,IT ФОТ,fact,Cost article - IT ФОТ,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,13,Актёры ФОТ,fact,Costs - Salary variable,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,14,ПРЕМИИ 2025,fact,Annual bonuses,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,15,Премии управленч персонал,fact,Cost article - Премии управленч персонал,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,16,Премии административный персонал,fact,Cost article - Премии административный персонал,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,17,Премии актёры,fact,Cost article - Премии актёры,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,18,Другое,fact,Cost article - Другое,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,19,Возвраты,fact,Returns amount,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,20,Для спектаклей,fact,Show production costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,21,Реквизит/костюмы,fact,Cost article - Реквизит/костюмы,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,22,Маркетинг и реклама,fact,Marketing costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,23,Маркетинг и реклама - Услуги типографии,fact,Marketing costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,24,Маркетинг и реклама - Агентские,fact,Marketing costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,25,Логистика,fact,Variable logistics costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,26,Такси,fact,Cost article - Такси,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,27,Доставка,fact,Cost article - Доставка,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,28,Разные налоги и взносы,fact,Cost article - Разные налоги и взносы,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,29,Постоянные расходы,fact,Fixed costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,30,ФОТ - Постоянные,fact,Costs - Salary fixed,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,31,Управленческий персонал ФОТ,fact,Cost article - Управленческий персонал ФОТ,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,32,Административный персонал ФОТ,fact,Cost article - Административный персонал ФОТ,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,33,Помещение и офис,fact,Venue and office costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,34,Уборка,fact,Cost article - Уборка,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,35,Мебель и предметы интерьера,fact,Cost article - Мебель и предметы интерьера,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,36,Ремонт и обслуживание,fact,Cost article - Ремонт и обслуживание,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,37,Расходники (офисные),fact,Cost article - Расходники (офисные),8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,38,Ежемесячные счета,fact,Cost article - Ежемесячные счета,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,39,Аренда и коммуналка,fact,Cost article - Аренда и коммуналка,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,40,Сервисы и их настройка,fact,Services and setup costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,41,КОМИССИИ БАНКОВ,fact,Cost article - КОМИССИИ БАНКОВ,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,42,Отсмотр видео,fact,Cost article - Отсмотр видео,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,43,Командировочные,fact,Business travel costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,44,Операционная прибыль,fact,Operating profit,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,45,Операционная рентабельность,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,46,Прочие доходы,fact,Other income,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,47,Возвраты покупок,fact,Other income - Purchase returns,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,48,Проценты по вкладам,fact,Other income - Deposit interest,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,49,Прочие расходы,fact,Other expenses,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,50,EBITDA,fact,EBITDA,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,51,Рентабельность по EBITDA,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,52,Амортизация,fact,Cost article - Амортизация,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,53,Прибыль до процентов и налогов (EBIT),fact,EBIT,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,54,Рентабельность по EBIT,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,55,Проценты по кредитам и займам,fact,Cost article - Проценты по кредитам и займам,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,56,Прибыль до налогов (EBT),fact,EBT,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,57,Рентабельность по EBT,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,58,Налог на прибыль (доходы),fact,Cost article - Налог на прибыль (доходы),8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,59,Чистая прибыль (убыток),fact,Net profit,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,60,Рентабельность чистой прибыли,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,61,Дивиденды,fact,Dividends,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (8).xlsx,b2c_spb,62,Нераспределенная прибыль,fact,Retained earnings,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,7,Выручка,fact,Revenue,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,8,Корректировка неучтенного,excluded,,8,Revenue child row is skipped; import only the top subtotal row `Выручка`.
+B2B.xlsx,b2b,9,Организация мероприятий (B2B),excluded,,8,Revenue child row is skipped; import only the top subtotal row `Выручка`.
+B2B.xlsx,b2b,10,Переменные расходы,fact,Variable costs,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,11,ФОТ - Переменные,fact,Costs - Salary variable,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,12,Другое ФОТ,fact,Cost article - Другое ФОТ,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,13,IT ФОТ,fact,Cost article - IT ФОТ,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,14,ПРЕМИИ 2025,fact,Annual bonuses,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,15,Корпоративы ЗП проектные,fact,Costs - Salary variable,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,16,Другое,fact,Cost article - Другое,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,17,Расходы на B2B (продакшн),fact,Show production costs,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,18,Маркетинг и реклама,fact,Marketing costs,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,19,Разные налоги и взносы,fact,Cost article - Разные налоги и взносы,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,20,Постоянные расходы,fact,Fixed costs,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,21,ФОТ - Постоянные,fact,Costs - Salary fixed,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,22,Управленческий персонал ФОТ,fact,Cost article - Управленческий персонал ФОТ,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,23,Административный персонал ФОТ,fact,Cost article - Административный персонал ФОТ,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,24,Корпоративы фикс,fact,Cost article - Корпоративы фикс,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,25,Помещение и офис,fact,Venue and office costs,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,26,Расходники (офисные),fact,Cost article - Расходники (офисные),8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,27,Аренда и коммуналка,fact,Cost article - Аренда и коммуналка,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,28,Сервисы и их настройка,fact,Services and setup costs,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,29,КОМИССИИ БАНКОВ,fact,Cost article - КОМИССИИ БАНКОВ,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,30,Операционная прибыль,fact,Operating profit,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,31,Операционная рентабельность,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+B2B.xlsx,b2b,32,Прочие доходы,fact,Other income,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,33,Возвраты покупок,fact,Other income - Purchase returns,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,34,Проценты по вкладам,fact,Other income - Deposit interest,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,35,Прочие расходы,fact,Other expenses,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,36,EBITDA,fact,EBITDA,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,37,Рентабельность по EBITDA,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+B2B.xlsx,b2b,38,Амортизация,fact,Cost article - Амортизация,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,39,Прибыль до процентов и налогов (EBIT),fact,EBIT,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,40,Рентабельность по EBIT,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+B2B.xlsx,b2b,41,Проценты по кредитам и займам,fact,Cost article - Проценты по кредитам и займам,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,42,Прибыль до налогов (EBT),fact,EBT,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,43,Рентабельность по EBT,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+B2B.xlsx,b2b,44,Налог на прибыль (доходы),fact,Cost article - Налог на прибыль (доходы),8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,45,Чистая прибыль (убыток),fact,Net profit,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,46,Рентабельность чистой прибыли,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+B2B.xlsx,b2b,47,Дивиденды,fact,Dividends,8,Observed monthly P&L row; import into fact_metric_observation.
+B2B.xlsx,b2b,48,Нераспределенная прибыль,fact,Retained earnings,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,7,Выручка,fact,Revenue,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,8,Франшиза,excluded,,8,Revenue child row is skipped; import only the top subtotal row `Выручка`.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,9,Паушалка,excluded,,8,Revenue child row is skipped; import only the top subtotal row `Выручка`.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,10,Роялти,excluded,,8,Revenue child row is skipped; import only the top subtotal row `Выручка`.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,11,Переменные расходы,fact,Variable costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,12,ФОТ - Переменные,fact,Costs - Salary variable,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,13,Другое ФОТ,fact,Cost article - Другое ФОТ,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,14,Другое,fact,Cost article - Другое,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,15,Для спектаклей,fact,Show production costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,16,Реквизит/костюмы,fact,Cost article - Реквизит/костюмы,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,17,Логистика,fact,Variable logistics costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,18,Доставка,fact,Cost article - Доставка,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,19,Постоянные расходы,fact,Fixed costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,20,Сервисы и их настройка,fact,Services and setup costs,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,21,Операционная прибыль,fact,Operating profit,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,22,Операционная рентабельность,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,23,Прочие доходы,fact,Other income,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,24,Прочие расходы,fact,Other expenses,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,25,EBITDA,fact,EBITDA,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,26,Рентабельность по EBITDA,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,27,Амортизация,fact,Cost article - Амортизация,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,28,Прибыль до процентов и налогов (EBIT),fact,EBIT,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,29,Рентабельность по EBIT,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,30,Проценты по кредитам и займам,fact,Cost article - Проценты по кредитам и займам,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,31,Прибыль до налогов (EBT),fact,EBT,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,32,Рентабельность по EBT,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,33,Налог на прибыль (доходы),fact,Cost article - Налог на прибыль (доходы),8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,34,Чистая прибыль (убыток),fact,Net profit,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,35,Рентабельность чистой прибыли,calculated,,8,Derived percentage / margin row; do not import into raw fact layer.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,36,Дивиденды,fact,Dividends,8,Observed monthly P&L row; import into fact_metric_observation.
+Отчет о прибылях и убытках по периоду (9).xlsx,franchise,37,Нераспределенная прибыль,fact,Retained earnings,8,Observed monthly P&L row; import into fact_metric_observation.

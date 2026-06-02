@@ -1,0 +1,189 @@
+calculated_metric_key,calculated_metric_name,period_granularity,business_unit,dependency_role,dependency_metric_key,dependency_granularity,status,notes
+operating_profit_margin,Операционная рентабельность,month,b2b,numerator,operating_profit,month,active,Monthly numerator from PlanFact operating profit.
+operating_profit_margin,Операционная рентабельность,month,b2b,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+operating_profit_margin,Операционная рентабельность,month,b2c_moscow,numerator,operating_profit,month,active,Monthly numerator from PlanFact operating profit.
+operating_profit_margin,Операционная рентабельность,month,b2c_moscow,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+operating_profit_margin,Операционная рентабельность,month,b2c_spb,numerator,operating_profit,month,active,Monthly numerator from PlanFact operating profit.
+operating_profit_margin,Операционная рентабельность,month,b2c_spb,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+operating_profit_margin,Операционная рентабельность,month,franchise,numerator,operating_profit,month,active,Monthly numerator from PlanFact operating profit.
+operating_profit_margin,Операционная рентабельность,month,franchise,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+operating_profit_margin,Операционная рентабельность,month,general,numerator,operating_profit,month,active,Monthly numerator from PlanFact operating profit.
+operating_profit_margin,Операционная рентабельность,month,general,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+ebitda_margin,Рентабельность по EBITDA,month,b2b,numerator,ebitda,month,active,Monthly numerator from PlanFact EBITDA.
+ebitda_margin,Рентабельность по EBITDA,month,b2b,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+ebitda_margin,Рентабельность по EBITDA,month,b2c_moscow,numerator,ebitda,month,active,Monthly numerator from PlanFact EBITDA.
+ebitda_margin,Рентабельность по EBITDA,month,b2c_moscow,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+ebitda_margin,Рентабельность по EBITDA,month,b2c_spb,numerator,ebitda,month,active,Monthly numerator from PlanFact EBITDA.
+ebitda_margin,Рентабельность по EBITDA,month,b2c_spb,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+ebitda_margin,Рентабельность по EBITDA,month,franchise,numerator,ebitda,month,active,Monthly numerator from PlanFact EBITDA.
+ebitda_margin,Рентабельность по EBITDA,month,franchise,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+ebitda_margin,Рентабельность по EBITDA,month,general,numerator,ebitda,month,active,Monthly numerator from PlanFact EBITDA.
+ebitda_margin,Рентабельность по EBITDA,month,general,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+ebit_margin,Рентабельность по EBIT,month,b2b,numerator,ebit,month,active,Monthly numerator from PlanFact EBIT.
+ebit_margin,Рентабельность по EBIT,month,b2b,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+ebit_margin,Рентабельность по EBIT,month,b2c_moscow,numerator,ebit,month,active,Monthly numerator from PlanFact EBIT.
+ebit_margin,Рентабельность по EBIT,month,b2c_moscow,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+ebit_margin,Рентабельность по EBIT,month,b2c_spb,numerator,ebit,month,active,Monthly numerator from PlanFact EBIT.
+ebit_margin,Рентабельность по EBIT,month,b2c_spb,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+ebit_margin,Рентабельность по EBIT,month,franchise,numerator,ebit,month,active,Monthly numerator from PlanFact EBIT.
+ebit_margin,Рентабельность по EBIT,month,franchise,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+ebit_margin,Рентабельность по EBIT,month,general,numerator,ebit,month,active,Monthly numerator from PlanFact EBIT.
+ebit_margin,Рентабельность по EBIT,month,general,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+ebt_margin,Рентабельность по EBT,month,b2b,numerator,ebt,month,active,Monthly numerator from PlanFact EBT.
+ebt_margin,Рентабельность по EBT,month,b2b,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+ebt_margin,Рентабельность по EBT,month,b2c_moscow,numerator,ebt,month,active,Monthly numerator from PlanFact EBT.
+ebt_margin,Рентабельность по EBT,month,b2c_moscow,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+ebt_margin,Рентабельность по EBT,month,b2c_spb,numerator,ebt,month,active,Monthly numerator from PlanFact EBT.
+ebt_margin,Рентабельность по EBT,month,b2c_spb,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+ebt_margin,Рентабельность по EBT,month,franchise,numerator,ebt,month,active,Monthly numerator from PlanFact EBT.
+ebt_margin,Рентабельность по EBT,month,franchise,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+ebt_margin,Рентабельность по EBT,month,general,numerator,ebt,month,active,Monthly numerator from PlanFact EBT.
+ebt_margin,Рентабельность по EBT,month,general,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+net_profit_margin,Рентабельность чистой прибыли,month,b2b,numerator,net_profit,month,active,Monthly numerator from PlanFact net profit.
+net_profit_margin,Рентабельность чистой прибыли,month,b2b,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+net_profit_margin,Рентабельность чистой прибыли,month,b2c_moscow,numerator,net_profit,month,active,Monthly numerator from PlanFact net profit.
+net_profit_margin,Рентабельность чистой прибыли,month,b2c_moscow,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+net_profit_margin,Рентабельность чистой прибыли,month,b2c_spb,numerator,net_profit,month,active,Monthly numerator from PlanFact net profit.
+net_profit_margin,Рентабельность чистой прибыли,month,b2c_spb,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+net_profit_margin,Рентабельность чистой прибыли,month,franchise,numerator,net_profit,month,active,Monthly numerator from PlanFact net profit.
+net_profit_margin,Рентабельность чистой прибыли,month,franchise,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+net_profit_margin,Рентабельность чистой прибыли,month,general,numerator,net_profit,month,active,Monthly numerator from PlanFact net profit.
+net_profit_margin,Рентабельность чистой прибыли,month,general,denominator,revenue,month,active,Monthly denominator from PlanFact revenue.
+average_show_load_sold_tickets,Средняя загрузка шоу (выкупленные билеты),week,b2c_moscow,numerator,number_of_tickets,week,active,Weekly numerator from observed ticket sales.
+average_show_load_sold_tickets,Средняя загрузка шоу (выкупленные билеты),week,b2c_moscow,denominator,number_of_shows,week,active,Weekly denominator from observed show count.
+average_show_load_sold_tickets,Средняя загрузка шоу (выкупленные билеты),week,b2c_spb,numerator,number_of_tickets,week,active,Weekly numerator from observed ticket sales.
+average_show_load_sold_tickets,Средняя загрузка шоу (выкупленные билеты),week,b2c_spb,denominator,number_of_shows,week,active,Weekly denominator from observed show count.
+average_show_load_visitors,Средняя загрузка шоу (по факту дошедшие зрители),week,b2c_moscow,numerator,number_of_show_visitors,week,active,Weekly show-level numerator from observed show visitors.
+average_show_load_visitors,Средняя загрузка шоу (по факту дошедшие зрители),week,b2c_moscow,denominator,number_of_shows,week,active,Weekly show-level denominator from observed show count.
+average_show_load_visitors,Средняя загрузка шоу (по факту дошедшие зрители),week,b2c_moscow,numerator,number_of_show_visitors,week,active,Weekly numerator from observed show visitors.
+average_show_load_visitors,Средняя загрузка шоу (по факту дошедшие зрители),week,b2c_moscow,denominator,number_of_shows,week,active,Weekly denominator from observed show count.
+average_show_load_visitors,Средняя загрузка шоу (по факту дошедшие зрители),week,b2c_spb,numerator,number_of_show_visitors,week,active,Weekly show-level numerator from observed show visitors.
+average_show_load_visitors,Средняя загрузка шоу (по факту дошедшие зрители),week,b2c_spb,denominator,number_of_shows,week,active,Weekly show-level denominator from observed show count.
+average_show_load_visitors,Средняя загрузка шоу (по факту дошедшие зрители),week,b2c_spb,numerator,number_of_show_visitors,week,active,Weekly numerator from observed show visitors.
+average_show_load_visitors,Средняя загрузка шоу (по факту дошедшие зрители),week,b2c_spb,denominator,number_of_shows,week,active,Weekly denominator from observed show count.
+average_tickets_per_order,Среднее количество билетов в заказе,week,b2c_moscow,numerator,number_of_tickets,week,active,Weekly show-level numerator from observed ticket sales.
+average_tickets_per_order,Среднее количество билетов в заказе,week,b2c_moscow,denominator,number_of_orders,week,active,Weekly show-level denominator from observed orders.
+average_tickets_per_order,Среднее количество билетов в заказе,week,b2c_spb,numerator,number_of_tickets,week,active,Weekly show-level numerator from observed ticket sales.
+average_tickets_per_order,Среднее количество билетов в заказе,week,b2c_spb,denominator,number_of_orders,week,active,Weekly show-level denominator from observed orders.
+variable_salary_share_of_revenue,доля переменных зп в выручке,week,b2c_moscow,numerator,costs_salary_variable,week,active,Weekly numerator from ERP variable salary observations aggregated per show.
+variable_salary_share_of_revenue,доля переменных зп в выручке,week,b2c_moscow,denominator,revenue,week,active,Weekly denominator from ticket revenue observations aggregated per show.
+variable_salary_share_of_revenue,доля переменных зп в выручке,week,b2c_spb,numerator,costs_salary_variable,week,active,Weekly numerator from ERP variable salary observations aggregated per show.
+variable_salary_share_of_revenue,доля переменных зп в выручке,week,b2c_spb,denominator,revenue,week,active,Weekly denominator from ticket revenue observations aggregated per show.
+channel_share_of_website_visits,доля каналов в посещаемости страниц,week,b2c_moscow,numerator,website_visits,week,active,Weekly numerator from channel-level website visits.
+channel_share_of_website_visits,доля каналов в посещаемости страниц,week,b2c_moscow,denominator,website_visits,week,active,Weekly denominator from total website visits across channels in the same period.
+channel_share_of_website_visits,доля каналов в посещаемости страниц,week,b2c_spb,numerator,website_visits,week,active,Weekly numerator from channel-level website visits.
+channel_share_of_website_visits,доля каналов в посещаемости страниц,week,b2c_spb,denominator,website_visits,week,active,Weekly denominator from total website visits across channels in the same period.
+certificate_revenue_share,доля сертификатов в выручке,week,b2c_moscow,numerator,,week,pending,Pending until certificate-revenue numerator is formalized.
+certificate_revenue_share,доля сертификатов в выручке,week,b2c_moscow,denominator,,week,pending,Pending until revenue denominator is formalized.
+certificate_revenue_share,доля сертификатов в выручке,week,b2c_spb,numerator,,week,pending,Pending until certificate-revenue numerator is formalized.
+certificate_revenue_share,доля сертификатов в выручке,week,b2c_spb,denominator,,week,pending,Pending until revenue denominator is formalized.
+returns_share_of_revenue,% возвратов от выручки,week,b2c_moscow,numerator,,week,pending,Pending until returns numerator is formalized.
+returns_share_of_revenue,% возвратов от выручки,week,b2c_moscow,denominator,,week,pending,Pending until revenue denominator is formalized.
+returns_share_of_revenue,% возвратов от выручки,week,b2c_spb,numerator,,week,pending,Pending until returns numerator is formalized.
+returns_share_of_revenue,% возвратов от выручки,week,b2c_spb,denominator,,week,pending,Pending until revenue denominator is formalized.
+marketing_cost_share_of_revenue,% общ. к выручке,week,b2c_moscow,numerator,,week,pending,Pending until marketing-cost numerator is formalized.
+marketing_cost_share_of_revenue,% общ. к выручке,week,b2c_moscow,denominator,,week,pending,Pending until revenue denominator is formalized.
+site_order_conversion,"конверсия в заказ,%",week,b2c_moscow,numerator,,week,pending,Pending until order-conversion dependency pair is formalized.
+site_order_conversion,"конверсия в заказ,%",week,b2c_moscow,denominator,,week,pending,Pending until order-conversion dependency pair is formalized.
+site_order_conversion,"конверсия в заказ, %",week,b2c_spb,numerator,,week,pending,Pending until order-conversion dependency pair is formalized.
+site_order_conversion,"конверсия в заказ, %",week,b2c_spb,denominator,,week,pending,Pending until order-conversion dependency pair is formalized.
+site_order_conversion,Конверсия визит-заказ,week,b2c_moscow,numerator,number_of_orders,week,active,Weekly show-level numerator from observed orders.
+site_order_conversion,Конверсия визит-заказ,week,b2c_moscow,denominator,website_visits,week,active,Weekly show-level denominator from show page visits.
+site_order_conversion,Конверсия визит-заказ,week,b2c_spb,numerator,number_of_orders,week,active,Weekly show-level numerator from observed orders.
+site_order_conversion,Конверсия визит-заказ,week,b2c_spb,denominator,website_visits,week,active,Weekly show-level denominator from show page visits.
+site_ticket_conversion_from_session,"конверсия в билет из сеанса, %",week,b2c_moscow,numerator,,week,pending,Pending until ticket-conversion dependency pair is formalized.
+site_ticket_conversion_from_session,"конверсия в билет из сеанса, %",week,b2c_moscow,denominator,,week,pending,Pending until ticket-conversion dependency pair is formalized.
+site_ticket_conversion,"конверсия в билет, %",week,b2c_spb,numerator,,week,pending,Pending until ticket-conversion dependency pair is formalized.
+site_ticket_conversion,"конверсия в билет, %",week,b2c_spb,denominator,,week,pending,Pending until ticket-conversion dependency pair is formalized.
+partner_commission,Комиссия партнера,week,b2c_moscow,numerator,revenue,week,active,Weekly gross revenue by show and partner from ERP; commission amount is calculated via partner_commission_rate_registry.csv.
+partner_commission,Комиссия партнера,week,b2c_spb,numerator,revenue,week,active,Weekly gross revenue by show and partner from ERP; commission amount is calculated via partner_commission_rate_registry.csv.
+average_sd_load_sold_tickets,Средняя загрузка СД (выкупленные билеты),week,b2c_moscow,numerator,,week,pending,Pending until SD-specific atomic source is formalized.
+average_sd_load_sold_tickets,Средняя загрузка СД (выкупленные билеты),week,b2c_moscow,denominator,,week,pending,Pending until SD-specific atomic source is formalized.
+average_sd_load_sold_tickets,Средняя загрузка СД (выкупленные билеты),week,b2c_spb,numerator,,week,pending,Pending until SD-specific atomic source is formalized.
+average_sd_load_sold_tickets,Средняя загрузка СД (выкупленные билеты),week,b2c_spb,denominator,,week,pending,Pending until SD-specific atomic source is formalized.
+average_sd_load_visitors,Средняя загрузка СД (по факту дошедшие зрители),week,b2c_moscow,numerator,,week,pending,Pending until SD-specific atomic source is formalized.
+average_sd_load_visitors,Средняя загрузка СД (по факту дошедшие зрители),week,b2c_moscow,denominator,,week,pending,Pending until SD-specific atomic source is formalized.
+average_sd_load_visitors,Средняя загрузка СД (по факту дошедшие зрители),week,b2c_spb,numerator,,week,pending,Pending until SD-specific atomic source is formalized.
+average_sd_load_visitors,Средняя загрузка СД (по факту дошедшие зрители),week,b2c_spb,denominator,,week,pending,Pending until SD-specific atomic source is formalized.
+average_show_load_legacy,Средняя загрузка шоу,week,b2c_spb,numerator,,week,pending,Pending until legacy load label is normalized to explicit numerator.
+average_show_load_legacy,Средняя загрузка шоу,week,b2c_spb,denominator,,week,pending,Pending until legacy load label is normalized to explicit denominator.
+average_sd_load_legacy,Средняя загрузка СД,week,b2c_spb,numerator,,week,pending,Pending until legacy SD load label is normalized to explicit numerator.
+average_sd_load_legacy,Средняя загрузка СД,week,b2c_spb,denominator,,week,pending,Pending until legacy SD load label is normalized to explicit denominator.
+weekly_review_rating_overall,Средняя оценка по отзывам за неделю (общая),week,b2c_moscow,numerator,,week,pending,Pending until review-average numerator is formalized.
+weekly_review_rating_overall,Средняя оценка по отзывам за неделю (общая),week,b2c_moscow,denominator,,week,pending,Pending until review-average denominator is formalized.
+weekly_review_rating_overall,Средняя оценка по отзывам за неделю (общая),week,b2c_spb,numerator,,week,pending,Pending until review-average numerator is formalized.
+weekly_review_rating_overall,Средняя оценка по отзывам за неделю (общая),week,b2c_spb,denominator,,week,pending,Pending until review-average denominator is formalized.
+weekly_review_rating_genuine,Средняя оценка по отзывам за неделю (по настоящим),week,b2c_moscow,numerator,,week,pending,Pending until review-average numerator is formalized.
+weekly_review_rating_genuine,Средняя оценка по отзывам за неделю (по настоящим),week,b2c_moscow,denominator,,week,pending,Pending until review-average denominator is formalized.
+weekly_review_rating_genuine,Средняя оценка по отзывам за неделю (по настоящим),week,b2c_spb,numerator,,week,pending,Pending until review-average numerator is formalized.
+weekly_review_rating_genuine,Средняя оценка по отзывам за неделю (по настоящим),week,b2c_spb,denominator,,week,pending,Pending until review-average denominator is formalized.
+negative_reviews_share_from_visitors,Процент негативных (от посетивших),week,b2c_moscow,numerator,,week,pending,Pending until negative-review numerator is formalized.
+negative_reviews_share_from_visitors,Процент негативных (от посетивших),week,b2c_moscow,denominator,,week,pending,Pending until visitor denominator is formalized.
+negative_reviews_share_from_visitors,Процент негативных (от посетивших),week,b2c_spb,numerator,,week,pending,Pending until negative-review numerator is formalized.
+negative_reviews_share_from_visitors,Процент негативных (от посетивших),week,b2c_spb,denominator,,week,pending,Pending until visitor denominator is formalized.
+weekly_review_rating_without_negatives_after_resolution,Средняя оценка за неделю без негативных, если ликвидировали (общая),week,b2c_moscow,numerator,,week,pending,Pending until review-average numerator is formalized.
+weekly_review_rating_without_negatives_after_resolution,Средняя оценка за неделю без негативных, если ликвидировали (общая),week,b2c_moscow,denominator,,week,pending,Pending until review-average denominator is formalized.
+weekly_review_rating_without_negatives_after_resolution,Средняя оценка за неделю без негативных, если ликвидировали (общая),week,b2c_spb,numerator,,week,pending,Pending until review-average numerator is formalized.
+weekly_review_rating_without_negatives_after_resolution,Средняя оценка за неделю без негативных, если ликвидировали (общая),week,b2c_spb,denominator,,week,pending,Pending until review-average denominator is formalized.
+overall_review_rating,Средняя общая,week,b2c_moscow,numerator,,week,pending,Pending until overall-review numerator is formalized.
+overall_review_rating,Средняя общая,week,b2c_moscow,denominator,,week,pending,Pending until overall-review denominator is formalized.
+overall_review_rating,Средняя общая,week,b2c_spb,numerator,,week,pending,Pending until overall-review numerator is formalized.
+overall_review_rating,Средняя общая,week,b2c_spb,denominator,,week,pending,Pending until overall-review denominator is formalized.
+overall_review_rating,Средняя общая,week,b2c_moscow,numerator,sum_of_post_show_ratings,week,active,Weekly show-level numerator from summed survey ratings.
+overall_review_rating,Средняя общая,week,b2c_moscow,denominator,number_of_show_rating_responses,week,active,Weekly show-level denominator from survey rating responses.
+overall_review_rating,Средняя общая,week,b2c_spb,numerator,sum_of_post_show_ratings,week,active,Weekly show-level numerator from summed survey ratings.
+overall_review_rating,Средняя общая,week,b2c_spb,denominator,number_of_show_rating_responses,week,active,Weekly show-level denominator from survey rating responses.
+tablet_completion_share,Процент заполнивших от всех зрителей,week,b2c_moscow,numerator,,week,pending,Pending until tablet numerator is formalized.
+tablet_completion_share,Процент заполнивших от всех зрителей,week,b2c_moscow,denominator,,week,pending,Pending until tablet denominator is formalized.
+tablet_completion_share,Процент заполнивших от всех зрителей,week,b2c_spb,numerator,,week,pending,Pending until tablet numerator is formalized.
+tablet_completion_share,Процент заполнивших от всех зрителей,week,b2c_spb,denominator,,week,pending,Pending until tablet denominator is formalized.
+tablet_average_score,Средняя оценка,week,b2c_moscow,numerator,,week,pending,Pending until tablet-average numerator is formalized.
+tablet_average_score,Средняя оценка,week,b2c_moscow,denominator,,week,pending,Pending until tablet-average denominator is formalized.
+tablet_average_score,Средняя оценка,week,b2c_spb,numerator,,week,pending,Pending until tablet-average numerator is formalized.
+tablet_average_score,Средняя оценка,week,b2c_spb,denominator,,week,pending,Pending until tablet-average denominator is formalized.
+share_without_violations_from_reviewed,Процент без нарушений от отсмотренных,week,b2c_moscow,numerator,,week,pending,Pending until reviewed-show numerator is formalized.
+share_without_violations_from_reviewed,Процент без нарушений от отсмотренных,week,b2c_moscow,denominator,,week,pending,Pending until reviewed-show denominator is formalized.
+share_without_violations_from_reviewed,Процент без нарушений от отсмотренных,week,b2c_spb,numerator,,week,pending,Pending until reviewed-show numerator is formalized.
+share_without_violations_from_reviewed,Процент без нарушений от отсмотренных,week,b2c_spb,denominator,,week,pending,Pending until reviewed-show denominator is formalized.
+pre_show_protocol_completion_share,Процент заполненных протоколов ДО спектакля,week,b2c_moscow,numerator,,week,pending,Pending until protocol numerator is formalized.
+pre_show_protocol_completion_share,Процент заполненных протоколов ДО спектакля,week,b2c_moscow,denominator,,week,pending,Pending until protocol denominator is formalized.
+post_show_protocol_completion_share,Процент заполненных протоколов ПОСЛЕ спектакля,week,b2c_moscow,numerator,,week,pending,Pending until protocol numerator is formalized.
+post_show_protocol_completion_share,Процент заполненных протоколов ПОСЛЕ спектакля,week,b2c_moscow,denominator,,week,pending,Pending until protocol denominator is formalized.
+post_show_protocol_completion_share,Процент заполненных протоколов ПОСЛЕ спектакля,week,b2c_spb,numerator,,week,pending,Pending until protocol numerator is formalized.
+post_show_protocol_completion_share,Процент заполненных протоколов ПОСЛЕ спектакля,week,b2c_spb,denominator,,week,pending,Pending until protocol denominator is formalized.
+share_of_og_total,Процент от общего количества ОГ,week,b2c_moscow,numerator,,week,pending,Pending until OG numerator is formalized.
+share_of_og_total,Процент от общего количества ОГ,week,b2c_moscow,denominator,,week,pending,Pending until OG denominator is formalized.
+share_of_og_total,Процент от общего количества ОГ,week,b2c_spb,numerator,,week,pending,Pending until OG numerator is formalized.
+share_of_og_total,Процент от общего количества ОГ,week,b2c_spb,denominator,,week,pending,Pending until OG denominator is formalized.
+share_reviewed_of_og_total,Процент отсмотренных от общего кол-ва ОГ,week,b2c_spb,numerator,,week,pending,Pending until reviewed OG numerator is formalized.
+share_reviewed_of_og_total,Процент отсмотренных от общего кол-ва ОГ,week,b2c_spb,denominator,,week,pending,Pending until reviewed OG denominator is formalized.
+share_reviewed_viewers_of_total,процент от общего кол-ва зрителей (из отсмотренных спектаклей),week,b2c_spb,numerator,,week,pending,Pending until reviewed-viewers numerator is formalized.
+share_reviewed_viewers_of_total,процент от общего кол-ва зрителей (из отсмотренных спектаклей),week,b2c_spb,denominator,,week,pending,Pending until reviewed-viewers denominator is formalized.
+share_of_og_with_murders,Процент ОГ с убийствами,week,b2c_moscow,numerator,,week,pending,Pending until murders-share numerator is formalized.
+share_of_og_with_murders,Процент ОГ с убийствами,week,b2c_moscow,denominator,,week,pending,Pending until murders-share denominator is formalized.
+share_of_og_with_murders,Процент ОГ с убийствами,week,b2c_spb,numerator,,week,pending,Pending until murders-share numerator is formalized.
+share_of_og_with_murders,Процент ОГ с убийствами,week,b2c_spb,denominator,,week,pending,Pending until murders-share denominator is formalized.
+share_of_og_with_more_than_one_murder,Процент ОГ с убийствами больше 1,week,b2c_moscow,numerator,,week,pending,Pending until murders-share numerator is formalized.
+share_of_og_with_more_than_one_murder,Процент ОГ с убийствами больше 1,week,b2c_moscow,denominator,,week,pending,Pending until murders-share denominator is formalized.
+share_of_og_with_more_than_one_murder,Процент ОГ с убийствами больше 1,week,b2c_spb,numerator,,week,pending,Pending until murders-share numerator is formalized.
+share_of_og_with_more_than_one_murder,Процент ОГ с убийствами больше 1,week,b2c_spb,denominator,,week,pending,Pending until murders-share denominator is formalized.
+share_of_og_with_one_murder,Процент ОГ с 1 убийством,week,b2c_moscow,numerator,,week,pending,Pending until murders-share numerator is formalized.
+share_of_og_with_one_murder,Процент ОГ с 1 убийством,week,b2c_moscow,denominator,,week,pending,Pending until murders-share denominator is formalized.
+share_of_og_with_one_murder,Процент ОГ с 1 убийством,week,b2c_spb,numerator,,week,pending,Pending until murders-share numerator is formalized.
+share_of_og_with_one_murder,Процент ОГ с 1 убийством,week,b2c_spb,denominator,,week,pending,Pending until murders-share denominator is formalized.
+share_killed_of_total_viewers_passed_through_master,Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог,week,b2c_moscow,numerator,,week,pending,Pending until killed-share numerator is formalized.
+share_killed_of_total_viewers_passed_through_master,Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог,week,b2c_moscow,denominator,,week,pending,Pending until killed-share denominator is formalized.
+share_killed_of_total_viewers_passed_through_master,Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог,week,b2c_spb,numerator,,week,pending,Pending until killed-share numerator is formalized.
+share_killed_of_total_viewers_passed_through_master,Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог,week,b2c_spb,denominator,,week,pending,Pending until killed-share denominator is formalized.
+share_of_og_with_deaths_on_paramedic,Процент ОГ со смертями на фельдшера (по таблице ОКК),week,b2c_moscow,numerator,,week,pending,Pending until paramedic-share numerator is formalized.
+share_of_og_with_deaths_on_paramedic,Процент ОГ со смертями на фельдшера (по таблице ОКК),week,b2c_moscow,denominator,,week,pending,Pending until paramedic-share denominator is formalized.
+share_of_og_where_viewers_went_for_paramedic,Процент ОГ, где зрители вышли за фельдшером,week,b2c_spb,numerator,,week,pending,Pending until paramedic-outcome numerator is formalized.
+share_of_og_where_viewers_went_for_paramedic,Процент ОГ, где зрители вышли за фельдшером,week,b2c_spb,denominator,,week,pending,Pending until paramedic-outcome denominator is formalized.
+share_of_og_where_viewers_went_for_paramedic_and_survived,Процент ОГ, где зрители вышли за фельдшером/ выжили,week,b2c_moscow,numerator,,week,pending,Pending until paramedic-outcome numerator is formalized.
+share_of_og_where_viewers_went_for_paramedic_and_survived,Процент ОГ, где зрители вышли за фельдшером/ выжили,week,b2c_moscow,denominator,,week,pending,Pending until paramedic-outcome denominator is formalized.
+share_of_og_where_viewers_went_for_paramedic_and_survived,Процент ОГ, где зрители вышли за фельдшером/ выжили,week,b2c_spb,numerator,,week,pending,Pending until paramedic-outcome numerator is formalized.
+share_of_og_where_viewers_went_for_paramedic_and_survived,Процент ОГ, где зрители вышли за фельдшером/ выжили,week,b2c_spb,denominator,,week,pending,Pending until paramedic-outcome denominator is formalized.
+share_of_og_where_viewers_did_not_go_for_paramedic_and_did_not_survive,Процент ОГ, где зрители не вышли за фельдшером/ не выжили,week,b2c_moscow,numerator,,week,pending,Pending until paramedic-outcome numerator is formalized.
+share_of_og_where_viewers_did_not_go_for_paramedic_and_did_not_survive,Процент ОГ, где зрители не вышли за фельдшером/ не выжили,week,b2c_moscow,denominator,,week,pending,Pending until paramedic-outcome denominator is formalized.
+share_of_og_where_viewers_did_not_go_for_paramedic_and_did_not_survive,Процент ОГ, где зрители не вышли за фельдшером/ не выжили,week,b2c_spb,numerator,,week,pending,Pending until paramedic-outcome numerator is formalized.
+share_of_og_where_viewers_did_not_go_for_paramedic_and_did_not_survive,Процент ОГ, где зрители не вышли за фельдшером/ не выжили,week,b2c_spb,denominator,,week,pending,Pending until paramedic-outcome denominator is formalized.

@@ -1,0 +1,31 @@
+business_unit,metric_name,scope,status,value,note
+b2c_moscow,Website visits,channel:organic,inserted,7287.0,ym:s:visits by normalized traffic channel
+b2c_moscow,Website visits,channel:other,inserted,18.0,ym:s:visits by normalized traffic channel
+b2c_moscow,Website visits,channel:perfomance,inserted,8741.0,ym:s:visits by normalized traffic channel
+b2c_moscow,Website visits,channel:referral,inserted,415.0,ym:s:visits by normalized traffic channel
+b2c_moscow,Website visits,channel:social,inserted,130.0,ym:s:visits by normalized traffic channel
+b2c_moscow,Website visits,show:Ответ Гиппократа,inserted,1318.0,ym:pv:pageviews by canonical show page path
+b2c_moscow,Website visits,show:Судный день,inserted,895.0,ym:pv:pageviews by canonical show page path
+b2c_moscow,Website visits,show:До свадьбы доживёт,inserted,520.0,ym:pv:pageviews by canonical show page path
+b2c_moscow,Website visits,show:22'07,inserted,415.0,ym:pv:pageviews by canonical show page path
+b2c_moscow,Website visits,show:ВДОХ,inserted,329.0,ym:pv:pageviews by canonical show page path
+b2c_moscow,Website visits,show:Загадка Амулета,inserted,300.0,ym:pv:pageviews by canonical show page path
+b2c_moscow,Website visits,show:Иное место,inserted,232.0,ym:pv:pageviews by canonical show page path
+b2c_moscow,Website visits,"show:Поезд, Чехов, два орла",inserted,2927.0,ym:pv:pageviews by canonical show page path
+b2c_spb,Website visits,channel:organic,inserted,4760.0,ym:s:visits by normalized traffic channel
+b2c_spb,Website visits,channel:other,inserted,26.0,ym:s:visits by normalized traffic channel
+b2c_spb,Website visits,channel:perfomance,inserted,4787.0,ym:s:visits by normalized traffic channel
+b2c_spb,Website visits,channel:referral,inserted,688.0,ym:s:visits by normalized traffic channel
+b2c_spb,Website visits,channel:social,inserted,149.0,ym:s:visits by normalized traffic channel
+b2c_spb,Website visits,show:Ответ Гиппократа,inserted,875.0,ym:pv:pageviews by canonical show page path
+b2c_spb,Website visits,show:Судный день,inserted,501.0,ym:pv:pageviews by canonical show page path
+b2c_spb,Website visits,show:До свадьбы доживёт,inserted,498.0,ym:pv:pageviews by canonical show page path
+b2c_spb,Website visits,show:22'07,inserted,275.0,ym:pv:pageviews by canonical show page path
+b2c_spb,Website visits,show:ВДОХ,inserted,296.0,ym:pv:pageviews by canonical show page path
+b2c_spb,Website visits,show:Загадка Амулета,inserted,220.0,ym:pv:pageviews by canonical show page path
+b2c_spb,Website visits,show:Иное место,inserted,0,ym:pv:pageviews by canonical show page path
+b2c_spb,Website visits,"show:Поезд, Чехов, два орла",inserted,1.0,ym:pv:pageviews by canonical show page path
+b2b,Website visits,channel:organic,inserted,301.0,ym:s:visits for /corporative by normalized traffic channel
+b2b,Website visits,channel:perfomance,inserted,886.0,ym:s:visits for /corporative by normalized traffic channel
+b2b,Website visits,channel:referral,inserted,11.0,ym:s:visits for /corporative by normalized traffic channel
+b2b,Website visits,page:/corporative,inserted,1212.0,ym:s:visits for /corporative
