@@ -255,10 +255,10 @@ def main() -> None:
 
     config = MetabaseConfig(args.metabase_url, args.metabase_api_key)
     collection_id = resolve_collection_id(args)
-    dashboard_name = "Monthly Marketing Operational Monitor"
+    dashboard_name = "Monthly Marketing Operational Monitor — по данным ПланФакта"
     dashboard_description = (
-        "Monthly marketing monitor by channel for Moscow and SPB. "
-        "Monthly costs prefer PlanFact/P&L channelized marketing rows and fall back to Yandex Direct for performance."
+        "Monthly marketing monitor by channel for Moscow and SPB, based on PlanFact monthly P&L revenue and costs. "
+        "Performance revenue remains sourced from Yandex Metrica; partner revenue remains sourced from ERP."
     )
     if args.update_existing_dashboard_id:
         dashboard = update_dashboard(
@@ -277,7 +277,7 @@ def main() -> None:
         )
 
     cards = [
-        create_card(config, args.metabase_database_id, collection_id, "Monthly Marketing Operational Monitor — Москва и СПб", dashboard_query()),
+        create_card(config, args.metabase_database_id, collection_id, "Monthly Marketing Operational Monitor — по данным ПланФакта — Москва и СПб", dashboard_query()),
     ]
 
     put_dashboard_cards(

@@ -211,6 +211,9 @@ general_facts AS (
         MAX(period_end)::date AS period_end,
         metric_key,
         CASE
+            WHEN metric_key = 'revenue'
+             AND SUM(value_numeric) FILTER (WHERE source_system = 'planfact') IS NOT NULL
+            THEN SUM(value_numeric) FILTER (WHERE source_system = 'planfact')
             WHEN SUM(value_numeric) FILTER (WHERE source_system = 'erp') IS NOT NULL
             THEN SUM(value_numeric) FILTER (WHERE source_system = 'erp')
             ELSE SUM(value_numeric) FILTER (WHERE source_system = 'planfact')
@@ -325,12 +328,12 @@ attributed_rows AS (
             ELSE gr.revenue * COALESCE(sg.response_count, 0) / st.total_response_count
         END AS attributed_revenue,
         CASE
-            WHEN r.channel_name = 'total' THEN 'ERP/PlanFact total revenue'
+            WHEN r.channel_name = 'total' THEN 'PlanFact total revenue'
             WHEN r.channel_name = 'general' THEN 'Unallocated/general marketing costs'
             WHEN r.channel_name = 'perfomance' THEN 'Yandex Metrica performance revenue'
             WHEN r.channel_name = 'partners' AND pr.partner_revenue IS NOT NULL THEN 'ERP partner revenue'
-            WHEN st.total_response_count IS NULL OR st.total_response_count = 0 THEN 'Survey share allocation unavailable'
-            ELSE 'Survey share allocation'
+            WHEN st.total_response_count IS NULL OR st.total_response_count = 0 THEN 'PlanFact survey share allocation unavailable'
+            ELSE 'PlanFact survey share allocation'
         END AS attributed_revenue_method
     FROM all_rows r
     LEFT JOIN survey_general sg

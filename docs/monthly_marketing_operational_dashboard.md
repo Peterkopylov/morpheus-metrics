@@ -2,21 +2,22 @@
 
 ## Purpose
 
-Monthly public marketing monitor for Moscow and SPB. It mirrors the weekly operational marketing dashboard, but uses monthly sources so that P&L marketing spend rows missing from weekly ingestion are visible by channel.
+Monthly public marketing monitor for Moscow and SPB по данным PlanFact. It mirrors the weekly operational marketing dashboard, but uses monthly PlanFact/P&L sources so that P&L revenue and marketing spend rows missing from weekly ingestion are visible by channel.
 
 ## Metabase
 
-- Dashboard: `Monthly Marketing Operational Monitor`
+- Dashboard: `Monthly Marketing Operational Monitor — по данным ПланФакта`
 - Dashboard id: `22`
 - Collection: `Общедоступные`
 - Audience: `all company`
 - Access: `public`
 - Dashboard card:
-  - `319` — Moscow/SPB table, stored in `Tech.`
+  - `320` — Moscow/SPB table, stored in `Tech.`
 
 Historical implementation artifact:
 
 - `318` — old period card, removed from the dashboard layout and stored in `Tech.`
+- `319` — previous Moscow/SPB table before the PlanFact-based revenue attribution update, stored in `Tech.`
 
 ## Serving Layer
 
@@ -31,11 +32,11 @@ Historical implementation artifact:
 - Monthly `Marketing costs` by channel prefer channelized PlanFact/P&L rows.
 - If PlanFact only has a monthly marketing total without channel breakdown, the view keeps the total complete by subtracting already observed channel costs and placing the remaining amount into `general` / `Общие маркетинг расходы`.
 - `direct` PlanFact channel is normalized to the canonical dashboard row `perfomance`.
-- Revenue attribution follows the weekly dashboard pattern:
-  - `total`: ERP/PlanFact total revenue
+- Revenue attribution is PlanFact-based for the monthly dashboard:
+  - `total`: PlanFact total revenue
   - `perfomance`: Performance marketing revenue from Yandex Metrica (`favoriteGoalsConvertedRUBRevenue`, automatic attribution, `Yandex Direct` + `Yandex Direct: Undetermined`)
   - `partners`: ERP partner revenue when available
-  - other channels: survey-share allocation from ERP source-attribution responses
+  - other channels: survey-share allocation from PlanFact total revenue using ERP source-attribution responses
   - `general`: unallocated/general marketing cost bucket, no attributed revenue
 
 ## April 2026 Refresh
