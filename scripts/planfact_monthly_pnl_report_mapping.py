@@ -11,7 +11,7 @@ PLANFACT_HOW_COUNTED = "Imported from monthly PlanFact P&L report workbook by ro
 
 # Important maintenance rule:
 # when new PlanFact P&L row labels appear, we first update the canonical
-# P&L hierarchy in `generated/pnl_structure_mapping_canonical.csv`, then update
+# P&L hierarchy in `catalog/pnl_structure_mapping_canonical.csv`, then update
 # this row-label mapping, and only then reimport. The importer should not drift
 # ahead of the declared P&L structure.
 
@@ -49,6 +49,7 @@ MONTH_LABELS = {
     "фев 26": "2026-02-01",
     "мар 26": "2026-03-01",
     "апр 26": "2026-04-01",
+    "май 26": "2026-05-01",
 }
 
 
@@ -72,6 +73,8 @@ FACT_ROW_MAPPING = {
     "Корпоративы фикс": "Cost article - Корпоративы фикс",
     "Ремонт в Малом зале": "Cost article - Ремонт в Малом зале",
     "Новый спектакль": "Cost article - Новый спектакль",
+    "Новый спектакль_Закупки": "Cost article - Новый спектакль_Закупки",
+    "Новый спектакль_Зарплаты": "Cost article - Новый спектакль_Зарплаты",
     "ПЕРЕЕЗД": "Relocation costs",
     "Техника": "Cost article - Техника",
     "Свет/Мебель/Предметы интерьера": "Cost article - Свет/Мебель/Предметы интерьера",
@@ -84,6 +87,7 @@ FACT_ROW_MAPPING = {
     "Агентские": "Cost article - Агентские",
     "Услуги типографии": "Cost article - Услуги типографии",
     "Маркетинг и реклама - Услуги типографии": "Marketing costs",
+    "Маркетинг и реклама - Платные размещения на площадках": "Marketing costs",
     "Маркетинг и реклама - Агентские": "Marketing costs",
     "Маркетинг и реклама - PR и отзывы": "Marketing costs",
     "Маркетинг и реклама - SMM": "Marketing costs",
@@ -155,6 +159,7 @@ LEAF_ONLY_EXCLUDED_ROWS = {
     "Переменные расходы",
     "Постоянные расходы",
     "Инвестиции",
+    "Новый спектакль",
     "Основные расходы",
     "ФОТ",
     "ФОТ - Переменные",
@@ -194,6 +199,7 @@ REMOVED_METRIC_NAMES = {
 
 CHANNEL_BY_ROW_LABEL = {
     "Маркетинг и реклама - Услуги типографии": "pos",
+    "Маркетинг и реклама - Платные размещения на площадках": "placements",
     "Маркетинг и реклама - Агентские": "partners",
     "Маркетинг и реклама - PR и отзывы": "pr",
     "Маркетинг и реклама - SMM": "smm",

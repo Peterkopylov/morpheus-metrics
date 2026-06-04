@@ -13,12 +13,15 @@ from typing import Iterable
 
 import psycopg2
 
+ROOT = Path("/Users/Peter/Documents/Morpheus Metrics")
+REGISTRIES_DIR = ROOT / "scripts" / "registries"
+if str(REGISTRIES_DIR) not in sys.path:
+    sys.path.insert(0, str(REGISTRIES_DIR))
+
 from monthly_fact_ingestion_registry import MonthlyIngestionStep, current_month_start, monthly_steps
 from run_weekly_fact_ingestion import CREATE_RUNS_SQL, CREATE_STEPS_SQL, clip
 
-
-ROOT = Path("/Users/Peter/Documents/Morpheus Metrics")
-DEFAULT_REPORT_PATH = ROOT / "generated" / "monthly_fact_ingestion_run_report.csv"
+DEFAULT_REPORT_PATH = ROOT / "artifacts" / "run_reports" / "monthly_fact_ingestion_run_report.csv"
 
 
 def month_end(month_start_value: date) -> date:
@@ -135,7 +138,7 @@ def build_command(
         cmd.extend(["--month-end", month_end_value.isoformat()])
     if delete_existing:
         cmd.append("--delete-existing")
-    if step.key in {"manual_dividends_total_history", "historical_pnl_rollup_backfill"}:
+    if step.key in {"monthly_pnl_calculated_rollups"}:
         cmd.extend(["--source-run-id", step.source_run_id])
     cmd.extend(step.extra_args)
     return cmd

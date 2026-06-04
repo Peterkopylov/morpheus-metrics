@@ -14,11 +14,15 @@ from typing import Iterable
 
 import psycopg2
 
+ROOT = Path("/Users/Peter/Documents/Morpheus Metrics")
+REGISTRIES_DIR = ROOT / "scripts" / "registries"
+if str(REGISTRIES_DIR) not in sys.path:
+    sys.path.insert(0, str(REGISTRIES_DIR))
+
 from weekly_fact_ingestion_registry import WeeklyIngestionStep, last_full_week_start, weekly_steps
 
 
-ROOT = Path("/Users/Peter/Documents/Morpheus Metrics")
-DEFAULT_REPORT_PATH = ROOT / "generated" / "weekly_fact_ingestion_run_report.csv"
+DEFAULT_REPORT_PATH = ROOT / "artifacts" / "run_reports" / "weekly_fact_ingestion_run_report.csv"
 
 
 CREATE_RUNS_SQL = """

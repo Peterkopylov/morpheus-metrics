@@ -43,7 +43,7 @@ If still ambiguous, prefer this escalation order:
 2. Add a new dashboard view if the logic is dashboard-specific.
 3. Add to `calculated layer` if the logic is warehouse-semantic and reusable.
 
-For this repo, read [`docs/dashboard_creation_policy.md`](/Users/Peter/Documents/Morpheus%20Metrics/docs/dashboard_creation_policy.md) when you need the fuller policy.
+For this repo, read [`serving/dashboard_creation_policy.md`](/Users/Peter/Documents/Morpheus%20Metrics/serving/dashboard_creation_policy.md) when you need the fuller policy.
 
 ## Reuse Search Workflow
 
@@ -52,10 +52,10 @@ Before proposing a new view or script, search for reusable assets in this repo.
 Check at minimum:
 
 - `sql/` for serving views
-- `scripts/create_metabase_*dashboard*.py` for existing dashboard builders
-- `scripts/rebuild_*view*.py` for view assembly scripts
-- `docs/` for dashboard operational notes
-- `generated/dashboard_registry.csv` for already-registered dashboards
+- `scripts/serving/create_metabase_*dashboard*.py` for existing dashboard builders
+- `scripts/serving/rebuild_*view*.py` for view assembly scripts
+- `serving/dashboards/` for dashboard operational notes
+- `serving/dashboard_registry.csv` for already-registered dashboards
 
 Useful search patterns:
 
@@ -76,8 +76,8 @@ Every dashboard creation or substantial dashboard update must update the project
 
 Use these project files:
 
-- registry rules: [`docs/dashboard_registry.md`](/Users/Peter/Documents/Morpheus%20Metrics/docs/dashboard_registry.md)
-- registry data: [`generated/dashboard_registry.csv`](/Users/Peter/Documents/Morpheus%20Metrics/generated/dashboard_registry.csv)
+- registry rules: [`serving/dashboard_creation_policy.md`](/Users/Peter/Documents/Morpheus%20Metrics/serving/dashboard_creation_policy.md)
+- registry data: [`serving/dashboard_registry.csv`](/Users/Peter/Documents/Morpheus%20Metrics/serving/dashboard_registry.csv)
 
 Add or update a row with:
 
@@ -113,10 +113,10 @@ If the dashboard is only planned and not yet built, still add a row with status 
 
 This repository already contains reusable dashboard infrastructure. Especially relevant examples:
 
-- `scripts/rebuild_weekly_fact_metrics_yoy_views.py`
-- `scripts/create_metabase_weekly_metrics_dashboard.py`
-- `scripts/create_metabase_weekly_latest_comparison_dashboard.py`
-- `scripts/create_metabase_planfact_dashboard.py`
+- `scripts/serving/rebuild_weekly_fact_metrics_yoy_views.py`
+- `scripts/serving/create_metabase_weekly_metrics_dashboard.py`
+- `scripts/serving/create_metabase_weekly_latest_comparison_dashboard.py`
+- `scripts/serving/create_metabase_planfact_dashboard.py`
 - `docs/external_apis/metabase.md`
 
 Treat Metabase as a publishing layer, not as source of truth for metric semantics.

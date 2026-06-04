@@ -14,7 +14,7 @@ ROOT = Path("/Users/Peter/Documents/Morpheus Metrics")
 WEEKLY_FACT_RUNNER = ROOT / "scripts" / "run_weekly_fact_ingestion.py"
 MONTHLY_KPI_FACT_RUNNER = ROOT / "scripts" / "run_monthly_kpi_fact_ingestion.py"
 MONTHLY_FACT_RUNNER = ROOT / "scripts" / "run_monthly_pnl_fact_ingestion.py"
-MONTHLY_HISTORY_REBUILD_RUNNER = ROOT / "scripts" / "rebuild_monthly_pnl_history_views.py"
+MONTHLY_HISTORY_REBUILD_RUNNER = ROOT / "scripts" / "serving" / "rebuild_monthly_pnl_history_views.py"
 CALCULATION_RUNNER = ROOT / "scripts" / "run_calculated_metrics.py"
 
 

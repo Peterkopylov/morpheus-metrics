@@ -1,0 +1,47 @@
+status,business_unit,period_start,canonical_metric,show_name,partner_name,channel_name,value_numeric,reason,rollup_source_system
+inserted,b2c_moscow,2026-05-01,Cost article - Новый спектакль,,,,100894,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_spb,2026-05-01,Cost article - Новый спектакль,,,,109504,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2b,2026-05-01,Costs - Salary fixed,,,,108800,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_moscow,2026-05-01,Costs - Salary fixed,,,,566030,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_spb,2026-05-01,Costs - Salary fixed,,,,341295,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_moscow,2026-05-01,Costs - Salary variable,,,,1405004,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_spb,2026-05-01,Costs - Salary variable,,,,934400,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2b,2026-05-01,Fixed costs,,,,146228,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_moscow,2026-05-01,Fixed costs,,,,1322298,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_spb,2026-05-01,Fixed costs,,,,563604,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,franchise,2026-05-01,Fixed costs,,,,0,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_moscow,2026-05-01,Investment costs,,,,100894,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_spb,2026-05-01,Investment costs,,,,109504,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2b,2026-05-01,Marketing costs,,,smm,14850,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_moscow,2026-05-01,Marketing costs,,,direct,305000,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_moscow,2026-05-01,Marketing costs,,,general,23500,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_moscow,2026-05-01,Marketing costs,,,partners,229595,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_moscow,2026-05-01,Marketing costs,,,placements,5500,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_moscow,2026-05-01,Marketing costs,,,pos,11400,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_moscow,2026-05-01,Marketing costs,,,pr,68400,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_moscow,2026-05-01,Marketing costs,,,smm,15300,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_spb,2026-05-01,Marketing costs,,,direct,200000,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_spb,2026-05-01,Marketing costs,,,general,7500,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_spb,2026-05-01,Marketing costs,,,partners,118004,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_spb,2026-05-01,Marketing costs,,,pr,10500,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_spb,2026-05-01,Marketing costs,,,smm,14850,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2b,2026-05-01,Operating profit,,,,8283,direct_from_rollup_view,derived_leaf_only_formula
+inserted,b2c_moscow,2026-05-01,Operating profit,,,,583822,direct_from_rollup_view,derived_leaf_only_formula
+inserted,b2c_spb,2026-05-01,Operating profit,,,,137269,direct_from_rollup_view,derived_leaf_only_formula
+inserted,franchise,2026-05-01,Operating profit,,,,10000,direct_from_rollup_view,derived_leaf_only_formula
+inserted,b2b,2026-05-01,Other expenses,,,,0,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_moscow,2026-05-01,Other expenses,,,,0,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_spb,2026-05-01,Other expenses,,,,0,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,franchise,2026-05-01,Other expenses,,,,0,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_moscow,2026-05-01,Show production costs,,,,25888,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_spb,2026-05-01,Show production costs,,,,30153,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2b,2026-05-01,Variable costs,,,,20489,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_moscow,2026-05-01,Variable costs,,,,2682446,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_spb,2026-05-01,Variable costs,,,,1652852,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,franchise,2026-05-01,Variable costs,,,,0,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2b,2026-05-01,Venue and office costs,,,,37428,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_moscow,2026-05-01,Venue and office costs,,,,756268,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2c_spb,2026-05-01,Venue and office costs,,,,222309,direct_from_rollup_view,derived_leaf_only_rollup
+inserted,b2b,2026-05-01,Marketing costs,,,,14850,channel_rollup,derived_leaf_only_rollup
+inserted,b2c_moscow,2026-05-01,Marketing costs,,,,658695,channel_rollup,derived_leaf_only_rollup
+inserted,b2c_spb,2026-05-01,Marketing costs,,,,350854,channel_rollup,derived_leaf_only_rollup

@@ -6,6 +6,7 @@ import csv
 import json
 import uuid
 import re
+import sys
 from datetime import date, datetime, timedelta, timezone
 from dataclasses import dataclass
 from pathlib import Path
@@ -13,8 +14,12 @@ from pathlib import Path
 import psycopg2
 from psycopg2.extras import Json
 
+ROOT = Path("/Users/Peter/Documents/Morpheus Metrics")
+REGISTRIES_DIR = ROOT / "scripts" / "registries"
+if str(REGISTRIES_DIR) not in sys.path:
+    sys.path.insert(0, str(REGISTRIES_DIR))
+
 from calculated_metric_registry import (
-    ROOT,
     CalculatedMetricDefinition,
     ResolvedDependency,
     load_formula_registry,
@@ -22,9 +27,9 @@ from calculated_metric_registry import (
 )
 
 
-DEFAULT_REPORT_PATH = ROOT / "generated" / "calculated_metrics_run_report.csv"
+DEFAULT_REPORT_PATH = ROOT / "artifacts" / "run_reports" / "calculated_metrics_run_report.csv"
 CREATE_SQL_PATH = ROOT / "sql" / "create_calculated_metric_tables.sql"
-PARTNER_COMMISSION_RULES_PATH = ROOT / "generated" / "partner_commission_rate_registry.csv"
+PARTNER_COMMISSION_RULES_PATH = ROOT / "artifacts" / "snapshots" / "partner_commission_rate_registry.csv"
 
 
 @dataclass(frozen=True)

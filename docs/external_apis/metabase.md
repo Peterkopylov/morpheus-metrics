@@ -70,7 +70,7 @@
   - `Moscow Weekly Metrics Charts (fact)`
   - `SPB Weekly Metrics Charts (fact)`
 - создан временный dashboard выкупленности по сеансам для нового спектакля `Поезд, Чехов, два орла`
-- добавлен скрипт [`scripts/create_metabase_weekly_technical_dashboard.py`](/Users/Peter/Documents/Morpheus%20Metrics/scripts/create_metabase_weekly_technical_dashboard.py) для техпроверки последней загруженной недели
+- добавлен скрипт [`scripts/serving/create_metabase_weekly_technical_dashboard.py`](/Users/Peter/Documents/Morpheus%20Metrics/scripts/serving/create_metabase_weekly_technical_dashboard.py) для техпроверки последней загруженной недели
 - для seance buyout dashboard настроен отдельный hourly snapshot refresh через `/etc/cron.d/tmp_erp_show_seance_buyout_refresh`
 - weekly dashboard family разложена по shared collections:
   - канонические dashboards живут в `Общедоступные`

@@ -269,15 +269,15 @@ def main():
     parser.add_argument("--database-url", required=True)
     parser.add_argument(
         "--metric-catalogue-csv",
-        default="/Users/Peter/Documents/Morpheus Metrics/generated/metric_catalogue_canonical.csv",
+        default="/Users/Peter/Documents/Morpheus Metrics/catalog/metric_catalogue_canonical.csv",
     )
     parser.add_argument(
         "--metric-sources-csv",
-        default="/Users/Peter/Documents/Morpheus Metrics/generated/fact_metric_source_of_truth_canonical.csv",
+        default="/Users/Peter/Documents/Morpheus Metrics/fact/source_of_truth.csv",
     )
     parser.add_argument(
         "--dictionaries-csv",
-        default="/Users/Peter/Documents/Morpheus Metrics/generated/metric_scope_dictionary_canonical.csv",
+        default="/Users/Peter/Documents/Morpheus Metrics/artifacts/snapshots/metric_scope_dictionary_canonical.csv",
     )
     args = parser.parse_args()
 
