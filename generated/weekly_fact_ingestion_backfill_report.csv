@@ -1,0 +1,23 @@
+week_start,status,run_id,report_path,action,notes,exit_code
+2025-12-29,success,weekly_fact_ingestion_2025-12-29_483ed34d,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/weekly_fact_ingestion_run_report.csv,executed,,0
+2026-01-05,success,weekly_fact_ingestion_2026-01-05_3915ed11,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/weekly_fact_ingestion_run_report.csv,executed,,0
+2026-01-12,success,weekly_fact_ingestion_2026-01-12_d7d0cbcb,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/weekly_fact_ingestion_run_report.csv,executed,,0
+2026-01-19,success,weekly_fact_ingestion_2026-01-19_a2499d3c,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/weekly_fact_ingestion_run_report.csv,executed,,0
+2026-01-26,success,weekly_fact_ingestion_2026-01-26_b9479c1a,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/weekly_fact_ingestion_run_report.csv,executed,,0
+2026-02-02,success,weekly_fact_ingestion_2026-02-02_c340e815,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/weekly_fact_ingestion_run_report.csv,executed,,0
+2026-02-09,success,weekly_fact_ingestion_2026-02-09_11c9fb6f,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/weekly_fact_ingestion_run_report.csv,executed,,0
+2026-02-16,success,weekly_fact_ingestion_2026-02-16_803df1a3,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/weekly_fact_ingestion_run_report.csv,executed,,0
+2026-02-23,success,weekly_fact_ingestion_2026-02-23_d77a9c66,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/weekly_fact_ingestion_run_report.csv,executed,,0
+2026-03-02,success,weekly_fact_ingestion_2026-03-02_dd011c10,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/weekly_fact_ingestion_run_report.csv,executed,,0
+2026-03-09,success,weekly_fact_ingestion_2026-03-09_7312d231,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/weekly_fact_ingestion_run_report.csv,executed,,0
+2026-03-16,success,weekly_fact_ingestion_2026-03-16_40944f4d,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/weekly_fact_ingestion_run_report.csv,executed,,0
+2026-03-23,success,weekly_fact_ingestion_2026-03-23_08d047ec,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/weekly_fact_ingestion_run_report.csv,executed,,0
+2026-03-30,success,weekly_fact_ingestion_2026-03-30_05eec904,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/weekly_fact_ingestion_run_report.csv,executed,,0
+2026-04-06,success,weekly_fact_ingestion_2026-04-06_2f5710d8,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/weekly_fact_ingestion_run_report.csv,executed,,0
+2026-04-13,success,weekly_fact_ingestion_2026-04-13_d29b3049,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/weekly_fact_ingestion_run_report.csv,executed,,0
+2026-04-20,success,weekly_fact_ingestion_2026-04-20_4e64abe3,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/weekly_fact_ingestion_run_report.csv,executed,,0
+2026-04-27,success,weekly_fact_ingestion_2026-04-27_6b173e2a,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/weekly_fact_ingestion_run_report.csv,executed,,0
+2026-05-04,success,weekly_fact_ingestion_2026-05-04_093474ce,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/weekly_fact_ingestion_run_report.csv,executed,,0
+2026-05-11,success,weekly_fact_ingestion_2026-05-11_5cd11435,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/weekly_fact_ingestion_run_report.csv,executed,,0
+2026-05-18,success,weekly_fact_ingestion_2026-05-18_fc1789b9,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/weekly_fact_ingestion_run_report.csv,executed,,0
+2026-05-25,success,weekly_fact_ingestion_2026-05-25_3bd3ed8f,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/weekly_fact_ingestion_run_report.csv,executed,,0
