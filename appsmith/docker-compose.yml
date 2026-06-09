@@ -1,0 +1,14 @@
+services:
+  appsmith:
+    image: appsmith/appsmith-ce:latest
+    container_name: appsmith
+    restart: unless-stopped
+    ports:
+      - "8082:80"
+    volumes:
+      - appsmith-stacks:/appsmith-stacks
+    environment:
+      APPSMITH_DISABLE_TELEMETRY: "true"
+
+volumes:
+  appsmith-stacks:

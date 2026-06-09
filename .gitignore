@@ -1,0 +1,4 @@
+.env.metabase
+.env.metabase.local
+.env.airtable
+.env.amocrm

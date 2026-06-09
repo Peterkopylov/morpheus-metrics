@@ -1,0 +1,231 @@
+{
+  "info": {
+    "_postman_id": "ff71b853-c4de-4fc4-bbe6-af106546ba2b",
+    "name": "yandex-tickets",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "23646533"
+  },
+  "item": [
+    {
+      "name": "yandex get orders",
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "exec": [
+              "const login    = pm.environment.get(\"YT_LOGIN\");\r",
+              "const password = pm.environment.get(\"YT_PASSWORD\");\r",
+              "\r",
+              "// 1) Generate UNIX timestamp (seconds)\r",
+              "const timestamp = Math.floor(Date.now()/1000).toString();\r",
+              "\r",
+              "// 2) MD5(password)\r",
+              "const md5 = CryptoJS.MD5(password).toString();\r",
+              "\r",
+              "// 3) SHA1(md5 + timestamp)\r",
+              "const sha1 = CryptoJS.SHA1(md5 + timestamp).toString();\r",
+              "\r",
+              "// 4) Build auth token and set as env var\r",
+              "const auth = `${login}:${sha1}:${timestamp}`;\r",
+              "pm.environment.set(\"YT_AUTH\", auth);\r",
+              "\r",
+              "//— optional: log to console for debugging\r",
+              "console.log(\"Yandex auth:\", auth);"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.tickets.yandex.net/api/crm/?action=crm.order.list&auth={{YT_AUTH}}&city_id={{YT_CITY_ID}}&start_date=2025-07-14T01:56:08+0300&end_date=2025-07-16T01:56:08+0300",
+          "protocol": "https",
+          "host": [
+            "api",
+            "tickets",
+            "yandex",
+            "net"
+          ],
+          "path": [
+            "api",
+            "crm",
+            ""
+          ],
+          "query": [
+            {
+              "key": "action",
+              "value": "crm.order.list"
+            },
+            {
+              "key": "auth",
+              "value": "{{YT_AUTH}}"
+            },
+            {
+              "key": "city_id",
+              "value": "{{YT_CITY_ID}}"
+            },
+            {
+              "key": "start_date",
+              "value": "2025-07-14T01:56:08+0300"
+            },
+            {
+              "key": "end_date",
+              "value": "2025-07-16T01:56:08+0300"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "yandex get tickets",
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "exec": [
+              "const login    = pm.environment.get(\"YT_LOGIN\");\r",
+              "const password = pm.environment.get(\"YT_PASSWORD\");\r",
+              "\r",
+              "// 1) Generate UNIX timestamp (seconds)\r",
+              "const timestamp = Math.floor(Date.now()/1000).toString();\r",
+              "\r",
+              "// 2) MD5(password)\r",
+              "const md5 = CryptoJS.MD5(password).toString();\r",
+              "\r",
+              "// 3) SHA1(md5 + timestamp)\r",
+              "const sha1 = CryptoJS.SHA1(md5 + timestamp).toString();\r",
+              "\r",
+              "// 4) Build auth token and set as env var\r",
+              "const auth = `${login}:${sha1}:${timestamp}`;\r",
+              "pm.environment.set(\"YT_AUTH\", auth);\r",
+              "\r",
+              "//— optional: log to console for debugging\r",
+              "console.log(\"Yandex auth:\", auth);"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.tickets.yandex.net/api/crm/?action=crm.order.info&auth={{YT_AUTH}}&city_id={{YT_CITY_ID}}&order_id[]=63073900&order_id[]=63076425",
+          "protocol": "https",
+          "host": [
+            "api",
+            "tickets",
+            "yandex",
+            "net"
+          ],
+          "path": [
+            "api",
+            "crm",
+            ""
+          ],
+          "query": [
+            {
+              "key": "action",
+              "value": "crm.order.info"
+            },
+            {
+              "key": "auth",
+              "value": "{{YT_AUTH}}"
+            },
+            {
+              "key": "city_id",
+              "value": "{{YT_CITY_ID}}"
+            },
+            {
+              "key": "order_id[]",
+              "value": "63073900"
+            },
+            {
+              "key": "order_id[]",
+              "value": "63076425"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "yandex get report",
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "exec": [
+              "const login    = pm.environment.get(\"YT_LOGIN\");\r",
+              "const password = pm.environment.get(\"YT_PASSWORD\");\r",
+              "\r",
+              "// 1) Generate UNIX timestamp (seconds)\r",
+              "const timestamp = Math.floor(Date.now()/1000).toString();\r",
+              "\r",
+              "// 2) MD5(password)\r",
+              "const md5 = CryptoJS.MD5(password).toString();\r",
+              "\r",
+              "// 3) SHA1(md5 + timestamp)\r",
+              "const sha1 = CryptoJS.SHA1(md5 + timestamp).toString();\r",
+              "\r",
+              "// 4) Build auth token and set as env var\r",
+              "const auth = `${login}:${sha1}:${timestamp}`;\r",
+              "pm.environment.set(\"YT_AUTH\", auth);\r",
+              "\r",
+              "//— optional: log to console for debugging\r",
+              "console.log(\"Yandex auth:\", auth);"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://api.tickets.yandex.net/api/crm/?action=crm.report.event&auth={{YT_AUTH}}&city_id={{YT_CITY_ID}}&event_ids=45381930",
+          "protocol": "https",
+          "host": [
+            "api",
+            "tickets",
+            "yandex",
+            "net"
+          ],
+          "path": [
+            "api",
+            "crm",
+            ""
+          ],
+          "query": [
+            {
+              "key": "action",
+              "value": "crm.report.event"
+            },
+            {
+              "key": "auth",
+              "value": "{{YT_AUTH}}"
+            },
+            {
+              "key": "city_id",
+              "value": "{{YT_CITY_ID}}"
+            },
+            {
+              "key": "event_ids",
+              "value": "45381930"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
