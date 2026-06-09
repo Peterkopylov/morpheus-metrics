@@ -1,0 +1,125 @@
+row_number,col_a,col_b,ingestion_action,target_metric_or_metrics,import_as_source,layer,note
+1,Дата,01.06.2020,review_needed,,no,exclude,Нужно руками уточнить интерпретацию.
+2,Диапазон,1-7/6,review_needed,,no,exclude,Нужно руками уточнить интерпретацию.
+3,,,blank,,no,exclude,Пустая строка-разделитель.
+4,Поступления на счет,40 360,review_needed,,no,exclude,Нужно руками уточнить интерпретацию.
+5,Из них агрегаторы (вычет комиссии),,exclude,,no,exclude,"Legacy aggregate, не как отдельный fact."
+6,Из них агрегаторы (вычет комиссии)ДТЗК,,exclude,,no,exclude,"Legacy aggregate, не как отдельный fact."
+7,билеты,,map_to_metric,Number of tickets,yes,source,Observed tickets metric.
+8,билеты виджет (сайт),,map_to_metric,Number of tickets,yes,source,Partner split for tickets.
+9,билеты яндекс афиша,,map_to_metric,Number of tickets,yes,source,Partner split for tickets.
+10,билеты от остальных агрегаторов,,map_to_metric,Number of tickets,yes,source,Partner split for tickets.
+11,афиша.ру,,map_to_metric,Number of tickets,yes,source,Partner split for tickets.
+12,кассир,,map_to_metric,Number of tickets,yes,source,Partner split for tickets.
+13,тикетленд,,map_to_metric,Number of tickets,yes,source,Partner split for tickets.
+14,билеты СД,,map_to_metric,Number of tickets,yes,source,Observed tickets metric.
+15,билет сд виджет (сайт),,map_to_metric,Number of tickets,yes,source,Partner split for tickets.
+16,билеты сд яндекс афиша,,map_to_metric,Number of tickets,yes,source,Partner split for tickets.
+17,билеты сд от остальных агрегаторов,,map_to_metric,Number of tickets,yes,source,Partner split for tickets.
+18,афиша.ру,,map_to_metric,Number of tickets,yes,source,Partner split for tickets.
+19,кассир,,map_to_metric,Number of tickets,yes,source,Partner split for tickets.
+20,тикетленд,,map_to_metric,Number of tickets,yes,source,Partner split for tickets.
+21,Сертификаты,,map_to_metric,Revenue; Number of certificates,yes,source,Observed certificate sales block.
+22,сертификаты электронные,,map_to_metric,Revenue; Number of certificates,yes,source,Partner split for certificates.
+23,сертификаты бумажные,,map_to_metric,Revenue; Number of certificates,yes,source,Partner split for certificates.
+24,доля сертификатов в выручке,,defer_to_calculated,,no,calculated,Ratio / calculated metric.
+25,Спецпоказы (продажи),,map_to_metric,Revenue - Other,yes,source,Observed revenue metric.
+26,Другое юкасса\счет,,map_to_metric,Revenue - Other,yes,source,Observed revenue metric.
+27,Сертификаты и билеты (бесплатные),,map_to_metric,Number of free certificates and tickets,yes,source,Observed metric.
+28,Сумма возвратов,,map_to_metric,Returns amount,yes,source,Observed returns amount.
+29,по вине театра,,review_needed,,no,exclude,Нужно руками уточнить интерпретацию.
+30,не по вине театра,,review_needed,,no,exclude,Нужно руками уточнить интерпретацию.
+31,% возвратов от выручки,,defer_to_calculated,,no,calculated,Ratio / calculated metric.
+32,Сайт,,decompose_block,Website visits; Number of orders; Number of tickets; Revenue,no,exclude,Block header / mixed site block row.
+33,Количество заходов на сайт,,map_to_metric,Website visits,yes,source,Observed website visits.
+34,Количество билетов ,,map_to_metric,Number of tickets,yes,source,Observed tickets metric.
+35,Количество заказов,,map_to_metric,Number of orders,yes,source,Observed orders metric.
+36,"конверсия в заказ, %",,defer_to_calculated,,no,calculated,Conversion ratio belongs to calculated layer.
+37,"конверсия в билет, %",,defer_to_calculated,,no,calculated,Conversion ratio belongs to calculated layer.
+38,"Всего билетов (выкуплено через сайт, все агрегаторы, по ссылке)",,map_to_metric,Number of tickets,yes,source,Observed tickets total.
+39,Проведено шоу всего (без СД),11,map_to_metric,Number of shows,yes,source,Observed shows metric.
+40,Отменено шоу (не СД),,map_to_metric,Number of shows cancelled,yes,source,Observed cancellation metric.
+41,"Кол-во, где не выкуплены билеты",,exclude,,no,exclude,"Причинная детализация отмен, не отдельная canonical metric сейчас."
+42,Кол-во из-за дефицита актёров/ мастеров,,exclude,,no,exclude,"Причинная детализация отмен, не отдельная canonical metric сейчас."
+43,Кол-во из-за спецпоказов,,exclude,,no,exclude,"Причинная детализация отмен, не отдельная canonical metric сейчас."
+44,Проведено шоу СД,,map_to_metric,Number of shows,yes,source,Observed shows metric.
+45,Отменено СД,,map_to_metric,Number of shows cancelled,yes,source,Observed cancellation metric.
+46,"Кол-во, где не выкуплены билеты",,exclude,,no,exclude,"Причинная детализация отмен, не отдельная canonical metric сейчас."
+47,Кол-во из-за спецпоказов,,exclude,,no,exclude,"Причинная детализация отмен, не отдельная canonical metric сейчас."
+48,Кол-во из-за дефицита актёров/ мастеров,,exclude,,no,exclude,"Причинная детализация отмен, не отдельная canonical metric сейчас."
+49,Зрители (без СД),36,map_to_metric,Number of show visitors,yes,source,Observed visitors metric.
+50,Зрители СД,,map_to_metric,Number of show visitors,yes,source,Observed visitors metric.
+51,Зрители по сертификатам,,map_to_metric,Number of certificate visitors,yes,source,Observed visitors metric.
+52,Средняя загрузка шоу,"3,27",defer_to_calculated,,no,calculated,Calculated layer.
+53,Средняя загрузка СД,,defer_to_calculated,,no,calculated,Calculated layer.
+54,,,blank,,no,exclude,Пустая строка-разделитель.
+55,ОТЗЫВЫ НА ЯНДЕКСЕ,,decompose_block,Quality - External,no,exclude,Block header.
+56,Кол-во новых на Яндекс-картах,,map_to_metric,Quality - External,yes,source,Observed external quality metric.
+57,Из них настоящих,,map_to_metric,Quality - External,yes,source,Observed external quality metric.
+58,Из них ненастоящих,,map_to_metric,Quality - External,yes,source,Observed external quality metric.
+59,Средняя оценка по отзывам за неделю (общая),,map_to_metric,Quality - External,yes,source,Observed external quality metric.
+60,Средняя оценка по отзывам за неделю (по настоящим),,map_to_metric,Quality - External,yes,source,Observed external quality metric.
+61,Процент негативных (от посетивших),,map_to_metric,Quality - External,yes,source,Observed external quality metric.
+62,Ликвидировано негативных,,map_to_metric,Quality - External,yes,source,Observed external quality metric.
+63,"Средняя оценка за неделю без негативных, если ликвидировали (общая)",,map_to_metric,Quality - External,yes,source,Observed external quality metric.
+64,Средняя общая,,map_to_metric,Quality - External,yes,source,Observed external quality metric.
+65,ОЦЕНКИ НА ПЛАНШЕТЕ,,decompose_block,Quality - Internal,no,exclude,Block header.
+66,Процент заполнивших от всех зрителей,,map_to_metric,Quality - Internal,yes,source,Observed internal quality metric.
+67,Средняя оценка,,map_to_metric,Quality - Internal,yes,source,Observed internal quality metric.
+68,Ответ Гиппократа,,map_to_metric,Quality - Internal,yes,source,Observed internal quality metric.
+69,22’07,,map_to_metric,Quality - Internal,yes,source,Observed internal quality metric.
+70,До свадьбы доживет,,map_to_metric,Quality - Internal,yes,source,Observed internal quality metric.
+71,Загадка амулета,,map_to_metric,Quality - Internal,yes,source,Observed internal quality metric.
+72,ВДОХ,,map_to_metric,Quality - Internal,yes,source,Observed internal quality metric.
+73,Судный день,,map_to_metric,Quality - Internal,yes,source,Observed internal quality metric.
+74,Откуда пришли,,map_to_metric,Source share,yes,source,Observed source-share metric.
+75,От друзей,,map_to_metric,Source share,yes,source,Observed source-share metric.
+76,Наш сайт,,map_to_metric,Source share,yes,source,Observed source-share metric.
+77,Яндекс Афиша,,map_to_metric,Source share,yes,source,Observed source-share metric.
+78,"Карты Яндекс, Google, 2ГИС",,map_to_metric,Source share,yes,source,Observed source-share metric.
+79,Уже был,,map_to_metric,Source share,yes,source,Observed source-share metric.
+80,Подарили сертификат,,map_to_metric,Source share,yes,source,Observed source-share metric.
+81,Другое,,map_to_metric,Source share,yes,source,Observed source-share metric.
+82,Афиша.ру (+Т-банк),,map_to_metric,Source share,yes,source,Observed source-share metric.
+83,Google поиск,,map_to_metric,Source share,yes,source,Observed source-share metric.
+84,Яндекс поиск,,map_to_metric,Source share,yes,source,Observed source-share metric.
+85,Яндекс реклама (РЕКЛАМА В ИНЕТЕ),,map_to_metric,Source share,yes,source,Observed source-share metric.
+86,Instagram (СОЦ СЕТИ),,map_to_metric,Source share,yes,source,Observed source-share metric.
+87,Kuda Spb,,map_to_metric,Source share,yes,source,Observed source-share metric.
+88,Kuda go,,map_to_metric,Source share,yes,source,Observed source-share metric.
+89,Иммерсивный.ру,,map_to_metric,Source share,yes,source,Observed source-share metric.
+90,ВК,,map_to_metric,Source share,yes,source,Observed source-share metric.
+91,Сервис Best Benefits,,map_to_metric,Source share,yes,source,Observed source-share metric.
+92,Тикетленд,,map_to_metric,Number of tickets,yes,source,Partner split for tickets.
+93,ОКК,,decompose_block,Quality - Internal,no,exclude,Block header.
+94,Кол-во отсмотренных спектаклей,,map_to_metric,Quality - Internal,yes,source,Observed internal quality metric.
+95,Процент без нарушений от отсмотренных,,map_to_metric,Quality - Internal,yes,source,Observed internal quality metric.
+96,Кол-во отсмотренных ОГ,,map_to_metric,Quality - Internal,yes,source,Observed internal quality metric.
+97,Процент отсмотренных от общего кол-ва ОГ,,map_to_metric,Quality - Internal,yes,source,Observed internal quality metric.
+98,"Процент ОГ, где зрители вышли за фельдшером",,map_to_metric,Quality - Internal,yes,source,Observed internal quality metric.
+99,Процент с убийствами,,map_to_metric,Quality - Internal,yes,source,Observed internal quality metric.
+100,С убийствами больше 1,,map_to_metric,Quality - Internal,yes,source,Observed internal quality metric.
+101,С 1 убийством,,map_to_metric,Quality - Internal,yes,source,Observed internal quality metric.
+102,Кол-во убийств,,map_to_metric,Quality - Internal,yes,source,Observed internal quality metric.
+103,Ник,,review_needed,,no,exclude,Нужно руками уточнить интерпретацию.
+104,Алина,,review_needed,,no,exclude,Нужно руками уточнить интерпретацию.
+105,Даня Рагин,,review_needed,,no,exclude,Нужно руками уточнить интерпретацию.
+106,Даня Богомолов,,review_needed,,no,exclude,Нужно руками уточнить интерпретацию.
+107,Женя Аршинов,,review_needed,,no,exclude,Нужно руками уточнить интерпретацию.
+108,Влад,,review_needed,,no,exclude,Нужно руками уточнить интерпретацию.
+109,Влад Подольский,,review_needed,,no,exclude,Нужно руками уточнить интерпретацию.
+110,Саша Шеина,,review_needed,,no,exclude,Нужно руками уточнить интерпретацию.
+111,Олег,,review_needed,,no,exclude,Нужно руками уточнить интерпретацию.
+112,процент от общего кол-ва зрителей (из отсмотренных спектаклей),,defer_to_calculated,,no,calculated,Ratio / calculated metric.
+113,ПРОТОКОЛ-БОТ NEW,,decompose_block,Quality - Internal,no,exclude,Block header.
+114,Процент заполненных протоколов ПОСЛЕ спектакля,,map_to_metric,Quality - Internal,yes,source,Observed internal quality metric.
+115,Всего заполненных ОГ,,map_to_metric,Quality - Internal,yes,source,Observed internal quality metric.
+116,Процент от общего количества ОГ,,map_to_metric,Quality - Internal,yes,source,Observed internal quality metric.
+117,Из них,,map_to_metric,Quality - Internal,yes,source,Observed internal quality metric.
+118,Процент ОГ с убийствами,,map_to_metric,Share of OG with murders,yes,source,Observed ratio metric.
+119,Процент ОГ с убийствами больше 1,,map_to_metric,Share of OG with more than one murder,yes,source,Observed ratio metric.
+120,Процент ОГ с 1 убийством,,map_to_metric,Share of OG with one murder,yes,source,Observed ratio metric.
+121,Количество погибших всего на ОГ,,map_to_metric,Number of deaths on OG,yes,source,Observed incident metric.
+122,"Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог",,map_to_metric,Share killed of total viewers passed through master on OG,yes,source,Observed ratio metric.
+123,"Процент ОГ, где зрители вышли за фельдшером/ выжили",,map_to_metric,Share of OG where viewers went for paramedic and survived,yes,source,Observed ratio metric.
+124,"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",,map_to_metric,Share of OG where viewers did not go for paramedic and did not survive,yes,source,Observed ratio metric.

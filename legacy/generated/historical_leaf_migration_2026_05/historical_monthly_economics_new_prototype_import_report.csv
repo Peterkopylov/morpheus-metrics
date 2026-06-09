@@ -1,0 +1,570 @@
+status,period_start,source_row_number,source_business_unit,source_label,canonical_metric,business_unit,show,channel,agent,cell_a1,value_raw,value_numeric,reason
+unmapped_row,,5,Москва,Проведено шоу,,,,,,,,,no_mapping_found
+unmapped_row,,6,Москва,Гостей,,,,,,,,,no_mapping_found
+unmapped_row,,9,Москва,Проведено шоу оффлайн,,,,,,,,,no_mapping_found
+unmapped_row,,10,Москва,Гостей,,,,,,,,,no_mapping_found
+unmapped_row,,12,Москва,Проведено шоу онлайн,,,,,,,,,no_mapping_found
+unmapped_row,,13,Москва,Гостей,,,,,,,,,no_mapping_found
+unmapped_row,,15,Москва,Проведено СД,,,,,,,,,no_mapping_found
+unmapped_row,,16,Москва,Гостей,,,,,,,,,no_mapping_found
+unmapped_row,,20,Москва,Средняя цена одного билета,,,,,,,,,no_mapping_found
+unmapped_row,,21,Москва,%к выручке,,,,,,,,,no_mapping_found
+unmapped_row,,23,Москва,Средняя цена одного билета,,,,,,,,,no_mapping_found
+unmapped_row,,26,Москва,%к выручке,,,,,,,,,no_mapping_found
+unmapped_row,,28,Москва,%к выручке,,,,,,,,,no_mapping_found
+unmapped_row,,36,Москва,%к выручке,,,,,,,,,no_mapping_found
+unmapped_row,,42,Москва,%к выручке,,,,,,,,,no_mapping_found
+unmapped_row,,49,Москва,% ФОТ в выручке СД,,,,,,,,,no_mapping_found
+unmapped_row,,81,Москва,процент возвратов от выручки,,,,,,,,,no_mapping_found
+unmapped_row,,146,Москва,% инвестиций от выручки,,,,,,,,,no_mapping_found
+unmapped_row,,232,Общее,Рентабельность общая после выплаты основателям,,,,,,,,,no_mapping_found
+unmapped_row,,234,Общее,Снятие наличных/перевод на карту для ПСН,,,,,,,,,no_mapping_found
+unmapped_row,,235,Общее,Комиссия за снятие наличных / налоги на ИП,,,,,,,,,no_mapping_found
+unmapped_row,,236,Общее,"Входящий остаток на начало периода, 1 число месяца",,,,,,,,,no_mapping_found
+unmapped_row,,237,Общее,"Входящий остаток на конец периода, 1 число месяца",,,,,,,,,no_mapping_found
+unmapped_row,,238,Общее,Вывод для ПСН (депозитный счет),,,,,,,,,no_mapping_found
+unmapped_row,,251,Общее,Сальдо,,,,,,,,,no_mapping_found
+aggregated,2025-04-01,19,Москва,Реализация_шоу,Revenue,b2c_moscow,general,general,general,BR19,"2 756 139,00",2756139,
+aggregated,2025-05-01,19,Москва,Реализация_шоу,Revenue,b2c_moscow,general,general,general,BS19,"3 335 199,00",3335199,
+aggregated,2025-06-01,19,Москва,Реализация_шоу,Revenue,b2c_moscow,general,general,general,BT19,"3 503 485,00",3503485,
+aggregated,2025-04-01,22,Москва,Реализация_СД,Revenue,b2c_moscow,sd,general,general,BR22,"767 331,00",767331,
+aggregated,2025-05-01,22,Москва,Реализация_СД,Revenue,b2c_moscow,sd,general,general,BS22,"991 015,00",991015,
+aggregated,2025-06-01,22,Москва,Реализация_СД,Revenue,b2c_moscow,sd,general,general,BT22,"1 114 204,00",1114204,
+aggregated,2025-04-01,25,B2B,Реализация - B2B,Revenue,b2b,general,general,general,BR25,"1 411 300,00",1411300,
+aggregated,2025-05-01,25,B2B,Реализация - B2B,Revenue,b2b,general,general,general,BS25,"3 329 180,00",3329180,
+aggregated,2025-06-01,25,B2B,Реализация - B2B,Revenue,b2b,general,general,general,BT25,"1 477 000,00",1477000,
+skipped,2025-04-01,27,B2B,Спецпроекты_классический репертуар,Revenue,b2b,general,general,general,BR27,,,blank_or_non_numeric
+skipped,2025-05-01,27,B2B,Спецпроекты_классический репертуар,Revenue,b2b,general,general,general,BS27,,,blank_or_non_numeric
+skipped,2025-06-01,27,B2B,Спецпроекты_классический репертуар,Revenue,b2b,general,general,general,BT27,,,blank_or_non_numeric
+skipped,2025-04-01,29,B2B,Спецпроекты_СД,Revenue,b2b,sd,general,general,BR29,,,blank_or_non_numeric
+skipped,2025-05-01,29,B2B,Спецпроекты_СД,Revenue,b2b,sd,general,general,BS29,,,blank_or_non_numeric
+skipped,2025-06-01,29,B2B,Спецпроекты_СД,Revenue,b2b,sd,general,general,BT29,,,blank_or_non_numeric
+skipped,2025-04-01,31,B2B,Спецпроекты_онлайн,Revenue,b2b,online,general,general,BR31,,,blank_or_non_numeric
+skipped,2025-05-01,31,B2B,Спецпроекты_онлайн,Revenue,b2b,online,general,general,BS31,,,blank_or_non_numeric
+skipped,2025-06-01,31,B2B,Спецпроекты_онлайн,Revenue,b2b,online,general,general,BT31,,,blank_or_non_numeric
+aggregated,2025-04-01,34,Москва,Выручка_сертификаты с понижающем кэфом,Revenue,b2c_moscow,certificate,general,general,BR34,"242 748,75",242748.75,
+aggregated,2025-05-01,34,Москва,Выручка_сертификаты с понижающем кэфом,Revenue,b2c_moscow,certificate,general,general,BS34,"223 739,25",223739.25,
+aggregated,2025-06-01,34,Москва,Выручка_сертификаты с понижающем кэфом,Revenue,b2c_moscow,certificate,general,general,BT34,"180 020,25",180020.25,
+skipped,2025-04-01,38,Франшиза,Франшиза_паушалка,Revenue,franchise,general,general,general,BR38,,,blank_or_non_numeric
+skipped,2025-05-01,38,Франшиза,Франшиза_паушалка,Revenue,franchise,general,general,general,BS38,,,blank_or_non_numeric
+aggregated,2025-06-01,38,Франшиза,Франшиза_паушалка,Revenue,franchise,general,general,general,BT38,"100 000,00",100000,
+skipped,2025-04-01,39,Франшиза,Франшиза_роялти,Revenue,franchise,general,general,general,BR39,,,blank_or_non_numeric
+skipped,2025-05-01,39,Франшиза,Франшиза_роялти,Revenue,franchise,general,general,general,BS39,,,blank_or_non_numeric
+aggregated,2025-06-01,39,Франшиза,Франшиза_роялти,Revenue,franchise,general,general,general,BT39,"12 000,00",12000,
+skipped,2025-04-01,40,Франшиза,Франшиза_тотал,Revenue,franchise,general,general,general,BR40,,,blank_or_non_numeric
+skipped,2025-05-01,40,Франшиза,Франшиза_тотал,Revenue,franchise,general,general,general,BS40,,,blank_or_non_numeric
+aggregated,2025-06-01,40,Франшиза,Франшиза_тотал,Revenue,franchise,general,general,general,BT40,"112 000,00",112000,
+skipped,2025-04-01,41,Франшиза,Франшиза Китай,Revenue,franchise,general,general,general,BR41,,,blank_or_non_numeric
+skipped,2025-05-01,41,Франшиза,Франшиза Китай,Revenue,franchise,general,general,general,BS41,,,blank_or_non_numeric
+skipped,2025-06-01,41,Франшиза,Франшиза Китай,Revenue,franchise,general,general,general,BT41,,,blank_or_non_numeric
+skipped,2025-04-01,44,Москва,Прочие расходы,Other expenses,b2c_moscow,general,general,general,BR44,,,blank_or_non_numeric
+skipped,2025-05-01,44,Москва,Прочие расходы,Other expenses,b2c_moscow,general,general,general,BS44,,,blank_or_non_numeric
+skipped,2025-06-01,44,Москва,Прочие расходы,Other expenses,b2c_moscow,general,general,general,BT44,,,blank_or_non_numeric
+aggregated,2025-04-01,45,Москва,ЗП актеров по начислению_ классический репертуар,Costs - Salary variable,b2c_moscow,general,general,general,BR45,"619 785,00",619785,
+aggregated,2025-05-01,45,Москва,ЗП актеров по начислению_ классический репертуар,Costs - Salary variable,b2c_moscow,general,general,general,BS45,"827 180,00",827180,
+aggregated,2025-06-01,45,Москва,ЗП актеров по начислению_ классический репертуар,Costs - Salary variable,b2c_moscow,general,general,general,BT45,"917 224,00",917224,
+aggregated,2025-04-01,48,Москва,ЗП актеров-Судный день,Costs - Salary variable,b2c_moscow,sd,general,general,BR48,"216 460,00",216460,
+aggregated,2025-05-01,48,Москва,ЗП актеров-Судный день,Costs - Salary variable,b2c_moscow,sd,general,general,BS48,"234 020,00",234020,
+aggregated,2025-06-01,48,Москва,ЗП актеров-Судный день,Costs - Salary variable,b2c_moscow,sd,general,general,BT48,"221 680,00",221680,
+aggregated,2025-04-01,50,Москва,Зарплата на 1 СД,Costs - Salary variable,b2c_moscow,,general,general,BR50,"12 732,94",12732.94,
+aggregated,2025-05-01,50,Москва,Зарплата на 1 СД,Costs - Salary variable,b2c_moscow,,general,general,BS50,"12 316,84",12316.84,
+skipped,2025-06-01,50,Москва,Зарплата на 1 СД,Costs - Salary variable,b2c_moscow,,general,general,BT50,,,blank_or_non_numeric
+aggregated,2025-04-01,51,Москва,"Иные выплаты актерам, надбавки",Costs - Salary variable,b2c_moscow,general,general,general,BR51,"114 340,00",114340,
+aggregated,2025-05-01,51,Москва,"Иные выплаты актерам, надбавки",Costs - Salary variable,b2c_moscow,general,general,general,BS51,"136 850,00",136850,
+aggregated,2025-06-01,51,Москва,"Иные выплаты актерам, надбавки",Costs - Salary variable,b2c_moscow,general,general,general,BT51,"242 505,00",242505,
+skipped,2025-04-01,52,Москва,Продажи актеров,Actor upsell sales,b2c_moscow,general,general,general,BR52,,,blank_or_non_numeric
+skipped,2025-05-01,52,Москва,Продажи актеров,Actor upsell sales,b2c_moscow,general,general,general,BS52,,,blank_or_non_numeric
+skipped,2025-06-01,52,Москва,Продажи актеров,Actor upsell sales,b2c_moscow,general,general,general,BT52,,,blank_or_non_numeric
+skipped,2025-04-01,53,B2B,З/п бонус админа_корпоратив,Costs - Salary fixed,b2b,general,general,general,BR53,,,blank_or_non_numeric
+skipped,2025-05-01,53,B2B,З/п бонус админа_корпоратив,Costs - Salary fixed,b2b,general,general,general,BS53,,,blank_or_non_numeric
+skipped,2025-06-01,53,B2B,З/п бонус админа_корпоратив,Costs - Salary fixed,b2b,general,general,general,BT53,,,blank_or_non_numeric
+skipped,2025-04-01,54,B2B,З/п бонус админа_корпоратив театр,Costs - Salary fixed,b2b,general,general,general,BR54,,,blank_or_non_numeric
+skipped,2025-05-01,54,B2B,З/п бонус админа_корпоратив театр,Costs - Salary fixed,b2b,general,general,general,BS54,,,blank_or_non_numeric
+skipped,2025-06-01,54,B2B,З/п бонус админа_корпоратив театр,Costs - Salary fixed,b2b,general,general,general,BT54,,,blank_or_non_numeric
+aggregated,2025-04-01,55,Москва,З/п бонус Митя_СД,Costs - Salary fixed,b2c_moscow,,general,general,BR55,"8 000,00",8000,
+aggregated,2025-05-01,55,Москва,З/п бонус Митя_СД,Costs - Salary fixed,b2c_moscow,,general,general,BS55,"9 500,00",9500,
+aggregated,2025-06-01,55,Москва,З/п бонус Митя_СД,Costs - Salary fixed,b2c_moscow,,general,general,BT55,"9 000,00",9000,
+skipped,2025-04-01,56,Москва,З/п бонус Иное место Андрея,Costs - Salary fixed,b2c_moscow,,general,general,BR56,,,blank_or_non_numeric
+aggregated,2025-05-01,56,Москва,З/п бонус Иное место Андрея,Costs - Salary fixed,b2c_moscow,,general,general,BS56,"15 200,00",15200,
+aggregated,2025-06-01,56,Москва,З/п бонус Иное место Андрея,Costs - Salary fixed,b2c_moscow,,general,general,BT56,"4 200,00",4200,
+aggregated,2025-04-01,57,B2B,B2B корпоративы з/п фикс,Costs - Salary fixed,b2b,general,general,general,BR57,"148 000,00",148000,
+aggregated,2025-05-01,57,B2B,B2B корпоративы з/п фикс,Costs - Salary fixed,b2b,general,general,general,BS57,"133 000,00",133000,
+aggregated,2025-06-01,57,B2B,B2B корпоративы з/п фикс,Costs - Salary fixed,b2b,general,general,general,BT57,"212 505,00",212505,
+aggregated,2025-04-01,58,B2B,B2B директор фикс,Costs - Salary fixed,b2b,general,general,general,BR58,"50 000,00",50000,
+aggregated,2025-05-01,58,B2B,B2B директор фикс,Costs - Salary fixed,b2b,general,general,general,BS58,"50 000,00",50000,
+aggregated,2025-06-01,58,B2B,B2B директор фикс,Costs - Salary fixed,b2b,general,general,general,BT58,"50 000,00",50000,
+skipped,2025-04-01,59,B2B,B2B общие расходы на реализацию корпоратива,Show production costs,b2b,general,general,general,BR59,,,blank_or_non_numeric
+aggregated,2025-05-01,59,B2B,B2B общие расходы на реализацию корпоратива,Show production costs,b2b,general,general,general,BS59,"2 043 398,00",2043398,
+aggregated,2025-06-01,59,B2B,B2B общие расходы на реализацию корпоратива,Show production costs,b2b,general,general,general,BT59,"1 015 770,00",1015770,
+aggregated,2025-04-01,60,B2B,B2B корпоративы з/п актеров,Costs - Salary variable,b2b,general,general,general,BR60,"160 000,00",160000,
+skipped,2025-05-01,60,B2B,B2B корпоративы з/п актеров,Costs - Salary variable,b2b,general,general,general,BS60,,,blank_or_non_numeric
+skipped,2025-06-01,60,B2B,B2B корпоративы з/п актеров,Costs - Salary variable,b2b,general,general,general,BT60,,,blank_or_non_numeric
+aggregated,2025-04-01,61,B2B,B2B корпоративы з/п креативная команда,Costs - Salary variable,b2b,general,general,general,BR61,"535 760,00",535760,
+skipped,2025-05-01,61,B2B,B2B корпоративы з/п креативная команда,Costs - Salary variable,b2b,general,general,general,BS61,,,blank_or_non_numeric
+skipped,2025-06-01,61,B2B,B2B корпоративы з/п креативная команда,Costs - Salary variable,b2b,general,general,general,BT61,,,blank_or_non_numeric
+aggregated,2025-04-01,62,B2B,B2B корпоративы костюмы и реквизит,Show production costs,b2b,general,general,general,BR62,"278 650,00",278650,
+skipped,2025-05-01,62,B2B,B2B корпоративы костюмы и реквизит,Show production costs,b2b,general,general,general,BS62,,,blank_or_non_numeric
+skipped,2025-06-01,62,B2B,B2B корпоративы костюмы и реквизит,Show production costs,b2b,general,general,general,BT62,,,blank_or_non_numeric
+aggregated,2025-04-01,63,B2B,B2B корпоративы разные услуги,Other expenses,b2b,general,general,general,BR63,"31 000,00",31000,
+skipped,2025-05-01,63,B2B,B2B корпоративы разные услуги,Other expenses,b2b,general,general,general,BS63,,,blank_or_non_numeric
+skipped,2025-06-01,63,B2B,B2B корпоративы разные услуги,Other expenses,b2b,general,general,general,BT63,,,blank_or_non_numeric
+aggregated,2025-04-01,64,B2B,B2B_Участие в Сцене,Marketing costs,b2b,general,pr,general,BR64,"183 778,00",183778,
+skipped,2025-05-01,64,B2B,B2B_Участие в Сцене,Marketing costs,b2b,general,pr,general,BS64,,,blank_or_non_numeric
+skipped,2025-06-01,64,B2B,B2B_Участие в Сцене,Marketing costs,b2b,general,pr,general,BT64,,,blank_or_non_numeric
+skipped,2025-04-01,65,Москва,"Иные выплаты актерам, надбавки",Costs - Salary variable,b2c_moscow,general,general,general,BR65,,,blank_or_non_numeric
+skipped,2025-05-01,65,Москва,"Иные выплаты актерам, надбавки",Costs - Salary variable,b2c_moscow,general,general,general,BS65,,,blank_or_non_numeric
+skipped,2025-06-01,65,Москва,"Иные выплаты актерам, надбавки",Costs - Salary variable,b2c_moscow,general,general,general,BT65,,,blank_or_non_numeric
+skipped,2025-04-01,66,B2B,Спецпроекты_классический репуртуар_з/п актеров,Costs - Salary variable,b2b,general,general,general,BR66,,,blank_or_non_numeric
+skipped,2025-05-01,66,B2B,Спецпроекты_классический репуртуар_з/п актеров,Costs - Salary variable,b2b,general,general,general,BS66,,,blank_or_non_numeric
+skipped,2025-06-01,66,B2B,Спецпроекты_классический репуртуар_з/п актеров,Costs - Salary variable,b2b,general,general,general,BT66,,,blank_or_non_numeric
+skipped,2025-04-01,67,B2B,Спецпроекты_СД_з/п актеров,Costs - Salary variable,b2b,SD,general,general,BR67,,,blank_or_non_numeric
+skipped,2025-05-01,67,B2B,Спецпроекты_СД_з/п актеров,Costs - Salary variable,b2b,SD,general,general,BS67,,,blank_or_non_numeric
+skipped,2025-06-01,67,B2B,Спецпроекты_СД_з/п актеров,Costs - Salary variable,b2b,SD,general,general,BT67,,,blank_or_non_numeric
+skipped,2025-04-01,68,B2B,Другие затраты_Спецпроекты СД,Show production costs,b2b,sd,general,general,BR68,,,blank_or_non_numeric
+skipped,2025-05-01,68,B2B,Другие затраты_Спецпроекты СД,Show production costs,b2b,sd,general,general,BS68,,,blank_or_non_numeric
+skipped,2025-06-01,68,B2B,Другие затраты_Спецпроекты СД,Show production costs,b2b,sd,general,general,BT68,,,blank_or_non_numeric
+skipped,2025-04-01,69,B2B,Спецпроекты_онлайн_з/п актеров,Costs - Salary variable,b2b,Online,general,general,BR69,,,blank_or_non_numeric
+skipped,2025-05-01,69,B2B,Спецпроекты_онлайн_з/п актеров,Costs - Salary variable,b2b,Online,general,general,BS69,,,blank_or_non_numeric
+skipped,2025-06-01,69,B2B,Спецпроекты_онлайн_з/п актеров,Costs - Salary variable,b2b,Online,general,general,BT69,,,blank_or_non_numeric
+skipped,2025-04-01,70,Франшиза,З/п запуск партнеров франшиза,Costs - Salary fixed,franchise,,general,general,BR70,,,blank_or_non_numeric
+skipped,2025-05-01,70,Франшиза,З/п запуск партнеров франшиза,Costs - Salary fixed,franchise,,general,general,BS70,,,blank_or_non_numeric
+aggregated,2025-06-01,70,Франшиза,З/п запуск партнеров франшиза,Costs - Salary fixed,franchise,,general,general,BT70,"6 000,00",6000,
+skipped,2025-04-01,71,Франшиза,Затраты франшиза Китай,Other expenses,franchise,general,general,general,BR71,,,blank_or_non_numeric
+skipped,2025-05-01,71,Франшиза,Затраты франшиза Китай,Other expenses,franchise,general,general,general,BS71,,,blank_or_non_numeric
+skipped,2025-06-01,71,Франшиза,Затраты франшиза Китай,Other expenses,franchise,general,general,general,BT71,,,blank_or_non_numeric
+skipped,2025-04-01,72,Франшиза,Затраты на реквизит для партнеров франшиза,Show production costs,franchise,general,general,general,BR72,,,blank_or_non_numeric
+skipped,2025-05-01,72,Франшиза,Затраты на реквизит для партнеров франшиза,Show production costs,franchise,general,general,general,BS72,,,blank_or_non_numeric
+skipped,2025-06-01,72,Франшиза,Затраты на реквизит для партнеров франшиза,Show production costs,franchise,general,general,general,BT72,,,blank_or_non_numeric
+aggregated,2025-04-01,73,Москва,Комиссии платежных систем,Cost article - Комиссия,b2c_moscow,general,general,general,BR73,"56 123,08",56123.08,
+aggregated,2025-05-01,73,Москва,Комиссии платежных систем,Cost article - Комиссия,b2c_moscow,general,general,general,BS73,"45 497,87",45497.87,
+aggregated,2025-06-01,73,Москва,Комиссии платежных систем,Cost article - Комиссия,b2c_moscow,general,general,general,BT73,"64 549,99",64549.99,
+aggregated,2025-04-01,74,Москва,Комиссии платежных систем (агрегаторы),Cost article - Комиссия,b2c_moscow,general,general,general,BR74,"74 844,00",74844,
+aggregated,2025-05-01,74,Москва,Комиссии платежных систем (агрегаторы),Cost article - Комиссия,b2c_moscow,general,general,general,BS74,"110 718,00",110718,
+aggregated,2025-06-01,74,Москва,Комиссии платежных систем (агрегаторы),Cost article - Комиссия,b2c_moscow,general,general,general,BT74,"93 438,00",93438,
+aggregated,2025-04-01,75,Москва,Комиссии платежных систем (агрегаторы_МДТЗК),Cost article - Комиссия,b2c_moscow,general,general,general,BR75,"7 260,00",7260,
+aggregated,2025-05-01,75,Москва,Комиссии платежных систем (агрегаторы_МДТЗК),Cost article - Комиссия,b2c_moscow,general,general,general,BS75,"8 940,00",8940,
+aggregated,2025-06-01,75,Москва,Комиссии платежных систем (агрегаторы_МДТЗК),Cost article - Комиссия,b2c_moscow,general,general,general,BT75,"14 685,00",14685,
+aggregated,2025-04-01,77,Москва,Банковское обслуживание,Cost article - КОМИССИИ БАНКОВ,b2c_moscow,general,general,general,BR77,"4 980,00",4980,
+aggregated,2025-05-01,77,Москва,Банковское обслуживание,Cost article - КОМИССИИ БАНКОВ,b2c_moscow,general,general,general,BS77,"4 980,00",4980,
+aggregated,2025-06-01,77,Москва,Банковское обслуживание,Cost article - КОМИССИИ БАНКОВ,b2c_moscow,general,general,general,BT77,"4 980,00",4980,
+aggregated,2025-04-01,78,Москва,Налог6%,Cost article - Налог на прибыль (доходы),b2c_moscow,general,general,general,BR78,"313 345,08",313345.08,
+aggregated,2025-05-01,78,Москва,Налог6%,Cost article - Налог на прибыль (доходы),b2c_moscow,general,general,general,BS78,"472 965,79",472965.79,
+aggregated,2025-06-01,78,Москва,Налог6%,Cost article - Налог на прибыль (доходы),b2c_moscow,general,general,general,BT78,"380 990,46",380990.46,
+skipped,2025-04-01,79,Москва,Налог страховые взносы,Cost article - Страховые взносы,b2c_moscow,general,general,general,BR79,,,blank_or_non_numeric
+skipped,2025-05-01,79,Москва,Налог страховые взносы,Cost article - Страховые взносы,b2c_moscow,general,general,general,BS79,,,blank_or_non_numeric
+aggregated,2025-06-01,79,Москва,Налог страховые взносы,Cost article - Страховые взносы,b2c_moscow,general,general,general,BT79,"497 342,00",497342,
+aggregated,2025-04-01,80,Москва,Возвраты,Returns amount,b2c_moscow,general,general,general,BR80,"23 900,00",23900,
+aggregated,2025-05-01,80,Москва,Возвраты,Returns amount,b2c_moscow,general,general,general,BS80,"52 300,00",52300,
+aggregated,2025-06-01,80,Москва,Возвраты,Returns amount,b2c_moscow,general,general,general,BT80,"73 400,00",73400,
+aggregated,2025-04-01,82,Москва,Логистика,Variable logistics costs,b2c_moscow,general,general,general,BR82,"8 487,00",8487,
+aggregated,2025-05-01,82,Москва,Логистика,Variable logistics costs,b2c_moscow,general,general,general,BS82,"19 485,00",19485,
+aggregated,2025-06-01,82,Москва,Логистика,Variable logistics costs,b2c_moscow,general,general,general,BT82,"16 368,00",16368,
+aggregated,2025-04-01,83,Москва,Прочие расходы,Other expenses,b2c_moscow,general,general,general,BR83,"67 615,00",67615,
+aggregated,2025-05-01,83,Москва,Прочие расходы,Other expenses,b2c_moscow,general,general,general,BS83,"14 690,00",14690,
+aggregated,2025-06-01,83,Москва,Прочие расходы,Other expenses,b2c_moscow,general,general,general,BT83,"154 248,00",154248,
+skipped,2025-04-01,85,Москва,Неопознанные пока траты,Other expenses,b2c_moscow,general,general,general,BR85,,,blank_or_non_numeric
+aggregated,2025-05-01,85,Москва,Неопознанные пока траты,Other expenses,b2c_moscow,general,general,general,BS85,"93 011,00",93011,
+aggregated,2025-06-01,85,Москва,Неопознанные пока траты,Other expenses,b2c_moscow,general,general,general,BT85,"102 312,00",102312,
+skipped,2025-04-01,89,Москва,Маркетинг,Marketing costs,b2c_spb,general,other,general,BR89,,,blank_or_non_numeric
+skipped,2025-05-01,89,Москва,Маркетинг,Marketing costs,b2c_spb,general,other,general,BS89,,,blank_or_non_numeric
+skipped,2025-06-01,89,Москва,Маркетинг,Marketing costs,b2c_spb,general,other,general,BT89,,,blank_or_non_numeric
+aggregated,2025-04-01,90,Москва,Контекстная реклама_бюджет_ритейл,Marketing costs,b2c_moscow,general,direct,general,BR90,"120 947,00",120947,
+aggregated,2025-05-01,90,Москва,Контекстная реклама_бюджет_ритейл,Marketing costs,b2c_moscow,general,direct,general,BS90,"86 157,00",86157,
+aggregated,2025-06-01,90,Москва,Контекстная реклама_бюджет_ритейл,Marketing costs,b2c_moscow,general,direct,general,BT90,"122 251,00",122251,
+skipped,2025-04-01,91,Москва,Контекстная реклама_бюджет_франшиза,Marketing costs,b2c_moscow,general,direct,general,BR91,,,blank_or_non_numeric
+skipped,2025-05-01,91,Москва,Контекстная реклама_бюджет_франшиза,Marketing costs,b2c_moscow,general,direct,general,BS91,,,blank_or_non_numeric
+skipped,2025-06-01,91,Москва,Контекстная реклама_бюджет_франшиза,Marketing costs,b2c_moscow,general,direct,general,BT91,,,blank_or_non_numeric
+aggregated,2025-04-01,92,Москва,Контекст_ведение_ритейл,Marketing costs,b2c_moscow,general,direct,general,BR92,"18 500,00",18500,
+aggregated,2025-05-01,92,Москва,Контекст_ведение_ритейл,Marketing costs,b2c_moscow,general,direct,general,BS92,"23 500,00",23500,
+aggregated,2025-06-01,92,Москва,Контекст_ведение_ритейл,Marketing costs,b2c_moscow,general,direct,general,BT92,"28 500,00",28500,
+skipped,2025-04-01,93,Москва,Контекст_ведение_франшиза,Marketing costs,b2c_moscow,general,direct,general,BR93,,,blank_or_non_numeric
+skipped,2025-05-01,93,Москва,Контекст_ведение_франшиза,Marketing costs,b2c_moscow,general,direct,general,BS93,,,blank_or_non_numeric
+skipped,2025-06-01,93,Москва,Контекст_ведение_франшиза,Marketing costs,b2c_moscow,general,direct,general,BT93,,,blank_or_non_numeric
+skipped,2025-04-01,94,Москва,Контекстна реклама_корпоратив,Marketing costs,b2c_moscow,general,direct,general,BR94,,,blank_or_non_numeric
+skipped,2025-05-01,94,Москва,Контекстна реклама_корпоратив,Marketing costs,b2c_moscow,general,direct,general,BS94,,,blank_or_non_numeric
+skipped,2025-06-01,94,Москва,Контекстна реклама_корпоратив,Marketing costs,b2c_moscow,general,direct,general,BT94,,,blank_or_non_numeric
+skipped,2025-04-01,95,Москва,Таргетированная реклама_бюджет,Marketing costs,b2c_moscow,general,smm,general,BR95,,,blank_or_non_numeric
+skipped,2025-05-01,95,Москва,Таргетированная реклама_бюджет,Marketing costs,b2c_moscow,general,smm,general,BS95,,,blank_or_non_numeric
+skipped,2025-06-01,95,Москва,Таргетированная реклама_бюджет,Marketing costs,b2c_moscow,general,smm,general,BT95,,,blank_or_non_numeric
+skipped,2025-04-01,96,Москва,Таргетолог_ведение,Marketing costs,b2c_moscow,general,smm,general,BR96,,,blank_or_non_numeric
+skipped,2025-05-01,96,Москва,Таргетолог_ведение,Marketing costs,b2c_moscow,general,smm,general,BS96,,,blank_or_non_numeric
+skipped,2025-06-01,96,Москва,Таргетолог_ведение,Marketing costs,b2c_moscow,general,smm,general,BT96,,,blank_or_non_numeric
+aggregated,2025-04-01,97,Москва,Инстаграм_ведение,Marketing costs,b2c_spb,general,smm,general,BR97,"65 000,00",65000,
+aggregated,2025-05-01,97,Москва,Инстаграм_ведение,Marketing costs,b2c_spb,general,smm,general,BS97,"0,00",0,
+aggregated,2025-06-01,97,Москва,Инстаграм_ведение,Marketing costs,b2c_spb,general,smm,general,BT97,"0,00",0,
+skipped,2025-04-01,98,Москва,Тик-Ток_ведение,Marketing costs,b2c_moscow,general,smm,general,BR98,,,blank_or_non_numeric
+skipped,2025-05-01,98,Москва,Тик-Ток_ведение,Marketing costs,b2c_moscow,general,smm,general,BS98,,,blank_or_non_numeric
+skipped,2025-06-01,98,Москва,Тик-Ток_ведение,Marketing costs,b2c_moscow,general,smm,general,BT98,,,blank_or_non_numeric
+skipped,2025-04-01,99,Москва,Тик-Ток_бюджет,Marketing costs,b2c_moscow,general,smm,general,BR99,,,blank_or_non_numeric
+skipped,2025-05-01,99,Москва,Тик-Ток_бюджет,Marketing costs,b2c_moscow,general,smm,general,BS99,,,blank_or_non_numeric
+skipped,2025-06-01,99,Москва,Тик-Ток_бюджет,Marketing costs,b2c_moscow,general,smm,general,BT99,,,blank_or_non_numeric
+skipped,2025-04-01,100,Москва,Youtube_ведение,Marketing costs,b2c_moscow,general,smm,general,BR100,,,blank_or_non_numeric
+skipped,2025-05-01,100,Москва,Youtube_ведение,Marketing costs,b2c_moscow,general,smm,general,BS100,,,blank_or_non_numeric
+skipped,2025-06-01,100,Москва,Youtube_ведение,Marketing costs,b2c_moscow,general,smm,general,BT100,,,blank_or_non_numeric
+skipped,2025-04-01,101,Москва,Youtube_бюджет,Marketing costs,b2c_moscow,general,smm,general,BR101,,,blank_or_non_numeric
+skipped,2025-05-01,101,Москва,Youtube_бюджет,Marketing costs,b2c_moscow,general,smm,general,BS101,,,blank_or_non_numeric
+skipped,2025-06-01,101,Москва,Youtube_бюджет,Marketing costs,b2c_moscow,general,smm,general,BT101,,,blank_or_non_numeric
+aggregated,2025-04-01,102,Москва,"Размещение у блогеров, афишах, дзене, паблики_бюджет",Marketing costs,b2c_moscow,general,pr,general,BR102,"280 065,00",280065,
+aggregated,2025-05-01,102,Москва,"Размещение у блогеров, афишах, дзене, паблики_бюджет",Marketing costs,b2c_moscow,general,pr,general,BS102,"219 065,00",219065,
+aggregated,2025-06-01,102,Москва,"Размещение у блогеров, афишах, дзене, паблики_бюджет",Marketing costs,b2c_moscow,general,pr,general,BT102,"221 065,00",221065,
+skipped,2025-04-01,103,Москва,"Размещение у блогеров, афишах, дзене, паблики_ведение",Marketing costs,b2c_moscow,general,pr,general,BR103,,,blank_or_non_numeric
+skipped,2025-05-01,103,Москва,"Размещение у блогеров, афишах, дзене, паблики_ведение",Marketing costs,b2c_moscow,general,pr,general,BS103,,,blank_or_non_numeric
+skipped,2025-06-01,103,Москва,"Размещение у блогеров, афишах, дзене, паблики_ведение",Marketing costs,b2c_moscow,general,pr,general,BT103,,,blank_or_non_numeric
+skipped,2025-04-01,104,Москва,PR,Marketing costs,b2c_spb,general,pr,general,BR104,,,blank_or_non_numeric
+skipped,2025-05-01,104,Москва,PR,Marketing costs,b2c_spb,general,pr,general,BS104,,,blank_or_non_numeric
+skipped,2025-06-01,104,Москва,PR,Marketing costs,b2c_spb,general,pr,general,BT104,,,blank_or_non_numeric
+skipped,2025-04-01,105,Москва,Кросс-промо / Интеграция в фестивали,Marketing costs,b2c_moscow,general,pr,general,BR105,,,blank_or_non_numeric
+skipped,2025-05-01,105,Москва,Кросс-промо / Интеграция в фестивали,Marketing costs,b2c_moscow,general,pr,general,BS105,,,blank_or_non_numeric
+skipped,2025-06-01,105,Москва,Кросс-промо / Интеграция в фестивали,Marketing costs,b2c_moscow,general,pr,general,BT105,,,blank_or_non_numeric
+skipped,2025-04-01,106,Москва,Рилс-мэйкинг,Marketing costs,b2c_moscow,general,smm,general,BR106,,,blank_or_non_numeric
+skipped,2025-05-01,106,Москва,Рилс-мэйкинг,Marketing costs,b2c_moscow,general,smm,general,BS106,,,blank_or_non_numeric
+skipped,2025-06-01,106,Москва,Рилс-мэйкинг,Marketing costs,b2c_moscow,general,smm,general,BT106,,,blank_or_non_numeric
+skipped,2025-04-01,107,Москва,Продвижение франшизы,Marketing costs,b2c_moscow,general,other,general,BR107,,,blank_or_non_numeric
+skipped,2025-05-01,107,Москва,Продвижение франшизы,Marketing costs,b2c_moscow,general,other,general,BS107,,,blank_or_non_numeric
+skipped,2025-06-01,107,Москва,Продвижение франшизы,Marketing costs,b2c_moscow,general,other,general,BT107,,,blank_or_non_numeric
+skipped,2025-04-01,108,Москва,Прочие расходы на рекламу,Marketing costs,b2c_spb,general,other,general,BR108,,,blank_or_non_numeric
+skipped,2025-05-01,108,Москва,Прочие расходы на рекламу,Marketing costs,b2c_spb,general,other,general,BS108,,,blank_or_non_numeric
+skipped,2025-06-01,108,Москва,Прочие расходы на рекламу,Marketing costs,b2c_spb,general,other,general,BT108,,,blank_or_non_numeric
+aggregated,2025-04-01,109,Москва,Накрутка отзывов,Marketing costs,b2c_moscow,general,pr,general,BR109,"6 300,00",6300,
+aggregated,2025-05-01,109,Москва,Накрутка отзывов,Marketing costs,b2c_moscow,general,pr,general,BS109,"3 300,00",3300,
+aggregated,2025-06-01,109,Москва,Накрутка отзывов,Marketing costs,b2c_moscow,general,pr,general,BT109,"3 300,00",3300,
+aggregated,2025-04-01,110,Москва,"Дизайн, новый сайт, полиграфия, цели и seo",Marketing costs,b2c_moscow,general,other,general,BR110,"102 550,00",102550,
+aggregated,2025-05-01,110,Москва,"Дизайн, новый сайт, полиграфия, цели и seo",Marketing costs,b2c_moscow,general,other,general,BS110,"96 056,00",96056,
+aggregated,2025-06-01,110,Москва,"Дизайн, новый сайт, полиграфия, цели и seo",Marketing costs,b2c_moscow,general,other,general,BT110,"179 830,00",179830,
+aggregated,2025-04-01,116,Москва,Аренда помещения,Venue and office costs,b2c_moscow,general,general,general,BR116,"217 240,00",217240,
+aggregated,2025-05-01,116,Москва,Аренда помещения,Venue and office costs,b2c_moscow,general,general,general,BS116,"282 920,00",282920,
+aggregated,2025-06-01,116,Москва,Аренда помещения,Venue and office costs,b2c_moscow,general,general,general,BT116,"282 220,00",282220,
+aggregated,2025-04-01,117,Москва,Электроэнергия,Venue and office costs,b2c_moscow,general,general,general,BR117,"5 492,00",5492,
+aggregated,2025-05-01,117,Москва,Электроэнергия,Venue and office costs,b2c_moscow,general,general,general,BS117,"7 423,13",7423.13,
+aggregated,2025-06-01,117,Москва,Электроэнергия,Venue and office costs,b2c_moscow,general,general,general,BT117,"5 041,00",5041,
+aggregated,2025-04-01,118,Москва,"ЗП управляющего, администратора, второго дминистратора, креативного директора, худрука, завхоз, корпорат менеджера",Costs - Salary fixed,b2c_moscow,,general,general,BR118,"551 060,00",551060,
+aggregated,2025-05-01,118,Москва,"ЗП управляющего, администратора, второго дминистратора, креативного директора, худрука, завхоз, корпорат менеджера",Costs - Salary fixed,b2c_moscow,,general,general,BS118,"504 256,00",504256,
+aggregated,2025-06-01,118,Москва,"ЗП управляющего, администратора, второго дминистратора, креативного директора, худрука, завхоз, корпорат менеджера",Costs - Salary fixed,b2c_moscow,,general,general,BT118,"589 004,00",589004,
+aggregated,2025-04-01,119,Москва,ЗП директор фикс,Costs - Salary fixed,b2c_spb,general,general,general,BR119,"50 000,00",50000,
+aggregated,2025-05-01,119,Москва,ЗП директор фикс,Costs - Salary fixed,b2c_spb,general,general,general,BS119,"50 000,00",50000,
+aggregated,2025-06-01,119,Москва,ЗП директор фикс,Costs - Salary fixed,b2c_spb,general,general,general,BT119,"50 000,00",50000,
+aggregated,2025-04-01,120,Москва,Разработка и IT,Cost article - IT ФОТ,b2c_moscow,general,general,general,BR120,"62 899,00",62899,
+aggregated,2025-05-01,120,Москва,Разработка и IT,Cost article - IT ФОТ,b2c_moscow,general,general,general,BS120,"58 361,00",58361,
+aggregated,2025-06-01,120,Москва,Разработка и IT,Cost article - IT ФОТ,b2c_moscow,general,general,general,BT120,"72 889,00",72889,
+aggregated,2025-04-01,121,Москва,Подарки,Team expenses,b2c_moscow,general,general,general,BR121,"10 000,00",10000,
+aggregated,2025-05-01,121,Москва,Подарки,Team expenses,b2c_moscow,general,general,general,BS121,"20 000,00",20000,
+aggregated,2025-06-01,121,Москва,Подарки,Team expenses,b2c_moscow,general,general,general,BT121,"22 199,00",22199,
+aggregated,2025-04-01,122,Москва,Уборка помещения,Cost article - Уборка,b2c_spb,general,general,general,BR122,"26 809,30",26809.3,
+aggregated,2025-05-01,122,Москва,Уборка помещения,Cost article - Уборка,b2c_spb,general,general,general,BS122,"22 100,00",22100,
+aggregated,2025-06-01,122,Москва,Уборка помещения,Cost article - Уборка,b2c_spb,general,general,general,BT122,"24 700,00",24700,
+aggregated,2025-04-01,123,Москва,Ремонт помещения,Cost article - Ремонт и обслуживание,b2c_spb,general,general,general,BR123,"68 827,00",68827,
+aggregated,2025-05-01,123,Москва,Ремонт помещения,Cost article - Ремонт и обслуживание,b2c_spb,general,general,general,BS123,"64 792,50",64792.5,
+aggregated,2025-06-01,123,Москва,Ремонт помещения,Cost article - Ремонт и обслуживание,b2c_spb,general,general,general,BT123,"35 167,00",35167,
+skipped,2025-04-01,124,Москва,Хоз.расходы на помещение,Cost article - Расходники (офисные),b2c_spb,general,general,general,BR124,,,blank_or_non_numeric
+aggregated,2025-05-01,124,Москва,Хоз.расходы на помещение,Cost article - Расходники (офисные),b2c_spb,general,general,general,BS124,"101 939,00",101939,
+aggregated,2025-06-01,124,Москва,Хоз.расходы на помещение,Cost article - Расходники (офисные),b2c_spb,general,general,general,BT124,"63 382,00",63382,
+aggregated,2025-04-01,125,Москва,Расходы на проведение спектаклей,Show production costs,b2c_spb,general,general,general,BR125,"64 859,00",64859,
+aggregated,2025-05-01,125,Москва,Расходы на проведение спектаклей,Show production costs,b2c_spb,general,general,general,BS125,"44 536,00",44536,
+aggregated,2025-06-01,125,Москва,Расходы на проведение спектаклей,Show production costs,b2c_spb,general,general,general,BT125,"65 996,00",65996,
+aggregated,2025-04-01,126,Москва,Реквизит для проведения спектаклей,Cost article - Реквизит/костюмы,b2c_spb,general,general,general,BR126,"32 444,00",32444,
+aggregated,2025-05-01,126,Москва,Реквизит для проведения спектаклей,Cost article - Реквизит/костюмы,b2c_spb,general,general,general,BS126,"38 460,00",38460,
+aggregated,2025-06-01,126,Москва,Реквизит для проведения спектаклей,Cost article - Реквизит/костюмы,b2c_spb,general,general,general,BT126,"132 815,00",132815,
+aggregated,2025-04-01,127,Москва,Электронные и бухгалтерские сервисы,Services and setup costs,b2c_spb,general,general,general,BR127,"28 958,00",28958,
+aggregated,2025-05-01,127,Москва,Электронные и бухгалтерские сервисы,Services and setup costs,b2c_spb,general,general,general,BS127,"49 993,00",49993,
+aggregated,2025-06-01,127,Москва,Электронные и бухгалтерские сервисы,Services and setup costs,b2c_spb,general,general,general,BT127,"119 785,00",119785,
+skipped,2025-04-01,135,Москва,Зарплата на разработку шоу,Costs - Salary variable,b2c_moscow,,general,general,BR135,,,blank_or_non_numeric
+skipped,2025-05-01,135,Москва,Зарплата на разработку шоу,Costs - Salary variable,b2c_moscow,,general,general,BS135,,,blank_or_non_numeric
+skipped,2025-06-01,135,Москва,Зарплата на разработку шоу,Costs - Salary variable,b2c_moscow,,general,general,BT135,,,blank_or_non_numeric
+aggregated,2025-04-01,136,Москва,"Сайт, презентации, дизайн",Marketing costs,b2c_moscow,general,other,general,BR136,"0,00",0,
+skipped,2025-05-01,136,Москва,"Сайт, презентации, дизайн",Marketing costs,b2c_moscow,general,other,general,BS136,,,blank_or_non_numeric
+skipped,2025-06-01,136,Москва,"Сайт, презентации, дизайн",Marketing costs,b2c_moscow,general,other,general,BT136,,,blank_or_non_numeric
+skipped,2025-04-01,144,Франшиза,Европейская франшиза,Revenue,franchise,general,general,general,BR144,,,blank_or_non_numeric
+skipped,2025-05-01,144,Франшиза,Европейская франшиза,Revenue,franchise,general,general,general,BS144,,,blank_or_non_numeric
+skipped,2025-06-01,144,Франшиза,Европейская франшиза,Revenue,franchise,general,general,general,BT144,,,blank_or_non_numeric
+aggregated,2025-04-01,145,Москва,"Итого, расходы инвестиции Москва",Investment costs,b2c_moscow,general,general,general,BR145,"0,00",0,
+aggregated,2025-05-01,145,Москва,"Итого, расходы инвестиции Москва",Investment costs,b2c_moscow,general,general,general,BS145,"0,00",0,
+aggregated,2025-06-01,145,Москва,"Итого, расходы инвестиции Москва",Investment costs,b2c_moscow,general,general,general,BT145,"0,00",0,
+aggregated,2025-04-01,147,Москва,Инвестии в Петербург,Investment costs,b2c_spb,general,general,general,BR147,"0,00",0,
+aggregated,2025-05-01,147,Москва,Инвестии в Петербург,Investment costs,b2c_spb,general,general,general,BS147,"0,00",0,
+aggregated,2025-06-01,147,Москва,Инвестии в Петербург,Investment costs,b2c_spb,general,general,general,BT147,"0,00",0,
+aggregated,2025-04-01,149,СПб,Проведено шоу,Number of shows,b2c_spb,general,general,general,BR149,"131,00",131,
+aggregated,2025-05-01,149,СПб,Проведено шоу,Number of shows,b2c_spb,general,general,general,BS149,"139,00",139,
+aggregated,2025-06-01,149,СПб,Проведено шоу,Number of shows,b2c_spb,general,general,general,BT149,"148,00",148,
+aggregated,2025-04-01,150,СПб,Гостей,Number of show visitors,b2c_spb,general,general,general,BR150,"605,00",605,
+aggregated,2025-05-01,150,СПб,Гостей,Number of show visitors,b2c_spb,general,general,general,BS150,"645,00",645,
+aggregated,2025-06-01,150,СПб,Гостей,Number of show visitors,b2c_spb,general,general,general,BT150,"781,00",781,
+aggregated,2025-04-01,153,СПб,Проведено СД,Number of shows,b2c_spb,sd,general,general,BR153,"13,00",13,
+aggregated,2025-05-01,153,СПб,Проведено СД,Number of shows,b2c_spb,sd,general,general,BS153,"18,00",18,
+aggregated,2025-06-01,153,СПб,Проведено СД,Number of shows,b2c_spb,sd,general,general,BT153,"13,00",13,
+aggregated,2025-04-01,154,СПб,Гостей,Number of show visitors,b2c_spb,sd,general,general,BR154,"128,00",128,
+aggregated,2025-05-01,154,СПб,Гостей,Number of show visitors,b2c_spb,sd,general,general,BS154,"213,00",213,
+aggregated,2025-06-01,154,СПб,Гостей,Number of show visitors,b2c_spb,sd,general,general,BT154,"145,00",145,
+aggregated,2025-04-01,157,СПб,Реализация шоу,Revenue,b2c_spb,general,general,general,BR157,"1 783 105,00",1783105,
+aggregated,2025-05-01,157,СПб,Реализация шоу,Revenue,b2c_spb,general,general,general,BS157,"2 022 804,00",2022804,
+aggregated,2025-06-01,157,СПб,Реализация шоу,Revenue,b2c_spb,general,general,general,BT157,"2 330 358,00",2330358,
+aggregated,2025-04-01,158,СПб,Реализация СД,Revenue,b2c_spb,sd,general,general,BR158,"429 967,00",429967,
+aggregated,2025-05-01,158,СПб,Реализация СД,Revenue,b2c_spb,sd,general,general,BS158,"824 296,00",824296,
+aggregated,2025-06-01,158,СПб,Реализация СД,Revenue,b2c_spb,sd,general,general,BT158,"563 396,00",563396,
+aggregated,2025-04-01,160,СПб,Выручка_сертификаты с понижающем кэфом,Revenue,b2c_spb,certificate,general,general,BR160,"62 187,00",62187,
+aggregated,2025-05-01,160,СПб,Выручка_сертификаты с понижающем кэфом,Revenue,b2c_spb,certificate,general,general,BS160,"73 829,25",73829.25,
+aggregated,2025-06-01,160,СПб,Выручка_сертификаты с понижающем кэфом,Revenue,b2c_spb,certificate,general,general,BT160,"43 590,75",43590.75,
+skipped,2025-04-01,162,B2B,Спецпроекты (корпоративы),Revenue,b2b,general,general,general,BR162,,,blank_or_non_numeric
+skipped,2025-05-01,162,B2B,Спецпроекты (корпоративы),Revenue,b2b,general,general,general,BS162,,,blank_or_non_numeric
+skipped,2025-06-01,162,B2B,Спецпроекты (корпоративы),Revenue,b2b,general,general,general,BT162,,,blank_or_non_numeric
+aggregated,2025-04-01,165,СПб,ЗП актеров по начислению,Costs - Salary variable,b2c_spb,general,general,general,BR165,"513 950,00",513950,
+aggregated,2025-05-01,165,СПб,ЗП актеров по начислению,Costs - Salary variable,b2c_spb,general,general,general,BS165,"511 050,00",511050,
+aggregated,2025-06-01,165,СПб,ЗП актеров по начислению,Costs - Salary variable,b2c_spb,general,general,general,BT165,"584 250,00",584250,
+aggregated,2025-04-01,168,СПб,ЗП СД,Costs - Salary variable,b2c_spb,sd,general,general,BR168,"143 300,00",143300,
+aggregated,2025-05-01,168,СПб,ЗП СД,Costs - Salary variable,b2c_spb,sd,general,general,BS168,"198 800,00",198800,
+aggregated,2025-06-01,168,СПб,ЗП СД,Costs - Salary variable,b2c_spb,sd,general,general,BT168,"143 600,00",143600,
+aggregated,2025-04-01,171,СПб,Выплаты актерам за разные услуги,Costs - Salary variable,b2c_spb,general,general,general,BR171,"29 600,00",29600,
+aggregated,2025-05-01,171,СПб,Выплаты актерам за разные услуги,Costs - Salary variable,b2c_spb,general,general,general,BS171,"45 550,00",45550,
+aggregated,2025-06-01,171,СПб,Выплаты актерам за разные услуги,Costs - Salary variable,b2c_spb,general,general,general,BT171,"140 250,00",140250,
+aggregated,2025-04-01,172,СПб,Митя_Бонус СД,Costs - Salary variable,b2c_spb,sd,general,general,BR172,"6 500,00",6500,
+aggregated,2025-05-01,172,СПб,Митя_Бонус СД,Costs - Salary variable,b2c_spb,sd,general,general,BS172,"9 000,00",9000,
+aggregated,2025-06-01,172,СПб,Митя_Бонус СД,Costs - Salary variable,b2c_spb,sd,general,general,BT172,"6 500,00",6500,
+aggregated,2025-04-01,173,СПб,Комиссии платежных систем,Cost article - Комиссия,b2c_spb,general,general,general,BR173,"19 731,02",19731.02,
+aggregated,2025-05-01,173,СПб,Комиссии платежных систем,Cost article - Комиссия,b2c_spb,general,general,general,BS173,"35 631,88",35631.88,
+aggregated,2025-06-01,173,СПб,Комиссии платежных систем,Cost article - Комиссия,b2c_spb,general,general,general,BT173,"34 250,00",34250,
+aggregated,2025-04-01,174,СПб,Комиссии платежных систем (агрегаторы),Cost article - Комиссия,b2c_spb,general,general,general,BR174,"60 075,00",60075,
+aggregated,2025-05-01,174,СПб,Комиссии платежных систем (агрегаторы),Cost article - Комиссия,b2c_spb,general,general,general,BS174,"67 122,00",67122,
+aggregated,2025-06-01,174,СПб,Комиссии платежных систем (агрегаторы),Cost article - Комиссия,b2c_spb,general,general,general,BT174,"120 249,00",120249,
+aggregated,2025-04-01,175,СПб,Комиссии платежных систем (агрегаторы_ДТЗК),Cost article - Комиссия,b2c_spb,general,general,general,BR175,"1 470,00",1470,
+aggregated,2025-05-01,175,СПб,Комиссии платежных систем (агрегаторы_ДТЗК),Cost article - Комиссия,b2c_spb,general,general,general,BS175,"1 428,00",1428,
+aggregated,2025-06-01,175,СПб,Комиссии платежных систем (агрегаторы_ДТЗК),Cost article - Комиссия,b2c_spb,general,general,general,BT175,"1 932,00",1932,
+aggregated,2025-04-01,177,СПб,Налог6%,Cost article - Налог на прибыль (доходы),b2c_spb,general,general,general,BR177,"134 453,76",134453.76,
+aggregated,2025-05-01,177,СПб,Налог6%,Cost article - Налог на прибыль (доходы),b2c_spb,general,general,general,BS177,"172 346,59",172346.59,
+aggregated,2025-06-01,177,СПб,Налог6%,Cost article - Налог на прибыль (доходы),b2c_spb,general,general,general,BT177,"168 827,88",168827.88,
+skipped,2025-04-01,178,СПб,Налог страховые взносы,Cost article - Страховые взносы,b2c_spb,general,general,general,BR178,,,blank_or_non_numeric
+skipped,2025-05-01,178,СПб,Налог страховые взносы,Cost article - Страховые взносы,b2c_spb,general,general,general,BS178,,,blank_or_non_numeric
+skipped,2025-06-01,178,СПб,Налог страховые взносы,Cost article - Страховые взносы,b2c_spb,general,general,general,BT178,,,blank_or_non_numeric
+aggregated,2025-04-01,179,СПб,Возвраты,Returns amount,b2c_spb,general,general,general,BR179,"39 820,00",39820,
+aggregated,2025-05-01,179,СПб,Возвраты,Returns amount,b2c_spb,general,general,general,BS179,"12 120,00",12120,
+aggregated,2025-06-01,179,СПб,Возвраты,Returns amount,b2c_spb,general,general,general,BT179,"62 400,00",62400,
+aggregated,2025-04-01,180,СПб,Логистика (+командировки Москвы и Питера),Business travel costs,b2c_spb,general,general,general,BR180,"4 230,00",4230,
+aggregated,2025-05-01,180,СПб,Логистика (+командировки Москвы и Питера),Business travel costs,b2c_spb,general,general,general,BS180,"49 342,00",49342,
+skipped,2025-06-01,180,СПб,Логистика (+командировки Москвы и Питера),Business travel costs,b2c_spb,general,general,general,BT180,нет данных,,blank_or_non_numeric
+aggregated,2025-04-01,181,СПб,Прочие расходы,Other expenses,b2c_spb,general,general,general,BR181,"0,00",0,
+aggregated,2025-05-01,181,СПб,Прочие расходы,Other expenses,b2c_spb,general,general,general,BS181,"31 757,00",31757,
+skipped,2025-06-01,181,СПб,Прочие расходы,Other expenses,b2c_spb,general,general,general,BT181,,,blank_or_non_numeric
+skipped,2025-04-01,182,B2B,Общие расходы спецпроекты_корпоративы,Show production costs,b2b,general,general,general,BR182,,,blank_or_non_numeric
+skipped,2025-05-01,182,B2B,Общие расходы спецпроекты_корпоративы,Show production costs,b2b,general,general,general,BS182,,,blank_or_non_numeric
+skipped,2025-06-01,182,B2B,Общие расходы спецпроекты_корпоративы,Show production costs,b2b,general,general,general,BT182,,,blank_or_non_numeric
+skipped,2025-04-01,186,СПб,Маркетинг,Marketing costs,b2c_spb,general,other,general,BR186,,,blank_or_non_numeric
+skipped,2025-05-01,186,СПб,Маркетинг,Marketing costs,b2c_spb,general,other,general,BS186,,,blank_or_non_numeric
+skipped,2025-06-01,186,СПб,Маркетинг,Marketing costs,b2c_spb,general,other,general,BT186,,,blank_or_non_numeric
+aggregated,2025-04-01,187,СПб,Контекстная реклама_ведение_ритейл,Marketing costs,b2c_spb,general,direct,general,BR187,"18 500,00",18500,
+aggregated,2025-05-01,187,СПб,Контекстная реклама_ведение_ритейл,Marketing costs,b2c_spb,general,direct,general,BS187,"18 500,00",18500,
+aggregated,2025-06-01,187,СПб,Контекстная реклама_ведение_ритейл,Marketing costs,b2c_spb,general,direct,general,BT187,"18 500,00",18500,
+aggregated,2025-04-01,188,СПб,Контекст_бюджет_ритейл,Marketing costs,b2c_spb,general,direct,general,BR188,"97 571,00",97571,
+aggregated,2025-05-01,188,СПб,Контекст_бюджет_ритейл,Marketing costs,b2c_spb,general,direct,general,BS188,"91 466,00",91466,
+aggregated,2025-06-01,188,СПб,Контекст_бюджет_ритейл,Marketing costs,b2c_spb,general,direct,general,BT188,"128 653,00",128653,
+skipped,2025-04-01,189,СПб,Инстаграм_ведение,Marketing costs,b2c_spb,general,smm,general,BR189,,,blank_or_non_numeric
+skipped,2025-05-01,189,СПб,Инстаграм_ведение,Marketing costs,b2c_spb,general,smm,general,BS189,,,blank_or_non_numeric
+skipped,2025-06-01,189,СПб,Инстаграм_ведение,Marketing costs,b2c_spb,general,smm,general,BT189,,,blank_or_non_numeric
+aggregated,2025-04-01,190,СПб,"Размещение у блогеров, афишах, дзене, паблики",Marketing costs,b2c_spb,general,pr,general,BR190,"93 249,00",93249,
+aggregated,2025-05-01,190,СПб,"Размещение у блогеров, афишах, дзене, паблики",Marketing costs,b2c_spb,general,pr,general,BS190,"12 000,00",12000,
+aggregated,2025-06-01,190,СПб,"Размещение у блогеров, афишах, дзене, паблики",Marketing costs,b2c_spb,general,pr,general,BT190,"127 320,00",127320,
+skipped,2025-04-01,191,СПб,PR,Marketing costs,b2c_spb,general,pr,general,BR191,,,blank_or_non_numeric
+skipped,2025-05-01,191,СПб,PR,Marketing costs,b2c_spb,general,pr,general,BS191,,,blank_or_non_numeric
+skipped,2025-06-01,191,СПб,PR,Marketing costs,b2c_spb,general,pr,general,BT191,,,blank_or_non_numeric
+skipped,2025-04-01,192,СПб,Кросс-промо и SEO,Marketing costs,b2c_spb,general,pr,general,BR192,,,blank_or_non_numeric
+skipped,2025-05-01,192,СПб,Кросс-промо и SEO,Marketing costs,b2c_spb,general,pr,general,BS192,,,blank_or_non_numeric
+skipped,2025-06-01,192,СПб,Кросс-промо и SEO,Marketing costs,b2c_spb,general,pr,general,BT192,,,blank_or_non_numeric
+aggregated,2025-04-01,193,СПб,Прочие расходы на рекламу,Marketing costs,b2c_spb,general,other,general,BR193,"132 920,80",132920.8,
+aggregated,2025-05-01,193,СПб,Прочие расходы на рекламу,Marketing costs,b2c_spb,general,other,general,BS193,"132 921,00",132921,
+aggregated,2025-06-01,193,СПб,Прочие расходы на рекламу,Marketing costs,b2c_spb,general,other,general,BT193,"149 044,00",149044,
+skipped,2025-04-01,194,СПб,"Дизайн, полиграфия",Marketing costs,b2c_spb,general,pos,general,BR194,,,blank_or_non_numeric
+skipped,2025-05-01,194,СПб,"Дизайн, полиграфия",Marketing costs,b2c_spb,general,pos,general,BS194,,,blank_or_non_numeric
+aggregated,2025-06-01,194,СПб,"Дизайн, полиграфия",Marketing costs,b2c_spb,general,pos,general,BT194,"34 380,00",34380,
+aggregated,2025-04-01,200,СПб,Аренда помещения и коммуналка,Venue and office costs,b2c_spb,general,general,general,BR200,"172 963,12",172963.12,
+aggregated,2025-05-01,200,СПб,Аренда помещения и коммуналка,Venue and office costs,b2c_spb,general,general,general,BS200,"169 990,00",169990,
+aggregated,2025-06-01,200,СПб,Аренда помещения и коммуналка,Venue and office costs,b2c_spb,general,general,general,BT200,"169 642,24",169642.24,
+aggregated,2025-04-01,201,СПб,"ЗП худрука, админов и ХПЧ",Costs - Salary fixed,b2c_spb,general,general,general,BR201,"295 000,00",295000,
+aggregated,2025-05-01,201,СПб,"ЗП худрука, админов и ХПЧ",Costs - Salary fixed,b2c_spb,general,general,general,BS201,"400 000,00",400000,
+aggregated,2025-06-01,201,СПб,"ЗП худрука, админов и ХПЧ",Costs - Salary fixed,b2c_spb,general,general,general,BT201,"251 000,00",251000,
+aggregated,2025-04-01,202,СПб,ЗП директор фикс,Costs - Salary fixed,b2c_spb,general,general,general,BR202,"50 000,00",50000,
+aggregated,2025-05-01,202,СПб,ЗП директор фикс,Costs - Salary fixed,b2c_spb,general,general,general,BS202,"50 000,00",50000,
+aggregated,2025-06-01,202,СПб,ЗП директор фикс,Costs - Salary fixed,b2c_spb,general,general,general,BT202,"50 000,00",50000,
+skipped,2025-04-01,203,СПб,Разработка и IT,Cost article - IT ФОТ,b2c_spb,general,general,general,BR203,,,blank_or_non_numeric
+skipped,2025-05-01,203,СПб,Разработка и IT,Cost article - IT ФОТ,b2c_spb,general,general,general,BS203,,,blank_or_non_numeric
+skipped,2025-06-01,203,СПб,Разработка и IT,Cost article - IT ФОТ,b2c_spb,general,general,general,BT203,,,blank_or_non_numeric
+aggregated,2025-04-01,204,СПб,Подарки,Team expenses,b2c_spb,general,general,general,BR204,"6 000,00",6000,
+skipped,2025-05-01,204,СПб,Подарки,Team expenses,b2c_spb,general,general,general,BS204, ,,blank_or_non_numeric
+aggregated,2025-06-01,204,СПб,Подарки,Team expenses,b2c_spb,general,general,general,BT204,"6 000,00",6000,
+aggregated,2025-04-01,205,СПб,Уборка помещения,Cost article - Уборка,b2c_spb,general,general,general,BR205,"15 600,00",15600,
+aggregated,2025-05-01,205,СПб,Уборка помещения,Cost article - Уборка,b2c_spb,general,general,general,BS205,"24 500,00",24500,
+aggregated,2025-06-01,205,СПб,Уборка помещения,Cost article - Уборка,b2c_spb,general,general,general,BT205,"16 900,00",16900,
+aggregated,2025-04-01,206,СПб,Ремонт помещения,Cost article - Ремонт и обслуживание,b2c_spb,general,general,general,BR206,"79 383,00",79383,
+aggregated,2025-05-01,206,СПб,Ремонт помещения,Cost article - Ремонт и обслуживание,b2c_spb,general,general,general,BS206,"3 506,00",3506,
+aggregated,2025-06-01,206,СПб,Ремонт помещения,Cost article - Ремонт и обслуживание,b2c_spb,general,general,general,BT206,"5 327,00",5327,
+aggregated,2025-04-01,207,СПб,Хоз.расходы на помещение,Cost article - Расходники (офисные),b2c_spb,general,general,general,BR207,"10 396,00",10396,
+aggregated,2025-05-01,207,СПб,Хоз.расходы на помещение,Cost article - Расходники (офисные),b2c_spb,general,general,general,BS207,"2 048,00",2048,
+aggregated,2025-06-01,207,СПб,Хоз.расходы на помещение,Cost article - Расходники (офисные),b2c_spb,general,general,general,BT207,"16 734,00",16734,
+aggregated,2025-04-01,208,СПб,Расходы на проведение спектаклей,Show production costs,b2c_spb,general,general,general,BR208,"55 770,00",55770,
+aggregated,2025-05-01,208,СПб,Расходы на проведение спектаклей,Show production costs,b2c_spb,general,general,general,BS208,"38 557,00",38557,
+aggregated,2025-06-01,208,СПб,Расходы на проведение спектаклей,Show production costs,b2c_spb,general,general,general,BT208,"50 539,00",50539,
+aggregated,2025-04-01,209,СПб,Реквизит для проведения спектаклей,Cost article - Реквизит/костюмы,b2c_spb,general,general,general,BR209,"17 567,00",17567,
+aggregated,2025-05-01,209,СПб,Реквизит для проведения спектаклей,Cost article - Реквизит/костюмы,b2c_spb,general,general,general,BS209,"32 788,00",32788,
+aggregated,2025-06-01,209,СПб,Реквизит для проведения спектаклей,Cost article - Реквизит/костюмы,b2c_spb,general,general,general,BT209,"26 356,00",26356,
+aggregated,2025-04-01,210,СПб,Электронные и бухгалтерские сервисы,Services and setup costs,b2c_spb,general,general,general,BR210,"12 264,00",12264,
+aggregated,2025-05-01,210,СПб,Электронные и бухгалтерские сервисы,Services and setup costs,b2c_spb,general,general,general,BS210,"12 762,00",12762,
+aggregated,2025-06-01,210,СПб,Электронные и бухгалтерские сервисы,Services and setup costs,b2c_spb,general,general,general,BT210,"14 769,00",14769,
+skipped,2025-04-01,223,Общее,Директорский процент,Cost article - Директорский процент,total,general,general,general,BR223,,,blank_or_non_numeric
+skipped,2025-05-01,223,Общее,Директорский процент,Cost article - Директорский процент,total,general,general,general,BS223,,,blank_or_non_numeric
+skipped,2025-06-01,223,Общее,Директорский процент,Cost article - Директорский процент,total,general,general,general,BT223,,,blank_or_non_numeric
+aggregated,2025-04-01,229,Общее,"Итого, процент директора",Cost article - Директорский процент,total,general,general,general,BR229,"83 837,43",83837.43,
+aggregated,2025-05-01,229,Общее,"Итого, процент директора",Cost article - Директорский процент,total,general,general,general,BS229,"330 473,12",330473.12,
+aggregated,2025-06-01,229,Общее,"Итого, процент директора",Cost article - Директорский процент,total,general,general,general,BT229,"110 067,41",110067.41,
+inserted,2025-04-01,,b2c_spb,,Business travel costs,b2c_spb,,,,,4230,4230,
+inserted,2025-05-01,,b2c_spb,,Business travel costs,b2c_spb,,,,,49342,49342,
+inserted,2025-04-01,,b2c_moscow,,Cost article - IT ФОТ,b2c_moscow,,,,,62899,62899,
+inserted,2025-05-01,,b2c_moscow,,Cost article - IT ФОТ,b2c_moscow,,,,,58361,58361,
+inserted,2025-06-01,,b2c_moscow,,Cost article - IT ФОТ,b2c_moscow,,,,,72889,72889,
+inserted,2025-04-01,,total,,Cost article - Директорский процент,total,,,,,83837.43,83837.43,
+inserted,2025-05-01,,total,,Cost article - Директорский процент,total,,,,,330473.12,330473.12,
+inserted,2025-06-01,,total,,Cost article - Директорский процент,total,,,,,110067.41,110067.41,
+inserted,2025-04-01,,b2c_moscow,,Cost article - КОМИССИИ БАНКОВ,b2c_moscow,,,,,4980,4980,
+inserted,2025-05-01,,b2c_moscow,,Cost article - КОМИССИИ БАНКОВ,b2c_moscow,,,,,4980,4980,
+inserted,2025-06-01,,b2c_moscow,,Cost article - КОМИССИИ БАНКОВ,b2c_moscow,,,,,4980,4980,
+inserted,2025-04-01,,b2c_moscow,,Cost article - Комиссия,b2c_moscow,,,,,138227.08,138227.08,
+inserted,2025-05-01,,b2c_moscow,,Cost article - Комиссия,b2c_moscow,,,,,165155.87,165155.87,
+inserted,2025-06-01,,b2c_moscow,,Cost article - Комиссия,b2c_moscow,,,,,172672.99,172672.99,
+inserted,2025-04-01,,b2c_spb,,Cost article - Комиссия,b2c_spb,,,,,81276.02,81276.02,
+inserted,2025-05-01,,b2c_spb,,Cost article - Комиссия,b2c_spb,,,,,104181.88,104181.88,
+inserted,2025-06-01,,b2c_spb,,Cost article - Комиссия,b2c_spb,,,,,156431,156431,
+inserted,2025-04-01,,b2c_moscow,,Cost article - Налог на прибыль (доходы),b2c_moscow,,,,,313345.08,313345.08,
+inserted,2025-05-01,,b2c_moscow,,Cost article - Налог на прибыль (доходы),b2c_moscow,,,,,472965.79,472965.79,
+inserted,2025-06-01,,b2c_moscow,,Cost article - Налог на прибыль (доходы),b2c_moscow,,,,,380990.46,380990.46,
+inserted,2025-04-01,,b2c_spb,,Cost article - Налог на прибыль (доходы),b2c_spb,,,,,134453.76,134453.76,
+inserted,2025-05-01,,b2c_spb,,Cost article - Налог на прибыль (доходы),b2c_spb,,,,,172346.59,172346.59,
+inserted,2025-06-01,,b2c_spb,,Cost article - Налог на прибыль (доходы),b2c_spb,,,,,168827.88,168827.88,
+inserted,2025-04-01,,b2c_spb,,Cost article - Расходники (офисные),b2c_spb,,,,,10396,10396,
+inserted,2025-05-01,,b2c_spb,,Cost article - Расходники (офисные),b2c_spb,,,,,103987,103987,
+inserted,2025-06-01,,b2c_spb,,Cost article - Расходники (офисные),b2c_spb,,,,,80116,80116,
+inserted,2025-04-01,,b2c_spb,,Cost article - Реквизит/костюмы,b2c_spb,,,,,50011,50011,
+inserted,2025-05-01,,b2c_spb,,Cost article - Реквизит/костюмы,b2c_spb,,,,,71248,71248,
+inserted,2025-06-01,,b2c_spb,,Cost article - Реквизит/костюмы,b2c_spb,,,,,159171,159171,
+inserted,2025-04-01,,b2c_spb,,Cost article - Ремонт и обслуживание,b2c_spb,,,,,148210,148210,
+inserted,2025-05-01,,b2c_spb,,Cost article - Ремонт и обслуживание,b2c_spb,,,,,68298.5,68298.5,
+inserted,2025-06-01,,b2c_spb,,Cost article - Ремонт и обслуживание,b2c_spb,,,,,40494,40494,
+inserted,2025-06-01,,b2c_moscow,,Cost article - Страховые взносы,b2c_moscow,,,,,497342,497342,
+inserted,2025-04-01,,b2c_spb,,Cost article - Уборка,b2c_spb,,,,,42409.3,42409.3,
+inserted,2025-05-01,,b2c_spb,,Cost article - Уборка,b2c_spb,,,,,46600,46600,
+inserted,2025-06-01,,b2c_spb,,Cost article - Уборка,b2c_spb,,,,,41600,41600,
+inserted,2025-04-01,,b2b,,Costs - Salary fixed,b2b,,,,,198000,198000,
+inserted,2025-05-01,,b2b,,Costs - Salary fixed,b2b,,,,,183000,183000,
+inserted,2025-06-01,,b2b,,Costs - Salary fixed,b2b,,,,,262505,262505,
+inserted,2025-04-01,,b2c_moscow,,Costs - Salary fixed,b2c_moscow,,,,,559060,559060,
+inserted,2025-05-01,,b2c_moscow,,Costs - Salary fixed,b2c_moscow,,,,,528956,528956,
+inserted,2025-06-01,,b2c_moscow,,Costs - Salary fixed,b2c_moscow,,,,,602204,602204,
+inserted,2025-04-01,,b2c_spb,,Costs - Salary fixed,b2c_spb,,,,,395000,395000,
+inserted,2025-05-01,,b2c_spb,,Costs - Salary fixed,b2c_spb,,,,,500000,500000,
+inserted,2025-06-01,,b2c_spb,,Costs - Salary fixed,b2c_spb,,,,,351000,351000,
+inserted,2025-06-01,,franchise,,Costs - Salary fixed,franchise,,,,,6000,6000,
+inserted,2025-04-01,,b2b,,Costs - Salary variable,b2b,,,,,695760,695760,
+inserted,2025-04-01,,b2c_moscow,,Costs - Salary variable,b2c_moscow,,,,,746857.94,746857.94,
+inserted,2025-05-01,,b2c_moscow,,Costs - Salary variable,b2c_moscow,,,,,976346.84,976346.84,
+inserted,2025-06-01,,b2c_moscow,,Costs - Salary variable,b2c_moscow,,,,,1159729,1159729,
+inserted,2025-04-01,,b2c_moscow,,Costs - Salary variable,b2c_moscow,SD,,,,216460,216460,
+inserted,2025-05-01,,b2c_moscow,,Costs - Salary variable,b2c_moscow,SD,,,,234020,234020,
+inserted,2025-06-01,,b2c_moscow,,Costs - Salary variable,b2c_moscow,SD,,,,221680,221680,
+inserted,2025-04-01,,b2c_spb,,Costs - Salary variable,b2c_spb,,,,,543550,543550,
+inserted,2025-05-01,,b2c_spb,,Costs - Salary variable,b2c_spb,,,,,556600,556600,
+inserted,2025-06-01,,b2c_spb,,Costs - Salary variable,b2c_spb,,,,,724500,724500,
+inserted,2025-04-01,,b2c_spb,,Costs - Salary variable,b2c_spb,SD,,,,149800,149800,
+inserted,2025-05-01,,b2c_spb,,Costs - Salary variable,b2c_spb,SD,,,,207800,207800,
+inserted,2025-06-01,,b2c_spb,,Costs - Salary variable,b2c_spb,SD,,,,150100,150100,
+inserted,2025-04-01,,b2c_moscow,,Investment costs,b2c_moscow,,,,,0,0,
+inserted,2025-05-01,,b2c_moscow,,Investment costs,b2c_moscow,,,,,0,0,
+inserted,2025-06-01,,b2c_moscow,,Investment costs,b2c_moscow,,,,,0,0,
+inserted,2025-04-01,,b2c_spb,,Investment costs,b2c_spb,,,,,0,0,
+inserted,2025-05-01,,b2c_spb,,Investment costs,b2c_spb,,,,,0,0,
+inserted,2025-06-01,,b2c_spb,,Investment costs,b2c_spb,,,,,0,0,
+inserted,2025-04-01,,b2b,,Marketing costs,b2b,,pr,,,183778,183778,
+inserted,2025-04-01,,b2c_moscow,,Marketing costs,b2c_moscow,,direct,,,139447,139447,
+inserted,2025-05-01,,b2c_moscow,,Marketing costs,b2c_moscow,,direct,,,109657,109657,
+inserted,2025-06-01,,b2c_moscow,,Marketing costs,b2c_moscow,,direct,,,150751,150751,
+inserted,2025-04-01,,b2c_moscow,,Marketing costs,b2c_moscow,,other,,,102550,102550,
+inserted,2025-05-01,,b2c_moscow,,Marketing costs,b2c_moscow,,other,,,96056,96056,
+inserted,2025-06-01,,b2c_moscow,,Marketing costs,b2c_moscow,,other,,,179830,179830,
+inserted,2025-04-01,,b2c_moscow,,Marketing costs,b2c_moscow,,pr,,,286365,286365,
+inserted,2025-05-01,,b2c_moscow,,Marketing costs,b2c_moscow,,pr,,,222365,222365,
+inserted,2025-06-01,,b2c_moscow,,Marketing costs,b2c_moscow,,pr,,,224365,224365,
+inserted,2025-04-01,,b2c_spb,,Marketing costs,b2c_spb,,direct,,,116071,116071,
+inserted,2025-05-01,,b2c_spb,,Marketing costs,b2c_spb,,direct,,,109966,109966,
+inserted,2025-06-01,,b2c_spb,,Marketing costs,b2c_spb,,direct,,,147153,147153,
+inserted,2025-04-01,,b2c_spb,,Marketing costs,b2c_spb,,other,,,132920.8,132920.8,
+inserted,2025-05-01,,b2c_spb,,Marketing costs,b2c_spb,,other,,,132921,132921,
+inserted,2025-06-01,,b2c_spb,,Marketing costs,b2c_spb,,other,,,149044,149044,
+inserted,2025-06-01,,b2c_spb,,Marketing costs,b2c_spb,,pos,,,34380,34380,
+inserted,2025-04-01,,b2c_spb,,Marketing costs,b2c_spb,,pr,,,93249,93249,
+inserted,2025-05-01,,b2c_spb,,Marketing costs,b2c_spb,,pr,,,12000,12000,
+inserted,2025-06-01,,b2c_spb,,Marketing costs,b2c_spb,,pr,,,127320,127320,
+inserted,2025-04-01,,b2c_spb,,Marketing costs,b2c_spb,,smm,,,65000,65000,
+inserted,2025-05-01,,b2c_spb,,Marketing costs,b2c_spb,,smm,,,0,0,
+inserted,2025-06-01,,b2c_spb,,Marketing costs,b2c_spb,,smm,,,0,0,
+inserted,2025-04-01,,b2c_spb,,Number of show visitors,b2c_spb,,,,,605,605,
+inserted,2025-05-01,,b2c_spb,,Number of show visitors,b2c_spb,,,,,645,645,
+inserted,2025-06-01,,b2c_spb,,Number of show visitors,b2c_spb,,,,,781,781,
+inserted,2025-04-01,,b2c_spb,,Number of show visitors,b2c_spb,SD,,,,128,128,
+inserted,2025-05-01,,b2c_spb,,Number of show visitors,b2c_spb,SD,,,,213,213,
+inserted,2025-06-01,,b2c_spb,,Number of show visitors,b2c_spb,SD,,,,145,145,
+inserted,2025-04-01,,b2c_spb,,Number of shows,b2c_spb,,,,,131,131,
+inserted,2025-05-01,,b2c_spb,,Number of shows,b2c_spb,,,,,139,139,
+inserted,2025-06-01,,b2c_spb,,Number of shows,b2c_spb,,,,,148,148,
+inserted,2025-04-01,,b2c_spb,,Number of shows,b2c_spb,SD,,,,13,13,
+inserted,2025-05-01,,b2c_spb,,Number of shows,b2c_spb,SD,,,,18,18,
+inserted,2025-06-01,,b2c_spb,,Number of shows,b2c_spb,SD,,,,13,13,
+inserted,2025-04-01,,b2b,,Other expenses,b2b,,,,,31000,31000,
+inserted,2025-04-01,,b2c_moscow,,Other expenses,b2c_moscow,,,,,67615,67615,
+inserted,2025-05-01,,b2c_moscow,,Other expenses,b2c_moscow,,,,,107701,107701,
+inserted,2025-06-01,,b2c_moscow,,Other expenses,b2c_moscow,,,,,256560,256560,
+inserted,2025-04-01,,b2c_spb,,Other expenses,b2c_spb,,,,,0,0,
+inserted,2025-05-01,,b2c_spb,,Other expenses,b2c_spb,,,,,31757,31757,
+inserted,2025-04-01,,b2c_moscow,,Returns amount,b2c_moscow,,,,,23900,23900,
+inserted,2025-05-01,,b2c_moscow,,Returns amount,b2c_moscow,,,,,52300,52300,
+inserted,2025-06-01,,b2c_moscow,,Returns amount,b2c_moscow,,,,,73400,73400,
+inserted,2025-04-01,,b2c_spb,,Returns amount,b2c_spb,,,,,39820,39820,
+inserted,2025-05-01,,b2c_spb,,Returns amount,b2c_spb,,,,,12120,12120,
+inserted,2025-06-01,,b2c_spb,,Returns amount,b2c_spb,,,,,62400,62400,
+inserted,2025-04-01,,b2b,,Revenue,b2b,,,,,1411300,1411300,
+inserted,2025-05-01,,b2b,,Revenue,b2b,,,,,3329180,3329180,
+inserted,2025-06-01,,b2b,,Revenue,b2b,,,,,1477000,1477000,
+inserted,2025-04-01,,b2c_moscow,,Revenue,b2c_moscow,,,,,2756139,2756139,
+inserted,2025-05-01,,b2c_moscow,,Revenue,b2c_moscow,,,,,3335199,3335199,
+inserted,2025-06-01,,b2c_moscow,,Revenue,b2c_moscow,,,,,3503485,3503485,
+inserted,2025-04-01,,b2c_moscow,,Revenue,b2c_moscow,Certificate,,,,242748.75,242748.75,
+inserted,2025-05-01,,b2c_moscow,,Revenue,b2c_moscow,Certificate,,,,223739.25,223739.25,
+inserted,2025-06-01,,b2c_moscow,,Revenue,b2c_moscow,Certificate,,,,180020.25,180020.25,
+inserted,2025-04-01,,b2c_moscow,,Revenue,b2c_moscow,SD,,,,767331,767331,
+inserted,2025-05-01,,b2c_moscow,,Revenue,b2c_moscow,SD,,,,991015,991015,
+inserted,2025-06-01,,b2c_moscow,,Revenue,b2c_moscow,SD,,,,1114204,1114204,
+inserted,2025-04-01,,b2c_spb,,Revenue,b2c_spb,,,,,1783105,1783105,
+inserted,2025-05-01,,b2c_spb,,Revenue,b2c_spb,,,,,2022804,2022804,
+inserted,2025-06-01,,b2c_spb,,Revenue,b2c_spb,,,,,2330358,2330358,
+inserted,2025-04-01,,b2c_spb,,Revenue,b2c_spb,Certificate,,,,62187,62187,
+inserted,2025-05-01,,b2c_spb,,Revenue,b2c_spb,Certificate,,,,73829.25,73829.25,
+inserted,2025-06-01,,b2c_spb,,Revenue,b2c_spb,Certificate,,,,43590.75,43590.75,
+inserted,2025-04-01,,b2c_spb,,Revenue,b2c_spb,SD,,,,429967,429967,
+inserted,2025-05-01,,b2c_spb,,Revenue,b2c_spb,SD,,,,824296,824296,
+inserted,2025-06-01,,b2c_spb,,Revenue,b2c_spb,SD,,,,563396,563396,
+inserted,2025-06-01,,franchise,,Revenue,franchise,,,,,224000,224000,
+inserted,2025-04-01,,b2c_spb,,Services and setup costs,b2c_spb,,,,,41222,41222,
+inserted,2025-05-01,,b2c_spb,,Services and setup costs,b2c_spb,,,,,62755,62755,
+inserted,2025-06-01,,b2c_spb,,Services and setup costs,b2c_spb,,,,,134554,134554,
+inserted,2025-04-01,,b2b,,Show production costs,b2b,,,,,278650,278650,
+inserted,2025-05-01,,b2b,,Show production costs,b2b,,,,,2043398,2043398,
+inserted,2025-06-01,,b2b,,Show production costs,b2b,,,,,1015770,1015770,
+inserted,2025-04-01,,b2c_spb,,Show production costs,b2c_spb,,,,,120629,120629,
+inserted,2025-05-01,,b2c_spb,,Show production costs,b2c_spb,,,,,83093,83093,
+inserted,2025-06-01,,b2c_spb,,Show production costs,b2c_spb,,,,,116535,116535,
+inserted,2025-04-01,,b2c_moscow,,Team expenses,b2c_moscow,,,,,10000,10000,
+inserted,2025-05-01,,b2c_moscow,,Team expenses,b2c_moscow,,,,,20000,20000,
+inserted,2025-06-01,,b2c_moscow,,Team expenses,b2c_moscow,,,,,22199,22199,
+inserted,2025-04-01,,b2c_spb,,Team expenses,b2c_spb,,,,,6000,6000,
+inserted,2025-06-01,,b2c_spb,,Team expenses,b2c_spb,,,,,6000,6000,
+inserted,2025-04-01,,b2c_moscow,,Variable logistics costs,b2c_moscow,,,,,8487,8487,
+inserted,2025-05-01,,b2c_moscow,,Variable logistics costs,b2c_moscow,,,,,19485,19485,
+inserted,2025-06-01,,b2c_moscow,,Variable logistics costs,b2c_moscow,,,,,16368,16368,
+inserted,2025-04-01,,b2c_moscow,,Venue and office costs,b2c_moscow,,,,,222732,222732,
+inserted,2025-05-01,,b2c_moscow,,Venue and office costs,b2c_moscow,,,,,290343.13,290343.13,
+inserted,2025-06-01,,b2c_moscow,,Venue and office costs,b2c_moscow,,,,,287261,287261,
+inserted,2025-04-01,,b2c_spb,,Venue and office costs,b2c_spb,,,,,172963.12,172963.12,
+inserted,2025-05-01,,b2c_spb,,Venue and office costs,b2c_spb,,,,,169990,169990,
+inserted,2025-06-01,,b2c_spb,,Venue and office costs,b2c_spb,,,,,169642.24,169642.24,

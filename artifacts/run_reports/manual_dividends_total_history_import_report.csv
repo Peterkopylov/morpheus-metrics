@@ -1,0 +1,4 @@
+status,period_start,entry_date,amount_rub,source_group,entry_note,reason
+inserted,2026-01-01,2026-01-05,895000,dividends_net_total,общая сумма дивидендов чистые,
+inserted,2026-01-01,2026-01-07,165600,dividends_net_total,общая сумма дивидендов чистые,
+inserted,2026-01-01,2026-01-29,3000000,dividends_net_total,общая сумма дивидендов чистые,

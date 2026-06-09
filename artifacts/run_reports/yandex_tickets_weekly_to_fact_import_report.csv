@@ -1,0 +1,3 @@
+business_unit,status,reason,orders_seen,orders_sold,rows_inserted
+b2c_moscow,inserted,,0,0,3
+b2c_spb,inserted,,0,0,3

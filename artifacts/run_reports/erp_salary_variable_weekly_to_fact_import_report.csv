@@ -1,0 +1,55 @@
+unit,metric_name,scope,status,value,reason
+b2c_moscow,Costs - Salary variable,general,skipped,500,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,500,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,500,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,4725,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,4725,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,3360,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,1575,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,1000,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,5000,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,5000,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,10000,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,1575,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,1740,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,1920,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,500,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,500,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,500,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,500,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,500,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,500,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,3600,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,4800,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,500,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,3600,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,500,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,500,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,500,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,500,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,500,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,500,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,500,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,general,skipped,2000,bonus_without_seance_id
+b2c_moscow,Costs - Salary variable,show:22'07,inserted,28309,
+b2c_moscow,Costs - Salary variable,show:ВДОХ,inserted,18376,
+b2c_moscow,Costs - Salary variable,show:До свадьбы доживёт,inserted,41821,
+b2c_moscow,Costs - Salary variable,show:Загадка Амулета,inserted,4489,
+b2c_moscow,Costs - Salary variable,show:Иное место,inserted,9503,
+b2c_moscow,Costs - Salary variable,show:Ответ Гиппократа,inserted,84682,
+b2c_moscow,Costs - Salary variable,show:Судный день,inserted,66157,
+b2c_moscow,Costs - Salary variable,show:general,inserted,316457,
+b2c_moscow,Costs - Salary variable,general,skipped,63120,unallocated_bonus_tail
+b2c_spb,Costs - Salary variable,general,skipped,12500,bonus_without_seance_id
+b2c_spb,Costs - Salary variable,general,skipped,1500,bonus_without_seance_id
+b2c_spb,Costs - Salary variable,general,skipped,1400,bonus_without_seance_id
+b2c_spb,Costs - Salary variable,general,skipped,-28200,bonus_without_seance_id
+b2c_spb,Costs - Salary variable,general,skipped,5000,bonus_without_seance_id
+b2c_spb,Costs - Salary variable,general,skipped,7500,bonus_without_seance_id
+b2c_spb,Costs - Salary variable,show:22'07,inserted,14300,
+b2c_spb,Costs - Salary variable,show:До свадьбы доживёт,inserted,35300,
+b2c_spb,Costs - Salary variable,show:Загадка Амулета,inserted,8500,
+b2c_spb,Costs - Salary variable,show:Ответ Гиппократа,inserted,82800,
+b2c_spb,Costs - Salary variable,show:Судный день,inserted,24050,
+b2c_spb,Costs - Salary variable,show:general,inserted,164650,
+b2c_spb,Costs - Salary variable,general,skipped,-300,unallocated_bonus_tail

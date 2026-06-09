@@ -1,0 +1,255 @@
+row_number;col_a;col_b;ingestion_action_raw;ingestion_action;target_metric_or_metrics_raw;target_metric_or_metrics;source_system_override;import_as_source;layer;note
+1;Дата;Дата;Дата начала периода;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+2;Диапазон;Диапазон;Две даты - можно exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+3;Дата для klipfolio;Дата для klipfolio;exclude;exclude;;;;no;exclude;Техническая дата, не метрика.
+4;Поступления на счет;Поступления на счет;Exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+5;Поступления на счет - B2C;Поступления на счет - B2C;map_to_metric;map_to_metric;Revenue - MscB2c;Revenue;;yes;source;Observed revenue metric.
+6;Из них агрегаторы (вычет комиссии);Из них агрегаторы (вычет комиссии);exclude;exclude;;;;no;exclude;Legacy aggregate, не как отдельный fact.
+7;Из них агрегаторы (вычет комиссии)МДТЗК;Из них агрегаторы (вычет комиссии)МДТЗК;exclude;exclude;;;;no;exclude;Legacy aggregate, не как отдельный fact.
+8;билеты;билеты;map_to_metric;map_to_metric;Number of tickets;Number of tickets;;yes;source;Observed tickets metric.
+9;билеты;билеты виджет (сайт);map_to_metric;map_to_metric;Number of tickets;Number of tickets;;yes;source;Partner split for tickets.
+10;билеты;билеты яндекс афиша;map_to_metric;map_to_metric;Number of tickets;Number of tickets;;yes;source;Partner split for tickets.
+11;билеты;билеты от остальных агрегаторов;map_to_metric;map_to_metric;Number of tickets;Number of tickets;;yes;source;Partner split for tickets.
+12;билеты;афиша.ру;map_to_metric;map_to_metric;Number of tickets;Number of tickets;;yes;source;Partner split for tickets.
+13;билеты;кассир;map_to_metric;map_to_metric;Number of tickets;Number of tickets;;yes;source;Partner split for tickets.
+14;билеты;тикетленд;map_to_metric;map_to_metric;Number of tickets;Number of tickets;;yes;source;Partner split for tickets.
+15;билеты сд;билеты сд;map_to_metric;map_to_metric;Number of tickets;Number of tickets;;yes;source;Observed tickets metric.
+16;билеты сд;билет сд виджет (сайт);map_to_metric;map_to_metric;Number of tickets;Number of tickets;;yes;source;Partner split for tickets.
+17;билеты сд;билеты сд яндекс афиша;map_to_metric;map_to_metric;Number of tickets;Number of tickets;;yes;source;Partner split for tickets.
+18;билеты сд;билеты сд от остальных агрегаторов;map_to_metric;map_to_metric;Number of tickets;Number of tickets;;yes;source;Partner split for tickets.
+19;билеты сд;афиша.ру;map_to_metric;map_to_metric;Number of tickets;Number of tickets;;yes;source;Partner split for tickets.
+20;билеты сд;кассир;map_to_metric;map_to_metric;Number of tickets;Number of tickets;;yes;source;Partner split for tickets.
+21;билеты сд;тикетленд;map_to_metric;map_to_metric;Number of tickets;Number of tickets;;yes;source;Partner split for tickets.
+22;Сертификаты (продажи);Сертификаты (продажи);map_to_metric;map_to_metric;Revenue;Revenue;;yes;source;Observed certificate sales block. UPD: treat as revenue only.
+23;Сертификаты (продажи);сертификаты электронные;map_to_metric;map_to_metric;Revenue;Revenue;;yes;source;Partner split for certificate revenue. UPD: treat as revenue only.
+24;Сертификаты (продажи);сертификаты бумажные;map_to_metric;map_to_metric;Revenue;Revenue;;yes;source;Partner split for certificate revenue. UPD: treat as revenue only.
+25;Сертификаты (продажи);сертификаты через партнеров;map_to_metric;map_to_metric;Revenue;Revenue;;yes;source;Partner split for certificate revenue. UPD: treat as revenue only.
+26;Сертификаты (продажи);доля сертификатов в выручке;defer_to_calculated;defer_to_calculated;;;;no;calculated;Ratio / calculated metric.
+27;Спецпоказы (продажи) юкасса\по счету;Спецпоказы (продажи) юкасса\по счету;map_to_metric;map_to_metric;Revenue - Other;Revenue - Other;;yes;source;Observed revenue metric.
+28;Другое юкасса;Другое юкасса;map_to_metric;map_to_metric;Revenue - Other;Revenue - Other;;yes;source;Observed revenue metric.
+29;корпоратив;корпоратив;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+30;Сертификаты и билеты (бесплатные);Сертификаты и билеты (бесплатные);map_to_metric;map_to_metric;Number of free certificates and tickets;Number of free certificates and tickets;;yes;source;Observed metric.
+31;Франшиза;Франшиза;map_to_metric;map_to_metric;Revenue;Revenue;;yes;source;Observed revenue for business_unit=franchise.
+32;Средств на счете;Средств на счете;map_to_metric;map_to_metric;Account balance;Account balance;;yes;source;Observed balance metric.
+33;Приход с депозита;Приход с депозита;map_to_metric;map_to_metric;Revenue - Financial operations;Revenue - Financial operations;;yes;source;Observed financial operations metric.
+34;Сумма возвратов;Сумма возвратов;map_to_metric;map_to_metric;Returns amount;Returns amount;;yes;source;Observed returns amount.
+35;Сумма возвратов;По вине театра;add_metric;map_to_metric;;Returns amount - theater fault;;no;exclude;Нужно руками уточнить интерпретацию.
+36;Сумма возвратов;НЕ по вине театра;add_metric;map_to_metric;;Returns amount - non-theater fault;;no;exclude;Нужно руками уточнить интерпретацию.
+37;Сумма возвратов;% возвратов от выручки;defer_to_calculated;defer_to_calculated;;;;no;calculated;Ratio / calculated metric.
+38;Всего билетов (выкуплено через сайт и все агрегаторы);Всего билетов (выкуплено через сайт и все агрегаторы);map_to_metric;map_to_metric;Number of tickets;Number of tickets;;yes;source;Observed tickets total.
+39;Теракт-Возвраты;Теракт-Возвраты;exclude;exclude;;;;no;exclude;Crisis-specific legacy row.
+40;Теракт - Оформлено сертификатами;Теракт - Оформлено сертификатами;exclude;exclude;;;;no;exclude;Crisis-specific legacy row.
+41;Проведено шоу (БЕЗ СД);Проведено шоу (БЕЗ СД);map_to_metric;map_to_metric;Number of shows;Number of shows;;yes;source;Observed shows metric.
+42;Отменено шоу (не СД);Отменено шоу (не СД);map_to_metric;map_to_metric;Number of shows cancelled;Number of shows cancelled;;yes;source;Observed cancellation metric.
+43;Отменено шоу (не СД);Кол-во, где не выкуплены билеты;add_metric;map_to_metric;;Number of cancelled non-SD shows - no tickets sold;;no;exclude;Причинная детализация отмен, не отдельная canonical metric сейчас.
+44;Отменено шоу (не СД);Кол-во из-за спецпоказов;add_metric;map_to_metric;;Number of cancelled non-SD shows - special shows;;no;exclude;Причинная детализация отмен, не отдельная canonical metric сейчас.
+45;Отменено шоу (не СД);Кол-во из-за дефицита актёров/ мастеров;add_metric;map_to_metric;;Number of cancelled non-SD shows - actor/master shortage;;no;exclude;Причинная детализация отмен, не отдельная canonical metric сейчас.
+46;Проведено СД;Проведено СД;map_to_metric;map_to_metric;Number of shows;Number of shows;;yes;source;Observed shows metric.
+47;Отменено СД;Отменено СД;map_to_metric;map_to_metric;Number of shows cancelled;Number of shows cancelled;;yes;source;Observed cancellation metric.
+48;Отменено СД;Кол-во, где не выкуплены билеты;add_metric;map_to_metric;;Number of cancelled SD shows - no tickets sold;;no;exclude;Причинная детализация отмен, не отдельная canonical metric сейчас.
+49;Отменено СД;Кол-во из-за спецпоказов;add_metric;map_to_metric;;Number of cancelled SD shows - special shows;;no;exclude;Причинная детализация отмен, не отдельная canonical metric сейчас.
+50;Отменено СД;Кол-во из-за дефицита актёров/ мастеров;add_metric;map_to_metric;;Number of cancelled SD shows - actor/master shortage;;no;exclude;Причинная детализация отмен, не отдельная canonical metric сейчас.
+51;Зрители дошедшие (без зрителей СД);Зрители дошедшие (без зрителей СД);map_to_metric;map_to_metric;Number of show visitors;Number of show visitors;;yes;source;Observed visitors metric.
+52;Зрители дошедшие СД;Зрители дошедшие СД;map_to_metric;map_to_metric;Number of show visitors;Number of show visitors;;yes;source;Observed visitors metric.
+53;Зрители по сертификатам;Зрители по сертификатам;map_to_metric;map_to_metric;Number of certificate visitors;Number of certificate visitors;;yes;source;Observed visitors metric.
+54;Сложность составления расписания (1 min-5max);Сложность составления расписания (1 min-5max);map_to_metric;map_to_metric;Scheduling complexity;Scheduling complexity;;yes;source;Observed operational metric.
+55;Средняя загрузка шоу (по факту дошедшие зрители);Средняя загрузка шоу (по факту дошедшие зрители);defer_to_calculated;defer_to_calculated;;;;no;calculated;Calculated layer.
+56;Средняя загрузка шоу (выкупленные билеты);Средняя загрузка шоу (выкупленные билеты);defer_to_calculated;defer_to_calculated;;;;no;calculated;Calculated layer.
+57;Средняя загрузка СД (по факту дошедшие зрители);Средняя загрузка СД (по факту дошедшие зрители);defer_to_calculated;defer_to_calculated;;;;no;calculated;Calculated layer.
+58;Средняя загрузка СД (выкупленные билеты);Средняя загрузка СД (выкупленные билеты);defer_to_calculated;defer_to_calculated;;;;no;calculated;Calculated layer.
+59;Маркетинг;Маркетинг;decompose_block;decompose_block;;;;no;exclude;Block header.
+60;Маркетинг Каналы;Таргет c НДС_VK;map_to_metric;map_to_metric;Marketing costs;Marketing costs;;yes;source;Channel-level marketing cost row.
+61;Маркетинг Каналы;Таргет с НДС_MT;map_to_metric;map_to_metric;Marketing costs;Marketing costs;;yes;source;Channel-level marketing cost row.
+62;Маркетинг Каналы;Таргет с НДС_FB;map_to_metric;map_to_metric;Marketing costs;Marketing costs;;yes;source;Channel-level marketing cost row.
+63;Маркетинг Каналы;Ведение_таргет;map_to_metric;map_to_metric;Marketing costs;Marketing costs;;yes;source;Channel-level marketing cost row.
+64;Маркетинг Каналы;Youtube ведение;map_to_metric;map_to_metric;Marketing costs;Marketing costs;;yes;source;Channel-level marketing cost row.
+65;Маркетинг Каналы;Youtube бюджет;map_to_metric;map_to_metric;Marketing costs;Marketing costs;;yes;source;Channel-level marketing cost row.
+66;Маркетинг Каналы;Таргет_бюджет с НДС;map_to_metric;map_to_metric;Marketing costs;Marketing costs;;yes;source;Channel-level marketing cost row.
+67;Маркетинг Каналы;Контекст_бюджет с НДС_Яндекс;map_to_metric;map_to_metric;Marketing costs;Marketing costs;;yes;source;Channel-level marketing cost row.
+68;Маркетинг Каналы;Контекст_ведение_Яндекс;map_to_metric;map_to_metric;Marketing costs;Marketing costs;;yes;source;Channel-level marketing cost row.
+69;Маркетинг Каналы;Контекст_бюджет с НДС_Гугл;map_to_metric;map_to_metric;Marketing costs;Marketing costs;;yes;source;Channel-level marketing cost row.
+70;Маркетинг Каналы;Контекст_ведение_Гугл;map_to_metric;map_to_metric;Marketing costs;Marketing costs;;yes;source;Channel-level marketing cost row.
+71;Маркетинг Каналы;Пиар;map_to_metric;map_to_metric;Marketing costs;Marketing costs;;yes;source;Channel-level marketing cost row.
+72;Маркетинг Каналы;Прочие затраты;map_to_metric;map_to_metric;Marketing costs;Marketing costs;;yes;source;Channel-level marketing cost row.
+73;Маркетинг Каналы;Общие затраты;map_to_metric;map_to_metric;Marketing costs;Marketing costs;;yes;source;Channel-level marketing cost row.
+74;Маркетинг Каналы;% общ. к выручке;defer_to_calculated;defer_to_calculated;;;;no;calculated;Ratio / calculated metric.
+75;;;blank;;;;;no;exclude;Пустая строка-разделитель.
+76;САЙТ;САЙТ;decompose_block;decompose_block;"Website visits; Number of orders; Number of tickets; Revenue";"Website visits; Number of orders; Number of tickets; Revenue";;no;exclude;Block header / mixed site block row.
+77;САЙТ;cеансы (морфеус) ВИЗИТЫ БЕЗ corporative;map_to_metric;map_to_metric;Website visits;Website visits;;yes;source;Observed website visits.
+78;САЙТ;заказов всего (Я.билеты);map_to_metric;map_to_metric;Number of orders;Number of orders;;yes;source;Observed orders metric.
+79;САЙТ;билетов всего (Я.билеты);map_to_metric;map_to_metric;Number of tickets;Number of tickets;;yes;source;Observed tickets metric.
+80;САЙТ;конверсия в заказ,%;defer_to_calculated;defer_to_calculated;;;;no;calculated;Conversion ratio belongs to calculated layer.
+81;САЙТ;конверсия в билет из сеанса, %;defer_to_calculated;defer_to_calculated;;;;no;calculated;Conversion ratio belongs to calculated layer.
+82;САЙТ;сеансы corporative ВИЗИТЫ;map_to_metric;map_to_metric;Website visits;Website visits;;yes;source;Website visits metric.
+83;САЙТ;визиты(immersivny);map_to_metric;map_to_metric;Website visits;Website visits;;yes;source;Observed website visits.
+84;САЙТ;кол-во покупок immersviny (промокоды);map_to_metric;map_to_metric;Number of orders;Number of orders;;yes;source;Observed orders metric.
+85;САЙТ;покупок в деньгах immersivny;map_to_metric;map_to_metric;Revenue;Revenue;;yes;source;Observed revenue metric.
+86;САЙТ;покупок сервисы корп. привилегий;map_to_metric;map_to_metric;Number of orders;Number of orders;;yes;source;Observed orders metric.
+87;САЙТ;покупок в деньгах сервисы корп.привилегий;map_to_metric;map_to_metric;Revenue;Revenue;;yes;source;Observed revenue metric.
+88;;;blank;;;;;no;exclude;Пустая строка-разделитель.
+89;ФРАНШИЗА;ФРАНШИЗА;decompose_block;decompose_block;"Revenue; Number of leads; Quality - External";"Revenue; Number of leads; Quality - External";;no;exclude;Block header or mixed row.
+90;ФРАНШИЗА;Кол-во заявок всего;map_to_metric;map_to_metric;Number of leads;Number of leads;;yes;source;Observed franchise lead metric.
+91;ФРАНШИЗА;"Кол-во завок_ ""качественные""";exclude;exclude;Number of leads;Number of leads;;yes;source;Observed franchise lead metric.
+92;ФРАНШИЗА;"Кол-во заявок_""левые""";exclude;exclude;Number of leads;Number of leads;;yes;source;Observed franchise lead metric.
+93;;;blank;;;;;no;exclude;Пустая строка-разделитель.
+94;КОРПОРАТИВЫ;КОРПОРАТИВЫ;decompose_block;decompose_block;"Number of leads; Number of creative meetings";"Number of leads; Number of creative meetings";;no;exclude;Block header.
+95;КОРПОРАТИВЫ;Кол-во новых заявок;map_to_metric;map_to_metric;Number of leads;Number of leads;;yes;source;Observed B2B lead metric.
+96;КОРПОРАТИВЫ;В работе сейчас;defer_to_calculated;defer_to_calculated;;;;no;exclude;Pipeline status snapshot, not canonical fact yet.
+97;;;blank;;;;;no;exclude;Пустая строка-разделитель.
+98;ОТЗЫВЫ;ОТЗЫВЫ;decompose_block;decompose_block;Quality - External;Quality - External;;no;exclude;Block header.
+99;ОТЗЫВЫ;Кол-во новых на Яндекс-картах (всего);add_metric;map_to_metric;Quality - External;Number of new Yandex Maps reviews;;yes;source;Observed external quality metric.
+100;ОТЗЫВЫ;Из них настоящих;add_metric;map_to_metric;Quality - External;Number of genuine reviews;;yes;source;Observed external quality metric.
+101;ОТЗЫВЫ;Из них ненастоящих;add_metric;map_to_metric;Quality - External;Number of non-genuine reviews;;yes;source;Observed external quality metric.
+102;ОТЗЫВЫ;Средняя оценка по отзывам за неделю (общая);defer_to_calculated;defer_to_calculated;;;;no;calculated;Average score belongs to calculated layer.
+103;ОТЗЫВЫ;Средняя оценка по отзывам за неделю (по настоящим);defer_to_calculated;defer_to_calculated;;;;no;calculated;Average score belongs to calculated layer.
+104;ОТЗЫВЫ;Процент негативных (от посетивших);defer_to_calculated;defer_to_calculated;;;;no;calculated;Ratio metric belongs to calculated layer.
+105;ОТЗЫВЫ;Ликвидировано негативных;add_metric;map_to_metric;Quality - External;Number of resolved negative reviews;;yes;source;Observed external quality metric.
+106;ОТЗЫВЫ;Средняя оценка за неделю без негативных, если ликвидировали (общая);defer_to_calculated;defer_to_calculated;;;;no;calculated;Average score belongs to calculated layer.
+107;ОТЗЫВЫ;Средняя общая;defer_to_calculated;defer_to_calculated;;;;no;calculated;Average score belongs to calculated layer.
+108;ОЦЕНКИ НА ПЛАНШЕТЕ;ОЦЕНКИ НА ПЛАНШЕТЕ;decompose_block;decompose_block;Quality - Internal;Quality - Internal;;no;exclude;Block header.
+109;ОЦЕНКИ НА ПЛАНШЕТЕ;Процент заполнивших от всех зрителей;Change_source_to_ERP - Defer_to_calculates;defer_to_calculated;Quality - Internal;Quality - Internal;erp;no;calculated;Ratio metric belongs to calculated layer.
+110;ОЦЕНКИ НА ПЛАНШЕТЕ;Средняя оценка;UPD: Defer_to_calculated;defer_to_calculated;Quality - Internal;Quality - Internal;erp;no;calculated;UPD: defer to calculated.
+111;ОЦЕНКИ НА ПЛАНШЕТЕ;Ответ Гиппократа;UPD: Defer_to_calculated;defer_to_calculated;Quality - Internal;Quality - Internal;erp;no;calculated;UPD: defer to calculated.
+112;ОЦЕНКИ НА ПЛАНШЕТЕ;22’07;UPD: Defer_to_calculated;defer_to_calculated;Quality - Internal;Quality - Internal;erp;no;calculated;UPD: defer to calculated.
+113;ОЦЕНКИ НА ПЛАНШЕТЕ;До свадьбы доживет;UPD: Defer_to_calculated;defer_to_calculated;Quality - Internal;Quality - Internal;erp;no;calculated;UPD: defer to calculated.
+114;ОЦЕНКИ НА ПЛАНШЕТЕ;Загадка амулета;UPD: Defer_to_calculated;defer_to_calculated;Quality - Internal;Quality - Internal;erp;no;calculated;UPD: defer to calculated.
+115;ОЦЕНКИ НА ПЛАНШЕТЕ;ВДОХ;UPD: Defer_to_calculated;defer_to_calculated;Quality - Internal;Quality - Internal;erp;no;calculated;UPD: defer to calculated.
+116;ОЦЕНКИ НА ПЛАНШЕТЕ;Иное Место;UPD: Defer_to_calculated;defer_to_calculated;Quality - Internal;Quality - Internal;erp;no;calculated;UPD: defer to calculated.
+117;ОЦЕНКИ НА ПЛАНШЕТЕ;Судный день;UPD: Defer_to_calculated;defer_to_calculated;Quality - Internal;Quality - Internal;erp;no;calculated;UPD: defer to calculated.
+118;Откуда пришли;Откуда пришли;Change_source_to_ERP;map_to_metric;Number of source-attribution responses;Number of source-attribution responses;erp;yes;source;Observed source-share metric.
+119;Откуда пришли;От друзей;UPD: Defer_to_calculated;defer_to_calculated;Number of source-attribution responses;Number of source-attribution responses;erp;no;calculated;UPD: defer to calculated.
+120;Откуда пришли;Наш сайт;UPD: Defer_to_calculated;defer_to_calculated;Number of source-attribution responses;Number of source-attribution responses;erp;no;calculated;UPD: defer to calculated.
+121;Откуда пришли;Яндекс Афиша;UPD: Defer_to_calculated;defer_to_calculated;Number of source-attribution responses;Number of source-attribution responses;erp;no;calculated;UPD: defer to calculated.
+122;Откуда пришли;Карты Яндекс, Google, 2ГИС;Change_source_to_ERP;map_to_metric;Number of source-attribution responses;Number of source-attribution responses;erp;yes;source;Observed source-share metric.
+123;Откуда пришли;Уже был;Change_source_to_ERP;map_to_metric;Number of source-attribution responses;Number of source-attribution responses;erp;yes;source;Observed source-share metric.
+124;Откуда пришли;Подарили сертификат;UPD: Defer_to_calculated;defer_to_calculated;Number of source-attribution responses;Number of source-attribution responses;erp;no;calculated;UPD: defer to calculated.
+125;Откуда пришли;Другое;UPD: Defer_to_calculated;defer_to_calculated;Number of source-attribution responses;Number of source-attribution responses;erp;no;calculated;UPD: defer to calculated.
+126;Откуда пришли;Афиша.ру (Т-банк);UPD: Defer_to_calculated;defer_to_calculated;Number of source-attribution responses;Number of source-attribution responses;erp;no;calculated;UPD: defer to calculated.
+127;Откуда пришли;Google поиск;UPD: Defer_to_calculated;defer_to_calculated;Number of source-attribution responses;Number of source-attribution responses;erp;no;calculated;UPD: defer to calculated.
+128;Откуда пришли;Яндекс поиск;Change_source_to_ERP;map_to_metric;Number of source-attribution responses;Number of source-attribution responses;erp;yes;source;Observed source-share metric.
+129;Откуда пришли;Яндекс реклама (РЕКЛАМА В ИНЕТЕ);UPD: Defer_to_calculated;defer_to_calculated;Number of source-attribution responses;Number of source-attribution responses;erp;no;calculated;UPD: defer to calculated.
+130;Откуда пришли;Instagram (СОЦ СЕТИ);UPD: Defer_to_calculated;defer_to_calculated;Number of source-attribution responses;Number of source-attribution responses;erp;no;calculated;UPD: defer to calculated.
+131;Откуда пришли;Kuda Moscow;Change_source_to_ERP;map_to_metric;Number of source-attribution responses;Number of source-attribution responses;erp;yes;source;Observed source-share metric.
+132;Откуда пришли;Kuda go;Change_source_to_ERP;map_to_metric;Number of source-attribution responses;Number of source-attribution responses;erp;yes;source;Observed source-share metric.
+133;Откуда пришли;Иммерсивный.ру;Change_source_to_ERP;map_to_metric;Number of source-attribution responses;Number of source-attribution responses;erp;yes;source;Observed source-share metric.
+134;Откуда пришли;ВК;Change_source_to_ERP;map_to_metric;Number of source-attribution responses;Number of source-attribution responses;erp;yes;source;Observed source-share metric.
+135;Откуда пришли;Сервис Best Benefits;Change_source_to_ERP;map_to_metric;Number of source-attribution responses;Number of source-attribution responses;erp;yes;source;Observed source-share metric.
+136;Откуда пришли;Тикетленд;Change_source_to_ERP;map_to_metric;Number of source-attribution responses;Number of source-attribution responses;erp;yes;source;Observed source-share metric.
+137;Откуда пришли;Primezone;Change_source_to_ERP;map_to_metric;Number of source-attribution responses;Number of source-attribution responses;erp;yes;source;Observed source-share metric.
+138;ОКК;ОКК;decompose_block;decompose_block;Quality - Internal;Quality - Internal;;no;exclude;Block header.
+139;ОКК;Кол-во отсмотренных спектаклей;add_metric;map_to_metric;Quality - Internal;Number of reviewed shows;;yes;source;Observed internal quality metric.
+140;ОКК;Процент без нарушений от отсмотренных;defer_to_calculated;defer_to_calculated;;;;no;calculated;Ratio metric belongs to calculated layer.
+141;ОКК;Количество предупреждений;add_metric;map_to_metric;Quality - Internal;Number of warnings;;yes;source;Observed internal quality metric.
+142;ОКК;Количество штрафов;add_metric;map_to_metric;Quality - Internal;Number of fines;;yes;source;Observed internal quality metric.
+143;ОКК;Количество отстранений от спектакля;add_metric;map_to_metric;Quality - Internal;Number of show removals;;yes;source;Observed internal quality metric.
+144;ПРОТОКОЛ-БОТ;ПРОТОКОЛ-БОТ;decompose_block;decompose_block;Quality - Internal;Quality - Internal;;no;exclude;Block header.
+145;ПРОТОКОЛ-БОТ;Процент заполненных протоколов ДО спектакля;Change_source_to_ERP - Defer_to_calculates;defer_to_calculated;Quality - Internal;Quality - Internal;erp;no;calculated;Ratio metric belongs to calculated layer.
+146;ПРОТОКОЛ-БОТ;Процент заполненных протоколов ПОСЛЕ спектакля;Change_source_to_ERP - Defer_to_calculates;defer_to_calculated;Quality - Internal;Quality - Internal;erp;no;calculated;Ratio metric belongs to calculated layer.
+147;ПРОТОКОЛ-БОТ;;decompose_block;decompose_block;Quality - Internal;Quality - Internal;;no;exclude;Block header.
+148;ПРОТОКОЛ-БОТ;Всего заполненных ОГ;Change_source_to_ERP - Defer_to_calculates;defer_to_calculated;Quality - Internal;Quality - Internal;erp;yes;source;Observed internal quality metric.
+149;ПРОТОКОЛ-БОТ;Процент от общего количества ОГ;Change_source_to_ERP - Defer_to_calculates;defer_to_calculated;Quality - Internal;Quality - Internal;erp;no;calculated;Ratio metric belongs to calculated layer.
+150;ПРОТОКОЛ-БОТ;Из них;exclude;exclude;Quality - Internal;Quality - Internal;;yes;source;Observed internal quality metric.
+151;ПРОТОКОЛ-БОТ;ГАМАЗ;exclude;exclude;Quality - Internal;Quality - Internal;;yes;source;Observed internal quality metric.
+152;ПРОТОКОЛ-БОТ;НИКОЛА;exclude;exclude;Quality - Internal;Quality - Internal;;yes;source;Observed internal quality metric.
+153;ПРОТОКОЛ-БОТ;МАКС;exclude;exclude;Quality - Internal;Quality - Internal;;yes;source;Observed internal quality metric.
+154;ПРОТОКОЛ-БОТ;ГЛЕБ;exclude;exclude;Quality - Internal;Quality - Internal;;yes;source;Observed internal quality metric.
+155;ПРОТОКОЛ-БОТ;КСЕНИЯ;exclude;exclude;Quality - Internal;Quality - Internal;;yes;source;Observed internal quality metric.
+156;ПРОТОКОЛ-БОТ;АНДРЕЙ;exclude;exclude;Quality - Internal;Quality - Internal;;yes;source;Observed internal quality metric.
+157;ПРОТОКОЛ-БОТ;АЛЕКС;exclude;exclude;Quality - Internal;Quality - Internal;;yes;source;Observed internal quality metric.
+158;ПРОТОКОЛ-БОТ;ТЁМА;exclude;exclude;Quality - Internal;Quality - Internal;;yes;source;Observed internal quality metric.
+159;ПРОТОКОЛ-БОТ;ВАСИЛИЙ;exclude;exclude;Quality - Internal;Quality - Internal;;yes;source;Observed internal quality metric.
+160;ПРОТОКОЛ-БОТ;ИВАН;exclude;exclude;Quality - Internal;Quality - Internal;;yes;source;Observed internal quality metric.
+161;ПРОТОКОЛ-БОТ;СЕРЖ;exclude;exclude;Quality - Internal;Quality - Internal;;yes;source;Observed internal quality metric.
+162;Процент ОГ с убийствами;Процент ОГ с убийствами;defer_to_calculated;defer_to_calculated;;;;no;calculated;Ratio metric belongs to calculated layer.
+163;Процент ОГ с убийствами;ГАМАЗ;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+164;Процент ОГ с убийствами;НИКОЛА;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+165;Процент ОГ с убийствами;МАКС;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+166;Процент ОГ с убийствами;ГЛЕБ;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+167;Процент ОГ с убийствами;КСЕНИЯ;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+168;Процент ОГ с убийствами;АНДРЕЙ;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+169;Процент ОГ с убийствами;АЛЕКС;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+170;Процент ОГ с убийствами;ТЁМА;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+171;Процент ОГ с убийствами;ВАСИЛИЙ;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+172;Процент ОГ с убийствами;ИВАН;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+173;Процент ОГ с убийствами;СЕРЖ;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+174;Процент ОГ с убийствами больше 1;Процент ОГ с убийствами больше 1;defer_to_calculated;defer_to_calculated;;;;no;calculated;Ratio metric belongs to calculated layer.
+175;Процент ОГ с 1 убийством;Процент ОГ с 1 убийством;defer_to_calculated;defer_to_calculated;;;;no;calculated;Ratio metric belongs to calculated layer.
+176;Количество погибших всего на ОГ;Количество погибших всего на ОГ;map_to_metric;map_to_metric;Number of deaths on OG;Number of deaths on OG;;yes;source;Observed incident metric.
+177;Количество погибших всего на ОГ;ГАМАЗ;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+178;Количество погибших всего на ОГ;НИКОЛА;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+179;Количество погибших всего на ОГ;МАКС;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+180;Количество погибших всего на ОГ;ГЛЕБ;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+181;Количество погибших всего на ОГ;КСЕНИЯ;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+182;Количество погибших всего на ОГ;АНДРЕЙ;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+183;Количество погибших всего на ОГ;АЛЕКС;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+184;Количество погибших всего на ОГ;ТЁМА;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+185;Количество погибших всего на ОГ;ВАСИЛИЙ;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+186;Количество погибших всего на ОГ;ИВАН;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+187;Количество погибших всего на ОГ;СЕРЖ;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+188;Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог;Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог;defer_to_calculated;defer_to_calculated;;;;no;calculated;Ratio metric belongs to calculated layer.
+189;Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог;Глеб;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+190;Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог;Гамаз;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+191;Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог;Тёма;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+192;Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог;Макс;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+193;Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог;Андрей;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+194;Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог;Василий;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+195;Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог;Ксения;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+196;Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог;Иван;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+197;Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог;Никола;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+198;Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог;Сергей;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+199;Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог;Алекс;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+200;Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог;Антон;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+201;Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог;Александра;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+202;Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог;Вильдан;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+203;Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог;Вася Б;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+204;Процент ОГ со смертями на фельдшера (по таблице ОКК);Процент ОГ со смертями на фельдшера (по таблице ОКК);defer_to_calculated;defer_to_calculated;;;;no;calculated;Ratio metric belongs to calculated layer.
+205;Процент ОГ со смертями на фельдшера (по таблице ОКК);Серж;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+206;Процент ОГ со смертями на фельдшера (по таблице ОКК);Ксюша;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+207;Процент ОГ со смертями на фельдшера (по таблице ОКК);Никола;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+208;Процент ОГ со смертями на фельдшера (по таблице ОКК);Алекс;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+209;Процент ОГ со смертями на фельдшера (по таблице ОКК);Вася Б;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+210;Процент ОГ со смертями на фельдшера (по таблице ОКК);Ваня;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+211;Процент ОГ со смертями на фельдшера (по таблице ОКК);Дима Лещук;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+212;Процент ОГ со смертями на фельдшера (по таблице ОКК);Сёма;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+213;Процент ОГ со смертями на фельдшера (по таблице ОКК);Женя;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+214;Процент ОГ со смертями на фельдшера (по таблице ОКК);Антон;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+215;Процент ОГ со смертями на фельдшера (по таблице ОКК);Илья;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+216;Процент ОГ со смертями на фельдшера (по таблице ОКК);Андрей М;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+217;Процент ОГ со смертями на фельдшера (по таблице ОКК);Алина;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+218;Процент ОГ со смертями на фельдшера (по таблице ОКК);Альбина;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+219;Процент ОГ со смертями на фельдшера (по таблице ОКК);Андрей;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+220;Процент ОГ со смертями на фельдшера (по таблице ОКК);Артём;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+221;Процент ОГ со смертями на фельдшера (по таблице ОКК);Вася;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+222;Процент ОГ со смертями на фельдшера (по таблице ОКК);Вильдан;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+223;Процент ОГ со смертями на фельдшера (по таблице ОКК);Гамаз;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+224;Процент ОГ со смертями на фельдшера (по таблице ОКК);Жора;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+225;Процент ОГ со смертями на фельдшера (по таблице ОКК);Глеб;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+226;Процент ОГ со смертями на фельдшера (по таблице ОКК);Олег;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+227;Процент ОГ со смертями на фельдшера (по таблице ОКК);Полина;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+228;Процент ОГ со смертями на фельдшера (по таблице ОКК);Тёма;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+229;Процент ОГ, где зрители вышли за фельдшером/ выжили;Процент ОГ, где зрители вышли за фельдшером/ выжили;defer_to_calculated;defer_to_calculated;;;;no;calculated;Ratio metric belongs to calculated layer.
+230;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;defer_to_calculated;defer_to_calculated;;;;no;calculated;Ratio metric belongs to calculated layer.
+231;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Серж;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+232;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Ксюша;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+233;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Никола;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+234;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Алекс;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+235;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Вася Б;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+236;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Ваня;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+237;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Дима Лещук;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+238;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Сёма;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+239;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Женя;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+240;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Антон;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+241;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Илья;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+242;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Андрей М;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+243;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Алина;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+244;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Альбина;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+245;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Андрей;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+246;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Артём;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+247;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Вася;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+248;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Вильдан;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+249;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Гамаз;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+250;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Жора;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+251;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Глеб;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+252;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Олег;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+253;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Полина;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.
+254;Процент ОГ, где зрители не вышли за фельдшером/ не выжили;Тёма;exclude;exclude;;;;no;exclude;Нужно руками уточнить интерпретацию.

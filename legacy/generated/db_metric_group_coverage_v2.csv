@@ -1,0 +1,55 @@
+db_metric_group,coverage_status,mapped_catalog_metrics,distinct_metric_names,row_count,sample_metric_names,note
+билеты,covered,Number of tickets,7,401,афиша.ру; билеты; билеты виджет (сайт); билеты от остальных агрегаторов; билеты яндекс афиша,Ticket count block fits directly.
+билеты сд,covered,Number of tickets,7,317,афиша.ру; билет сд виджет (сайт); билеты сд; билеты сд от остальных агрегаторов; билеты сд яндекс афиша,Ticket count block fits directly.
+Всего билетов (выкуплено через сайт и все агрегаторы),covered,Number of tickets,1,16,Всего билетов (выкуплено через сайт и все агрегаторы),Ticket total is covered.
+Даня Рагин,not_covered,,7,33,Влад; Влад Подольский; Даня Богомолов; Женя Аршинов; Олег,No explicit mapping in the new logic yet.
+Дата для klipfolio,not_covered,,1,276,Дата для klipfolio,No explicit mapping in the new logic yet.
+Другое юкасса,not_covered,,1,31,Другое юкасса,No explicit mapping in the new logic yet.
+Зрители дошедшие (без зрителей СД),covered,Number of show visitors,1,308,Зрители дошедшие (без зрителей СД),Attended visitors are covered.
+Зрители дошедшие СД,covered,Number of show visitors,1,67,Зрители дошедшие СД,Attended visitors are covered.
+Зрители по сертификатам,partial,Number of show visitors,2,315,Средняя загрузка СД; Средняя загрузка шоу,"Visitor concept is covered, but certificate-specific split is not modeled separately."
+Из них,not_covered,,7,35,"Количество погибших всего на ОГ; Процент ОГ, где зрители вышли за фельдшером/ выжили; Процент ОГ, где зрители не вышли за фельдшером/ не выжили; Процент ОГ с 1 убийством; Процент ОГ с убийствами",No explicit mapping in the new logic yet.
+Из них агрегаторы (вычет комиссии),not_covered,,1,228,Из них агрегаторы (вычет комиссии),No explicit mapping in the new logic yet.
+Из них агрегаторы (вычет комиссии)МДТЗК,not_covered,,1,150,Из них агрегаторы (вычет комиссии)МДТЗК,No explicit mapping in the new logic yet.
+Количество погибших всего на ОГ,partial,Quality - Internal,12,106,АЛЕКС; АНДРЕЙ; ВАСИЛИЙ; ГАМАЗ; ГЛЕБ,"Falls under internal quality/operations, but not yet modeled as a standalone metric family."
+корпоратив,not_covered,,1,67,корпоратив,No explicit mapping in the new logic yet.
+КОРПОРАТИВЫ,partial,Number of leads; Number of creative meetings,2,276,В работе сейчас; Кол-во новых заявок,"Lead funnel is covered, but current legacy labels do not map 1-to-1."
+Маркетинг Каналы,covered,Marketing costs,14,1160,Youtube бюджет; Youtube ведение; Ведение_таргет; Контекст_бюджет с НДС_Гугл; Контекст_бюджет с НДС_Яндекс,Weekly marketing cost block is already explicitly modeled.
+Ник,not_covered,,1,3,Алина,No explicit mapping in the new logic yet.
+ОКК,partial,Quality - Internal,12,394,Кол-во отсмотренных ОГ; Кол-во отсмотренных спектаклей; Кол-во убийств; Количество отстранений от спектакля; Количество предупреждений,"Internal QA is covered, but detailed operational sub-metrics are not normalized yet."
+ОТЗЫВЫ,partial,Quality - External,9,398,Из них настоящих; Из них ненастоящих; Кол-во новых на Яндекс-картах (всего); Ликвидировано негативных; Процент негативных (от посетивших),"External quality is covered, but exact rating/review sub-metrics are richer in legacy data."
+ОТЗЫВЫ НА ЯНДЕКСЕ,partial,Quality - External,9,315,Из них настоящих; Из них ненастоящих; Кол-во новых на Яндекс-картах; Ликвидировано негативных; Процент негативных (от посетивших),"External quality is covered, but exact rating/review sub-metrics are richer in legacy data."
+Откуда пришли,covered,Number of source-attribution responses,21,1311,Google поиск; Instagram (СОЦ СЕТИ); Kuda go; Kuda Moscow; Kuda Spb,Source split is explicitly modeled.
+Отменено СД,covered,Number of shows cancelled,4,130,"Кол-во, где не выкуплены билеты; Кол-во из-за дефицита актёров/ мастеров; Кол-во из-за спецпоказов; Отменено СД",Cancelled show count is covered.
+Отменено шоу (не СД),covered,Number of shows cancelled,4,136,"Кол-во, где не выкуплены билеты; Кол-во из-за дефицита актёров/ мастеров; Кол-во из-за спецпоказов; Отменено шоу (не СД)",Cancelled show count is covered.
+ОЦЕНКИ НА ПЛАНШЕТЕ,partial,Quality - Internal,9,973,22’07; ВДОХ; До свадьбы доживет; Загадка амулета; Иное Место,"Internal quality is covered, but tablet feedback by show is more detailed than the new model."
+Поступления на счет,partial,Revenue; Number of certificates; Number of source-attribution responses,25,1775,афиша.ру; билет сд виджет (сайт); билеты; билеты виджет (сайт); билеты от остальных агрегаторов,"Main revenue concept is covered, but many legacy sub-lines are more detailed than the new model."
+Поступления на счет - B2C,covered,Revenue,1,308,Поступления на счет - B2C,Direct revenue aggregate already fits the new model.
+Приход с депозита,partial,Account balance,1,18,Приход с депозита,"Related to cash/balance, but not a first-class metric in the new model."
+Проведено СД,covered,Number of shows,1,67,Проведено СД,Show count is covered.
+Проведено шоу (БЕЗ СД),covered,Number of shows,1,308,Проведено шоу (БЕЗ СД),Show count is covered.
+ПРОТОКОЛ-БОТ,partial,Quality - Internal,15,239,АЛЕКС; АНДРЕЙ; ВАСИЛИЙ; Всего заполненных ОГ; ГАМАЗ,"Internal process quality is covered, but bot-specific sub-metrics are not normalized yet."
+ПРОТОКОЛ-БОТ NEW,partial,Quality - Internal,3,15,Всего заполненных ОГ; Процент заполненных протоколов ПОСЛЕ спектакля; Процент от общего количества ОГ,"Internal process quality is covered, but bot-specific sub-metrics are not normalized yet."
+"Процент ОГ, где зрители вышли за фельдшером/ выжили",partial,Quality - Internal,1,54,"Процент ОГ, где зрители вышли за фельдшером/ выжили","Falls under internal quality/operations, but not yet modeled as a standalone metric family."
+"Процент ОГ, где зрители не вышли за фельдшером/ не выжили",partial,Quality - Internal,15,64,Алекс; Андрей М; Антон; Ваня; Вася Б,"Falls under internal quality/operations, but not yet modeled as a standalone metric family."
+Процент ОГ с 1 убийством,partial,Quality - Internal,1,48,Процент ОГ с 1 убийством,"Falls under internal quality/operations, but not yet modeled as a standalone metric family."
+Процент ОГ со смертями на фельдшера (по таблице ОКК),not_covered,,16,30,Алекс; Андрей М; Антон; Артём; Ваня,No explicit mapping in the new logic yet.
+Процент ОГ с убийствами,partial,Quality - Internal,12,108,АЛЕКС; АНДРЕЙ; ВАСИЛИЙ; ГАМАЗ; ГЛЕБ,"Falls under internal quality/operations, but not yet modeled as a standalone metric family."
+Процент ОГ с убийствами больше 1,partial,Quality - Internal,1,48,Процент ОГ с убийствами больше 1,"Falls under internal quality/operations, but not yet modeled as a standalone metric family."
+"Процент убитых от общего кол-ва зрителей, прошедших через мастера на ог",partial,Quality - Internal,16,268,Алекс; Александра; Андрей; Антон; Василий,"Falls under internal quality/operations, but not yet modeled as a standalone metric family."
+Сайт,partial,Website visits; Number of orders; Number of tickets; Number of shows; Number of shows cancelled; Number of show visitors,15,1224,"Всего билетов (выкуплено через сайт, все агрегаторы, по ссылке); Зрители (без СД); Зрители СД; Кол-во, где не выкуплены билеты; Кол-во из-за дефицита актёров/ мастеров","Core site metrics are covered, but legacy site block contains extra derived ratios."
+САЙТ,partial,Website visits; Number of orders; Revenue,11,2244,cеансы (морфеус) ВИЗИТЫ БЕЗ corporative; билетов всего (Я.билеты); визиты(immersivny); заказов всего (Я.билеты); кол-во покупок immersviny (промокоды),"Core site metrics are covered, but this block also contains legacy special slices."
+Сертификаты и билеты (бесплатные),not_covered,,1,34,Сертификаты и билеты (бесплатные),No explicit mapping in the new logic yet.
+Сертификаты (продажи),partial,Number of certificates; Revenue,5,501,доля сертификатов в выручке; сертификаты бумажные; Сертификаты (продажи); сертификаты через партнеров; сертификаты электронные,"Certificate count/revenue are covered, but partner/channel decomposition is richer in legacy data."
+Сложность составления расписания (1 min-5max),not_covered,,1,126,Сложность составления расписания (1 min-5max),No explicit mapping in the new logic yet.
+Спецпоказы (продажи) юкасса\по счету,not_covered,,1,33,Спецпоказы (продажи) юкасса\по счету,No explicit mapping in the new logic yet.
+Средняя загрузка СД (выкупленные билеты),not_covered,,1,11,Средняя загрузка СД (выкупленные билеты),No explicit mapping in the new logic yet.
+Средняя загрузка СД (по факту дошедшие зрители),not_covered,,1,67,Средняя загрузка СД (по факту дошедшие зрители),No explicit mapping in the new logic yet.
+Средняя загрузка шоу (выкупленные билеты),not_covered,,1,11,Средняя загрузка шоу (выкупленные билеты),No explicit mapping in the new logic yet.
+Средняя загрузка шоу (по факту дошедшие зрители),not_covered,,1,308,Средняя загрузка шоу (по факту дошедшие зрители),No explicit mapping in the new logic yet.
+Средств на счете,covered,Account balance,1,44,Средств на счете,Balance metric fits directly.
+Сумма возвратов,not_covered,,4,111,% возвратов от выручки; НЕ по вине театра; По вине театра; Сумма возвратов,No explicit mapping in the new logic yet.
+Теракт-Возвраты,not_covered,,1,4,Теракт-Возвраты,No explicit mapping in the new logic yet.
+Теракт - Оформлено сертификатами,not_covered,,1,1,Теракт - Оформлено сертификатами,No explicit mapping in the new logic yet.
+Франшиза,partial,Revenue,1,12,Франшиза,"Revenue exists in the new model, but legacy franchise group is too narrow and underspecified."
+ФРАНШИЗА,partial,Number of leads; Quality - External,3,356,"Кол-во завок_ ""качественные""; Кол-во заявок всего; Кол-во заявок_""левые""",Franchise block is partially represented.

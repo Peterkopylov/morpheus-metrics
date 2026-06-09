@@ -1,0 +1,18 @@
+unit,metric_name,scope,status,value,reason
+b2c_moscow,Costs - Salary variable,show:22'07,inserted,122750,
+b2c_moscow,Costs - Salary variable,show:ВДОХ,inserted,36987,
+b2c_moscow,Costs - Salary variable,show:До свадьбы доживёт,inserted,231149,
+b2c_moscow,Costs - Salary variable,show:Загадка Амулета,inserted,41351,
+b2c_moscow,Costs - Salary variable,show:Иное место,inserted,38127,
+b2c_moscow,Costs - Salary variable,show:Ответ Гиппократа,inserted,353712,
+b2c_moscow,Costs - Salary variable,show:Судный день,inserted,278737,
+b2c_moscow,Costs - Salary variable,show:general,inserted,1282026,
+b2c_moscow,Costs - Salary variable,general,skipped,179213,unallocated_bonus_tail
+b2c_spb,Costs - Salary variable,show:22'07,inserted,63900,
+b2c_spb,Costs - Salary variable,show:ВДОХ,inserted,44500,
+b2c_spb,Costs - Salary variable,show:До свадьбы доживёт,inserted,157600,
+b2c_spb,Costs - Salary variable,show:Загадка Амулета,inserted,27300,
+b2c_spb,Costs - Salary variable,show:Ответ Гиппократа,inserted,281500,
+b2c_spb,Costs - Salary variable,show:Судный день,inserted,138950,
+b2c_spb,Costs - Salary variable,show:general,inserted,879850,
+b2c_spb,Costs - Salary variable,general,skipped,166100,unallocated_bonus_tail

@@ -13,9 +13,11 @@
 Текущие интеграции:
 
 - [`Yandex Metrica`](./yandex_metrica.md)
+- [`Yandex Direct`](./yandex_direct.md)
 - [`Yandex Tickets`](./yandex_tickets.md)
 - [`amoCRM`](./amocrm.md)
 - [`Airtable`](./airtable.md)
+- [`Fact Layer Source Access`](../fact_layer_source_access.md)
 
 Принцип:
 

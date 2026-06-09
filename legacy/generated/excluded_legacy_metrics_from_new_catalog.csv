@@ -1,0 +1,27 @@
+db_metric_group,legacy_action,exclusion_reason
+Даня Рагин,do_not_use,Explicitly marked as not needed in the new catalog.
+Дата для klipfolio,do_not_use,Explicitly marked as not needed in the new catalog.
+Из них,aggregate_only,"Aggregate/helper line only, not a standalone catalog metric."
+Из них агрегаторы (вычет комиссии),aggregate_only,"Aggregate/helper line only, not a standalone catalog metric."
+Из них агрегаторы (вычет комиссии)МДТЗК,aggregate_only,"Aggregate/helper line only, not a standalone catalog metric."
+корпоратив,do_not_use,Explicitly marked as not needed in the new catalog.
+КОРПОРАТИВЫ,block_title_only,"Legacy block title only, not a metric."
+Маркетинг Каналы,block_title_only,"Legacy block title only, not a metric."
+Ник,do_not_use,Explicitly marked as not needed in the new catalog.
+ОКК,block_title_only,"Legacy block title only, not a metric."
+ОТЗЫВЫ,block_title_only,"Legacy block title only, not a metric."
+ОТЗЫВЫ НА ЯНДЕКСЕ,block_title_only,"Legacy block title only, not a metric."
+ОЦЕНКИ НА ПЛАНШЕТЕ,block_title_only,"Legacy block title only, not a metric."
+Поступления на счет,aggregate_only,"Aggregate/helper line only, not a standalone catalog metric."
+ПРОТОКОЛ-БОТ,block_title_only,"Legacy block title only, not a metric."
+ПРОТОКОЛ-БОТ NEW,block_title_only,"Legacy block title only, not a metric."
+САЙТ,block_title_only,"Legacy block title only, not a metric."
+Сложность составления расписания (1 min-5max),calculated_metric,Kept out of the current new catalog by explicit product decision.
+Спецпоказы (продажи) юкасса\по счету,calculated_metric,Kept out of the current new catalog by explicit product decision.
+Средняя загрузка СД (выкупленные билеты),calculated_metric,Kept out of the current new catalog by explicit product decision.
+Средняя загрузка СД (по факту дошедшие зрители),calculated_metric,Kept out of the current new catalog by explicit product decision.
+Средняя загрузка шоу (выкупленные билеты),calculated_metric,Kept out of the current new catalog by explicit product decision.
+Средняя загрузка шоу (по факту дошедшие зрители),calculated_metric,Kept out of the current new catalog by explicit product decision.
+Теракт-Возвраты,do_not_use,Explicitly marked as not needed in the new catalog.
+Теракт - Оформлено сертификатами,do_not_use,Explicitly marked as not needed in the new catalog.
+ФРАНШИЗА,block_title_only,"Legacy block title only, not a metric."

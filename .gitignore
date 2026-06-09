@@ -2,3 +2,9 @@
 .env.metabase.local
 .env.airtable
 .env.amocrm
+.env.yandex_direct
+.env.yandex_direct_spb
+.env.yandex_metrica
+.env.yandex_metrica_spb
+.env.yandex_tickets
+.env.yandex_tickets_spb

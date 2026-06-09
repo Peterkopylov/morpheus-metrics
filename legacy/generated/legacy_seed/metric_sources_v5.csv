@@ -1,0 +1,381 @@
+metric_name,business_unit_scope,show_scope,partner_scope,channel_scope,source_system,source_label,minimal_frequency,availability_status,credibility,source_row_ref
+Account balance,b2b,general,b2b_partner_names,marketing_channel_names,planfact,PlanFact,month,available,,78
+Account balance,b2c_moscow,general,b2c_partner_names,marketing_channel_names,manual_table,Таблица,week,available,,76
+Account balance,b2c_moscow,general,b2c_partner_names,marketing_channel_names,planfact,PlanFact,month,available,,76
+Account balance,b2c_spb,general,b2c_partner_names,marketing_channel_names,manual_table,Таблица,week,available,,77
+Account balance,b2c_spb,general,b2c_partner_names,marketing_channel_names,planfact,PlanFact,month,available,,77
+Average review rating overall,b2c_moscow,general,general,general,manual_table,Таблица,week,available,,live_add_metric_moscow_107
+Average review rating overall,b2c_spb,general,general,general,manual_table,Таблица,week,available,,live_add_metric_spb_64
+Average review rating weekly genuine,b2c_moscow,general,general,general,manual_table,Таблица,week,available,,live_add_metric_moscow_103
+Average review rating weekly genuine,b2c_spb,general,general,general,manual_table,Таблица,week,available,,live_add_metric_spb_60
+Average review rating weekly overall,b2c_moscow,general,general,general,manual_table,Таблица,week,available,,live_add_metric_moscow_102
+Average review rating weekly overall,b2c_spb,general,general,general,manual_table,Таблица,week,available,,live_add_metric_spb_59
+Average review rating weekly without negatives after resolution,b2c_moscow,general,general,general,manual_table,Таблица,week,available,,live_add_metric_moscow_106
+Average review rating weekly without negatives after resolution,b2c_spb,general,general,general,manual_table,Таблица,week,available,,live_add_metric_spb_63
+Cost article - IT ФОТ,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - IT ФОТ,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - IT ФОТ,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - IT ФОТ,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - IT ФОТ,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Административный персонал ФОТ,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Административный персонал ФОТ,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Административный персонал ФОТ,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Административный персонал ФОТ,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Административный персонал ФОТ,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Актёры ФОТ,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Актёры ФОТ,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Актёры ФОТ,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Актёры ФОТ,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Актёры ФОТ,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Амортизация,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Амортизация,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Амортизация,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Амортизация,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Амортизация,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Аренда и коммуналка,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Аренда и коммуналка,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Аренда и коммуналка,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Аренда и коммуналка,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Аренда и коммуналка,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Возвраты,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Возвраты,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Возвраты,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Возвраты,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Возвраты,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Доставка,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Доставка,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Доставка,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Доставка,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Доставка,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Другое,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Другое,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Другое,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Другое,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Другое,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Другое ФОТ,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Другое ФОТ,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Другое ФОТ,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Другое ФОТ,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Другое ФОТ,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Ежемесячные счета,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Ежемесячные счета,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Ежемесячные счета,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Ежемесячные счета,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Ежемесячные счета,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - КОМИССИИ БАНКОВ,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - КОМИССИИ БАНКОВ,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - КОМИССИИ БАНКОВ,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - КОМИССИИ БАНКОВ,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - КОМИССИИ БАНКОВ,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Командировочные,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Командировочные,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Командировочные,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Командировочные,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Командировочные,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Комиссия,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Комиссия,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Комиссия,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Комиссия,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Комиссия,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Корпоративы ЗП проектные,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Корпоративы ЗП проектные,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Корпоративы ЗП проектные,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Корпоративы ЗП проектные,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Корпоративы ЗП проектные,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Корпоративы фикс,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Корпоративы фикс,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Корпоративы фикс,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Корпоративы фикс,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Корпоративы фикс,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Курсовая разница (-),b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Курсовая разница (-),b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Курсовая разница (-),b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Курсовая разница (-),franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Курсовая разница (-),general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Маркетинг и реклама,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Маркетинг и реклама,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Маркетинг и реклама,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Маркетинг и реклама,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Маркетинг и реклама,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Мебель и предметы интерьера,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Мебель и предметы интерьера,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Мебель и предметы интерьера,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Мебель и предметы интерьера,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Мебель и предметы интерьера,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Налог на прибыль (доходы),b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Налог на прибыль (доходы),b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Налог на прибыль (доходы),b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Налог на прибыль (доходы),franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Налог на прибыль (доходы),general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Нераспределенный расход,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Нераспределенный расход,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Нераспределенный расход,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Нераспределенный расход,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Нераспределенный расход,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Отсмотр видео,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Отсмотр видео,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Отсмотр видео,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Отсмотр видео,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Отсмотр видео,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Представительские,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Представительские,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Представительские,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Представительские,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Представительские,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Премии административный персонал,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Премии административный персонал,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Премии административный персонал,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Премии административный персонал,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Премии административный персонал,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Премии актёры,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Премии актёры,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Премии актёры,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Премии актёры,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Премии актёры,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Премии управленч персонал,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Премии управленч персонал,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Премии управленч персонал,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Премии управленч персонал,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Премии управленч персонал,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Проживание,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Проживание,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Проживание,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Проживание,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Проживание,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Проценты по кредитам и займам,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Проценты по кредитам и займам,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Проценты по кредитам и займам,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Проценты по кредитам и займам,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Проценты по кредитам и займам,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Расходники (офисные),b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Расходники (офисные),b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Расходники (офисные),b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Расходники (офисные),franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Расходники (офисные),general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Расходы на B2B (продакшн),b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Расходы на B2B (продакшн),b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Расходы на B2B (продакшн),b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Расходы на B2B (продакшн),franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Расходы на B2B (продакшн),general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Реквизит/костюмы,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Реквизит/костюмы,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Реквизит/костюмы,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Реквизит/костюмы,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Реквизит/костюмы,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Ремонт и обслуживание,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Ремонт и обслуживание,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Ремонт и обслуживание,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Ремонт и обслуживание,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Ремонт и обслуживание,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Ремонт/Стройка/Стройматериалы,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Ремонт/Стройка/Стройматериалы,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Ремонт/Стройка/Стройматериалы,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Ремонт/Стройка/Стройматериалы,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Ремонт/Стройка/Стройматериалы,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Свет/Мебель/Предметы интерьера,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Свет/Мебель/Предметы интерьера,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Свет/Мебель/Предметы интерьера,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Свет/Мебель/Предметы интерьера,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Свет/Мебель/Предметы интерьера,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Страховые взносы,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Страховые взносы,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Страховые взносы,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Страховые взносы,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Страховые взносы,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Такси,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Такси,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Такси,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Такси,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Такси,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Тех оснащение,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Тех оснащение,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Тех оснащение,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Тех оснащение,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Тех оснащение,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Техника,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Техника,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Техника,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Техника,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Техника,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Транспорт,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Транспорт,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Транспорт,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Транспорт,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Транспорт,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Уборка,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Уборка,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Уборка,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Уборка,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Уборка,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Управленческий персонал ФОТ,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Управленческий персонал ФОТ,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Управленческий персонал ФОТ,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Управленческий персонал ФОТ,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Управленческий персонал ФОТ,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Услуги типографии,b2b,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Услуги типографии,b2c_moscow,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Услуги типографии,b2c_spb,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Услуги типографии,franchise,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Cost article - Услуги типографии,general,general,,,planfact,PlanFact,month,available,,planfact_article_catalog_2026_05_01
+Costs - Other (by articles),b2b,b2b_show_names,,,planfact,PlanFact,month,available,,refined_2026_05_01
+Costs - Other (by articles),b2b,general,,,planfact,PlanFact,month,available,,refined_2026_05_01
+Costs - Other (by articles),b2c_moscow,general,b2c_partner_names,marketing_channel_names,planfact,PlanFact,month,available,,57
+Costs - Other (by articles),b2c_spb,general,b2c_partner_names,marketing_channel_names,planfact,PlanFact,month,available,,58
+Costs - Other (by articles),general,general,,,,,month,unspecified,,61
+Costs - Salary fixed,b2b,general,,,planfact,PlanFact,month,available,,refined_2026_05_01
+Costs - Salary fixed,b2c_moscow,general,b2c_partner_names,marketing_channel_names,planfact,PlanFact,month,available,,53
+Costs - Salary fixed,b2c_spb,general,b2c_partner_names,marketing_channel_names,planfact,PlanFact,month,available,,54
+Costs - Salary fixed,general,general,,,,,month,unspecified,,56
+Costs - Salary variable,b2b,b2b_show_names,,,airtable,Airtable,month,available,,refined_2026_05_01
+Costs - Salary variable,b2b,general,,,aggregate,Агрегат,month,available,,refined_2026_05_01
+Costs - Salary variable,b2c_moscow,b2c_show_names,b2c_partner_names,marketing_channel_names,erp,ERP,week,available,,47
+Costs - Salary variable,b2c_moscow,general,b2c_partner_names,marketing_channel_names,aggregate,Агрегат,week,available,,48
+Costs - Salary variable,b2c_moscow,general,b2c_partner_names,marketing_channel_names,planfact,PlanFact,month,available,,48
+Costs - Salary variable,b2c_spb,b2c_show_names,b2c_partner_names,marketing_channel_names,erp,ERP,week,available,,49
+Costs - Salary variable,b2c_spb,general,b2c_partner_names,marketing_channel_names,aggregate,Агрегат,week,available,,50
+Costs - Salary variable,b2c_spb,general,b2c_partner_names,marketing_channel_names,planfact,PlanFact,month,available,,50
+Marketing costs,b2b,,,marketing_channel_names,yandex_direct,Яндекс.Директ,week,available,,refined_2026_05_01
+Marketing costs,b2b,,,marketing_channel_names,yandex_metrica,Яндекс.Метрика,week,available,,refined_2026_05_01
+Marketing costs,b2c_moscow,,,marketing_channel_names,yandex_direct,Яндекс.Директ,week,available,,refined_2026_05_01
+Marketing costs,b2c_moscow,,,marketing_channel_names,yandex_metrica,Яндекс.Метрика,week,available,,refined_2026_05_01
+Marketing costs,b2c_spb,,,marketing_channel_names,yandex_direct,Яндекс.Директ,week,available,,refined_2026_05_01
+Marketing costs,b2c_spb,,,marketing_channel_names,yandex_metrica,Яндекс.Метрика,week,available,,refined_2026_05_01
+Number of cancelled SD shows - actor/master shortage,b2c_moscow,general,general,general,manual_table,Таблица,week,available,,live_add_metric_moscow_50
+Number of cancelled SD shows - no tickets sold,b2c_moscow,general,general,general,manual_table,Таблица,week,available,,live_add_metric_moscow_48
+Number of cancelled SD shows - special shows,b2c_moscow,general,general,general,manual_table,Таблица,week,available,,live_add_metric_moscow_49
+Number of cancelled non-SD shows - actor/master shortage,b2c_moscow,general,general,general,manual_table,Таблица,week,available,,live_add_metric_moscow_45
+Number of cancelled non-SD shows - actor/master shortage,b2c_spb,general,general,general,manual_table,Таблица,week,available,,live_add_metric_spb_42|live_add_metric_spb_48
+Number of cancelled non-SD shows - no tickets sold,b2c_moscow,general,general,general,manual_table,Таблица,week,available,,live_add_metric_moscow_43
+Number of cancelled non-SD shows - no tickets sold,b2c_spb,general,general,general,manual_table,Таблица,week,available,,live_add_metric_spb_41|live_add_metric_spb_46
+Number of cancelled non-SD shows - special shows,b2c_moscow,general,general,general,manual_table,Таблица,week,available,,live_add_metric_moscow_44
+Number of cancelled non-SD shows - special shows,b2c_spb,general,general,general,manual_table,Таблица,week,available,,live_add_metric_spb_43|live_add_metric_spb_47
+Number of certificates,b2c_moscow,general,b2c_partner_names,marketing_channel_names,manual_table,Таблица,week,available,,23
+Number of certificates,b2c_spb,general,b2c_partner_names,marketing_channel_names,manual_table,Таблица,week,available,,24
+Number of completed OG protocols,b2c_spb,general,general,general,manual_table,Таблица,week,available,,live_add_metric_spb_115
+Number of concepts sent,b2b,general,,,amocrm,AMOCRM,week,available,,amocrm_weekly_flow_2026_05_10
+Number of contacts established,b2b,general,,,amocrm,AMOCRM,week,available,,amocrm_weekly_flow_2026_05_10
+Number of contracts approved,b2b,general,,,amocrm,AMOCRM,week,available,,amocrm_weekly_flow_2026_05_10
+Number of contracts sent,b2b,general,,,amocrm,AMOCRM,week,available,,amocrm_weekly_flow_2026_05_10
+Number of creative meetings,b2b,general,,,amocrm,AMOCRM,week,available,,refined_2026_05_01
+Number of creative meetings scheduled,b2b,general,,,amocrm,AMOCRM,week,available,,amocrm_weekly_flow_2026_05_10
+Number of fines,b2c_moscow,general,general,general,manual_table,Таблица,week,available,,live_add_metric_moscow_142
+Number of genuine reviews,b2c_moscow,general,general,general,manual_table,Таблица,week,available,,live_add_metric_moscow_100
+Number of genuine reviews,b2c_spb,general,general,general,manual_table,Таблица,week,available,,live_add_metric_spb_57
+Number of leads,b2b,general,,,amocrm,AMOCRM,week,available,,amocrm_weekly_flow_2026_05_10
+Number of leads,franchise,,,marketing_channel_names,manual_table,Таблица,week,available,,refined_2026_05_01
+Number of lost leads,b2b,general,,,amocrm,AMOCRM,week,available,,amocrm_weekly_flow_2026_05_10
+Number of new Yandex Maps reviews,b2c_moscow,general,general,general,manual_table,Таблица,week,available,,live_add_metric_moscow_99
+Number of new Yandex Maps reviews,b2c_spb,general,general,general,manual_table,Таблица,week,available,,live_add_metric_spb_56
+Number of non-genuine reviews,b2c_moscow,general,general,general,manual_table,Таблица,week,available,,live_add_metric_moscow_101
+Number of non-genuine reviews,b2c_spb,general,general,general,manual_table,Таблица,week,available,,live_add_metric_spb_58
+Number of orders,b2b,general,,,amocrm,AMOCRM,week,available,,refined_2026_05_01
+Number of orders,b2c_moscow,,,marketing_channel_names,erp,ERP,week,available,,refined_2026_05_01
+Number of orders,b2c_moscow,,,marketing_channel_names,manual_table,Таблица,week,available,,refined_2026_05_01
+Number of orders,b2c_moscow,,b2c_partner_names,,erp,ERP,week,available,,refined_2026_05_01
+Number of orders,b2c_moscow,,b2c_partner_names,,manual_table,Таблица,week,available,,refined_2026_05_01
+Number of orders,b2c_moscow,b2c_show_names,,,erp,ERP,week,available,,refined_2026_05_01
+Number of orders,b2c_moscow,b2c_show_names,,,manual_table,Таблица,week,available,,refined_2026_05_01
+Number of orders,b2c_moscow,general,,,erp,ERP,week,available,,refined_2026_05_01
+Number of orders,b2c_moscow,general,,,manual_table,Таблица,week,available,,refined_2026_05_01
+Number of orders,b2c_spb,,,marketing_channel_names,erp,ERP,week,available,,refined_2026_05_01
+Number of orders,b2c_spb,,,marketing_channel_names,manual_table,Таблица,week,available,,refined_2026_05_01
+Number of orders,b2c_spb,,b2c_partner_names,,erp,ERP,week,available,,refined_2026_05_01
+Number of orders,b2c_spb,,b2c_partner_names,,manual_table,Таблица,week,available,,refined_2026_05_01
+Number of orders,b2c_spb,b2c_show_names,,,erp,ERP,week,available,,refined_2026_05_01
+Number of orders,b2c_spb,b2c_show_names,,,manual_table,Таблица,week,available,,refined_2026_05_01
+Number of orders,b2c_spb,general,,,erp,ERP,week,available,,refined_2026_05_01
+Number of orders,b2c_spb,general,,,manual_table,Таблица,week,available,,refined_2026_05_01
+Number of payments received,b2b,general,,,amocrm,AMOCRM,week,available,,amocrm_weekly_flow_2026_05_10
+Number of post-show survey responses,b2c_moscow,b2c_show_names,,,erp,ERP,week,available,,erp_survey_satisfaction
+Number of post-show survey responses,b2c_moscow,general,,,erp,ERP,week,available,,erp_survey_satisfaction_q2
+Number of post-show survey responses,b2c_spb,b2c_show_names,,,erp,ERP,week,available,,erp_survey_satisfaction
+Number of post-show survey responses,b2c_spb,general,,,erp,ERP,week,available,,erp_survey_satisfaction_q2
+Number of proposals sent,b2b,general,,,amocrm,AMOCRM,week,available,,amocrm_weekly_flow_2026_05_10
+Number of qualified leads,b2b,general,,,amocrm,AMOCRM,week,available,,amocrm_weekly_flow_2026_05_10
+Number of question 3 responses,b2c_moscow,b2c_show_names,,,erp,ERP,week,available,,erp_survey_satisfaction_q3
+Number of question 3 responses,b2c_spb,b2c_show_names,,,erp,ERP,week,available,,erp_survey_satisfaction_q3
+Number of question 4 responses,b2c_moscow,b2c_show_names,,,erp,ERP,week,available,,erp_survey_satisfaction_q4
+Number of question 4 responses,b2c_spb,b2c_show_names,,,erp,ERP,week,available,,erp_survey_satisfaction_q4
+Number of resolved negative reviews,b2c_moscow,general,general,general,manual_table,Таблица,week,available,,live_add_metric_moscow_105
+Number of resolved negative reviews,b2c_spb,general,general,general,manual_table,Таблица,week,available,,live_add_metric_spb_62
+Number of reviewed OGs,b2c_spb,general,general,general,manual_table,Таблица,week,available,,live_add_metric_spb_96
+Number of reviewed shows,b2c_moscow,general,general,general,manual_table,Таблица,week,available,,live_add_metric_moscow_139
+Number of reviewed shows,b2c_spb,general,general,general,manual_table,Таблица,week,available,,live_add_metric_spb_94
+Number of show rating responses,b2c_moscow,b2c_show_names,,,erp,ERP,week,available,,erp_survey_satisfaction_q1
+Number of show rating responses,b2c_spb,b2c_show_names,,,erp,ERP,week,available,,erp_survey_satisfaction_q1
+Number of show removals,b2c_moscow,general,general,general,manual_table,Таблица,week,available,,live_add_metric_moscow_143
+Number of show visitors,b2b,general,,,aggregate,Агрегат,month,available,,refined_2026_05_01
+Number of show visitors,b2b,general,,,airtable,Airtable,month,available,,refined_2026_05_01
+Number of show visitors,b2c_moscow,b2c_show_names,,,erp,ERP,week,available,,refined_2026_05_01
+Number of show visitors,b2c_spb,b2c_show_names,,,erp,ERP,week,available,,refined_2026_05_01
+Number of shows,b2b,general,,,aggregate,Агрегат,month,available,,refined_2026_05_01
+Number of shows,b2b,general,,,airtable,Airtable,month,available,,refined_2026_05_01
+Number of shows,b2c_moscow,b2c_show_names,,,erp,ERP,week,available,,refined_2026_05_01
+Number of shows,b2c_spb,b2c_show_names,,,erp,ERP,week,available,,refined_2026_05_01
+Number of shows cancelled,b2c_moscow,b2c_show_names,b2c_partner_names,marketing_channel_names,erp,ERP,week,available,,37
+Number of shows cancelled,b2c_moscow,general,b2c_partner_names,marketing_channel_names,aggregate,Агрегат,week,available,,38
+Number of shows cancelled,b2c_moscow,general,b2c_partner_names,marketing_channel_names,manual_table,Таблица,week,available,,38
+Number of shows cancelled,b2c_spb,b2c_show_names,b2c_partner_names,marketing_channel_names,erp,ERP,week,available,,39
+Number of shows cancelled,b2c_spb,general,b2c_partner_names,marketing_channel_names,aggregate,Агрегат,week,available,,40
+Number of shows cancelled,b2c_spb,general,b2c_partner_names,marketing_channel_names,manual_table,Таблица,week,available,,40
+Number of source-attribution responses,b2c_moscow,b2c_show_names,,,erp,ERP,week,available,,72
+Number of source-attribution responses,b2c_moscow,general,,,erp,ERP,week,available,,73
+Number of source-attribution responses,b2c_spb,b2c_show_names,,,erp,ERP,week,available,,74
+Number of source-attribution responses,b2c_spb,general,,,erp,ERP,week,available,,75
+Number of tickets,b2c_moscow,,,marketing_channel_names,erp,ERP,week,available,,refined_2026_05_01
+Number of tickets,b2c_moscow,,,marketing_channel_names,manual_table,Таблица,week,available,,refined_2026_05_01
+Number of tickets,b2c_moscow,,b2c_partner_names,,erp,ERP,week,available,,refined_2026_05_01
+Number of tickets,b2c_moscow,,b2c_partner_names,,manual_table,Таблица,week,available,,refined_2026_05_01
+Number of tickets,b2c_moscow,b2c_show_names,,,erp,ERP,week,available,,refined_2026_05_01
+Number of tickets,b2c_moscow,b2c_show_names,,,manual_table,Таблица,week,available,,refined_2026_05_01
+Number of tickets,b2c_moscow,general,,,erp,ERP,week,available,,refined_2026_05_01
+Number of tickets,b2c_moscow,general,,,manual_table,Таблица,week,available,,refined_2026_05_01
+Number of tickets,b2c_spb,,,marketing_channel_names,erp,ERP,week,available,,refined_2026_05_01
+Number of tickets,b2c_spb,,,marketing_channel_names,manual_table,Таблица,week,available,,refined_2026_05_01
+Number of tickets,b2c_spb,,b2c_partner_names,,erp,ERP,week,available,,refined_2026_05_01
+Number of tickets,b2c_spb,,b2c_partner_names,,manual_table,Таблица,week,available,,refined_2026_05_01
+Number of tickets,b2c_spb,b2c_show_names,,,erp,ERP,week,available,,refined_2026_05_01
+Number of tickets,b2c_spb,b2c_show_names,,,manual_table,Таблица,week,available,,refined_2026_05_01
+Number of tickets,b2c_spb,general,,,erp,ERP,week,available,,refined_2026_05_01
+Number of tickets,b2c_spb,general,,,manual_table,Таблица,week,available,,refined_2026_05_01
+Number of warnings,b2c_moscow,general,general,general,manual_table,Таблица,week,available,,live_add_metric_moscow_141
+Quality - External,b2b,b2b_show_names,b2b_partner_names,marketing_channel_names,not_available_yet,пока нет,,not_available_yet,,64
+Quality - External,b2b,general,b2b_partner_names,marketing_channel_names,not_available_yet,пока нет,,not_available_yet,,65
+Quality - External,b2c_moscow,general,b2c_partner_names,marketing_channel_names,manual_table,Таблица,week,available,,62
+Quality - External,b2c_spb,general,b2c_partner_names,marketing_channel_names,manual_table,Таблица,week,available,,63
+Quality - Internal,b2b,b2b_show_names,b2b_partner_names,marketing_channel_names,not_available_yet,пока нет,,not_available_yet,,70
+Quality - Internal,b2b,general,b2b_partner_names,marketing_channel_names,not_available_yet,пока нет,,not_available_yet,,71
+Quality - Internal,b2c_moscow,b2c_show_names,b2c_partner_names,marketing_channel_names,erp,ERP,week,available,,66
+Quality - Internal,b2c_moscow,general,b2c_partner_names,marketing_channel_names,aggregate,Агрегат,week,available,,67
+Quality - Internal,b2c_spb,b2c_show_names,b2c_partner_names,marketing_channel_names,erp,ERP,week,available,,68
+Quality - Internal,b2c_spb,general,b2c_partner_names,marketing_channel_names,aggregate,Агрегат,week,available,,69
+Returns amount - non-theater fault,b2c_moscow,general,general,general,manual_table,Таблица,week,available,,live_add_metric_moscow_36
+Returns amount - non-theater fault,b2c_spb,general,general,general,manual_table,Таблица,week,available,,live_add_metric_spb_30
+Returns amount - theater fault,b2c_moscow,general,general,general,manual_table,Таблица,week,available,,live_add_metric_moscow_35
+Returns amount - theater fault,b2c_spb,general,general,general,manual_table,Таблица,week,available,,live_add_metric_spb_29
+Revenue,b2b,general,,,airtable,Airtable,month,available,,refined_2026_05_01
+Revenue,b2b,general,,,planfact,PlanFact,month,available,,refined_2026_05_01
+Revenue,b2c_moscow,,,marketing_channel_names,manual_table,Таблица,week,available,,refined_2026_05_01
+Revenue,b2c_moscow,,b2c_partner_names,,manual_table,Таблица,week,available,,refined_2026_05_01
+Revenue,b2c_moscow,b2c_show_names,,,erp,ERP,week,available,,refined_2026_05_01
+Revenue,b2c_moscow,general,,,aggregate,Агрегат,week,available,,refined_2026_05_01
+Revenue,b2c_moscow,general,,,manual_table,Таблица,week,available,,refined_2026_05_01
+Revenue,b2c_spb,,,marketing_channel_names,manual_table,Таблица,week,available,,refined_2026_05_01
+Revenue,b2c_spb,,b2c_partner_names,,manual_table,Таблица,week,available,,refined_2026_05_01
+Revenue,b2c_spb,b2c_show_names,,,erp,ERP,week,available,,refined_2026_05_01
+Revenue,b2c_spb,general,,,aggregate,Агрегат,week,available,,refined_2026_05_01
+Revenue,b2c_spb,general,,,manual_table,Таблица,week,available,,refined_2026_05_01
+Revenue,franchise,general,,,planfact,PlanFact,month,available,,refined_2026_05_01
+Share of negative reviews from visitors,b2c_moscow,general,general,general,manual_table,Таблица,week,available,,live_add_metric_moscow_104
+Share of negative reviews from visitors,b2c_spb,general,general,general,manual_table,Таблица,week,available,,live_add_metric_spb_61
+Share of reviewed shows without violations,b2c_moscow,general,general,general,manual_table,Таблица,week,available,,live_add_metric_moscow_140
+Share of reviewed shows without violations,b2c_spb,general,general,general,manual_table,Таблица,week,available,,live_add_metric_spb_95
+Sum of post-show ratings,b2c_moscow,b2c_show_names,,,erp,ERP,week,available,,erp_survey_satisfaction_q1
+Sum of post-show ratings,b2c_spb,b2c_show_names,,,erp,ERP,week,available,,erp_survey_satisfaction_q1
+Website visits,b2b,,,marketing_channel_names,yandex_metrica,Яндекс.Метрика,week,available,,refined_2026_05_01
+Website visits,b2c_moscow,,,marketing_channel_names,yandex_metrica,Яндекс.Метрика,week,available,,refined_2026_05_01
+Website visits,b2c_moscow,b2c_show_names,,,yandex_metrica,Яндекс.Метрика,week,available,,refined_2026_05_01
+Website visits,b2c_spb,,,marketing_channel_names,yandex_metrica,Яндекс.Метрика,week,available,,refined_2026_05_01
+Website visits,b2c_spb,b2c_show_names,,,yandex_metrica,Яндекс.Метрика,week,available,,refined_2026_05_01
+Website visits,franchise,,,marketing_channel_names,yandex_metrica,Яндекс.Метрика,week,available,,refined_2026_05_01
+Website visits,immersivny,general,,,yandex_metrica,Яндекс.Метрика,week,available,,82

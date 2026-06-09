@@ -1,0 +1,97 @@
+source_business_unit;canonical_business_unit;source_label;mapped_layer;mapped_metric;mapping_type;status;note;upd_layer;upd_metric;upd_note;codex_layer_suggestion;codex_metric_options;codex_note
+Москва;b2c_moscow;Проведено шоу оффлайн;unmapped;;;review_needed;;exclude;;;exclude;Number of shows;keep excluded unless you want offline/online split as a separate contour
+Москва;b2c_moscow;Проведено шоу онлайн;unmapped;;;review_needed;;exclude;;;exclude;Number of shows;keep excluded unless you want offline/online split as a separate contour
+Москва;b2c_moscow;Средняя цена одного билета;unmapped;;;review_needed;;calculated;;;calculated;exclude;"no existing canonical calculated metric yet; likely Revenue / Number of tickets"
+Москва;b2c_moscow;% отнесения на выручку;unmapped;;;review_needed;;calculated;;Это то, как мы относим проданные сертификаты к выручке здесь и сейчас;calculated;exclude;looks derived from certificate attribution / allocation logic
+Общее;general;Расчетная выручка периода (по реализации);unmapped;;;review_needed;;;;;fact;Revenue;if this is the monthly recognized revenue figure, Revenue is the closest existing canonical metric
+Москва;b2c_moscow;% ФОТ в выручке ШОУ;unmapped;;;review_needed;;calculated;;;calculated;доля переменных зп в выручке, exclude;closest existing calculated metric is variable-salary share of revenue, but semantics may differ
+Москва;b2c_moscow;% ФОТ в выручке СД;unmapped;;;review_needed;;exclude;;это расчетное значение для конкретного show name;calculated;exclude;show-name- or SD-specific derived metric, not a clean existing canonical formula
+Москва;b2c_moscow;Продажи актеров;unmapped;;;review_needed;;metrics;;Давай заведем - это то, что актеры продают после спектаклей;fact;Revenue, Revenue - Other;"post-show actor sales look like revenue; prefer Revenue if we stay strict on one revenue metric"
+Москва;b2c_moscow;Иные выплаты актерам, надбавки;unmapped;;;review_needed;;metrics;;По-моему, есть что-то вроде премий;fact;Costs - Salary variable, Cost article - Премии актёры, Cost article - Актёры ФОТ;looks like actor bonuses / add-ons rather than fixed salary
+B2B;b2b;Другие затраты_Спецпроекты СД;unmapped;;;review_needed;;metrics;;это расходы на проведение B2B;fact;Cost article - Расходы на B2B (продакшн), Show production costs, Operating expenses;B2B SD special-project production cost
+Франшиза;franchise;Затраты франшиза Китай;unmapped;;;review_needed;;metrics;;это затраты на бизнес юнит franchise, можно слить воедино;fact;Cost article - Другое, Operating expenses;franchise-unit expense without a more specific existing article
+Франшиза;franchise;Затраты на реквизит для партнеров франшиза;unmapped;;;review_needed;;metrics;;это затраты на бизнес юнит franchise, можно слить воедино;fact;Cost article - Реквизит/костюмы, Show production costs;closest existing props/costumes bucket
+Москва;b2c_moscow;Банковское обслуживание;unmapped;;;review_needed;;metrics;;это есть в P&L;fact;Cost article - КОМИССИИ БАНКОВ, Cost article - Комиссия;bank servicing looks closest to bank commissions / service fees
+Москва;b2c_moscow;Налог6%;unmapped;;;review_needed;;metrics;;это есть в P&L;fact;Cost article - Налог на прибыль (доходы), Taxes and contributions;prefer the more specific tax article if this is exactly the 6% tax
+Москва;b2c_moscow;Налог страховые взносы;unmapped;;;review_needed;;metrics;;это есть в P&L;fact;Cost article - Страховые взносы, Taxes and contributions;prefer the specific insurance-contributions article
+Общее;general;Итого переменные расходы;unmapped;;;review_needed;;metrics, calculated;;Суммарные переменные расходы, хочу чтобы были и там, и там (кажется есть в p&l);fact;Costs - Salary variable;existing canonical metric already fits this subtotal best
+Общее;general;Маржинальный доход;unmapped;;;review_needed;;calculated;;;calculated;exclude;"looks like Revenue minus variable costs; no existing canonical calculated metric yet"
+Общее;general;% переменных расходов к выручке;unmapped;;;review_needed;;calculated;;;calculated;доля переменных зп в выручке, exclude;closest existing calculated metric may be too narrow if variable costs mean more than salary
+Москва;b2c_moscow;Рилс-мэйкинг;unmapped;;;review_needed;;metrics;;Можно засунуть в статью матректинговые расходы;fact;Marketing costs;looks like a marketing production expense
+Франшиза;franchise;Продвижение франшизы;unmapped;;;review_needed;;metrics;;Маркетинговые расходы юнита франшиза;fact;Marketing costs;franchise-unit marketing expense
+Москва;b2c_moscow;Прочие расходы на рекламу;unmapped;;;review_needed;;metrics;;Marketing Cost - others;fact;Marketing costs;prefer the unified marketing metric
+Общее;general;Итого расходы на маркетинг;unmapped;;;review_needed;;metrics, calculated;;Суммарные расходы на маркетинг, хочу чтобы были и там, и там (кажется есть в p&l);fact;Marketing costs;existing canonical rollup already exists
+Общее;general;% к марже;unmapped;;;review_needed;;calculated;;;calculated;exclude;derived ratio without an existing canonical equivalent
+Общее;general;%з/п исполнителей в бюджете на маркетинг от всего маркетинга;unmapped;;;review_needed;;calculated;;;calculated;exclude;derived share metric, no existing canonical equivalent
+Москва;b2c_moscow;Электроэнергия;unmapped;;;review_needed;;metrics;;Учесть внутрь статьи Коммунальные расходы;fact;Cost article - Аренда и коммуналка, Venue and office costs, Cost article - Ежемесячные счета;utility / premises-related expense
+Общее;general;Разработка и IT;unmapped;;;review_needed;;metrics;ФОТ IT;;fact;Services and setup costs, Cost article - IT ФОТ, Cost article - Другое;depends on whether this is vendor/service spend or payroll-like internal cost
+Москва;b2c_moscow;Подарки;unmapped;;;review_needed;;;;;fact;Cost article - Представительские, Cost article - Другое;gifts usually fit representational expense best
+Общее;general;Итого постоянные расходы;unmapped;;;review_needed;;metrics, calculated;;Суммарные постояенные расходы, хочу чтобы были и там, и там (кажется есть в p&l);fact;Costs - Salary fixed, Operating expenses;if this subtotal is broader than salary fixed, second option is safer
+Общее;general;%постоянных расходов к выручке;unmapped;;;review_needed;;calculated;;;calculated;exclude;derived share metric, no existing canonical equivalent
+Общее;general;Прибыль до выплаты акционерам,развития и % директора;unmapped;;;review_needed;;skip;;;;;
+Общее;general;12% прибыли;unmapped;;;review_needed;;skip;;;;;
+Общее;general;5 % прибыли;unmapped;;;review_needed;;skip;;;;;
+Общее;general;10 % прибыли;unmapped;;;review_needed;;skip;;;;;
+Общее;general;% от выручки;unmapped;;;review_needed;;calculated;;;calculated;exclude;generic derived ratio, needs explicit numerator meaning
+Москва;b2c_moscow;Доработка софта, озвучка и пр;unmapped;;;review_needed;;;;;fact;Services and setup costs, Cost article - Другое, Cost article - IT ФОТ;"software improvements look service-like; voiceover may be misc production/support"
+Москва;b2c_moscow;Обучение;unmapped;;;review_needed;;;;;fact;Cost article - Другое, Cost article - Представительские;"training has no clean existing article; misc is the safest existing bucket"
+Москва;b2c_moscow;Сценарии;unmapped;;;review_needed;;;;;fact;Show production costs, Cost article - Другое;if this is script development for shows, production rollup is the closest
+Москва;b2c_moscow;Реклама;unmapped;;;review_needed;;;;;fact;Marketing costs;generic advertising spend
+Москва;franchise;Европейская франшиза;unmapped;;;review_needed;looks like franchise revenue but row sits in Moscow section;;;;fact;Revenue;looks like franchise revenue even though it sits in Moscow block
+Москва;b2c_moscow;Итого, расходы инвестиции Москва;unmapped;;;review_needed;;;;;exclude;Operating expenses, Cost article - Другое;investment subtotal may be out of current canonical contour
+Москва;b2c_moscow;% инвестиций от выручки;unmapped;;;review_needed;;;;;calculated;exclude;derived investment share, no existing canonical equivalent
+Спб;b2c_spb;Инвестии в Петербург;unmapped;;;review_needed;;;;;exclude;Operating expenses, Cost article - Другое;"investment layer may deserve separate treatment; safest current choice is exclude"
+Спб;b2c_spb;% отнесения на выручку;unmapped;;;review_needed;;;;;calculated;exclude;looks derived from certificate attribution / allocation logic
+Спб;b2c_spb;Расчетная выручка периода (по реализации);unmapped;;;review_needed;;;;;fact;Revenue;if this is the monthly recognized revenue figure, Revenue is the closest existing canonical metric
+Спб;b2c_spb;% ФОТ в выручке ШОУ;unmapped;;;review_needed;;;;;calculated;доля переменных зп в выручке, exclude;closest existing calculated metric is variable-salary share of revenue, but semantics may differ
+Спб;b2c_spb;% ФОТ в выручке CД;unmapped;;;review_needed;;;;;;;
+Спб;b2c_spb;Митя_Бонус СД;unmapped;;;review_needed;;;;;fact;Costs - Salary variable, Cost article - Премии актёры, Cost article - Актёры ФОТ;looks like person-specific SD bonus
+Спб;b2c_spb;Налог6%;unmapped;;;review_needed;;;;;fact;Cost article - Налог на прибыль (доходы), Taxes and contributions;prefer the more specific tax article if this is exactly the 6% tax
+Спб;b2c_spb;Налог страховые взносы;unmapped;;;review_needed;;;;;fact;Cost article - Страховые взносы, Taxes and contributions;prefer the specific insurance-contributions article
+Спб;b2c_spb;Логистика (командировки Москвы в Питер);unmapped;;;review_needed;;;;;fact;Logistics costs, Cost article - Командировочные, Cost article - Транспорт;"travel/logistics hybrid; first option is broadest existing rollup"
+Спб;b2c_spb;Общие расходы спецпроекты_корпоративы;unmapped;;;review_needed;;;;;fact;Cost article - Расходы на B2B (продакшн), Operating expenses;B2B special-project common costs
+Спб;b2c_spb;Итого переменные расходы;unmapped;;;review_needed;;;;;fact;Costs - Salary variable;existing canonical metric already fits this subtotal best
+Спб;b2c_spb;Маржинальный доход;unmapped;;;review_needed;;;;;calculated;exclude;"looks like Revenue minus variable costs; no existing canonical calculated metric yet"
+Спб;b2c_spb;% переменных расходов к выручке;unmapped;;;review_needed;;;;;calculated;доля переменных зп в выручке, exclude;closest existing calculated metric may be too narrow if variable costs mean more than salary
+Спб;b2c_spb;Прочие расходы на рекламу;unmapped;;;review_needed;;;;;fact;Marketing costs;prefer the unified marketing metric
+Спб;b2c_spb;Итого расходы на маркетинг;unmapped;;;review_needed;;;;;fact;Marketing costs;existing canonical rollup already exists
+Спб;b2c_spb;% к марже;unmapped;;;review_needed;;;;;calculated;exclude;derived ratio without an existing canonical equivalent
+Спб;b2c_spb;%з/п исполнителей в бюджете на маркетинг от всего маркетинга;unmapped;;;review_needed;;;;;calculated;exclude;derived share metric, no existing canonical equivalent
+Спб;b2c_spb;Разработка и IT;unmapped;;;review_needed;;;;;fact;Services and setup costs, Cost article - IT ФОТ, Cost article - Другое;depends on whether this is vendor/service spend or payroll-like internal cost
+Спб;b2c_spb;Подарки;unmapped;;;review_needed;;;;;fact;Cost article - Представительские, Cost article - Другое;gifts usually fit representational expense best
+Спб;b2c_spb;Итого постоянные расходы;unmapped;;;review_needed;;;;;fact;Costs - Salary fixed, Operating expenses;if this subtotal is broader than salary fixed, second option is safer
+Спб;b2c_spb;%постоянных расходов к выручке;unmapped;;;review_needed;;;;;calculated;exclude;derived share metric, no existing canonical equivalent
+Спб;b2c_spb;Прибыль до выплаты акционерам,развития и % директора;unmapped;;;review_needed;;;;;;;
+Общее;general;Общая прибыль;unmapped;;;review_needed;;;;;fact;Net profit, Operating profit;usually total profit aligns best with net profit
+Общее;general;Директорский процент;unmapped;;;review_needed;;;;;exclude;calculated;allocation/share layer, not an observed operating fact
+Москва;b2c_moscow;Театр Москва;unmapped;;;review_needed;;;;;exclude;Revenue, Net profit;looks like a reporting subtotal / transfer line rather than a clean atomic metric
+Спб;b2c_spb;Театр Петербург;unmapped;;;review_needed;;;;;exclude;Revenue, Net profit;looks like a reporting subtotal / transfer line rather than a clean atomic metric
+B2B;b2b;Корпоратив;unmapped;;;review_needed;;;;;fact;Revenue;if this is corporate sales/profit bucket, revenue is the closest current canonical metric
+Франшиза;franchise;Китай;unmapped;;;review_needed;;;;;fact;Revenue;franchise-China revenue bucket
+Общее;general;Итого, процент директора;unmapped;;;review_needed;;;;;exclude;calculated;allocation/share layer, not an observed operating fact
+;;Годовые бонусы;unmapped;;;review_needed;;;;;fact;Annual bonuses, Cost article - Премии управленч персонал, Cost article - Премии актёры;existing bonus-related canonical options
+Общее;general;Прибыль для основателей;unmapped;;;review_needed;;;;;exclude;Net profit;distribution / allocation layer rather than core operating metric
+Общее;general;Рентабельность общая после выплаты основателям:;unmapped;;;review_needed;;;;;calculated;exclude;derived post-distribution margin, no existing canonical equivalent
+Франшиза;franchise;Прибыль от европейской франшизы;unmapped;;;review_needed;;;;;fact;Net profit, Revenue;name suggests profit first, franchise revenue second
+Общее;general;Снятие наличных/перевод на карту для ПСН;unmapped;;;review_needed;;;;;exclude;Revenue - Financial operations, Account balance;transfer/cash movement, not a clean P&L fact
+Общее;general;Входящий остаток на начало периода,  1 число месяца;unmapped;;;review_needed;;;;;fact;Account balance, exclude;balance-layer metric, not P&L
+Общее;general;Входящий остаток на конец периода, 1 число месяца;unmapped;;;review_needed;;;;;fact;Account balance, exclude;balance-layer metric, not P&L
+Общее;general;Сальдо;unmapped;;;review_needed;;;;;fact;Account balance, exclude;balance-layer metric, not P&L
+Общее;general;Вывод для ПСН (депозитный счет):;unmapped;;;review_needed;;;;;exclude;Revenue - Financial operations, Account balance;cash transfer / treasury line
+;;СУММА К ПЕРЕВОДУ ПСН ПО РЕЗУЛЬТАТАМ МЕСЯЦА;unmapped;;;review_needed;;;;;exclude;Revenue - Financial operations, Account balance;cash transfer / treasury line
+;;СУММА К ПЕРЕВОДУ НАКОПИТЕЛЬНЫМ ИТОГОМ ЗА ГОД;unmapped;;;review_needed;;;;;exclude;Revenue - Financial operations, Account balance;cash transfer / treasury line
+;;ГОДОВЫЕ БОНУСЫ;unmapped;;;review_needed;;;;;fact;Annual bonuses, Cost article - Премии управленч персонал, Cost article - Премии актёры;existing bonus-related canonical options
+;;СУММА ПЕРЕВЕДЕННАЯ ПО ИТОГУ МЕСЯЦА;unmapped;;;review_needed;;;;;exclude;Revenue - Financial operations, Account balance;cash transfer / treasury line
+;;СУММА ПЕРЕВЕДЕННАЯ НАКОПИТЕЛЬНЫМ ИТОГОМ ЗА ГОД;unmapped;;;review_needed;;;;;exclude;Revenue - Financial operations, Account balance;cash transfer / treasury line
+;;Сальдо;unmapped;;;review_needed;;;;;fact;Account balance, exclude;balance-layer metric, not P&L
+;;Отложено на депозит по итогу месяца;unmapped;;;review_needed;;;;;exclude;Revenue - Financial operations, Account balance;treasury/deposit movement
+;;Отложено на депозит накопительным итогом за год;unmapped;;;review_needed;;;;;exclude;Revenue - Financial operations, Account balance;treasury/deposit movement
+;;Сальдо с учетом депозита;unmapped;;;review_needed;;;;;fact;Account balance, exclude;balance-layer metric, not P&L
+;;Дополнительно;unmapped;;;review_needed;;;;;exclude;;structural / helper row
+;;Процент выполнения годового плана;unmapped;;;review_needed;;;;;calculated;exclude;goal-progress metric, outside current canonical layer
+;;Театр Москва;unmapped;;;review_needed;;;;;exclude;Revenue, Net profit;looks like a reporting subtotal / transfer line rather than a clean atomic metric
+;;Театр Москва накопительным итогом;unmapped;;;review_needed;;;;;exclude;Revenue, Net profit;cumulative helper row
+;;Театр Петербург;unmapped;;;review_needed;;;;;exclude;Revenue, Net profit;looks like a reporting subtotal / transfer line rather than a clean atomic metric
+;;Театр Петербург накопительным итогом;unmapped;;;review_needed;;;;;exclude;Revenue, Net profit;cumulative helper row
+;;Корпоратив;unmapped;;;review_needed;;;;;fact;Revenue;if this is corporate sales/profit bucket, revenue is the closest current canonical metric
+;;Корпоратив накопительным итогом;unmapped;;;review_needed;;;;;exclude;Revenue;cumulative helper row

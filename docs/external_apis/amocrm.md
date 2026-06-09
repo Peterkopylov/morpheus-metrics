@@ -137,15 +137,18 @@ curl -sS -H "Authorization: Bearer $AMOCRM_LONG_LIVED_TOKEN" \
 - `8779950` — `Квалификация`
 - `8783786` — `Спектакли`
 - `8783794` — `Корпоративы`
+- `10869194` — `Корпоративы 2.0`
 - `8784810` — `Сертификаты`
 - `8784838` — `Возвраты`
 
-Чтобы взять сделки только из `Корпоративы`:
+Текущее weekly ingestion для B2B/funnel-метрик нужно строить по **`Корпоративы 2.0`**, а не по старой воронке `Корпоративы`.
+
+Чтобы взять сделки только из `Корпоративы 2.0`:
 
 ```bash
 curl -sS --globoff -H "Authorization: Bearer $AMOCRM_LONG_LIVED_TOKEN" \
   -H "Accept: application/json" \
-  "https://morpheusshow.amocrm.ru/api/v4/leads?limit=50&filter[pipeline_id]=8783794"
+  "https://morpheusshow.amocrm.ru/api/v4/leads?limit=50&filter[pipeline_id]=10869194"
 ```
 
 ## Как правильно работать с фильтрами
@@ -164,20 +167,20 @@ curl -sS --globoff -H "Authorization: Bearer $AMOCRM_LONG_LIVED_TOKEN" \
 ```bash
 curl -sS --globoff -H "Authorization: Bearer $AMOCRM_LONG_LIVED_TOKEN" \
   -H "Accept: application/json" \
-  "https://morpheusshow.amocrm.ru/api/v4/leads?limit=250&filter[pipeline_id][0]=8783794&filter[created_at][from]=FROM_TS&filter[created_at][to]=TO_TS"
+  "https://morpheusshow.amocrm.ru/api/v4/leads?limit=250&filter[pipeline_id][0]=10869194&filter[created_at][from]=FROM_TS&filter[created_at][to]=TO_TS"
 ```
 
-Рабочий пример для `Корпоративы` за полную неделю `13.04.2026 00:00:00 — 19.04.2026 23:59:59` по Москве:
+Рабочий пример для `Корпоративы 2.0` за полную неделю `13.04.2026 00:00:00 — 19.04.2026 23:59:59` по Москве:
 
 ```bash
 curl -sS --globoff -H "Authorization: Bearer $AMOCRM_LONG_LIVED_TOKEN" \
   -H "Accept: application/json" \
-  "https://morpheusshow.amocrm.ru/api/v4/leads?filter[pipeline_id][0]=8783794&filter[created_at][from]=1776027600&filter[created_at][to]=1776632399&limit=250"
+  "https://morpheusshow.amocrm.ru/api/v4/leads?filter[pipeline_id][0]=10869194&filter[created_at][from]=1776027600&filter[created_at][to]=1776632399&limit=250"
 ```
 
 Что это значит:
 
-- `filter[pipeline_id][0]=8783794` — только воронка `Корпоративы`
+- `filter[pipeline_id][0]=10869194` — только воронка `Корпоративы 2.0`
 - `filter[created_at][from]` и `filter[created_at][to]` — диапазон по дате создания сделки
 - `limit=250` — верхняя граница на страницу
 
@@ -187,7 +190,7 @@ curl -sS --globoff -H "Authorization: Bearer $AMOCRM_LONG_LIVED_TOKEN" \
 
 ```bash
 python3 scripts/amocrm_leads_report.py \
-  --pipeline-id 8783794 \
+  --pipeline-id 10869194 \
   --date-from 2026-04-13 \
   --date-to 2026-04-19 \
   --count-only
@@ -219,6 +222,39 @@ curl -sS --globoff -H "Authorization: Bearer $AMOCRM_LONG_LIVED_TOKEN" \
 
 Что видно в ответе:
 
+## Текущая weekly funnel mapping логика
+
+На май 2026 weekly importer опирается на воронку:
+
+- `pipeline_id = 10869194` — `Корпоративы 2.0`
+
+И считает funnel-метрики по названиям статусов этой воронки:
+
+- `Контакт установлен` -> `Number of contacts established`
+- `Квалифицирован` -> `Number of qualified leads`
+- `Презентация проведена` -> `Number of concepts sent`
+- `Назначена креативная встреча` -> `Number of creative meetings scheduled`
+- `Креативная встреча проведена` -> `Number of creative meetings`
+- `КП отправлено` -> `Number of proposals sent`
+- `Договор отправлен` -> `Number of contracts sent`
+- `Договор подписан` -> `Number of contracts approved`
+- `Оплата получена` -> `Number of payments received`
+- `Отзыв получен` -> `Number of orders`
+- `Закрыто и не реализовано` -> `Number of lost leads`
+
+Для исторического weekly backfill до `2025-05-01` у старой воронки `Корпоративы` (`8783794`) используем отдельный маппинг отличающихся этапов:
+
+- `Концепт отправлен` -> `Number of concepts sent`
+- `Проведена креативная встреча` -> `Number of creative meetings`
+- `Договор согласован` -> `Number of contracts approved`
+
+Остальные общие этапы (`Контакт установлен`, `Квалифицирован`, `Назначена креативная встреча`, `КП отправлено`, `Договор отправлен`, `Оплата получена`, `Отзыв получен`, `Закрыто и не реализовано`) считаются одинаково в обеих воронках.
+
+Технический нюанс:
+
+- amoCRM может вернуть `204 No Content`, если за диапазон нет новых лидов или событий
+- weekly importer должен трактовать это как пустой результат, а не как ошибку JSON
+
 - `lead_added`
 - `lead_status_changed`
 - `entity_responsible_changed`
@@ -228,7 +264,7 @@ curl -sS --globoff -H "Authorization: Bearer $AMOCRM_LONG_LIVED_TOKEN" \
 - изменения custom fields
 - линки на контакт / компанию
 
-## Подтверждённый пример по Корпоративам
+## Подтверждённый исторический пример по старой воронке
 
 Живой пример:
 
@@ -248,6 +284,14 @@ curl -sS --globoff -H "Authorization: Bearer $AMOCRM_LONG_LIVED_TOKEN" \
   - название
 
 Это значит, что по amoCRM API мы уже умеем доставать не только текущий срез сделок, но и timeline изменений по конкретной сделке.
+
+Важно:
+
+- этот пример полезен как историческое доказательство доступа к API и событиям
+- но текущий weekly fact ingestion больше не должен опираться на старую воронку `8783794`
+- для weekly B2B funnel-layer действует историческое переключение по периоду:
+- до `2025-05-01` использовать старую воронку `Корпоративы` (`8783794`)
+- начиная с `2025-05-01` использовать `Корпоративы 2.0` (`10869194`)
 
 ## Что важно помнить
 

@@ -1,0 +1,148 @@
+workbook,business_unit,status,source_row_number,source_label,month_label,metric_name,value_raw,value_numeric,reason
+Отчет о прибылях и убытках по периоду_franchise.xlsx,franchise,inserted,7,Выручка,апр 26,Revenue,28000,28000.0,
+Отчет о прибылях и убытках по периоду_franchise.xlsx,franchise,skipped,8,Франшиза,апр 26,,,,revenue_child_row_skipped
+Отчет о прибылях и убытках по периоду_franchise.xlsx,franchise,skipped,9,Роялти,апр 26,,,,revenue_child_row_skipped
+Отчет о прибылях и убытках по периоду_franchise.xlsx,franchise,skipped,10,Переменные расходы,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_franchise.xlsx,franchise,inserted,11,Другое,апр 26,Cost article - Другое,7050,7050.0,
+Отчет о прибылях и убытках по периоду_franchise.xlsx,franchise,skipped,12,Постоянные расходы,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_franchise.xlsx,franchise,skipped,13,Операционная прибыль,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_franchise.xlsx,franchise,skipped,14,Операционная рентабельность,апр 26,,,,calculated_row
+Отчет о прибылях и убытках по периоду_franchise.xlsx,franchise,skipped,15,Прочие доходы,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_franchise.xlsx,franchise,skipped,16,Прочие расходы,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_franchise.xlsx,franchise,inserted,17,Амортизация,апр 26,Cost article - Амортизация,-,0.0,
+Отчет о прибылях и убытках по периоду_franchise.xlsx,franchise,inserted,18,Проценты по кредитам и займам,апр 26,Cost article - Проценты по кредитам и займам,-,0.0,
+Отчет о прибылях и убытках по периоду_franchise.xlsx,franchise,inserted,19,Налог на прибыль (доходы),апр 26,Cost article - Налог на прибыль (доходы),-,0.0,
+Отчет о прибылях и убытках по периоду_franchise.xlsx,franchise,skipped,20,Чистая прибыль (убыток),апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_franchise.xlsx,franchise,skipped,21,Рентабельность чистой прибыли,апр 26,,,,calculated_row
+Отчет о прибылях и убытках по периоду_franchise.xlsx,franchise,skipped,22,Дивиденды,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_franchise.xlsx,franchise,skipped,23,Нераспределенная прибыль,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,inserted,7,Выручка,апр 26,Revenue,-,0.0,
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,skipped,8,Переменные расходы,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,skipped,9,ФОТ - Переменные,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,inserted,10,Другое ФОТ,апр 26,Cost article - Другое ФОТ,14850,14850.0,
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,skipped,11,Маркетинг и реклама,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,inserted,12,Маркетинг и реклама - Директ,апр 26,Marketing costs,15510,15510.0,
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,inserted,13,Разные налоги и взносы,апр 26,Cost article - Разные налоги и взносы,27701,27701.0,
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,skipped,14,Постоянные расходы,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,skipped,15,ФОТ - Постоянные,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,inserted,16,Управленческий персонал ФОТ,апр 26,Cost article - Управленческий персонал ФОТ,148017,148017.0,
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,inserted,17,Корпоративы фикс,апр 26,Cost article - Корпоративы фикс,204500,204500.0,
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,skipped,18,Помещение и офис,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,inserted,19,Аренда и коммуналка,апр 26,Cost article - Аренда и коммуналка,13920,13920.0,
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,skipped,20,Сервисы и их настройка,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,skipped,21,Операционная прибыль,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,skipped,22,Операционная рентабельность,апр 26,,,,calculated_row
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,skipped,23,Прочие доходы,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,skipped,24,Прочие расходы,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,inserted,25,Амортизация,апр 26,Cost article - Амортизация,-,0.0,
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,inserted,26,Проценты по кредитам и займам,апр 26,Cost article - Проценты по кредитам и займам,-,0.0,
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,inserted,27,Налог на прибыль (доходы),апр 26,Cost article - Налог на прибыль (доходы),-,0.0,
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,skipped,28,Чистая прибыль (убыток),апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,skipped,29,Рентабельность чистой прибыли,апр 26,,,,calculated_row
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,skipped,30,Дивиденды,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_b2b.xlsx,b2b,skipped,31,Нераспределенная прибыль,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_General.xlsx,general,inserted,7,Выручка,апр 26,Revenue,-,0.0,
+Отчет о прибылях и убытках по периоду_General.xlsx,general,skipped,8,Переменные расходы,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_General.xlsx,general,skipped,9,Постоянные расходы,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_General.xlsx,general,skipped,10,Операционная прибыль,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_General.xlsx,general,skipped,11,Операционная рентабельность,апр 26,,,,calculated_row
+Отчет о прибылях и убытках по периоду_General.xlsx,general,skipped,12,Прочие доходы,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_General.xlsx,general,skipped,13,Прочие расходы,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_General.xlsx,general,inserted,14,Амортизация,апр 26,Cost article - Амортизация,-,0.0,
+Отчет о прибылях и убытках по периоду_General.xlsx,general,inserted,15,Проценты по кредитам и займам,апр 26,Cost article - Проценты по кредитам и займам,-,0.0,
+Отчет о прибылях и убытках по периоду_General.xlsx,general,inserted,16,Налог на прибыль (доходы),апр 26,Cost article - Налог на прибыль (доходы),-,0.0,
+Отчет о прибылях и убытках по периоду_General.xlsx,general,skipped,17,Чистая прибыль (убыток),апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_General.xlsx,general,skipped,18,Рентабельность чистой прибыли,апр 26,,,,calculated_row
+Отчет о прибылях и убытках по периоду_General.xlsx,general,skipped,19,Дивиденды,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_General.xlsx,general,skipped,20,Нераспределенная прибыль,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,7,Выручка,апр 26,Revenue,2880721,2880721.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,skipped,8,Продажа билетов B2C,апр 26,,,,revenue_child_row_skipped
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,skipped,9,Переменные расходы,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,skipped,10,Инвестиции,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,11,Ремонт в Малом зале,апр 26,Cost article - Ремонт в Малом зале,211995,211995.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,12,Новый спектакль,апр 26,Cost article - Новый спектакль,39300,39300.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,skipped,13,ФОТ - Переменные,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,14,Другое ФОТ,апр 26,Cost article - Другое ФОТ,14850,14850.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,15,IT ФОТ,апр 26,Cost article - IT ФОТ,15034,15034.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,16,Актёры ФОТ,апр 26,Cost article - Актёры ФОТ,929100,929100.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,17,Другое,апр 26,Cost article - Другое,3000,3000.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,18,Возвраты,апр 26,Returns amount,18900,18900.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,skipped,19,Для спектаклей,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,20,Реквизит/костюмы,апр 26,Cost article - Реквизит/костюмы,12951,12951.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,skipped,21,Маркетинг и реклама,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,22,Маркетинг и реклама - Общее,апр 26,Marketing costs,20100,20100.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,23,Маркетинг и реклама - PR и отзывы,апр 26,Marketing costs,35397,35397.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,24,Маркетинг и реклама - Директ,апр 26,Marketing costs,121870,121870.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,25,Маркетинг и реклама - Агентские,апр 26,Marketing costs,150704,150704.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,26,Разные налоги и взносы,апр 26,Cost article - Разные налоги и взносы,2061,2061.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,27,КОМИССИИ БАНКОВ,апр 26,Cost article - КОМИССИИ БАНКОВ,2183,2183.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,skipped,28,Постоянные расходы,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,skipped,29,ФОТ - Постоянные,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,30,Управленческий персонал ФОТ,апр 26,Cost article - Управленческий персонал ФОТ,320484,320484.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,31,Административный персонал ФОТ,апр 26,Cost article - Административный персонал ФОТ,60970,60970.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,skipped,32,Помещение и офис,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,33,Уборка,апр 26,Cost article - Уборка,18400,18400.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,34,Расходники (офисные),апр 26,Cost article - Расходники (офисные),49281,49281.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,35,Ежемесячные счета,апр 26,Cost article - Ежемесячные счета,17211,17211.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,36,Аренда и коммуналка,апр 26,Cost article - Аренда и коммуналка,175542,175542.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,skipped,37,Сервисы и их настройка,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,skipped,38,Операционная прибыль,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,skipped,39,Операционная рентабельность,апр 26,,,,calculated_row
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,skipped,40,Прочие доходы,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,41,Проценты по вкладам,апр 26,Other income - Deposit interest,9932,9932.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,skipped,42,Прочие расходы,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,43,Амортизация,апр 26,Cost article - Амортизация,-,0.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,44,Проценты по кредитам и займам,апр 26,Cost article - Проценты по кредитам и займам,-,0.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,inserted,45,Налог на прибыль (доходы),апр 26,Cost article - Налог на прибыль (доходы),188569,188569.0,
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,skipped,46,Чистая прибыль (убыток),апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,skipped,47,Рентабельность чистой прибыли,апр 26,,,,calculated_row
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,skipped,48,Дивиденды,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Spb.xlsx,b2c_spb,skipped,49,Нераспределенная прибыль,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,7,Выручка,апр 26,Revenue,5368668,5368668.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,skipped,8,Продажа билетов B2C,апр 26,,,,revenue_child_row_skipped
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,skipped,9,Переменные расходы,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,skipped,10,Инвестиции,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,11,Новый спектакль,апр 26,Cost article - Новый спектакль,91700,91700.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,skipped,12,ФОТ - Переменные,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,13,Другое ФОТ,апр 26,Cost article - Другое ФОТ,15300,15300.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,14,IT ФОТ,апр 26,Cost article - IT ФОТ,35079,35079.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,15,Актёры ФОТ,апр 26,Cost article - Актёры ФОТ,1243662,1243662.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,16,Другое,апр 26,Cost article - Другое,27200,27200.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,17,Возвраты,апр 26,Returns amount,10000,10000.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,skipped,18,Для спектаклей,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,19,Реквизит/костюмы,апр 26,Cost article - Реквизит/костюмы,28453,28453.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,skipped,20,Маркетинг и реклама,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,21,Маркетинг и реклама - Общее,апр 26,Marketing costs,46900,46900.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,22,Маркетинг и реклама - PR и отзывы,апр 26,Marketing costs,61093,61093.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,23,Маркетинг и реклама - Директ,апр 26,Marketing costs,152820,152820.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,24,Маркетинг и реклама - Агентские,апр 26,Marketing costs,259558,259558.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,skipped,25,Логистика,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,26,Такси,апр 26,Cost article - Такси,646,646.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,27,Доставка,апр 26,Cost article - Доставка,8279,8279.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,28,Разные налоги и взносы,апр 26,Cost article - Разные налоги и взносы,4810,4810.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,29,Отсмотр видео,апр 26,Cost article - Отсмотр видео,25000,25000.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,30,КОМИССИИ БАНКОВ,апр 26,Cost article - КОМИССИИ БАНКОВ,6177,6177.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,skipped,31,Постоянные расходы,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,skipped,32,ФОТ - Постоянные,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,33,Управленческий персонал ФОТ,апр 26,Cost article - Управленческий персонал ФОТ,429944,429944.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,34,Административный персонал ФОТ,апр 26,Cost article - Административный персонал ФОТ,173190,173190.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,skipped,35,Помещение и офис,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,36,Уборка,апр 26,Cost article - Уборка,47000,47000.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,37,Ремонт и обслуживание,апр 26,Cost article - Ремонт и обслуживание,9882,9882.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,38,Расходники (офисные),апр 26,Cost article - Расходники (офисные),35766,35766.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,39,Ежемесячные счета,апр 26,Cost article - Ежемесячные счета,26090,26090.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,40,Аренда и коммуналка,апр 26,Cost article - Аренда и коммуналка,610000,610000.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,skipped,41,Сервисы и их настройка,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,skipped,42,Операционная прибыль,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,skipped,43,Операционная рентабельность,апр 26,,,,calculated_row
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,skipped,44,Прочие доходы,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,45,Возвраты покупок,апр 26,Other income - Purchase returns,39920,39920.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,46,Проценты по вкладам,апр 26,Other income - Deposit interest,19157,19157.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,skipped,47,Прочие расходы,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,48,Амортизация,апр 26,Cost article - Амортизация,-,0.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,49,Проценты по кредитам и займам,апр 26,Cost article - Проценты по кредитам и займам,-,0.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,inserted,50,Налог на прибыль (доходы),апр 26,Cost article - Налог на прибыль (доходы),439995,439995.0,
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,skipped,51,Чистая прибыль (убыток),апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,skipped,52,Рентабельность чистой прибыли,апр 26,,,,calculated_row
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,skipped,53,Дивиденды,апр 26,,,,subtotal_or_result_row_skipped
+Отчет о прибылях и убытках по периоду_Msc.xlsx,b2c_moscow,skipped,54,Нераспределенная прибыль,апр 26,,,,subtotal_or_result_row_skipped

@@ -1,0 +1,2 @@
+run_id,week_start,step_key,label,source_system,status,exit_code,source_run_id,report_path,notes
+weekly_fact_ingestion_2026-05-25_3bd3ed8f,2026-05-25,erp_weekly_core,ERP weekly core,erp,success,0,erp_weekly_v1,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/erp_weekly_to_fact_import_report.csv,"ERP base weekly layer: shows, visitors, primary ticket sales"

@@ -1,0 +1,248 @@
+row_number,source_business_unit,source_label,formula_or_input,filled_cell_count,layer,canonical_metric,business_unit,show,channel,agent,merge_rule,mapping_status,mapping_note
+5,Москва,Проведено шоу,formula,65,fact,Number of shows,b2c_moscow,general,general,general,sum,mapped,
+6,Москва,Гостей,formula,65,fact,Number of show visitors,b2c_moscow,general,general,general,sum,mapped,
+7,Москва,Среднее количество гостей,formula,41,calc,Средняя загрузка шоу (по факту дошедшие зрители),b2c_moscow,general,general,general,sum,mapped,
+8,Москва,%заполняемости,formula,65,calc,Средняя загрузка шоу (по факту дошедшие зрители),b2c_moscow,general,general,general,sum,mapped,
+9,Москва,Проведено шоу оффлайн,input,21,exclude,,b2c_moscow,,,,,excluded,"subcut of show count, not separate canonical metric"
+10,Москва,Гостей,input,21,fact,Number of show visitors,b2c_moscow,general,general,general,sum,mapped,
+11,Москва,%заполняемости,formula,21,calc,Средняя загрузка шоу (по факту дошедшие зрители),b2c_moscow,general,general,general,sum,mapped,
+12,Москва,Проведено шоу онлайн,input,18,exclude,,b2c_moscow,,,,,excluded,"subcut of show count, not separate canonical metric"
+13,Москва,Гостей,input,18,fact,Number of show visitors,b2c_moscow,general,general,general,sum,mapped,
+14,Москва,%заполняемости,formula,18,calc,Средняя загрузка шоу (по факту дошедшие зрители),b2c_moscow,general,general,general,sum,mapped,
+15,Москва,Проведено СД,input,32,fact,Number of shows,b2c_moscow,sd,general,general,sum,mapped,
+16,Москва,Гостей,input,32,fact,Number of show visitors,b2c_moscow,general,general,general,sum,mapped,
+17,Москва,Среднее количество гостей,formula,32,calc,Средняя загрузка шоу (по факту дошедшие зрители),b2c_moscow,general,general,general,sum,mapped,
+18,Москва,%заполняемости,formula,32,calc,Средняя загрузка шоу (по факту дошедшие зрители),b2c_moscow,general,general,general,sum,mapped,
+19,Москва,Реализация_шоу,formula,65,fact,Revenue,b2c_moscow,general,general,general,sum,mapped,
+20,Москва,Средняя цена одного билета,formula,17,calc,Средняя цена одного билета,b2c_moscow,general,general,general,sum,mapped_from_user_review,
+21,Москва,%к выручке,formula,33,calc,% общ. к выручке,b2c_moscow,general,general,general,sum,mapped,
+22,Москва,Реализация_СД,formula,32,fact,Revenue,b2c_moscow,sd,general,general,sum,mapped,
+23,Москва,Средняя цена одного билета,formula,17,calc,Средняя цена одного билета,b2c_moscow,general,general,general,sum,mapped_from_user_review,
+24,Москва,% к выручке,formula,7,calc,% общ. к выручке,b2c_moscow,general,general,general,sum,mapped,
+25,B2B,Спецпроекты_корпоративы,formula,37,fact,Revenue,b2b,general,general,general,sum,mapped,
+26,B2B,%к выручке,formula,26,calc,% общ. к выручке,b2b,general,general,general,sum,mapped,
+27,B2B,Спецпроекты_классический репертуар,formula,6,fact,Revenue,b2b,general,general,general,sum,mapped,
+28,B2B,%к выручке,input,2,calc,% общ. к выручке,b2b,general,general,general,sum,mapped,
+29,B2B,Спецпроекты_СД,formula,9,fact,Revenue,b2b,sd,general,general,sum,mapped,
+30,B2B,% к выручке,input,2,calc,% общ. к выручке,b2b,general,general,general,sum,mapped,
+31,B2B,Спецпроекты_онлайн,input,6,fact,Revenue,b2b,online,general,general,sum,mapped,
+32,Москва,% к выручке,input,2,calc,% общ. к выручке,b2c_moscow,general,general,general,sum,mapped,
+33,Москва,Выручка_сертификаты,formula,59,exclude,,b2c_moscow,,,,,mapped,use only `Выручка_сертификаты с понижающем кэфом` for certificate revenue
+34,Москва,Выручка_сертификаты с понижающем кэфом,formula,59,fact,Revenue,b2c_moscow,certificate,general,general,sum,mapped,
+35,Москва,% отнесения на выручку,input,59,calc,% отнесения на выручку,b2c_moscow,certificate,general,general,sum,mapped_from_user_review,"Это то, как мы относим проданные сертификаты к выручке здесь и сейчас"
+36,Москва,%к выручке,formula,38,calc,% общ. к выручке,b2c_moscow,general,general,general,sum,mapped,
+37,Франшиза,Франшиза_паушалка,input,13,fact,Revenue,franchise,general,general,general,sum,mapped,
+38,Франшиза,Франшиза_роялти,formula,11,fact,Revenue,franchise,general,general,general,sum,mapped,
+39,Франшиза,Франшиза_тотал,formula,12,fact,Revenue,franchise,general,general,general,sum,mapped,
+40,Франшиза,Франшиза Китай,input,5,fact,Revenue,franchise,general,general,general,sum,mapped,
+41,Франшиза,%к выручке,formula,4,calc,% общ. к выручке,franchise,general,general,general,sum,mapped,
+42,Общее,Расчетная выручка периода (по реализации),formula,65,calc,Revenue,general,general,general,general,sum,mapped,derived/diagnostic revenue equivalent
+43,Москва,Переменные расходы,input,2,fact,Variable costs,b2c_moscow,general,general,general,sum,mapped,
+44,Москва,ЗП актеров по начислению_ классический репертуар,formula,65,fact,Costs - Salary variable,b2c_moscow,general,general,general,sum,mapped,actor payroll belongs to variable salary
+45,Москва,% ФОТ в выручке ШОУ,formula,65,calc,% ФОТ в выручке ШОУ,b2c_moscow,general,general,general,sum,mapped_from_user_review,
+46,Москва,Зарплаты на 1 шоу,formula,17,fact,Costs - Salary variable,b2c_moscow,,general,general,sum,mapped,
+47,Москва,ЗП актеров-Судный день,formula,32,fact,Costs - Salary variable,b2c_moscow,sd,general,general,sum,mapped,show-linked actor payroll belongs to variable salary
+48,Москва,% ФОТ в выручке СД,formula,32,exclude,,b2c_moscow,,,,,excluded,это расчетное значение для конкретного show name
+49,Москва,Зарплата на 1 СД,formula,17,fact,Costs - Salary variable,b2c_moscow,,general,general,sum,mapped,
+50,Москва,Продажи актеров,formula,24,fact,Actor upsell sales,b2c_moscow,general,general,general,sum,mapped_from_user_review,"Давай заведем - это то, что актеры продают после спектаклей"
+51,Москва,З/п бонус админа_корпоратив,formula,5,fact,Costs - Salary fixed,b2c_moscow,,general,general,sum,mapped,
+52,Москва,З/п бонус админа_корпоратив театр,formula,18,fact,Costs - Salary fixed,b2c_moscow,,general,general,sum,mapped,
+53,Москва,З/п бонус Митя_СД,formula,27,fact,Costs - Salary fixed,b2c_moscow,,general,general,sum,mapped,
+54,Москва,З/п бонус Иное место Андрея,input,2,fact,Costs - Salary fixed,b2c_moscow,,general,general,sum,mapped,
+55,B2B,Спецпроекты_корпоративы_з/п актеров,formula,17,fact,Costs - Salary variable,b2b,general,general,general,sum,mapped,
+56,B2B,Спецпроекты_корпоративы_з/п креативная команда,formula,18,fact,Costs - Salary variable,b2b,general,general,general,sum,mapped,
+57,Москва,"Иные выплаты актерам, надбавки",formula,26,fact,Costs - Salary variable,b2c_moscow,general,general,general,sum,mapped_from_user_review,"По-моему, есть что-то вроде премий"
+58,B2B,Спецпроекты_костюмы и реквизит,formula,11,fact,Show production costs,b2b,general,general,general,sum,mapped,
+59,B2B,Спецпроекты_разные услуги,formula,11,fact,Other expenses,b2b,general,general,general,sum,mapped,
+60,B2B,Спецпроекты_классический репуртуар_з/п актеров,input,6,fact,Costs - Salary variable,b2b,general,general,general,sum,mapped,
+61,B2B,Спецпроекты_СД_з/п актеров,input,8,fact,Costs - Salary variable,b2b,SD,general,general,sum,mapped,
+62,B2B,Другие затраты_Спецпроекты СД,input,3,fact,Show production costs,b2b,sd,general,general,sum,mapped_from_user_review,это расходы на проведение B2B
+63,B2B,Спецпроекты_онлайн_з/п актеров,input,3,fact,Costs - Salary variable,b2b,Online,general,general,sum,mapped,
+64,Франшиза,З/п запуск партнеров франшиза,input,9,fact,Costs - Salary fixed,franchise,,general,general,sum,mapped,
+65,Франшиза,Затраты франшиза Китай,input,3,fact,Other expenses,franchise,general,general,general,sum,mapped_from_user_review,"это затраты на бизнес юнит franchise, можно слить воедино"
+66,Франшиза,Затраты на реквизит для партнеров франшиза,formula,9,fact,Show production costs,franchise,general,general,general,sum,mapped_from_user_review,"это затраты на бизнес юнит franchise, можно слить воедино"
+67,Москва,Комиссии платежных систем,formula,65,fact,Cost article - Комиссия,b2c_moscow,general,general,general,sum,mapped,
+68,Москва,Комиссии платежных систем (агрегаторы),formula,44,fact,Cost article - Комиссия,b2c_moscow,general,general,general,sum,mapped,
+69,Москва,Комиссии платежных систем (агрегаторы_МДТЗК),formula,28,fact,Cost article - Комиссия,b2c_moscow,general,general,general,sum,mapped,
+70,Москва,Комиссии за снятие наличных,input,39,fact,Cost article - Комиссия,b2c_moscow,general,general,general,sum,mapped,
+71,Москва,Банковское обслуживание,formula,62,fact,Cost article - КОМИССИИ БАНКОВ,b2c_moscow,general,general,general,sum,mapped_from_user_review,это есть в P&L
+72,Москва,Налог6%,formula,56,fact,Cost article - Налог на прибыль (доходы),b2c_moscow,general,general,general,sum,mapped_from_user_review,это есть в P&L
+73,Москва,Налог страховые взносы,formula,16,fact,Cost article - Страховые взносы,b2c_moscow,general,general,general,sum,mapped_from_user_review,это есть в P&L
+74,Москва,Возвраты,formula,35,fact,Returns amount,b2c_moscow,general,general,general,sum,mapped,
+75,Москва,процент возвратов от выручки,formula,29,calc,% возвратов от выручки,b2c_moscow,general,general,general,sum,mapped,
+76,Москва,Логистика,formula,41,fact,Variable logistics costs,b2c_moscow,general,general,general,sum,mapped,
+77,Москва,Прочие расходы,formula,40,fact,Other expenses,b2c_moscow,general,general,general,sum,mapped,
+78,СПб,Питер,formula,7,exclude,,b2c_spb,,,,,mapped,section divider
+79,Общее,Итого переменные расходы,formula,65,fact,Variable costs,total,general,general,general,sum,mapped,"main historical sheet row 79 is historical total variable costs subtotal, never general"
+80,Общее,Маржинальный доход,formula,65,calc,Маржинальный доход,general,general,general,general,sum,mapped_from_user_review,
+81,Общее,% переменных расходов к выручке,formula,53,calc,% переменных расходов к выручке,general,general,general,general,sum,mapped_from_user_review,
+82,Москва,Маркетинг,input,2,fact,Marketing costs,b2c_moscow,general,other,general,sum,mapped,
+83,Москва,Контекстная реклама_бюджет_ритейл,formula,56,fact,Marketing costs,b2c_moscow,general,direct,general,sum,mapped,
+84,Москва,Контекстная реклама_бюджет_франшиза,input,8,fact,Marketing costs,b2c_moscow,general,direct,general,sum,mapped,
+85,Москва,Контекст_ведение_ритейл,input,55,fact,Marketing costs,b2c_moscow,general,direct,general,sum,mapped,
+86,Москва,Контекст_ведение_франшиза,input,7,fact,Marketing costs,b2c_moscow,general,direct,general,sum,mapped,
+87,Москва,Контекстна реклама_корпоратив,input,3,fact,Marketing costs,b2c_moscow,general,direct,general,sum,mapped,
+88,Москва,Таргетированная реклама_бюджет,formula,35,fact,Marketing costs,b2c_moscow,general,smm,general,sum,mapped,
+89,Москва,Таргетолог_ведение,formula,34,fact,Marketing costs,b2c_moscow,general,smm,general,sum,mapped,
+90,Москва,Инстаграм_ведение,formula,58,fact,Marketing costs,b2c_moscow,general,smm,general,sum,mapped,
+91,Москва,Тик-Ток_ведение,input,6,fact,Marketing costs,b2c_moscow,general,smm,general,sum,mapped,
+92,Москва,Тик-Ток_бюджет,input,2,fact,Marketing costs,b2c_moscow,general,smm,general,sum,mapped,
+93,Москва,Youtube_ведение,input,5,fact,Marketing costs,b2c_moscow,general,smm,general,sum,mapped,
+94,Москва,Youtube_бюджет,input,5,fact,Marketing costs,b2c_moscow,general,smm,general,sum,mapped,
+95,Москва,"Размещение у блогеров, афишах, дзене, паблики_бюджет",formula,40,fact,Marketing costs,b2c_moscow,general,pr,general,sum,mapped,
+96,Москва,"Размещение у блогеров, афишах, дзене, паблики_ведение",input,6,fact,Marketing costs,b2c_moscow,general,pr,general,sum,mapped,
+97,Москва,PR,input,20,fact,Marketing costs,b2c_moscow,general,pr,general,sum,mapped,
+98,Москва,Кросс-промо / Интеграция в фестивали,formula,12,fact,Marketing costs,b2c_moscow,general,pr,general,sum,mapped,
+99,Москва,Рилс-мэйкинг,input,2,fact,Marketing costs,b2c_moscow,general,smm,general,sum,mapped_from_user_review,Можно засунуть в статью матректинговые расходы
+100,Франшиза,Продвижение франшизы,input,2,fact,Marketing costs,franchise,general,other,general,sum,mapped_from_user_review,Маркетинговые расходы юнита франшиза
+101,Москва,Прочие расходы на рекламу,formula,35,fact,Marketing costs,b2c_moscow,general,other,general,sum,mapped_from_user_review,Marketing Cost - others
+102,Общее,Итого расходы на маркетинг,formula,65,fact,Marketing costs,b2c_moscow,general,total,general,sum,mapped_from_user_review,"Суммарные расходы на маркетинг, хочу чтобы были и там, и там (кажется есть в p&l)"
+102,Общее,Итого расходы на маркетинг,formula,65,calc,Marketing costs,b2c_moscow,general,total,general,sum,mapped_from_user_review,"Суммарные расходы на маркетинг, хочу чтобы были и там, и там (кажется есть в p&l)"
+103,Общее,% к марже,formula,65,calc,% к марже,general,general,general,general,sum,mapped_from_user_review,
+104,Общее,% к выручке,formula,65,calc,% общ. к выручке,general,general,general,general,sum,mapped,
+105,Общее,%з/п исполнителей в бюджете на маркетинг от всего маркетинга,formula,53,calc,%з/п исполнителей в бюджете на маркетинг от всего маркетинга,general,general,general,general,sum,mapped_from_user_review,
+106,Москва,Постоянные расходы,input,2,fact,Fixed costs,b2c_moscow,general,general,general,sum,mapped,
+107,Москва,Аренда помещения,formula,65,fact,Venue and office costs,b2c_moscow,general,general,general,sum,mapped,
+108,Москва,Электроэнергия,input,16,fact,Venue and office costs,b2c_moscow,general,general,general,sum,mapped_from_user_review,Учесть внутрь статьи Коммунальные расходы
+109,Москва,"ЗП управляющего, администратора, второго дминистратора, креативного директора, худрука, завхоз, корпорат менеджера",formula,65,fact,Costs - Salary fixed,b2c_moscow,,general,general,sum,mapped,
+110,Москва,ЗП директор фикс,formula,63,fact,Costs - Salary fixed,b2c_moscow,,general,general,sum,mapped,
+111,Общее,Разработка и IT,formula,40,fact,Cost article - IT ФОТ,general,general,general,general,sum,mapped_from_user_review,
+112,Москва,Подарки,formula,26,fact,Team expenses,b2c_moscow,general,general,general,sum,mapped,
+113,Москва,Уборка помещения,formula,65,fact,Cost article - Уборка,b2c_moscow,general,general,general,sum,mapped,
+114,Москва,Ремонт помещения,formula,26,fact,Cost article - Ремонт и обслуживание,b2c_moscow,general,general,general,sum,mapped,
+115,Москва,Хоз.расходы на помещение,formula,65,fact,Cost article - Расходники (офисные),b2c_moscow,general,general,general,sum,mapped,
+116,Москва,Расходы на проведение спектаклей,formula,9,fact,Show production costs,b2c_moscow,general,general,general,sum,mapped,
+117,Москва,Реквизит для проведения спектаклей,formula,33,fact,Cost article - Реквизит/костюмы,b2c_moscow,general,general,general,sum,mapped,
+118,Москва,Электронные и бухгалтерские сервисы,formula,65,fact,Services and setup costs,b2c_moscow,general,general,general,sum,mapped,
+119,Общее,Итого постоянные расходы,formula,65,fact,Fixed costs,total,general,general,general,sum,mapped,"main historical sheet row 119 is historical total fixed costs subtotal, never general"
+120,Общее,%постоянных расходов к выручке,formula,53,calc,%постоянных расходов к выручке,general,general,general,general,sum,mapped_from_user_review,
+121,Общее,"Прибыль до выплаты акционерам,развития и % директора",formula,65,exclude,,general,,,,,excluded,owner distribution helper
+122,Общее,12% прибыли,formula,39,exclude,,general,,,,,excluded,owner distribution helper
+123,Общее,5 % прибыли,input,3,exclude,,general,,,,,excluded,owner distribution helper
+124,Общее,10 % прибыли,formula,9,exclude,,general,,,,,excluded,owner distribution helper
+125,Общее,% от выручки,formula,14,calc,% общ. к выручке,general,general,general,general,sum,mapped_from_user_review,
+126,Москва,Зарплата на разработку шоу,formula,23,fact,Costs - Salary variable,b2c_moscow,,general,general,sum,mapped,
+127,Москва,"Сайт, презентации, дизайн",formula,23,fact,Marketing costs,b2c_moscow,general,other,general,sum,mapped,
+128,Москва,"Доработка софта, озвучка и пр",formula,20,exclude,,b2c_moscow,,,,,excluded,"excluded because `Итого, расходы инвестиции Москва` is the investment subtotal for Moscow"
+129,Москва,Обучение,formula,8,exclude,,b2c_moscow,,,,,excluded,"excluded because `Итого, расходы инвестиции Москва` is the investment subtotal for Moscow"
+130,Москва,Реквизит и оборудование,formula,24,exclude,,b2c_moscow,,,,,excluded,"excluded because `Итого, расходы инвестиции Москва` is the investment subtotal for Moscow"
+131,Москва,Сценарии,formula,13,exclude,,b2c_moscow,,,,,excluded,"excluded because `Итого, расходы инвестиции Москва` is the investment subtotal for Moscow"
+132,Москва,СRM,input,4,exclude,,b2c_moscow,,,,,excluded,"excluded because `Итого, расходы инвестиции Москва` is the investment subtotal for Moscow"
+133,Москва,Реклама,formula,5,exclude,,b2c_moscow,,,,,excluded,"excluded because `Итого, расходы инвестиции Москва` is the investment subtotal for Moscow"
+134,Москва,Оборудование и ремонт,formula,25,exclude,,b2c_moscow,,,,,excluded,"excluded because `Итого, расходы инвестиции Москва` is the investment subtotal for Moscow"
+135,Москва,Европейская франшиза,formula,3,fact,Revenue,b2c_moscow,general,general,general,sum,mapped,
+136,Москва,"Итого, расходы инвестиции Москва",formula,64,fact,Investment costs,b2c_moscow,general,general,general,sum,mapped,
+137,Москва,% инвестиций от выручки,formula,52,calc,% инвестиций от выручки,b2c_moscow,general,general,general,sum,mapped,
+138,Спб,Инвестии в Петербург,formula,13,fact,Investment costs,b2c_spb,general,general,general,sum,mapped,
+139,Спб,МОРФЕУС САНКТ-ПЕТЕРБУРГ,input,2,exclude,,b2c_spb,,,,,mapped,section divider
+140,Спб,Проведено шоу,input,13,fact,Number of shows,b2c_spb,general,general,general,sum,mapped,
+141,Спб,Гостей,input,13,fact,Number of show visitors,b2c_spb,general,general,general,sum,mapped,
+142,Спб,Среднее количество гостей,formula,13,calc,Средняя загрузка шоу (по факту дошедшие зрители),b2c_spb,general,general,general,sum,mapped,
+143,Спб,%заполняемости,formula,13,calc,Средняя загрузка шоу (по факту дошедшие зрители),b2c_spb,general,general,general,sum,mapped,
+144,Спб,Проведено СД,input,3,fact,Number of shows,b2c_spb,sd,general,general,sum,mapped,
+145,Спб,Гостей,input,3,fact,Number of show visitors,b2c_spb,general,general,general,sum,mapped,
+146,Спб,Среднее количество гостей,formula,3,calc,Средняя загрузка шоу (по факту дошедшие зрители),b2c_spb,general,general,general,sum,mapped,
+147,Спб,%заполняемости,formula,3,calc,Средняя загрузка шоу (по факту дошедшие зрители),b2c_spb,general,general,general,sum,mapped,
+148,Спб,Реализация шоу,input,13,fact,Revenue,b2c_spb,general,general,general,sum,mapped,
+149,Спб,Реализация СД,input,3,fact,Revenue,b2c_spb,sd,general,general,sum,mapped,
+150,Спб,Выручка_сертификаты,formula,13,exclude,,b2c_spb,,,,,mapped,use only `Выручка_сертификаты с понижающем кэфом` for certificate revenue
+151,Спб,Выручка_сертификаты с понижающем кэфом,formula,13,fact,Revenue,b2c_spb,certificate,general,general,sum,mapped,
+152,Спб,% отнесения на выручку,input,13,calc,% отнесения на выручку,b2c_spb,certificate,general,general,sum,mapped,certificate allocation helper
+153,Спб,Спецпроекты_корпоративы,input,3,fact,Revenue,b2c_spb,general,general,general,sum,mapped,
+154,Спб,Расчетная выручка периода (по реализации),formula,13,calc,Revenue,b2c_spb,general,general,general,sum,mapped,derived/diagnostic revenue equivalent
+155,Спб,Переменные расходы,input,2,fact,Variable costs,b2c_spb,general,general,general,sum,mapped,
+156,Спб,ЗП актеров по начислению,input,13,fact,Costs - Salary variable,b2c_spb,general,general,general,sum,mapped,actor payroll belongs to variable salary
+157,Спб,% ФОТ в выручке ШОУ,formula,13,calc,% ФОТ в выручке ШОУ,b2c_spb,general,general,general,sum,mapped,
+158,Спб,Зарплаты на 1 шоу,formula,13,fact,Costs - Salary variable,b2c_spb,,general,general,sum,mapped,
+159,Спб,ЗП СД,input,3,fact,Costs - Salary variable,b2c_spb,sd,general,general,sum,mapped,show-linked actor payroll belongs to variable salary
+160,Спб,% ФОТ в выручке CД,formula,3,exclude,,b2c_spb,,,,,mapped,specific calculated show ratio
+161,Спб,Зарплаты на 1 шоу,formula,3,fact,Costs - Salary variable,b2c_spb,,general,general,sum,mapped,
+162,Спб,Митя_Бонус СД,input,5,fact,Costs - Salary variable,b2c_spb,sd,general,general,sum,mapped,show-linked bonus
+163,Спб,Комиссии платежных систем,formula,12,fact,Cost article - Комиссия,b2c_spb,general,general,general,sum,mapped,
+164,Спб,Комиссии платежных систем (агрегаторы),formula,13,fact,Cost article - Комиссия,b2c_spb,general,general,general,sum,mapped,
+165,Спб,Комиссии платежных систем (агрегаторы_ДТЗК),formula,13,fact,Cost article - Комиссия,b2c_spb,general,general,general,sum,mapped,
+166,Спб,Налог6%,formula,13,fact,Cost article - Налог на прибыль (доходы),b2c_spb,general,general,general,sum,mapped,
+167,Спб,Налог страховые взносы,input,2,fact,Cost article - Страховые взносы,b2c_spb,general,general,general,sum,mapped,
+168,Спб,Возвраты,formula,8,fact,Returns amount,b2c_spb,general,general,general,sum,mapped,
+169,Спб,Логистика (командировки Москвы в Питер),formula,12,fact,Business travel costs,b2c_spb,general,general,general,sum,mapped,
+170,Спб,Прочие расходы,formula,9,fact,Other expenses,b2c_spb,general,general,general,sum,mapped,
+171,Спб,Общие расходы спецпроекты_корпоративы,input,3,fact,Show production costs,b2c_spb,general,general,general,sum,mapped,B2B production expense
+172,Спб,Итого переменные расходы,formula,13,fact,Variable costs,b2c_spb,general,general,general,sum,mapped,observed subtotal plus derived cross-check
+172,Спб,Итого переменные расходы,formula,13,calc,Variable costs,b2c_spb,general,general,general,sum,mapped,observed subtotal plus derived cross-check
+173,Спб,Маржинальный доход,formula,12,calc,Маржинальный доход,b2c_spb,general,general,general,sum,mapped,
+174,Спб,% переменных расходов к выручке,formula,12,calc,% переменных расходов к выручке,b2c_spb,general,general,general,sum,mapped,
+175,Спб,Маркетинг,input,2,fact,Marketing costs,b2c_spb,general,other,general,sum,mapped,
+176,Спб,Контекстная реклама_ведение_ритейл,input,13,fact,Marketing costs,b2c_spb,general,direct,general,sum,mapped,
+177,Спб,Контекст_бюджет_ритейл,input,13,fact,Marketing costs,b2c_spb,general,direct,general,sum,mapped,
+178,Спб,Инстаграм_ведение,input,2,fact,Marketing costs,b2c_spb,general,smm,general,sum,mapped,
+179,Спб,"Размещение у блогеров, афишах, дзене, паблики",formula,13,fact,Marketing costs,b2c_spb,general,pr,general,sum,mapped,
+180,Спб,PR,input,2,fact,Marketing costs,b2c_spb,general,pr,general,sum,mapped,
+181,Спб,Кросс-промо и SEO,input,6,fact,Marketing costs,b2c_spb,general,pr,general,sum,mapped,
+182,Спб,Прочие расходы на рекламу,formula,10,fact,Marketing costs,b2c_spb,general,other,general,sum,mapped,
+183,Спб,Итого расходы на маркетинг,formula,13,fact,Marketing costs,b2c_spb,general,total,general,sum,mapped,observed subtotal by marketing channels; store as total channel
+183,Спб,Итого расходы на маркетинг,formula,13,calc,Marketing costs,b2c_spb,general,total,general,sum,mapped,observed subtotal by marketing channels; store as total channel
+184,Спб,% к марже,formula,12,calc,% к марже,b2c_spb,general,general,general,sum,mapped,
+185,Спб,% к выручке,formula,12,calc,% общ. к выручке,b2c_spb,general,general,general,sum,mapped,
+186,Спб,%з/п исполнителей в бюджете на маркетинг от всего маркетинга,formula,12,calc,%з/п исполнителей в бюджете на маркетинг от всего маркетинга,b2c_spb,general,general,general,sum,mapped,
+187,Спб,Постоянные расходы,input,2,fact,Fixed costs,b2c_spb,general,general,general,sum,mapped,
+188,Спб,Аренда помещения и коммуналка,formula,13,fact,Venue and office costs,b2c_spb,general,general,general,sum,mapped,
+189,Спб,"ЗП худрука, админов и ХПЧ",input,13,fact,Costs - Salary fixed,b2c_spb,,general,general,sum,mapped,
+190,Спб,ЗП директор фикс,input,2,fact,Costs - Salary fixed,b2c_spb,,general,general,sum,mapped,
+191,Спб,Разработка и IT,input,2,fact,Cost article - IT ФОТ,b2c_spb,general,general,general,sum,mapped,
+192,Спб,Подарки,formula,12,fact,Team expenses,b2c_spb,general,general,general,sum,mapped,
+193,Спб,Уборка помещения,formula,13,fact,Cost article - Уборка,b2c_spb,general,general,general,sum,mapped,
+194,Спб,Ремонт помещения,formula,13,fact,Cost article - Ремонт и обслуживание,b2c_spb,general,general,general,sum,mapped,
+195,Спб,Хоз.расходы на помещение,formula,11,fact,Cost article - Расходники (офисные),b2c_spb,general,general,general,sum,mapped,
+196,Спб,Расходы на проведение спектаклей,formula,10,fact,Show production costs,b2c_spb,general,general,general,sum,mapped,
+197,Спб,Реквизит для проведения спектаклей,formula,11,fact,Cost article - Реквизит/костюмы,b2c_spb,general,general,general,sum,mapped,
+198,Спб,Электронные и бухгалтерские сервисы,formula,13,fact,Services and setup costs,b2c_spb,general,general,general,sum,mapped,
+199,Спб,Итого постоянные расходы,formula,13,fact,Fixed costs,b2c_spb,general,general,general,sum,mapped,observed subtotal plus derived cross-check
+199,Спб,Итого постоянные расходы,formula,13,calc,Fixed costs,b2c_spb,general,general,general,sum,mapped,observed subtotal plus derived cross-check
+200,Спб,%постоянных расходов к выручке,formula,12,calc,%постоянных расходов к выручке,b2c_spb,general,general,general,sum,mapped,
+201,Спб,"Прибыль до выплаты акционерам,развития и % директора",formula,13,exclude,,b2c_spb,,,,,mapped,owner distribution helper
+202,Спб,ИТОГОВАЯ ПРИБЫЛЬ ПО НАПРАВЛЕНИЯМ,input,2,exclude,,b2c_spb,,,,,mapped,section divider
+203,Москва,Прибыль_театр Москва,formula,39,fact,Net profit,b2c_moscow,general,general,general,sum,mapped,
+204,Спб,Прибыль_театр Петербург,formula,13,fact,Net profit,b2c_spb,general,general,general,sum,mapped,
+205,Франшиза,Прибыль_франшиза,formula,23,fact,Net profit,franchise,general,general,general,sum,mapped,
+206,Франшиза,Прибыль_Китай,formula,8,fact,Net profit,franchise,general,general,general,sum,mapped,
+207,B2B,Прибыль_корпоратив Москва,formula,21,fact,Net profit,b2b,general,general,general,sum,mapped,
+208,B2B,Прибыль_корпоратив Петербург,formula,3,fact,Net profit,b2b,general,general,general,sum,mapped,
+209,B2B,Прибыль_корпоратив общая,formula,3,fact,Net profit,b2b,general,general,general,sum,mapped,
+210,Общее,Общая прибыль,formula,65,exclude,,general,,,,,excluded,main historical sheet row 210 must stay excluded; use only `Прибыль для основателей` for total Net profit
+211,Общее,Директорский процент,input,2,fact,Cost article - Директорский процент,total,general,general,general,sum,mapped,historical owner distribution cost article used in total net profit bridge
+212,Москва,Театр Москва,formula,13,fact,Net profit,b2c_moscow,general,general,general,sum,mapped,
+213,Спб,Театр Петербург,input,13,fact,Net profit,b2c_spb,general,general,general,sum,mapped,
+214,B2B,Корпоратив,formula,13,fact,Net profit,b2b,general,general,general,sum,mapped,
+215,Франшиза,Франшиза,formula,10,fact,Net profit,franchise,general,general,general,sum,mapped,
+216,Франшиза,Китай,formula,6,fact,Net profit,franchise,general,general,general,sum,mapped,
+217,Общее,"Итого, процент директора",formula,13,exclude,,general,,,,,mapped,"owner distribution layer, not canonical fact"
+218,,Годовые бонусы,input,1,fact,Annual bonuses,general,general,general,general,sum,mapped,
+219,Общее,Прибыль для основателей,formula,65,fact,Net profit,total,general,general,general,sum,mapped,"main historical sheet row 219 is total Net profit, never general"
+220,Общее,Рентабельность общая после выплаты основателям,formula,53,exclude,,general,,,,,mapped,"owner distribution layer, not canonical fact"
+221,Франшиза,Прибыль от европейской франшизы,input,3,fact,Net profit,franchise,general,general,general,sum,mapped,
+222,Общее,Снятие наличных/перевод на карту для ПСН,formula,18,exclude,,general,,,,,mapped,cash management layer
+223,Общее,Комиссия за снятие наличных / налоги на ИП,formula,28,exclude,,general,,,,,mapped,cash management layer
+224,Общее,"Входящий остаток на начало периода, 1 число месяца",input,32,exclude,,general,,,,,mapped,cash balance layer
+225,Общее,"Входящий остаток на конец периода, 1 число месяца",formula,32,exclude,,general,,,,,mapped,cash balance layer
+226,Общее,Сальдо,formula,29,exclude,,general,,,,,mapped,cash balance layer
+227,Общее,Вывод для ПСН (депозитный счет),formula,13,fact,Dividends,general,general,general,general,sum,mapped,historical dividends proxy from legacy monthly economics sheet
+228,,дата вывода,input,21,exclude,,general,,,,,mapped,service row
+235,,СУММА К ПЕРЕВОДУ ПСН ПО РЕЗУЛЬТАТАМ МЕСЯЦА,formula,28,exclude,,general,,,,,mapped,cash management layer
+236,,СУММА К ПЕРЕВОДУ НАКОПИТЕЛЬНЫМ ИТОГОМ ЗА ГОД,formula,28,exclude,,general,,,,,mapped,cash management layer
+237,,ГОДОВЫЕ БОНУСЫ,input,1,fact,Annual bonuses,general,general,general,general,sum,mapped,
+238,,СУММА ПЕРЕВЕДЕННАЯ ПО ИТОГУ МЕСЯЦА,formula,27,exclude,,general,,,,,mapped,cash management layer
+239,,СУММА ПЕРЕВЕДЕННАЯ НАКОПИТЕЛЬНЫМ ИТОГОМ ЗА ГОД,formula,28,exclude,,general,,,,,mapped,cash management layer
+240,,Сальдо,formula,27,exclude,,general,,,,,mapped,cash balance layer
+241,,Отложено на депозит по итогу месяца,input,3,exclude,,general,,,,,mapped,cash management layer
+242,,Отложено на депозит накопительным итогом за год,formula,3,exclude,,general,,,,,mapped,cash management layer
+243,,Сальдо с учетом депозита,formula,4,exclude,,general,,,,,mapped,cash balance layer
+244,,Дополнительно,input,3,exclude,,general,,,,,mapped,service row
+247,,Процент выполнения годового плана,input,1,exclude,,general,,,,,mapped,planning KPI outside canonical fact layer
+248,,Театр Москва,formula,25,exclude,,general,,,,,excluded,main historical sheet percentage helper row; never include in Net profit
+249,,Театр Москва накопительным итогом,formula,25,exclude,,general,,,,,mapped,cumulative helper row
+250,,Театр Петербург,formula,8,exclude,,general,,,,,excluded,main historical sheet percentage helper row; never include in Net profit
+251,,Театр Петербург накопительным итогом,formula,7,exclude,,general,,,,,mapped,cumulative helper row
+252,,Франшиза (без учета Китая и Чехии),formula,13,fact,Net profit,general,general,general,general,sum,mapped,
+253,,Франшиза накопительным итогом,formula,13,exclude,,general,,,,,mapped,cumulative helper row
+254,,Корпоратив,formula,25,exclude,,general,,,,,excluded,main historical sheet percentage helper row; never include in Net profit
+255,,Корпоратив накопительным итогом,formula,25,exclude,,general,,,,,mapped,cumulative helper row

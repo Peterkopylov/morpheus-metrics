@@ -1,0 +1,191 @@
+status,business_unit_raw,business_unit_key,legacy_metric_name,catalog_metric_name,reason,row_count
+loaded,Москва,b2c_moscow,Youtube_бюджет,Marketing costs,,3
+loaded,Москва,b2c_moscow,Аренда помещения,Cost article - Аренда и коммуналка,,63
+loaded,Москва,b2c_moscow,Банковское обслуживание,Cost article - КОМИССИИ БАНКОВ,,60
+loaded,Москва,b2c_moscow,Возвраты,Returns amount,,33
+loaded,Москва,b2c_moscow,Выручка_сертификаты,Revenue,,19
+loaded,Москва,b2c_moscow,Гостей,Number of show visitors,,128
+loaded,Москва,b2c_moscow,Комиссии платежных систем,Cost article - Комиссия,,63
+loaded,Москва,b2c_moscow,Комиссии платежных систем (агрегаторы),Cost article - Комиссия,,42
+loaded,Москва,b2c_moscow,Комиссии платежных систем (агрегаторы_МДТЗК),Cost article - Комиссия,,26
+loaded,Москва,b2c_moscow,Контекстная реклама_бюджет_ритейл,Marketing costs,,54
+loaded,Москва,b2c_moscow,Налог страховые взносы,Cost article - Страховые взносы,,14
+loaded,Москва,b2c_moscow,Проведено шоу,Number of shows,,63
+loaded,Москва,b2c_moscow,Прочие расходы,Cost article - Другое,,38
+loaded,Москва,b2c_moscow,"Размещение у блогеров, афишах, дзене, паблики_бюджет",Marketing costs,,38
+loaded,Москва,b2c_moscow,Реализация_шоу,Revenue,,12
+loaded,Москва,b2c_moscow,Реквизит для проведения спектаклей,Cost article - Реквизит/костюмы,,31
+loaded,Москва,b2c_moscow,Таргетированная реклама_бюджет,Marketing costs,,33
+loaded,Москва,b2c_moscow,Уборка помещения,Cost article - Уборка,,63
+loaded,Спб,b2c_spb,Аренда помещения и коммуналка,Cost article - Аренда и коммуналка,,11
+loaded,Спб,b2c_spb,Возвраты,Returns amount,,6
+loaded,Спб,b2c_spb,Выручка_сертификаты,Revenue,,11
+loaded,Спб,b2c_spb,Гостей,Number of show visitors,,12
+loaded,Спб,b2c_spb,Комиссии платежных систем,Cost article - Комиссия,,10
+loaded,Спб,b2c_spb,Комиссии платежных систем (агрегаторы),Cost article - Комиссия,,11
+loaded,Спб,b2c_spb,Комиссии платежных систем (агрегаторы_ДТЗК),Cost article - Комиссия,,11
+loaded,Спб,b2c_spb,Контекст_бюджет_ритейл,Marketing costs,,11
+loaded,Спб,b2c_spb,Проведено шоу,Number of shows,,11
+loaded,Спб,b2c_spb,Прочие расходы,Cost article - Другое,,7
+loaded,Спб,b2c_spb,"Размещение у блогеров, афишах, дзене, паблики",Marketing costs,,11
+loaded,Спб,b2c_spb,Реализация шоу,Revenue,,11
+loaded,Спб,b2c_spb,Реквизит для проведения спектаклей,Cost article - Реквизит/костюмы,,9
+loaded,Спб,b2c_spb,Уборка помещения,Cost article - Уборка,,11
+loaded,Франшиза,franchise,Франшиза,Revenue,,8
+skipped,B2B,b2b,%к выручке,,no_catalog_mapping,24
+skipped,B2B,b2b,Другие затраты_Спецпроекты СД,,no_catalog_mapping,1
+skipped,B2B,b2b,Корпоратив,,no_catalog_mapping,11
+skipped,B2B,b2b,Прибыль_корпоратив Москва,,no_catalog_mapping,19
+skipped,B2B,b2b,Прибыль_корпоратив Петербург,,no_catalog_mapping,1
+skipped,B2B,b2b,Прибыль_корпоратив общая,,no_catalog_mapping,1
+skipped,B2B,b2b,Спецпроекты_СД,,no_catalog_mapping,7
+skipped,B2B,b2b,Спецпроекты_СД_з/п актеров,,no_catalog_mapping,6
+skipped,B2B,b2b,Спецпроекты_классический репертуар,,no_catalog_mapping,4
+skipped,B2B,b2b,Спецпроекты_классический репуртуар_з/п актеров,,no_catalog_mapping,4
+skipped,B2B,b2b,Спецпроекты_корпоративы,,no_catalog_mapping,35
+skipped,B2B,b2b,Спецпроекты_корпоративы_з/п актеров,,no_catalog_mapping,15
+skipped,B2B,b2b,Спецпроекты_корпоративы_з/п креативная команда,,no_catalog_mapping,16
+skipped,B2B,b2b,Спецпроекты_костюмы и реквизит,,no_catalog_mapping,9
+skipped,B2B,b2b,Спецпроекты_онлайн,,no_catalog_mapping,4
+skipped,B2B,b2b,Спецпроекты_онлайн_з/п актеров,,no_catalog_mapping,1
+skipped,B2B,b2b,Спецпроекты_разные услуги,,no_catalog_mapping,9
+skipped,Москва,b2c_moscow,% ФОТ в выручке СД,,no_catalog_mapping,30
+skipped,Москва,b2c_moscow,% ФОТ в выручке ШОУ,,no_catalog_mapping,63
+skipped,Москва,b2c_moscow,% инвестиций от выручки,,no_catalog_mapping,50
+skipped,Москва,b2c_moscow,% к выручке,,no_catalog_mapping,5
+skipped,Москва,b2c_moscow,% отнесения на выручку,,no_catalog_mapping,57
+skipped,Москва,b2c_moscow,%заполняемости,,no_catalog_mapping,128
+skipped,Москва,b2c_moscow,%к выручке,,no_catalog_mapping,67
+skipped,Москва,b2c_moscow,PR,,no_catalog_mapping,18
+skipped,Москва,b2c_moscow,Youtube_ведение,,no_catalog_mapping,3
+skipped,Москва,b2c_moscow,Выручка_сертификаты,Revenue,non_numeric_value,38
+skipped,Москва,b2c_moscow,Выручка_сертификаты с понижающем кэфом,,no_catalog_mapping,57
+skipped,Москва,b2c_moscow,"Доработка софта, озвучка и пр",,no_catalog_mapping,18
+skipped,Москва,b2c_moscow,Европейская франшиза,,no_catalog_mapping,1
+skipped,Москва,b2c_moscow,З/п бонус Митя_СД,,no_catalog_mapping,25
+skipped,Москва,b2c_moscow,З/п бонус админа_корпоратив,,no_catalog_mapping,3
+skipped,Москва,b2c_moscow,З/п бонус админа_корпоратив театр,,no_catalog_mapping,16
+skipped,Москва,b2c_moscow,"ЗП  управляющего, администратора, второго дминистратора, креативного директора,  худрука, завхоз, корпорат менеджера",,no_catalog_mapping,63
+skipped,Москва,b2c_moscow,ЗП актеров по начислению_ классический репертуар,,no_catalog_mapping,63
+skipped,Москва,b2c_moscow,ЗП актеров-Судный день,,no_catalog_mapping,30
+skipped,Москва,b2c_moscow,ЗП директор фикс,,no_catalog_mapping,61
+skipped,Москва,b2c_moscow,Зарплата на 1 СД,,no_catalog_mapping,15
+skipped,Москва,b2c_moscow,Зарплата на разработку шоу,,no_catalog_mapping,21
+skipped,Москва,b2c_moscow,Зарплаты на 1 шоу,,no_catalog_mapping,15
+skipped,Москва,b2c_moscow,Инстаграм_ведение,,no_catalog_mapping,56
+skipped,Москва,b2c_moscow,"Иные выплаты актерам, надбавки",,no_catalog_mapping,24
+skipped,Москва,b2c_moscow,"Итого, расходы инвестиции Москва",,no_catalog_mapping,62
+skipped,Москва,b2c_moscow,Комиссии за снятие наличных,,no_catalog_mapping,37
+skipped,Москва,b2c_moscow,Контекст_ведение_ритейл,,no_catalog_mapping,53
+skipped,Москва,b2c_moscow,Контекст_ведение_франшиза,,no_catalog_mapping,5
+skipped,Москва,b2c_moscow,Контекстна реклама_корпоратив,,no_catalog_mapping,1
+skipped,Москва,b2c_moscow,Контекстная реклама_бюджет_франшиза,,no_catalog_mapping,6
+skipped,Москва,b2c_moscow,Кросс-промо / Интеграция в фестивали,,no_catalog_mapping,10
+skipped,Москва,b2c_moscow,Логистика,,no_catalog_mapping,39
+skipped,Москва,b2c_moscow,Налог6%,,no_catalog_mapping,54
+skipped,Москва,b2c_moscow,Оборудование и ремонт,,no_catalog_mapping,23
+skipped,Москва,b2c_moscow,Обучение,,no_catalog_mapping,6
+skipped,Москва,b2c_moscow,Подарки,,no_catalog_mapping,24
+skipped,Москва,b2c_moscow,Прибыль_театр Москва,,no_catalog_mapping,37
+skipped,Москва,b2c_moscow,Проведено СД,,no_catalog_mapping,30
+skipped,Москва,b2c_moscow,Проведено шоу онлайн,,no_catalog_mapping,16
+skipped,Москва,b2c_moscow,Проведено шоу оффлайн,,no_catalog_mapping,19
+skipped,Москва,b2c_moscow,Продажи актеров,,no_catalog_mapping,22
+skipped,Москва,b2c_moscow,Прочие расходы на рекламу,,no_catalog_mapping,33
+skipped,Москва,b2c_moscow,"Размещение у блогеров, афишах, дзене, паблики_ведение",,no_catalog_mapping,4
+skipped,Москва,b2c_moscow,Расходы на проведение спектаклей,,no_catalog_mapping,7
+skipped,Москва,b2c_moscow,Реализация_СД,,no_catalog_mapping,30
+skipped,Москва,b2c_moscow,Реализация_шоу,Revenue,non_numeric_value,51
+skipped,Москва,b2c_moscow,Реквизит и оборудование,,no_catalog_mapping,22
+skipped,Москва,b2c_moscow,Реклама,,no_catalog_mapping,3
+skipped,Москва,b2c_moscow,Ремонт помещения,,no_catalog_mapping,24
+skipped,Москва,b2c_moscow,СRM,,no_catalog_mapping,2
+skipped,Москва,b2c_moscow,"Сайт, презентации, дизайн",,no_catalog_mapping,21
+skipped,Москва,b2c_moscow,Среднее количество гостей,,no_catalog_mapping,69
+skipped,Москва,b2c_moscow,Средняя цена одного билета,,no_catalog_mapping,30
+skipped,Москва,b2c_moscow,Сценарии,,no_catalog_mapping,11
+skipped,Москва,b2c_moscow,Таргетолог_ведение,,no_catalog_mapping,32
+skipped,Москва,b2c_moscow,Театр Москва,,no_catalog_mapping,11
+skipped,Москва,b2c_moscow,Тик-Ток_ведение,,no_catalog_mapping,4
+skipped,Москва,b2c_moscow,Хоз.расходы на помещение,,no_catalog_mapping,63
+skipped,Москва,b2c_moscow,Электронные  и бухгалтерские сервисы,,no_catalog_mapping,63
+skipped,Москва,b2c_moscow,Электроэнергия,,no_catalog_mapping,14
+skipped,Москва,b2c_moscow,процент возвратов от выручки,,no_catalog_mapping,27
+skipped,Общее,general,% к выручке,,no_catalog_mapping,63
+skipped,Общее,general,% к марже,,no_catalog_mapping,63
+skipped,Общее,general,% от выручки,,no_catalog_mapping,12
+skipped,Общее,general,% переменных расходов к выручке,,no_catalog_mapping,51
+skipped,Общее,general,%з/п исполнителей в бюджете на маркетинг от всего маркетинга,,no_catalog_mapping,51
+skipped,Общее,general,%постоянных расходов к выручке,,no_catalog_mapping,51
+skipped,Общее,general,10 % прибыли,,no_catalog_mapping,7
+skipped,Общее,general,12% прибыли,,no_catalog_mapping,37
+skipped,Общее,general,5 % прибыли,,no_catalog_mapping,1
+skipped,Общее,general,"Входящий остаток на конец периода, 1 число месяца",,no_catalog_mapping,30
+skipped,Общее,general,"Входящий остаток на начало периода,  1 число месяца",,no_catalog_mapping,30
+skipped,Общее,general,Вывод для ПСН (депозитный счет):,,no_catalog_mapping,11
+skipped,Общее,general,Итого переменные расходы,,no_catalog_mapping,63
+skipped,Общее,general,Итого постоянные расходы,,no_catalog_mapping,63
+skipped,Общее,general,Итого расходы на маркетинг,,no_catalog_mapping,63
+skipped,Общее,general,"Итого, процент директора",,no_catalog_mapping,11
+skipped,Общее,general,Комиссия за снятие наличных / налоги на ИП,,no_catalog_mapping,26
+skipped,Общее,general,Маржинальный доход,,no_catalog_mapping,63
+skipped,Общее,general,Общая прибыль,,no_catalog_mapping,63
+skipped,Общее,general,Прибыль для основателей,,no_catalog_mapping,63
+skipped,Общее,general,"Прибыль до выплаты акционерам,развития и % директора",,no_catalog_mapping,63
+skipped,Общее,general,Разработка и IT,,no_catalog_mapping,38
+skipped,Общее,general,Расчетная выручка периода (по реализации),,no_catalog_mapping,63
+skipped,Общее,general,Рентабельность общая после выплаты основателям:,,no_catalog_mapping,51
+skipped,Общее,general,Сальдо,,no_catalog_mapping,27
+skipped,Общее,general,Снятие наличных/перевод на карту для ПСН,,no_catalog_mapping,16
+skipped,СПб,b2c_spb,Питер,,no_catalog_mapping,5
+skipped,Спб,b2c_spb,% ФОТ в выручке CД,,no_catalog_mapping,1
+skipped,Спб,b2c_spb,% ФОТ в выручке ШОУ,,no_catalog_mapping,11
+skipped,Спб,b2c_spb,% к выручке,,no_catalog_mapping,10
+skipped,Спб,b2c_spb,% к марже,,no_catalog_mapping,10
+skipped,Спб,b2c_spb,% отнесения на выручку,,no_catalog_mapping,11
+skipped,Спб,b2c_spb,% переменных расходов к выручке,,no_catalog_mapping,10
+skipped,Спб,b2c_spb,%з/п исполнителей в бюджете на маркетинг от всего маркетинга,,no_catalog_mapping,10
+skipped,Спб,b2c_spb,%заполняемости,,no_catalog_mapping,12
+skipped,Спб,b2c_spb,%постоянных расходов к выручке,,no_catalog_mapping,10
+skipped,Спб,b2c_spb,Выручка_сертификаты с понижающем кэфом,,no_catalog_mapping,11
+skipped,Спб,b2c_spb,"ЗП  худрука, админов  и ХПЧ",,no_catalog_mapping,11
+skipped,Спб,b2c_spb,ЗП СД,,no_catalog_mapping,1
+skipped,Спб,b2c_spb,ЗП актеров по начислению,,no_catalog_mapping,11
+skipped,Спб,b2c_spb,Зарплаты на 1 шоу,,no_catalog_mapping,12
+skipped,Спб,b2c_spb,Инвестии в Петербург,,no_catalog_mapping,11
+skipped,Спб,b2c_spb,Итого переменные расходы,,no_catalog_mapping,11
+skipped,Спб,b2c_spb,Итого постоянные расходы,,no_catalog_mapping,11
+skipped,Спб,b2c_spb,Итого расходы на маркетинг,,no_catalog_mapping,11
+skipped,Спб,b2c_spb,Контекстная реклама_ведение_ритейл,,no_catalog_mapping,11
+skipped,Спб,b2c_spb,Кросс-промо и  SEO,,no_catalog_mapping,4
+skipped,Спб,b2c_spb,Логистика (командировки Москвы в Питер),,no_catalog_mapping,10
+skipped,Спб,b2c_spb,Маржинальный доход,,no_catalog_mapping,10
+skipped,Спб,b2c_spb,Митя_Бонус СД,,no_catalog_mapping,3
+skipped,Спб,b2c_spb,Налог6%,,no_catalog_mapping,11
+skipped,Спб,b2c_spb,Общие расходы спецпроекты_корпоративы,,no_catalog_mapping,1
+skipped,Спб,b2c_spb,Подарки,,no_catalog_mapping,10
+skipped,Спб,b2c_spb,"Прибыль до выплаты акционерам,развития и % директора",,no_catalog_mapping,11
+skipped,Спб,b2c_spb,Прибыль_театр Петербург,,no_catalog_mapping,11
+skipped,Спб,b2c_spb,Проведено СД,,no_catalog_mapping,1
+skipped,Спб,b2c_spb,Прочие расходы на рекламу,,no_catalog_mapping,8
+skipped,Спб,b2c_spb,Расходы на проведение спектаклей,,no_catalog_mapping,8
+skipped,Спб,b2c_spb,Расчетная выручка периода (по реализации),,no_catalog_mapping,11
+skipped,Спб,b2c_spb,Реализация СД,,no_catalog_mapping,1
+skipped,Спб,b2c_spb,Ремонт помещения,,no_catalog_mapping,11
+skipped,Спб,b2c_spb,Спецпроекты_корпоративы,,no_catalog_mapping,1
+skipped,Спб,b2c_spb,Среднее количество гостей,,no_catalog_mapping,12
+skipped,Спб,b2c_spb,Театр Петербург,,no_catalog_mapping,11
+skipped,Спб,b2c_spb,Хоз.расходы на помещение,,no_catalog_mapping,9
+skipped,Спб,b2c_spb,Электронные  и бухгалтерские сервисы,,no_catalog_mapping,11
+skipped,Франшиза,franchise,%к выручке,,no_catalog_mapping,2
+skipped,Франшиза,franchise,З/п запуск партнеров франшиза,,no_catalog_mapping,7
+skipped,Франшиза,franchise,Затраты на реквизит для партнеров франшиза,,no_catalog_mapping,7
+skipped,Франшиза,franchise,Затраты франшиза Китай,,no_catalog_mapping,1
+skipped,Франшиза,franchise,Китай,,no_catalog_mapping,4
+skipped,Франшиза,franchise,Прибыль от европейской франшизы,,no_catalog_mapping,1
+skipped,Франшиза,franchise,Прибыль_Китай,,no_catalog_mapping,6
+skipped,Франшиза,franchise,Прибыль_франшиза,,no_catalog_mapping,21
+skipped,Франшиза,franchise,Франшиза Китай,,no_catalog_mapping,3
+skipped,Франшиза,franchise,Франшиза_паушалка,,no_catalog_mapping,11
+skipped,Франшиза,franchise,Франшиза_роялти,,no_catalog_mapping,9
+skipped,Франшиза,franchise,Франшиза_тотал,,no_catalog_mapping,10

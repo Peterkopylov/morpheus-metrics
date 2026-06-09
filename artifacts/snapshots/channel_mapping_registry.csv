@@ -1,0 +1,41 @@
+mapping_layer,source_system,source_field_1,source_field_2,raw_value_1,raw_value_2,canonical_channel,canonical_label_ru,status,note
+canonical_scope,warehouse,channel_name,,perfomance,,perfomance,Перформанс маркетинг,CHANGED,Canonical marketing channel in system taxonomy.
+canonical_scope,warehouse,channel_name,,organic,,organic,Органика,active,Canonical marketing channel in system taxonomy.
+canonical_scope,warehouse,channel_name,,social,,social,SMM,active,Canonical marketing channel in system taxonomy.
+canonical_scope,warehouse,channel_name,,partners,,partners,Агрегаторы / партнеры,active,Canonical marketing channel in system taxonomy.
+canonical_scope,warehouse,channel_name,,friends,,friends,От друзей,NEW,Canonical marketing channel in system taxonomy.
+canonical_scope,warehouse,channel_name,,referral,,referral,Ссылки на других сайтах,CHANGED,Canonical marketing channel in system taxonomy.
+canonical_scope,warehouse,channel_name,,email,,email,Email,active,Canonical marketing channel in system taxonomy.
+canonical_scope,warehouse,channel_name,,other,,other,Прочее,active,Canonical marketing channel in system taxonomy.
+canonical_scope,warehouse,channel_name,,pr,,pr,PR,active,Standalone PR channel; must not be merged into partners.
+source_mapping,yandex_metrica,ym:s:lastTrafficSource,ym:s:lastAdvEngine,organic,,organic,Органика,active,Exact normalization in Metrica importers.
+source_mapping,yandex_metrica,ym:s:lastTrafficSource,ym:s:lastAdvEngine,referral,,referral,Ссылки на других сайтах,active,Exact normalization in Metrica importers.
+source_mapping,yandex_metrica,ym:s:lastTrafficSource,ym:s:lastAdvEngine,recommend,,referral,Ссылки на других сайтах,active,Recommendation traffic is currently treated as referral.
+source_mapping,yandex_metrica,ym:s:lastTrafficSource,ym:s:lastAdvEngine,mail,,email,Email,active,Exact normalization in Metrica importers.
+source_mapping,yandex_metrica,ym:s:lastTrafficSource,ym:s:lastAdvEngine,social,,social,SMM,active,Exact normalization in Metrica importers.
+source_mapping,yandex_metrica,ym:s:lastTrafficSource,ym:s:lastAdvEngine,messenger,,social,SMM,active,Messenger traffic is currently treated as social.
+source_mapping,yandex_metrica,ym:s:lastTrafficSource,ym:s:lastAdvEngine,ad,ya_direct,perfomance,Перформанс маркетинг,CHANGED,Exact normalization in Metrica importers.
+source_mapping,yandex_metrica,ym:s:lastTrafficSource,ym:s:lastAdvEngine,ad,ya_undefined,perfomance,Перформанс маркетинг,CHANGED,Assumes unattributed Yandex ad traffic belongs to perfomance paid traffic.
+source_mapping,yandex_metrica,ym:s:lastTrafficSource,ym:s:lastAdvEngine,ad,instagram,perfomance,Перформанс маркетинг,CHANGED,Exact normalization in Metrica importers.
+source_mapping,yandex_metrica,ym:s:lastTrafficSource,ym:s:lastAdvEngine,ad,vkontakte,perfomance,Перформанс маркетинг,CHANGED,Exact normalization in Metrica importers.
+source_mapping,yandex_metrica,ym:s:lastTrafficSource,ym:s:lastAdvEngine,ad,facebook,perfomance,Перформанс маркетинг,CHANGED,Exact normalization in Metrica importers.
+source_mapping,yandex_metrica,ym:s:lastTrafficSource,ym:s:lastAdvEngine,ad,unknown,perfomance,Перформанс маркетинг,CHANGED,Unknown ad engine is currently collapsed into perfomance.
+source_mapping,yandex_metrica,ym:s:lastTrafficSource,ym:s:lastAdvEngine,direct,,organic,Органика,review,Direct type in Metrica is treated as organic in the updated business mapping.
+source_mapping,yandex_metrica,ym:s:lastTrafficSource,ym:s:lastAdvEngine,internal,,organic,Органика,review,Internal traffic is currently grouped with organic in the updated business mapping.
+source_mapping,yandex_metrica,ym:s:lastTrafficSource,ym:s:lastAdvEngine,saved,,other,Прочее,review,Saved/bookmark traffic is collapsed into other.
+source_mapping,yandex_metrica,ym:s:lastTrafficSource,ym:s:lastAdvEngine,undefined,,other,Прочее,review,Undefined source is collapsed into other.
+source_mapping,yandex_metrica,ym:s:lastTrafficSource,ym:s:lastAdvEngine,<any_other>,<any_other>,other,Прочее,active,Default fallback in Metrica importers.
+source_mapping,erp_survey,answers[2],value_text,От друзей,,friends,От друзей,CHANGED,Normalized survey category later mapped to canonical friends.
+source_mapping,erp_survey,answers[2],value_text,"Друзья, Знакомые",,friends,От друзей,CHANGED,Raw examples normalized to От друзей and then mapped to friends.
+source_mapping,erp_survey,answers[2],value_text,Яндекс Афиша,,partners,Агрегаторы / партнеры,active,Survey category mapped to partner/aggregator bucket.
+source_mapping,erp_survey,answers[2],value_text,Я.Афиша,,partners,Агрегаторы / партнеры,active,Raw examples normalized to Яндекс Афиша and then mapped to partners.
+source_mapping,erp_survey,answers[2],value_text,Т банк афиша,,partners,Агрегаторы / партнеры,active,Raw examples normalized to Яндекс Афиша and then mapped to partners.
+source_mapping,erp_survey,answers[2],value_text,Тафиша,,partners,Агрегаторы / партнеры,active,Raw examples normalized to Яндекс Афиша and then mapped to partners.
+source_mapping,erp_survey,answers[2],value_text,Реклама в интернете,,perfomance,Перформанс маркетинг,CHANGED,Assumes respondents mean paid acquisition rather than broad digital awareness.
+source_mapping,erp_survey,answers[2],value_text,Соц. сети,,social,SMM,active,Survey category mapped to social.
+source_mapping,erp_survey,answers[2],value_text,Яндекс / Google,,referral,Ссылки на других сайтах,CHANGED,Search engines are intentionally grouped into referral in the updated business mapping.
+source_mapping,erp_survey,answers[2],value_text,"Карты Яндекс, Google, 2ГИС",,referral,Ссылки на других сайтах,CHANGED,Maps/discovery traffic is intentionally grouped into referral in the updated business mapping.
+source_mapping,erp_survey,answers[2],value_text,Наш сайт,,organic,Органика,review,Direct brand/site recall remains grouped into organic in the updated business mapping.
+source_mapping,erp_survey,answers[2],value_text,Сайт MORPHEUS,,organic,Органика,review,Raw example normalized to Наш сайт and then mapped to organic.
+source_mapping,erp_survey,answers[2],value_text,Подарили сертификат,,friends,От друзей,CHANGED,Gift certificate source is intentionally grouped into friends in the updated business mapping.
+source_mapping,erp_survey,answers[2],value_text,<any_other>,,other,Прочее,active,Default fallback for unrecognized survey source labels.

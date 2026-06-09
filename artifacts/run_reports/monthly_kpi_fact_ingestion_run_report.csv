@@ -1,0 +1,2 @@
+run_id,month_start,step_key,label,source_system,status,exit_code,source_run_id,report_path,notes
+monthly_kpi_fact_ingestion_2026-05-01_e30fa564,2026-05-01,erp_monthly_core,ERP monthly core,erp,success,0,erp_monthly_v1,/Users/Peter/Documents/Morpheus Metrics/artifacts/run_reports/erp_monthly_to_fact_import_report.csv,"ERP base monthly layer: shows, visitors, primary ticket sales."
