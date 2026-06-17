@@ -30,6 +30,13 @@ Historical implementation artifact:
 
 - Dashboard logic stays in a serving view. It reshapes monthly facts into a table and applies dashboard-specific attribution labels.
 - Monthly `Marketing costs` by channel prefer channelized PlanFact/P&L rows.
+- The monthly view expects PlanFact marketing leaf rows to be loaded with canonical `channel_name`; rows with `channel_name = NULL` are treated as unchannelized totals and will not appear in channel rows like `Агрегаторы / партнеры`.
+- Current PlanFact marketing channel mapping for this dashboard:
+  - `Маркетинг и реклама - Директ` -> `perfomance` dashboard row via raw `direct`
+  - `Маркетинг и реклама - Агентские` -> `partners`
+  - `Маркетинг и реклама - PR и отзывы` -> `pr`
+  - `Маркетинг и реклама - SMM` -> `social` dashboard row via raw `smm`
+  - `Маркетинг и реклама - Общее` -> `general`
 - If PlanFact only has a monthly marketing total without channel breakdown, the view keeps the total complete by subtracting already observed channel costs and placing the remaining amount into `general` / `Общие маркетинг расходы`.
 - `direct` PlanFact channel is normalized to the canonical dashboard row `perfomance`.
 - Revenue attribution is PlanFact-based for the monthly dashboard:

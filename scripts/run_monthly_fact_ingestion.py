@@ -159,6 +159,7 @@ def main() -> int:
     parser.add_argument("--month-start", help="YYYY-MM-DD for the first day of the month to load")
     parser.add_argument("--month-end", help="Optional YYYY-MM-DD upper month bound")
     parser.add_argument("--report-path", default=str(DEFAULT_REPORT_PATH))
+    parser.add_argument("--trigger-mode", default="manual_cli")
     parser.add_argument("--delete-existing", action="store_true")
     parser.add_argument("--steps", help="Comma-separated subset of step keys to run")
     parser.add_argument("--continue-on-error", action="store_true")
@@ -187,7 +188,7 @@ def main() -> int:
         run_id,
         month_start_value=month_start_value,
         month_end_value=month_end(month_end_value),
-        trigger_mode="manual_cli",
+        trigger_mode=args.trigger_mode,
         step_keys=[step.key for step in steps],
     )
 

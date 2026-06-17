@@ -51,6 +51,16 @@
 - начиная с `2026-05-24` monthly PlanFact importer кладёт в `fact` только:
   - lower-level leaf P&L строки;
   - верхнюю observed строку `Выручка` как единственный revenue subtotal;
+- channelized marketing leaf-строки из PlanFact обязаны импортироваться в `fact_metric_observation` с заполненным `channel_name`, если в canonical P&L mapping для них указан `marketing_channel`;
+- для текущих marketing rows действуют такие канонические каналы:
+  - `Маркетинг и реклама - Директ` -> `direct`
+  - `Маркетинг и реклама - Агентские` -> `partners`
+  - `Маркетинг и реклама - PR и отзывы` -> `pr`
+  - `Маркетинг и реклама - SMM` -> `smm`
+  - `Маркетинг и реклама - Общее` -> `general`
+  - `Маркетинг и реклама - Услуги типографии` -> `pos`
+  - `Маркетинг и реклама - Платные размещения на площадках` -> `placements`
+- если channel mapping для PlanFact P&L меняется, нужно переимпортировать все затронутые месяцы, а не только будущие периоды; иначе старые строки останутся с `channel_name = NULL` и monthly marketing dashboard не увидит их в канальных строках;
 - subtotal / result rows вроде:
   - `Переменные расходы`
   - `Постоянные расходы`
@@ -71,7 +81,7 @@
 - после восстановления нужные rollup / formula rows можно materialize обратно в `fact_metric_observation` как calculated fact с отдельным `source_system`, чтобы unified monthly history читалась из одного runtime-слоя;
 - если строка уже укладывается в существующую canonical metric, новую метрику не создаём.
 - если в новых PlanFact workbook’ах появляется новая P&L-строка или новый subtotal/leaf-узел, которого ещё нет в текущем mapping/иерархии:
-  - сначала обновляем [pnl_structure_mapping_canonical.csv](/Users/Peter/Documents/Morpheus%20Metrics/generated/pnl_structure_mapping_canonical.csv);
+  - сначала обновляем [pnl_structure_mapping_canonical.csv](/Users/Peter/Documents/Morpheus%20Metrics/catalog/pnl_structure_mapping_canonical.csv);
   - затем обновляем [planfact_monthly_pnl_report_mapping.py](/Users/Peter/Documents/Morpheus%20Metrics/scripts/planfact_monthly_pnl_report_mapping.py);
   - и только после этого переимпортируем PlanFact в `fact`;
   - нельзя молча добавлять новую строку только в importer без синхронизации P&L structure.

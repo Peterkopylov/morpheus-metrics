@@ -1,6 +1,4 @@
-DROP VIEW IF EXISTS show_performance_dashboard_base;
-
-CREATE VIEW show_performance_dashboard_base AS
+CREATE OR REPLACE VIEW show_performance_dashboard_base AS
 WITH weekly_show_facts AS (
     SELECT
         o.business_unit,

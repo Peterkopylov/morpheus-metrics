@@ -18,7 +18,13 @@ MONTHLY_HISTORY_REBUILD_RUNNER = ROOT / "scripts" / "serving" / "rebuild_monthly
 CALCULATION_RUNNER = ROOT / "scripts" / "run_calculated_metrics.py"
 
 
-def build_weekly_fact_command(database_url: str, period_start: date, delete_existing: bool, steps: str | None) -> list[str]:
+def build_weekly_fact_command(
+    database_url: str,
+    period_start: date,
+    delete_existing: bool,
+    steps: str | None,
+    trigger_mode: str | None,
+) -> list[str]:
     cmd = [
         sys.executable,
         str(WEEKLY_FACT_RUNNER),
@@ -27,6 +33,8 @@ def build_weekly_fact_command(database_url: str, period_start: date, delete_exis
         "--week-start",
         period_start.isoformat(),
     ]
+    if trigger_mode:
+        cmd.extend(["--trigger-mode", trigger_mode])
     if delete_existing:
         cmd.append("--delete-existing")
     if steps:
@@ -49,7 +57,13 @@ def build_calculation_command(database_url: str, period_granularity: str, period
     ]
 
 
-def build_monthly_fact_command(database_url: str, period_start: date, delete_existing: bool, steps: str | None) -> list[str]:
+def build_monthly_fact_command(
+    database_url: str,
+    period_start: date,
+    delete_existing: bool,
+    steps: str | None,
+    trigger_mode: str | None,
+) -> list[str]:
     cmd = [
         sys.executable,
         str(MONTHLY_FACT_RUNNER),
@@ -58,6 +72,8 @@ def build_monthly_fact_command(database_url: str, period_start: date, delete_exi
         "--month-start",
         period_start.isoformat(),
     ]
+    if trigger_mode:
+        cmd.extend(["--trigger-mode", trigger_mode])
     if delete_existing:
         cmd.append("--delete-existing")
     if steps:
@@ -65,7 +81,13 @@ def build_monthly_fact_command(database_url: str, period_start: date, delete_exi
     return cmd
 
 
-def build_monthly_kpi_fact_command(database_url: str, period_start: date, delete_existing: bool, steps: str | None) -> list[str]:
+def build_monthly_kpi_fact_command(
+    database_url: str,
+    period_start: date,
+    delete_existing: bool,
+    steps: str | None,
+    trigger_mode: str | None,
+) -> list[str]:
     cmd = [
         sys.executable,
         str(MONTHLY_KPI_FACT_RUNNER),
@@ -74,6 +96,8 @@ def build_monthly_kpi_fact_command(database_url: str, period_start: date, delete
         "--month-start",
         period_start.isoformat(),
     ]
+    if trigger_mode:
+        cmd.extend(["--trigger-mode", trigger_mode])
     if delete_existing:
         cmd.append("--delete-existing")
     if steps:
@@ -93,13 +117,14 @@ def default_fact_command(
     period_start: date,
     delete_existing: bool,
     steps: str | None,
+    trigger_mode: str | None,
 ) -> list[str]:
     if refresh_mode == "weekly_kpi":
-        return build_weekly_fact_command(database_url, period_start, delete_existing, steps)
+        return build_weekly_fact_command(database_url, period_start, delete_existing, steps, trigger_mode)
     if refresh_mode == "monthly_kpi":
-        return build_monthly_kpi_fact_command(database_url, period_start, delete_existing, steps)
+        return build_monthly_kpi_fact_command(database_url, period_start, delete_existing, steps, trigger_mode)
     if refresh_mode == "monthly_pnl":
-        return build_monthly_fact_command(database_url, period_start, delete_existing, steps)
+        return build_monthly_fact_command(database_url, period_start, delete_existing, steps, trigger_mode)
     return []
 
 
@@ -117,6 +142,7 @@ def main() -> int:
     parser.add_argument("--delete-existing", action="store_true")
     parser.add_argument("--fact-steps", help="Comma-separated subset of fact steps for the selected granularity")
     parser.add_argument("--fact-command", help="Optional explicit fact refresh command")
+    parser.add_argument("--trigger-mode", default="manual_cli")
     args = parser.parse_args()
 
     refresh_mode = args.refresh_mode
@@ -143,7 +169,14 @@ def main() -> int:
         if args.fact_command:
             fact_cmd = shlex.split(args.fact_command)
         else:
-            fact_cmd = default_fact_command(refresh_mode, args.database_url, period_start, args.delete_existing, args.fact_steps)
+            fact_cmd = default_fact_command(
+                refresh_mode,
+                args.database_url,
+                period_start,
+                args.delete_existing,
+                args.fact_steps,
+                args.trigger_mode,
+            )
 
         if fact_cmd:
             fact_proc = subprocess.run(fact_cmd, capture_output=True, text=True)

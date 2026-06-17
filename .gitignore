@@ -8,3 +8,4 @@
 .env.yandex_metrica_spb
 .env.yandex_tickets
 .env.yandex_tickets_spb
+.env.planfact

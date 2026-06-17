@@ -68,6 +68,19 @@ Primary reading layer:
 - для ERP-derived метрики `Number of show visitors` weekly и monthly должны использовать `guests` по неотменённым шоу; поле `visitors` не считается каноническим входом для этого контура.
 - для ERP `Costs - Salary variable` weekly и monthly general rows должны считать полный `salary_total + bonus_total`; unallocated bonus tail нельзя оставлять только в payload, если мы хотим semantic parity между week и month.
 
+## 6a. Monthly P&L Reading Path
+
+Для routine monthly P&L задач, особенно dashboard / serving / ad hoc analytics по городам:
+
+- сначала читать active `catalog/` и `fact/`, а не `serving/` и не `legacy/`;
+- canonical P&L structure и правила сворачивания статей брать из [catalog/pnl_structure_mapping_canonical.csv](/Users/Peter/Documents/Morpheus%20Metrics/catalog/pnl_structure_mapping_canonical.csv);
+- наличие и scope canonical monthly P&L rows проверять в [fact/source_of_truth.csv](/Users/Peter/Documents/Morpheus%20Metrics/fact/source_of_truth.csv);
+- runtime monthly P&L rules проверять в [fact/monthly_pnl_ingestion.md](/Users/Peter/Documents/Morpheus%20Metrics/fact/monthly_pnl_ingestion.md);
+- historical / history / legacy views не использовать как первую точку входа для routine monthly P&L work;
+- `scripts/serving/rebuild_monthly_pnl_history_views.py` и производные history views использовать только когда задача прямо про history, repair, backfill, reconciliation или нужно понять старую bridge-логику.
+
+Практическое правило: если нужно собрать новый monthly P&L dashboard или ad hoc monthly P&L table, сначала проектируем его от `fact_metric_observation` + active canonical docs, и только потом смотрим, есть ли уже подходящий serving/view слой.
+
 ## 7. Monthly P&L Routine
 
 Текущий recurring monthly P&L process:
